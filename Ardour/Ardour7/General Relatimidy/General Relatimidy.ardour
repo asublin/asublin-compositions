@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session version="7002" name="General Relatimidy" sample-rate="44100" session-range-is-free="1" id-counter="533760" rg-counter="14" name-counter="1" event-counter="230916" vca-counter="1">
+  <ProgramVersion created-with="Ardour 7.5-1115-g9b503058db" modified-with="Ardour 7.5-1115-g9b503058db"/>
+  <MIDIPorts>
+    <Port name="Cue Control in" type="midi" direction="Input"/>
+    <Port name="MIDI Clock out" type="midi" direction="Output"/>
+    <Port name="MMC in" type="midi" direction="Input"/>
+    <Port name="MMC out" type="midi" direction="Output"/>
+    <Port name="MTC out" type="midi" direction="Output"/>
+    <Port name="Scene in" type="midi" direction="Input"/>
+    <Port name="Scene out" type="midi" direction="Output"/>
+    <Port name="x-virtual-keyboard" type="midi" direction="Output">
+      <Connection other="Pianoteq 6/midi_in 1"/>
+      <Connection other="Pianoteq 6/midi_in 1"/>
+    </Port>
+  </MIDIPorts>
+  <Config>
+    <Option name="use-region-fades" value="1"/>
+    <Option name="use-transport-fades" value="1"/>
+    <Option name="use-monitor-fades" value="1"/>
+    <Option name="native-file-data-format" value="FormatFloat"/>
+    <Option name="native-file-header-format" value="WAVE"/>
+    <Option name="auto-play" value="0"/>
+    <Option name="auto-return" value="0"/>
+    <Option name="auto-input" value="1"/>
+    <Option name="triggerbox-overrides-disk-monitoring" value="1"/>
+    <Option name="cue-behavior" value="FollowCues"/>
+    <Option name="punch-in" value="0"/>
+    <Option name="punch-out" value="0"/>
+    <Option name="count-in" value="0"/>
+    <Option name="session-monitoring" value=""/>
+    <Option name="record-mode" value="RecLayered"/>
+    <Option name="draw-opaque-midi_regions" value="0"/>
+    <Option name="subframes-per-frame" value="100"/>
+    <Option name="timecode-format" value="timecode_30"/>
+    <Option name="minitimeline-span" value="120"/>
+    <Option name="raid-path" value=""/>
+    <Option name="audio-search-path" value=""/>
+    <Option name="midi-search-path" value=""/>
+    <Option name="track-name-number" value="0"/>
+    <Option name="track-name-take" value="1"/>
+    <Option name="take-name" value="Take6"/>
+    <Option name="jack-time-master" value="1"/>
+    <Option name="use-video-sync" value="0"/>
+    <Option name="video-pullup" value="0"/>
+    <Option name="external-sync" value="0"/>
+    <Option name="insert-merge-policy" value="InsertMergeRelax"/>
+    <Option name="timecode-offset" value="0"/>
+    <Option name="timecode-offset-negative" value="1"/>
+    <Option name="slave-timecode-offset" value=" 00:00:00:00"/>
+    <Option name="timecode-generator-offset" value=" 00:00:00:00"/>
+    <Option name="midi-copy-is-fork" value="1"/>
+    <Option name="tracks-follow-session-time" value="0"/>
+    <Option name="realtime-export" value="0"/>
+    <Option name="use-video-file-fps" value="0"/>
+    <Option name="videotimeline-pullup" value="1"/>
+    <Option name="wave-amplitude-zoom" value="0"/>
+    <Option name="wave-zoom-factor" value="2"/>
+    <Option name="show-summary" value="1"/>
+    <Option name="show-group-tabs" value="1"/>
+    <Option name="show-region-fades" value="1"/>
+    <Option name="show-busses-on-meterbridge" value="0"/>
+    <Option name="show-master-on-meterbridge" value="1"/>
+    <Option name="show-midi-on-meterbridge" value="1"/>
+    <Option name="show-rec-on-meterbridge" value="1"/>
+    <Option name="show-mute-on-meterbridge" value="0"/>
+    <Option name="show-solo-on-meterbridge" value="0"/>
+    <Option name="show-monitor-on-meterbridge" value="0"/>
+    <Option name="show-name-on-meterbridge" value="1"/>
+    <Option name="show-fader-on-meterbridge" value="0"/>
+    <Option name="meterbridge-label-height" value="0"/>
+    <Option name="default-time-domain" value="AudioTime"/>
+  </Config>
+  <Metadata/>
+  <Sources>
+    <Source name="Take4_Pianoteq 6-2.mid" take-id="2023-09-03 16.22.58" type="midi" flags="Writable,CanRename" id="533288" natural-position="a0" captured-for="Pianoteq 6" origin="">
+      <InterpolationStyle parameter="midicc-0-64" style="Discrete"/>
+    </Source>
+    <Source name="Take5_Pianoteq 6-1.mid" take-id="2023-09-03 16.25.56" type="midi" flags="Writable,CanRename" id="533740" natural-position="a50311987200" captured-for="Pianoteq 6" origin="">
+      <InterpolationStyle parameter="midicc-0-64" style="Discrete"/>
+    </Source>
+  </Sources>
+  <TriggerBindings/>
+  <Regions>
+    <Region name="Take4_Pianoteq 6-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b680016@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="533730" type="midi" first-edit="nothing" source-0="533288" master-source-0="533288"/>
+    <Region name="Take5_Pianoteq 6-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b103253@a50311987200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="533746" type="midi" first-edit="nothing" source-0="533740" master-source-0="533740"/>
+  </Regions>
+  <Selection>
+    <StripableAutomationControl stripable="533202" control="0" order="0"/>
+  </Selection>
+  <Locations>
+    <Location id="533736" name="session" start="a0" end="a57938726400" flags="IsSessionRange" locked="0" timestamp="1693747378" cue="0"/>
+  </Locations>
+  <Bundles/>
+  <VCAManager/>
+  <Routes>
+    <Route version="7002" id="533104" name="Master" default-type="audio" strict-io="1" volume-applies-to-output="1" active="1" denormal-protection="0" meter-point="MeterOutput" disk-io-point="DiskIOPreFader" meter-type="MeterK14">
+      <PresentationInfo order="0" flags="MasterOut,OrderSet" color="151600127"/>
+      <Controllable name="solo" id="533112" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="533118" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="533120" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Master" id="533132" direction="Input" default-type="audio">
+        <Port name="Master/audio_in 1" type="audio" direction="Input">
+          <Connection other="Pianoteq 6/audio_out 1"/>
+          <Connection other="Pianoteq 6/audio_out 1"/>
+        </Port>
+        <Port name="Master/audio_in 2" type="audio" direction="Input">
+          <Connection other="Pianoteq 6/audio_out 2"/>
+          <Connection other="Pianoteq 6/audio_out 2"/>
+        </Port>
+      </IO>
+      <IO name="Master" id="533133" direction="Output" default-type="audio">
+        <Port name="Master/audio_out 1" type="audio" direction="Output">
+          <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="system:playback_1"/>
+        </Port>
+        <Port name="Master/audio_out 2" type="audio" direction="Output">
+          <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="system:playback_2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="533114" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="533116" flags="Toggle" value="0" phase-invert="00"/>
+      <Controllable name="mastervolume" id="533140" flags="GainLike,NotAutomatable" value="1"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="533111" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="533117" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="533119" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+        <AutomationList automation-id="mute" id="533113" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+        <AutomationList automation-id="phase" id="533115" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="533123" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="533127" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="533125" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="533129" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="533131" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="533122" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="533124" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="pan-width" id="533126" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="533128" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="533130" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="533135" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="533136" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="533109" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="533110" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="533134" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="533107" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="533108" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="533138" name="Master" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Processor id="533137" name="meter-Master" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Slavable/>
+    </Route>
+    <Route version="7002" id="533202" name="Pianoteq 6" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" midi-playlist="533280" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+      <PresentationInfo order="1" flags="MidiTrack,OrderSet,TriggerTrack" color="763899391"/>
+      <Controllable name="solo" id="533243" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="533249" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="533251" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Pianoteq 6" id="533263" direction="Input" default-type="midi">
+        <Port name="Pianoteq 6/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
+          <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="a2j:UM-1 [28] (capture): UM-1 MIDI 1"/>
+          <ExtConnection for="JACK" other="a2j:USB Device 0x41e:0x3f00 [36] (capture): USB Device 0x41e:0x3f00 MIDI 1"/>
+        </Port>
+      </IO>
+      <IO name="Pianoteq 6" id="533264" direction="Output" default-type="midi">
+        <Port name="Pianoteq 6/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Pianoteq 6/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+        <Port name="Pianoteq 6/midi_out 1" type="midi" direction="Output"/>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="533245" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="533247" flags="Toggle" value="0" phase-invert=""/>
+      <Automation>
+        <AutomationList automation-id="solo" id="533242" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="533248" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="533250" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="mute" id="533244" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="533274" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="533276" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="phase" id="533246" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="monitor" id="533278" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="midi-velocity" id="533286" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="533254" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="533258" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="533256" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="533260" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="533262" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="533253" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="533255" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="pan-width" id="533257" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="533259" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="533261" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="533269" name="meter-Pianoteq 6" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="533273" name="recorder:Pianoteq 6" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="533272" name="player:Pianoteq 6" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="533205" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="midi" order="0">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+        </Triggers>
+      </Processor>
+      <Processor id="533266" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="533311" name="Pianoteq 6" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://pianoteq.com/lv2/Pianoteq6" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-1" id="533312" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="533314" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-6" id="533316" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-7" id="533318" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="533320" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="533322" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="533324" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="533326" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="533328" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="533330" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="533332" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="533334" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="533336" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="533338" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="533340" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-19" id="533342" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-20" id="533344" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-21" id="533346" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-22" id="533348" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-23" id="533350" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-24" id="533352" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-25" id="533354" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-26" id="533356" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-27" id="533358" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-28" id="533360" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-29" id="533362" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-30" id="533364" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-31" id="533366" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-32" id="533368" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-33" id="533370" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-34" id="533372" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-35" id="533374" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-36" id="533376" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-37" id="533378" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-38" id="533380" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-39" id="533382" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-40" id="533384" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-41" id="533386" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-42" id="533388" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-43" id="533390" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-44" id="533392" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-45" id="533394" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-46" id="533396" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-47" id="533398" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-48" id="533400" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-49" id="533402" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-50" id="533404" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-51" id="533406" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-52" id="533408" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-53" id="533410" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-54" id="533412" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-55" id="533414" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-56" id="533416" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-57" id="533418" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-58" id="533420" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-59" id="533422" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-60" id="533424" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-61" id="533426" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-62" id="533428" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-63" id="533430" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-64" id="533432" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-65" id="533434" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-66" id="533436" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-67" id="533438" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-68" id="533440" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-69" id="533442" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-70" id="533444" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-71" id="533446" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-72" id="533448" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-73" id="533450" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-74" id="533452" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-75" id="533454" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-76" id="533456" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-77" id="533458" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-78" id="533460" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-79" id="533462" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-80" id="533464" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-81" id="533466" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-82" id="533468" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-83" id="533470" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-84" id="533472" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-85" id="533474" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-86" id="533476" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-87" id="533478" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-88" id="533480" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-89" id="533482" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-90" id="533484" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-91" id="533486" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-92" id="533488" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-93" id="533490" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-94" id="533492" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-95" id="533494" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-96" id="533496" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-97" id="533498" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-98" id="533500" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-99" id="533502" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-100" id="533504" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-101" id="533506" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-102" id="533508" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-103" id="533510" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-104" id="533512" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-105" id="533514" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-106" id="533516" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-107" id="533518" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-108" id="533520" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-109" id="533522" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-110" id="533524" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-111" id="533526" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-112" id="533528" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-113" id="533530" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-114" id="533532" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-115" id="533534" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-116" id="533536" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-117" id="533538" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-118" id="533540" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-119" id="533542" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-120" id="533544" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-121" id="533546" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-122" id="533548" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-123" id="533550" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-124" id="533552" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-125" id="533554" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-126" id="533556" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-127" id="533558" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-128" id="533560" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-129" id="533562" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-130" id="533564" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-131" id="533566" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-132" id="533568" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-133" id="533570" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-134" id="533572" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-135" id="533574" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-136" id="533576" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-137" id="533578" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-138" id="533580" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-139" id="533582" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-140" id="533584" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-141" id="533586" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-142" id="533588" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-143" id="533590" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-144" id="533592" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-145" id="533594" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-146" id="533596" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-147" id="533598" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-148" id="533600" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-149" id="533602" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-150" id="533604" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-151" id="533606" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-152" id="533608" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-153" id="533610" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-154" id="533612" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-155" id="533614" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-156" id="533616" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-157" id="533618" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-158" id="533620" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-159" id="533622" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-160" id="533624" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-161" id="533626" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-162" id="533628" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-163" id="533630" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-164" id="533632" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-165" id="533634" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-166" id="533636" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-167" id="533638" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-168" id="533640" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-169" id="533642" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-170" id="533644" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-171" id="533646" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-172" id="533648" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-173" id="533650" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-174" id="533652" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-175" id="533654" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-176" id="533656" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-177" id="533658" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-178" id="533660" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-179" id="533662" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-180" id="533664" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-181" id="533666" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-182" id="533668" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-183" id="533670" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-184" id="533672" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-185" id="533674" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-186" id="533676" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-187" id="533678" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-188" id="533680" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-189" id="533682" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-190" id="533684" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-191" id="533686" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-192" id="533688" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-193" id="533690" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-194" id="533692" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-195" id="533694" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-196" id="533696" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-197" id="533698" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-198" id="533700" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-199" id="533702" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-200" id="533704" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-201" id="533706" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-202" id="533708" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-203" id="533710" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-204" id="533712" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-205" id="533714" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-206" id="533716" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-207" id="533718" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-208" id="533720" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state1">
+          <Port symbol="lv2_freewheel" value="0"/>
+          <Port symbol="lv2_port_1" value="0"/>
+          <Port symbol="lv2_port_2" value="0.39393898844718933"/>
+          <Port symbol="lv2_port_3" value="0.5"/>
+          <Port symbol="lv2_port_4" value="0.5"/>
+          <Port symbol="lv2_port_5" value="0.59547001123428345"/>
+          <Port symbol="lv2_port_6" value="0.28571400046348572"/>
+          <Port symbol="lv2_port_7" value="0"/>
+          <Port symbol="lv2_port_8" value="0"/>
+          <Port symbol="lv2_port_9" value="0"/>
+          <Port symbol="lv2_port_10" value="0"/>
+          <Port symbol="lv2_port_11" value="0"/>
+          <Port symbol="lv2_port_12" value="0"/>
+          <Port symbol="lv2_port_13" value="0"/>
+          <Port symbol="lv2_port_14" value="0"/>
+          <Port symbol="lv2_port_15" value="0"/>
+          <Port symbol="lv2_port_16" value="0"/>
+          <Port symbol="lv2_port_17" value="1"/>
+          <Port symbol="lv2_port_18" value="0"/>
+          <Port symbol="lv2_port_19" value="0"/>
+          <Port symbol="lv2_port_20" value="0"/>
+          <Port symbol="lv2_port_21" value="0.72727298736572266"/>
+          <Port symbol="lv2_port_22" value="0.33333298563957214"/>
+          <Port symbol="lv2_port_23" value="0.23108799755573273"/>
+          <Port symbol="lv2_port_24" value="0.5"/>
+          <Port symbol="lv2_port_25" value="0.5"/>
+          <Port symbol="lv2_port_26" value="0.15000000596046448"/>
+          <Port symbol="lv2_port_27" value="0.38999998569488525"/>
+          <Port symbol="lv2_port_28" value="0.69999998807907104"/>
+          <Port symbol="lv2_port_29" value="0.5"/>
+          <Port symbol="lv2_port_30" value="0.5"/>
+          <Port symbol="lv2_port_31" value="0.5"/>
+          <Port symbol="lv2_port_32" value="0.5"/>
+          <Port symbol="lv2_port_33" value="0.5"/>
+          <Port symbol="lv2_port_34" value="0.5"/>
+          <Port symbol="lv2_port_35" value="0.5"/>
+          <Port symbol="lv2_port_36" value="0.5"/>
+          <Port symbol="lv2_port_37" value="0.5511620044708252"/>
+          <Port symbol="lv2_port_38" value="1"/>
+          <Port symbol="lv2_port_39" value="0"/>
+          <Port symbol="lv2_port_40" value="0.44444400072097778"/>
+          <Port symbol="lv2_port_41" value="0.30000001192092896"/>
+          <Port symbol="lv2_port_42" value="0.5"/>
+          <Port symbol="lv2_port_43" value="0.5"/>
+          <Port symbol="lv2_port_44" value="0.5"/>
+          <Port symbol="lv2_port_45" value="0.5"/>
+          <Port symbol="lv2_port_46" value="0.5"/>
+          <Port symbol="lv2_port_47" value="0.5"/>
+          <Port symbol="lv2_port_48" value="0.5698239803314209"/>
+          <Port symbol="lv2_port_49" value="0"/>
+          <Port symbol="lv2_port_50" value="0.45833298563957214"/>
+          <Port symbol="lv2_port_51" value="0"/>
+          <Port symbol="lv2_port_52" value="0.56521701812744141"/>
+          <Port symbol="lv2_port_53" value="0.5"/>
+          <Port symbol="lv2_port_54" value="0.5"/>
+          <Port symbol="lv2_port_55" value="0.5"/>
+          <Port symbol="lv2_port_56" value="0.5"/>
+          <Port symbol="lv2_port_57" value="1"/>
+          <Port symbol="lv2_port_58" value="0.059999998658895493"/>
+          <Port symbol="lv2_port_59" value="0.22833600640296936"/>
+          <Port symbol="lv2_port_60" value="0"/>
+          <Port symbol="lv2_port_61" value="0.25"/>
+          <Port symbol="lv2_port_62" value="1"/>
+          <Port symbol="lv2_port_63" value="0"/>
+          <Port symbol="lv2_port_64" value="0"/>
+          <Port symbol="lv2_port_65" value="0"/>
+          <Port symbol="lv2_port_66" value="1"/>
+          <Port symbol="lv2_port_67" value="0.27007201313972473"/>
+          <Port symbol="lv2_port_68" value="0.5"/>
+          <Port symbol="lv2_port_69" value="0.46127399802207947"/>
+          <Port symbol="lv2_port_70" value="0.50994598865509033"/>
+          <Port symbol="lv2_port_71" value="0.5"/>
+          <Port symbol="lv2_port_72" value="0.42474201321601868"/>
+          <Port symbol="lv2_port_73" value="0.7649189829826355"/>
+          <Port symbol="lv2_port_74" value="0.57999998331069946"/>
+          <Port symbol="lv2_port_75" value="1"/>
+          <Port symbol="lv2_port_76" value="0.14516200125217438"/>
+          <Port symbol="lv2_port_77" value="0.5"/>
+          <Port symbol="lv2_port_78" value="0.5"/>
+          <Port symbol="lv2_port_79" value="0.7649189829826355"/>
+          <Port symbol="lv2_port_80" value="0.57999998331069946"/>
+          <Port symbol="lv2_port_81" value="0.36928001046180725"/>
+          <Port symbol="lv2_port_82" value="0.90361398458480835"/>
+          <Port symbol="lv2_port_83" value="0.56000000238418579"/>
+          <Port symbol="lv2_port_84" value="1"/>
+          <Port symbol="lv2_port_85" value="0.29595300555229187"/>
+          <Port symbol="lv2_port_86" value="0.50999999046325684"/>
+          <Port symbol="lv2_port_87" value="0.28888899087905884"/>
+          <Port symbol="lv2_port_88" value="0"/>
+          <Port symbol="lv2_port_89" value="0.5"/>
+          <Port symbol="lv2_port_90" value="0.5"/>
+          <Port symbol="lv2_port_91" value="1"/>
+          <Port symbol="lv2_port_92" value="0.5"/>
+          <Port symbol="lv2_port_93" value="1"/>
+          <Port symbol="lv2_port_94" value="0.5"/>
+          <Port symbol="lv2_port_95" value="0.51999998092651367"/>
+          <Port symbol="lv2_port_96" value="0.83333301544189453"/>
+          <Port symbol="lv2_port_97" value="0.5"/>
+          <Port symbol="lv2_port_98" value="0.66885799169540405"/>
+          <Port symbol="lv2_port_99" value="0.7109379768371582"/>
+          <Port symbol="lv2_port_100" value="0.45486199855804443"/>
+          <Port symbol="lv2_port_101" value="0.45486199855804443"/>
+          <Port symbol="lv2_port_102" value="0.5"/>
+          <Port symbol="lv2_port_103" value="1"/>
+          <Port symbol="lv2_port_104" value="0.66666698455810547"/>
+          <Port symbol="lv2_port_105" value="1"/>
+          <Port symbol="lv2_port_106" value="0"/>
+          <Port symbol="lv2_port_107" value="0.5350000262260437"/>
+          <Port symbol="lv2_port_108" value="0.5"/>
+          <Port symbol="lv2_port_109" value="0.37142899632453918"/>
+          <Port symbol="lv2_port_110" value="0.20000000298023224"/>
+          <Port symbol="lv2_port_111" value="0.5"/>
+          <Port symbol="lv2_port_112" value="1"/>
+          <Port symbol="lv2_port_113" value="0.51349997520446777"/>
+          <Port symbol="lv2_port_114" value="0.51499998569488525"/>
+          <Port symbol="lv2_port_115" value="0.29142901301383972"/>
+          <Port symbol="lv2_port_116" value="0.33840999007225037"/>
+          <Port symbol="lv2_port_117" value="0.48876500129699707"/>
+          <Port symbol="lv2_port_118" value="0.78333300352096558"/>
+          <Port symbol="lv2_port_119" value="0.5"/>
+          <Port symbol="lv2_port_120" value="0.51249998807907104"/>
+          <Port symbol="lv2_port_121" value="0.6875"/>
+          <Port symbol="lv2_port_122" value="0"/>
+          <Port symbol="lv2_port_123" value="0.5"/>
+          <Port symbol="lv2_port_124" value="0"/>
+          <Port symbol="lv2_port_125" value="0.5"/>
+          <Port symbol="lv2_port_126" value="0"/>
+          <Port symbol="lv2_port_127" value="0.5"/>
+          <Port symbol="lv2_port_128" value="1"/>
+          <Port symbol="lv2_port_129" value="0.54900002479553223"/>
+          <Port symbol="lv2_port_130" value="0.51499998569488525"/>
+          <Port symbol="lv2_port_131" value="0.36571401357650757"/>
+          <Port symbol="lv2_port_132" value="0.64342397451400757"/>
+          <Port symbol="lv2_port_133" value="0.48876500129699707"/>
+          <Port symbol="lv2_port_134" value="0.51249998807907104"/>
+          <Port symbol="lv2_port_135" value="0.59375"/>
+          <Port symbol="lv2_port_136" value="0.78333300352096558"/>
+          <Port symbol="lv2_port_137" value="0.5037500262260437"/>
+          <Port symbol="lv2_port_138" value="0"/>
+          <Port symbol="lv2_port_139" value="0.5"/>
+          <Port symbol="lv2_port_140" value="0"/>
+          <Port symbol="lv2_port_141" value="0.5"/>
+          <Port symbol="lv2_port_142" value="0"/>
+          <Port symbol="lv2_port_143" value="0.5"/>
+          <Port symbol="lv2_port_144" value="0"/>
+          <Port symbol="lv2_port_145" value="0.625"/>
+          <Port symbol="lv2_port_146" value="0.59833300113677979"/>
+          <Port symbol="lv2_port_147" value="0.5028570294380188"/>
+          <Port symbol="lv2_port_148" value="0.67388898134231567"/>
+          <Port symbol="lv2_port_149" value="0.5"/>
+          <Port symbol="lv2_port_150" value="0.51249998807907104"/>
+          <Port symbol="lv2_port_151" value="0.5"/>
+          <Port symbol="lv2_port_152" value="0.029167000204324722"/>
+          <Port symbol="lv2_port_153" value="0.5"/>
+          <Port symbol="lv2_port_154" value="0"/>
+          <Port symbol="lv2_port_155" value="0.5"/>
+          <Port symbol="lv2_port_156" value="0"/>
+          <Port symbol="lv2_port_157" value="0.5"/>
+          <Port symbol="lv2_port_158" value="0"/>
+          <Port symbol="lv2_port_159" value="0.5"/>
+          <Port symbol="lv2_port_160" value="0"/>
+          <Port symbol="lv2_port_161" value="0.6067500114440918"/>
+          <Port symbol="lv2_port_162" value="0.64708298444747925"/>
+          <Port symbol="lv2_port_163" value="0.5028570294380188"/>
+          <Port symbol="lv2_port_164" value="0.80111098289489746"/>
+          <Port symbol="lv2_port_165" value="0.5"/>
+          <Port symbol="lv2_port_166" value="0"/>
+          <Port symbol="lv2_port_167" value="0.5"/>
+          <Port symbol="lv2_port_168" value="0.51249998807907104"/>
+          <Port symbol="lv2_port_169" value="0.5"/>
+          <Port symbol="lv2_port_170" value="0"/>
+          <Port symbol="lv2_port_171" value="0.5"/>
+          <Port symbol="lv2_port_172" value="0"/>
+          <Port symbol="lv2_port_173" value="0.5"/>
+          <Port symbol="lv2_port_174" value="0"/>
+          <Port symbol="lv2_port_175" value="0.5"/>
+          <Port symbol="lv2_port_176" value="0"/>
+          <Port symbol="lv2_port_177" value="0.57700002193450928"/>
+          <Port symbol="lv2_port_178" value="0.56999999284744263"/>
+          <Port symbol="lv2_port_179" value="0.5028570294380188"/>
+          <Port symbol="lv2_port_180" value="0.5"/>
+          <Port symbol="lv2_port_181" value="0.5"/>
+          <Port symbol="lv2_port_182" value="0"/>
+          <Port symbol="lv2_port_183" value="0.5"/>
+          <Port symbol="lv2_port_184" value="0"/>
+          <Port symbol="lv2_port_185" value="0.5"/>
+          <Port symbol="lv2_port_186" value="0"/>
+          <Port symbol="lv2_port_187" value="0.5"/>
+          <Port symbol="lv2_port_188" value="0"/>
+          <Port symbol="lv2_port_189" value="0.5"/>
+          <Port symbol="lv2_port_190" value="0"/>
+          <Port symbol="lv2_port_191" value="0.5"/>
+          <Port symbol="lv2_port_192" value="0.5"/>
+          <Port symbol="lv2_port_193" value="0"/>
+          <Port symbol="lv2_port_194" value="1"/>
+          <Port symbol="lv2_port_195" value="1"/>
+          <Port symbol="lv2_port_196" value="1"/>
+          <Port symbol="lv2_port_197" value="0.5"/>
+          <Port symbol="lv2_port_198" value="0"/>
+          <Port symbol="lv2_port_199" value="0.5"/>
+          <Port symbol="lv2_port_200" value="0"/>
+          <Port symbol="lv2_port_201" value="0"/>
+          <Port symbol="lv2_port_202" value="0.12341199815273285"/>
+          <Port symbol="lv2_port_203" value="0.58333301544189453"/>
+          <Port symbol="lv2_port_204" value="0"/>
+        </lv2>
+        <Controllable name="hidden" id="533313" flags="Toggle" value="0" parameter="1" symbol="lv2_freewheel"/>
+        <Controllable name="Condition" id="533315" flags="" value="0" parameter="5" symbol="lv2_port_1"/>
+        <Controllable name="Dynamics" id="533317" flags="" value="0.39393898844718933" parameter="6" symbol="lv2_port_2"/>
+        <Controllable name="Pitch Bend" id="533319" flags="" value="0.5" parameter="7" symbol="lv2_port_3"/>
+        <Controllable name="Unison Width" id="533321" flags="" value="0.5" parameter="8" symbol="lv2_port_4"/>
+        <Controllable name="Stereo Width" id="533323" flags="" value="0.59547001123428345" parameter="9" symbol="lv2_port_5"/>
+        <Controllable name="Hammer Noise" id="533325" flags="" value="0.28571400046348572" parameter="10" symbol="lv2_port_6"/>
+        <Controllable name="Sustain Pedal" id="533327" flags="" value="0" parameter="11" symbol="lv2_port_7"/>
+        <Controllable name="Soft Pedal" id="533329" flags="" value="0" parameter="12" symbol="lv2_port_8"/>
+        <Controllable name="Sostenuto Pedal" id="533331" flags="" value="0" parameter="13" symbol="lv2_port_9"/>
+        <Controllable name="Harmonic Pedal" id="533333" flags="" value="0" parameter="14" symbol="lv2_port_10"/>
+        <Controllable name="Rattle Pedal" id="533335" flags="" value="0" parameter="15" symbol="lv2_port_11"/>
+        <Controllable name="Buff Stop Pedal" id="533337" flags="" value="0" parameter="16" symbol="lv2_port_12"/>
+        <Controllable name="Celeste Pedal" id="533339" flags="" value="0" parameter="17" symbol="lv2_port_13"/>
+        <Controllable name="Super Sostenuto" id="533341" flags="" value="0" parameter="18" symbol="lv2_port_14"/>
+        <Controllable name="Pinch Harmonic Pedal" id="533343" flags="" value="0" parameter="19" symbol="lv2_port_15"/>
+        <Controllable name="Glissando Pedal" id="533345" flags="" value="0" parameter="20" symbol="lv2_port_16"/>
+        <Controllable name="Harpsichord Register 1" id="533347" flags="" value="1" parameter="21" symbol="lv2_port_17"/>
+        <Controllable name="Harpsichord Register 2" id="533349" flags="" value="0" parameter="22" symbol="lv2_port_18"/>
+        <Controllable name="Harpsichord Register 3" id="533351" flags="" value="0" parameter="23" symbol="lv2_port_19"/>
+        <Controllable name="Reversed Sustain" id="533353" flags="" value="0" parameter="24" symbol="lv2_port_20"/>
+        <Controllable name="Volume" id="533355" flags="" value="0.72727298736572266" parameter="25" symbol="lv2_port_21"/>
+        <Controllable name="Diapason" id="533357" flags="" value="0.33333298563957214" parameter="26" symbol="lv2_port_22"/>
+        <Controllable name="Octave Stretching" id="533359" flags="" value="0.23108799755573273" parameter="27" symbol="lv2_port_23"/>
+        <Controllable name="Unison Balance" id="533361" flags="" value="0.5" parameter="28" symbol="lv2_port_24"/>
+        <Controllable name="Direct Sound Duration" id="533363" flags="" value="0.5" parameter="29" symbol="lv2_port_25"/>
+        <Controllable name="Hammer Hard. Piano" id="533365" flags="" value="0.15000000596046448" parameter="30" symbol="lv2_port_26"/>
+        <Controllable name="Hammer Hard. Mezzo" id="533367" flags="" value="0.38999998569488525" parameter="31" symbol="lv2_port_27"/>
+        <Controllable name="Hammer Hard. Forte" id="533369" flags="" value="0.69999998807907104" parameter="32" symbol="lv2_port_28"/>
+        <Controllable name="Spectrum Profile 1" id="533371" flags="" value="0.5" parameter="33" symbol="lv2_port_29"/>
+        <Controllable name="Spectrum Profile 2" id="533373" flags="" value="0.5" parameter="34" symbol="lv2_port_30"/>
+        <Controllable name="Spectrum Profile 3" id="533375" flags="" value="0.5" parameter="35" symbol="lv2_port_31"/>
+        <Controllable name="Spectrum Profile 4" id="533377" flags="" value="0.5" parameter="36" symbol="lv2_port_32"/>
+        <Controllable name="Spectrum Profile 5" id="533379" flags="" value="0.5" parameter="37" symbol="lv2_port_33"/>
+        <Controllable name="Spectrum Profile 6" id="533381" flags="" value="0.5" parameter="38" symbol="lv2_port_34"/>
+        <Controllable name="Spectrum Profile 7" id="533383" flags="" value="0.5" parameter="39" symbol="lv2_port_35"/>
+        <Controllable name="Spectrum Profile 8" id="533385" flags="" value="0.5" parameter="40" symbol="lv2_port_36"/>
+        <Controllable name="Strike Point" id="533387" flags="" value="0.5511620044708252" parameter="41" symbol="lv2_port_37"/>
+        <Controllable name="Pinch Harmonic Point" id="533389" flags="" value="1" parameter="42" symbol="lv2_port_38"/>
+        <Controllable name="Pickup Symmetry" id="533391" flags="" value="0" parameter="43" symbol="lv2_port_39"/>
+        <Controllable name="Pickup Distance" id="533393" flags="" value="0.44444400072097778" parameter="44" symbol="lv2_port_40"/>
+        <Controllable name="Soft Level" id="533395" flags="" value="0.30000001192092896" parameter="45" symbol="lv2_port_41"/>
+        <Controllable name="Impedance" id="533397" flags="" value="0.5" parameter="46" symbol="lv2_port_42"/>
+        <Controllable name="Cutoff" id="533399" flags="" value="0.5" parameter="47" symbol="lv2_port_43"/>
+        <Controllable name="Q Factor" id="533401" flags="" value="0.5" parameter="48" symbol="lv2_port_44"/>
+        <Controllable name="String Length" id="533403" flags="" value="0.5" parameter="49" symbol="lv2_port_45"/>
+        <Controllable name="Sympathetic Resonance" id="533405" flags="" value="0.5" parameter="50" symbol="lv2_port_46"/>
+        <Controllable name="Duplex Scale Resonance" id="533407" flags="" value="0.5" parameter="51" symbol="lv2_port_47"/>
+        <Controllable name="Quadratic Effect" id="533409" flags="" value="0.5698239803314209" parameter="52" symbol="lv2_port_48"/>
+        <Controllable name="Bounce Switch" id="533411" flags="" value="0" parameter="53" symbol="lv2_port_49"/>
+        <Controllable name="Bounce Delay" id="533413" flags="" value="0.45833298563957214" parameter="54" symbol="lv2_port_50"/>
+        <Controllable name="Bounce Sync" id="533415" flags="" value="0" parameter="55" symbol="lv2_port_51"/>
+        <Controllable name="Bounce Sync Speed" id="533417" flags="" value="0.56521701812744141" parameter="56" symbol="lv2_port_52"/>
+        <Controllable name="Bounce Velocity Sensitivity" id="533419" flags="" value="0.5" parameter="57" symbol="lv2_port_53"/>
+        <Controllable name="Bounce Delay Loss" id="533421" flags="" value="0.5" parameter="58" symbol="lv2_port_54"/>
+        <Controllable name="Bounce Velocity Loss" id="533423" flags="" value="0.5" parameter="59" symbol="lv2_port_55"/>
+        <Controllable name="Bounce Humanization" id="533425" flags="" value="0.5" parameter="60" symbol="lv2_port_56"/>
+        <Controllable name="Eff 1 Switch" id="533427" flags="" value="1" parameter="61" symbol="lv2_port_57"/>
+        <Controllable name="Eff 1 DelMix" id="533429" flags="" value="0.059999998658895493" parameter="62" symbol="lv2_port_58"/>
+        <Controllable name="Eff 1 DelTime" id="533431" flags="" value="0.22833600640296936" parameter="63" symbol="lv2_port_59"/>
+        <Controllable name="Eff 1 DelFb" id="533433" flags="" value="0" parameter="64" symbol="lv2_port_60"/>
+        <Controllable name="Eff 1 DelTone" id="533435" flags="" value="0.25" parameter="65" symbol="lv2_port_61"/>
+        <Controllable name="Eff 1 DelPol" id="533437" flags="" value="1" parameter="66" symbol="lv2_port_62"/>
+        <Controllable name="Eff 1 Param 6" id="533439" flags="" value="0" parameter="67" symbol="lv2_port_63"/>
+        <Controllable name="Eff 1 Param 7" id="533441" flags="" value="0" parameter="68" symbol="lv2_port_64"/>
+        <Controllable name="Eff 1 Param 8" id="533443" flags="" value="0" parameter="69" symbol="lv2_port_65"/>
+        <Controllable name="Eff 2 Switch" id="533445" flags="" value="1" parameter="70" symbol="lv2_port_66"/>
+        <Controllable name="Eff 2 PEQ1F" id="533447" flags="" value="0.27007201313972473" parameter="71" symbol="lv2_port_67"/>
+        <Controllable name="Eff 2 PEQ1G" id="533449" flags="" value="0.5" parameter="72" symbol="lv2_port_68"/>
+        <Controllable name="Eff 2 PEQ1Q" id="533451" flags="" value="0.46127399802207947" parameter="73" symbol="lv2_port_69"/>
+        <Controllable name="Eff 2 PEQ2F" id="533453" flags="" value="0.50994598865509033" parameter="74" symbol="lv2_port_70"/>
+        <Controllable name="Eff 2 PEQ2G" id="533455" flags="" value="0.5" parameter="75" symbol="lv2_port_71"/>
+        <Controllable name="Eff 2 PEQ2Q" id="533457" flags="" value="0.42474201321601868" parameter="76" symbol="lv2_port_72"/>
+        <Controllable name="Eff 2 PEQ3F" id="533459" flags="" value="0.7649189829826355" parameter="77" symbol="lv2_port_73"/>
+        <Controllable name="Eff 2 PEQ3G" id="533461" flags="" value="0.57999998331069946" parameter="78" symbol="lv2_port_74"/>
+        <Controllable name="Eff 3 Switch" id="533463" flags="" value="1" parameter="79" symbol="lv2_port_75"/>
+        <Controllable name="Eff 3 PEQ1F" id="533465" flags="" value="0.14516200125217438" parameter="80" symbol="lv2_port_76"/>
+        <Controllable name="Eff 3 PEQ1G" id="533467" flags="" value="0.5" parameter="81" symbol="lv2_port_77"/>
+        <Controllable name="Eff 3 PEQ1Q" id="533469" flags="" value="0.5" parameter="82" symbol="lv2_port_78"/>
+        <Controllable name="Eff 3 PEQ2F" id="533471" flags="" value="0.7649189829826355" parameter="83" symbol="lv2_port_79"/>
+        <Controllable name="Eff 3 PEQ2G" id="533473" flags="" value="0.57999998331069946" parameter="84" symbol="lv2_port_80"/>
+        <Controllable name="Eff 3 PEQ2Q" id="533475" flags="" value="0.36928001046180725" parameter="85" symbol="lv2_port_81"/>
+        <Controllable name="Eff 3 PEQ3F" id="533477" flags="" value="0.90361398458480835" parameter="86" symbol="lv2_port_82"/>
+        <Controllable name="Eff 3 PEQ3G" id="533479" flags="" value="0.56000000238418579" parameter="87" symbol="lv2_port_83"/>
+        <Controllable name="Reverb Switch" id="533481" flags="" value="1" parameter="88" symbol="lv2_port_84"/>
+        <Controllable name="Reverb Duration" id="533483" flags="" value="0.29595300555229187" parameter="89" symbol="lv2_port_85"/>
+        <Controllable name="Reverb Mix" id="533485" flags="" value="0.50999999046325684" parameter="90" symbol="lv2_port_86"/>
+        <Controllable name="Room Dimensions" id="533487" flags="" value="0.28888899087905884" parameter="91" symbol="lv2_port_87"/>
+        <Controllable name="Reverb Pre-delay" id="533489" flags="" value="0" parameter="92" symbol="lv2_port_88"/>
+        <Controllable name="Reverb Early Reflections" id="533491" flags="" value="0.5" parameter="93" symbol="lv2_port_89"/>
+        <Controllable name="Reverb Tone" id="533493" flags="" value="0.5" parameter="94" symbol="lv2_port_90"/>
+        <Controllable name="Reverb Envelope" id="533495" flags="" value="1" parameter="95" symbol="lv2_port_91"/>
+        <Controllable name="Reverb Resampling" id="533497" flags="" value="0.5" parameter="96" symbol="lv2_port_92"/>
+        <Controllable name="Limiter Switch" id="533499" flags="" value="1" parameter="97" symbol="lv2_port_93"/>
+        <Controllable name="Limiter Sharpness" id="533501" flags="" value="0.5" parameter="98" symbol="lv2_port_94"/>
+        <Controllable name="Limiter Threshold" id="533503" flags="" value="0.51999998092651367" parameter="99" symbol="lv2_port_95"/>
+        <Controllable name="Limiter Gain" id="533505" flags="" value="0.83333301544189453" parameter="100" symbol="lv2_port_96"/>
+        <Controllable name="Damper Noise" id="533507" flags="" value="0.5" parameter="101" symbol="lv2_port_97"/>
+        <Controllable name="Damper Position" id="533509" flags="" value="0.66885799169540405" parameter="102" symbol="lv2_port_98"/>
+        <Controllable name="Last Damper" id="533511" flags="" value="0.7109379768371582" parameter="103" symbol="lv2_port_99"/>
+        <Controllable name="Pedal Noise" id="533513" flags="" value="0.45486199855804443" parameter="104" symbol="lv2_port_100"/>
+        <Controllable name="Key Release Noise" id="533515" flags="" value="0.45486199855804443" parameter="105" symbol="lv2_port_101"/>
+        <Controllable name="Damping Duration" id="533517" flags="" value="0.5" parameter="106" symbol="lv2_port_102"/>
+        <Controllable name="Lid Position" id="533519" flags="" value="1" parameter="107" symbol="lv2_port_103"/>
+        <Controllable name="Output Mode" id="533521" flags="" value="0.66666698455810547" parameter="108" symbol="lv2_port_104"/>
+        <Controllable name="Mic Level Compensation" id="533523" flags="" value="1" parameter="109" symbol="lv2_port_105"/>
+        <Controllable name="Mic Delay Compensation" id="533525" flags="" value="0" parameter="110" symbol="lv2_port_106"/>
+        <Controllable name="Head X position" id="533527" flags="" value="0.5350000262260437" parameter="111" symbol="lv2_port_107"/>
+        <Controllable name="Head Y position" id="533529" flags="" value="0.5" parameter="112" symbol="lv2_port_108"/>
+        <Controllable name="Head Z position" id="533531" flags="" value="0.37142899632453918" parameter="113" symbol="lv2_port_109"/>
+        <Controllable name="Head Diameter" id="533533" flags="" value="0.20000000298023224" parameter="114" symbol="lv2_port_110"/>
+        <Controllable name="Head Angle" id="533535" flags="" value="0.5" parameter="115" symbol="lv2_port_111"/>
+        <Controllable name="Mic 1 Mic Switch" id="533537" flags="" value="1" parameter="116" symbol="lv2_port_112"/>
+        <Controllable name="Mic 1 X position" id="533539" flags="" value="0.51349997520446777" parameter="117" symbol="lv2_port_113"/>
+        <Controllable name="Mic 1 Y position" id="533541" flags="" value="0.51499998569488525" parameter="118" symbol="lv2_port_114"/>
+        <Controllable name="Mic 1 Z position" id="533543" flags="" value="0.29142901301383972" parameter="119" symbol="lv2_port_115"/>
+        <Controllable name="Mic 1 Azimuth" id="533545" flags="" value="0.33840999007225037" parameter="120" symbol="lv2_port_116"/>
+        <Controllable name="Mic 1 Elevation" id="533547" flags="" value="0.48876500129699707" parameter="121" symbol="lv2_port_117"/>
+        <Controllable name="Mic 1 Level 1" id="533549" flags="" value="0.78333300352096558" parameter="122" symbol="lv2_port_118"/>
+        <Controllable name="Mic 1 Delay 1" id="533551" flags="" value="0.5" parameter="123" symbol="lv2_port_119"/>
+        <Controllable name="Mic 1 Level 2" id="533553" flags="" value="0.51249998807907104" parameter="124" symbol="lv2_port_120"/>
+        <Controllable name="Mic 1 Delay 2" id="533555" flags="" value="0.6875" parameter="125" symbol="lv2_port_121"/>
+        <Controllable name="Mic 1 Level 3" id="533557" flags="" value="0" parameter="126" symbol="lv2_port_122"/>
+        <Controllable name="Mic 1 Delay 3" id="533559" flags="" value="0.5" parameter="127" symbol="lv2_port_123"/>
+        <Controllable name="Mic 1 Level 4" id="533561" flags="" value="0" parameter="128" symbol="lv2_port_124"/>
+        <Controllable name="Mic 1 Delay 4" id="533563" flags="" value="0.5" parameter="129" symbol="lv2_port_125"/>
+        <Controllable name="Mic 1 Level 5" id="533565" flags="" value="0" parameter="130" symbol="lv2_port_126"/>
+        <Controllable name="Mic 1 Delay 5" id="533567" flags="" value="0.5" parameter="131" symbol="lv2_port_127"/>
+        <Controllable name="Mic 2 Mic Switch" id="533569" flags="" value="1" parameter="132" symbol="lv2_port_128"/>
+        <Controllable name="Mic 2 X position" id="533571" flags="" value="0.54900002479553223" parameter="133" symbol="lv2_port_129"/>
+        <Controllable name="Mic 2 Y position" id="533573" flags="" value="0.51499998569488525" parameter="134" symbol="lv2_port_130"/>
+        <Controllable name="Mic 2 Z position" id="533575" flags="" value="0.36571401357650757" parameter="135" symbol="lv2_port_131"/>
+        <Controllable name="Mic 2 Azimuth" id="533577" flags="" value="0.64342397451400757" parameter="136" symbol="lv2_port_132"/>
+        <Controllable name="Mic 2 Elevation" id="533579" flags="" value="0.48876500129699707" parameter="137" symbol="lv2_port_133"/>
+        <Controllable name="Mic 2 Level 1" id="533581" flags="" value="0.51249998807907104" parameter="138" symbol="lv2_port_134"/>
+        <Controllable name="Mic 2 Delay 1" id="533583" flags="" value="0.59375" parameter="139" symbol="lv2_port_135"/>
+        <Controllable name="Mic 2 Level 2" id="533585" flags="" value="0.78333300352096558" parameter="140" symbol="lv2_port_136"/>
+        <Controllable name="Mic 2 Delay 2" id="533587" flags="" value="0.5037500262260437" parameter="141" symbol="lv2_port_137"/>
+        <Controllable name="Mic 2 Level 3" id="533589" flags="" value="0" parameter="142" symbol="lv2_port_138"/>
+        <Controllable name="Mic 2 Delay 3" id="533591" flags="" value="0.5" parameter="143" symbol="lv2_port_139"/>
+        <Controllable name="Mic 2 Level 4" id="533593" flags="" value="0" parameter="144" symbol="lv2_port_140"/>
+        <Controllable name="Mic 2 Delay 4" id="533595" flags="" value="0.5" parameter="145" symbol="lv2_port_141"/>
+        <Controllable name="Mic 2 Level 5" id="533597" flags="" value="0" parameter="146" symbol="lv2_port_142"/>
+        <Controllable name="Mic 2 Delay 5" id="533599" flags="" value="0.5" parameter="147" symbol="lv2_port_143"/>
+        <Controllable name="Mic 3 Mic Switch" id="533601" flags="" value="0" parameter="148" symbol="lv2_port_144"/>
+        <Controllable name="Mic 3 X position" id="533603" flags="" value="0.625" parameter="149" symbol="lv2_port_145"/>
+        <Controllable name="Mic 3 Y position" id="533605" flags="" value="0.59833300113677979" parameter="150" symbol="lv2_port_146"/>
+        <Controllable name="Mic 3 Z position" id="533607" flags="" value="0.5028570294380188" parameter="151" symbol="lv2_port_147"/>
+        <Controllable name="Mic 3 Azimuth" id="533609" flags="" value="0.67388898134231567" parameter="152" symbol="lv2_port_148"/>
+        <Controllable name="Mic 3 Elevation" id="533611" flags="" value="0.5" parameter="153" symbol="lv2_port_149"/>
+        <Controllable name="Mic 3 Level 1" id="533613" flags="" value="0.51249998807907104" parameter="154" symbol="lv2_port_150"/>
+        <Controllable name="Mic 3 Delay 1" id="533615" flags="" value="0.5" parameter="155" symbol="lv2_port_151"/>
+        <Controllable name="Mic 3 Level 2" id="533617" flags="" value="0.029167000204324722" parameter="156" symbol="lv2_port_152"/>
+        <Controllable name="Mic 3 Delay 2" id="533619" flags="" value="0.5" parameter="157" symbol="lv2_port_153"/>
+        <Controllable name="Mic 3 Level 3" id="533621" flags="" value="0" parameter="158" symbol="lv2_port_154"/>
+        <Controllable name="Mic 3 Delay 3" id="533623" flags="" value="0.5" parameter="159" symbol="lv2_port_155"/>
+        <Controllable name="Mic 3 Level 4" id="533625" flags="" value="0" parameter="160" symbol="lv2_port_156"/>
+        <Controllable name="Mic 3 Delay 4" id="533627" flags="" value="0.5" parameter="161" symbol="lv2_port_157"/>
+        <Controllable name="Mic 3 Level 5" id="533629" flags="" value="0" parameter="162" symbol="lv2_port_158"/>
+        <Controllable name="Mic 3 Delay 5" id="533631" flags="" value="0.5" parameter="163" symbol="lv2_port_159"/>
+        <Controllable name="Mic 4 Mic Switch" id="533633" flags="" value="0" parameter="164" symbol="lv2_port_160"/>
+        <Controllable name="Mic 4 X position" id="533635" flags="" value="0.6067500114440918" parameter="165" symbol="lv2_port_161"/>
+        <Controllable name="Mic 4 Y position" id="533637" flags="" value="0.64708298444747925" parameter="166" symbol="lv2_port_162"/>
+        <Controllable name="Mic 4 Z position" id="533639" flags="" value="0.5028570294380188" parameter="167" symbol="lv2_port_163"/>
+        <Controllable name="Mic 4 Azimuth" id="533641" flags="" value="0.80111098289489746" parameter="168" symbol="lv2_port_164"/>
+        <Controllable name="Mic 4 Elevation" id="533643" flags="" value="0.5" parameter="169" symbol="lv2_port_165"/>
+        <Controllable name="Mic 4 Level 1" id="533645" flags="" value="0" parameter="170" symbol="lv2_port_166"/>
+        <Controllable name="Mic 4 Delay 1" id="533647" flags="" value="0.5" parameter="171" symbol="lv2_port_167"/>
+        <Controllable name="Mic 4 Level 2" id="533649" flags="" value="0.51249998807907104" parameter="172" symbol="lv2_port_168"/>
+        <Controllable name="Mic 4 Delay 2" id="533651" flags="" value="0.5" parameter="173" symbol="lv2_port_169"/>
+        <Controllable name="Mic 4 Level 3" id="533653" flags="" value="0" parameter="174" symbol="lv2_port_170"/>
+        <Controllable name="Mic 4 Delay 3" id="533655" flags="" value="0.5" parameter="175" symbol="lv2_port_171"/>
+        <Controllable name="Mic 4 Level 4" id="533657" flags="" value="0" parameter="176" symbol="lv2_port_172"/>
+        <Controllable name="Mic 4 Delay 4" id="533659" flags="" value="0.5" parameter="177" symbol="lv2_port_173"/>
+        <Controllable name="Mic 4 Level 5" id="533661" flags="" value="0" parameter="178" symbol="lv2_port_174"/>
+        <Controllable name="Mic 4 Delay 5" id="533663" flags="" value="0.5" parameter="179" symbol="lv2_port_175"/>
+        <Controllable name="Mic 5 Mic Switch" id="533665" flags="" value="0" parameter="180" symbol="lv2_port_176"/>
+        <Controllable name="Mic 5 X position" id="533667" flags="" value="0.57700002193450928" parameter="181" symbol="lv2_port_177"/>
+        <Controllable name="Mic 5 Y position" id="533669" flags="" value="0.56999999284744263" parameter="182" symbol="lv2_port_178"/>
+        <Controllable name="Mic 5 Z position" id="533671" flags="" value="0.5028570294380188" parameter="183" symbol="lv2_port_179"/>
+        <Controllable name="Mic 5 Azimuth" id="533673" flags="" value="0.5" parameter="184" symbol="lv2_port_180"/>
+        <Controllable name="Mic 5 Elevation" id="533675" flags="" value="0.5" parameter="185" symbol="lv2_port_181"/>
+        <Controllable name="Mic 5 Level 1" id="533677" flags="" value="0" parameter="186" symbol="lv2_port_182"/>
+        <Controllable name="Mic 5 Delay 1" id="533679" flags="" value="0.5" parameter="187" symbol="lv2_port_183"/>
+        <Controllable name="Mic 5 Level 2" id="533681" flags="" value="0" parameter="188" symbol="lv2_port_184"/>
+        <Controllable name="Mic 5 Delay 2" id="533683" flags="" value="0.5" parameter="189" symbol="lv2_port_185"/>
+        <Controllable name="Mic 5 Level 3" id="533685" flags="" value="0" parameter="190" symbol="lv2_port_186"/>
+        <Controllable name="Mic 5 Delay 3" id="533687" flags="" value="0.5" parameter="191" symbol="lv2_port_187"/>
+        <Controllable name="Mic 5 Level 4" id="533689" flags="" value="0" parameter="192" symbol="lv2_port_188"/>
+        <Controllable name="Mic 5 Delay 4" id="533691" flags="" value="0.5" parameter="193" symbol="lv2_port_189"/>
+        <Controllable name="Mic 5 Level 5" id="533693" flags="" value="0" parameter="194" symbol="lv2_port_190"/>
+        <Controllable name="Mic 5 Delay 5" id="533695" flags="" value="0.5" parameter="195" symbol="lv2_port_191"/>
+        <Controllable name="Sound Speed" id="533697" flags="" value="0.5" parameter="196" symbol="lv2_port_192"/>
+        <Controllable name="Mute" id="533699" flags="" value="0" parameter="197" symbol="lv2_port_193"/>
+        <Controllable name="Clavinet Low Mic" id="533701" flags="" value="1" parameter="198" symbol="lv2_port_194"/>
+        <Controllable name="Clavinet High Mic" id="533703" flags="" value="1" parameter="199" symbol="lv2_port_195"/>
+        <Controllable name="Equalizer Switch" id="533705" flags="" value="1" parameter="200" symbol="lv2_port_196"/>
+        <Controllable name="Hammer Tine Noise" id="533707" flags="" value="0.5" parameter="201" symbol="lv2_port_197"/>
+        <Controllable name="Blooming Energy" id="533709" flags="" value="0" parameter="202" symbol="lv2_port_198"/>
+        <Controllable name="Blooming Inertia" id="533711" flags="" value="0.5" parameter="203" symbol="lv2_port_199"/>
+        <Controllable name="Aftertouch" id="533713" flags="" value="0" parameter="204" symbol="lv2_port_200"/>
+        <Controllable name="Wall distance" id="533715" flags="" value="0" parameter="205" symbol="lv2_port_201"/>
+        <Controllable name="Condition Seed" id="533717" flags="" value="0.12341199815273285" parameter="206" symbol="lv2_port_202"/>
+        <Controllable name="Post Effect Gain" id="533719" flags="" value="0.58333301544189453" parameter="207" symbol="lv2_port_203"/>
+        <Controllable name="Mozart Rail" id="533721" flags="" value="0" parameter="208" symbol="lv2_port_204"/>
+      </Processor>
+      <Processor id="533265" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="533238" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="533239" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="533270" name="Pianoteq 6" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Pianoteq 6" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="533279" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="533277" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="533275" flags="Toggle,RealTime" value="1"/>
+    </Route>
+  </Routes>
+  <Playlists>
+    <Playlist id="533280" name="Pianoteq 6" type="midi" orig-track-id="533202" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Take4_Pianoteq 6-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b684517@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="208" id="533733" type="midi" first-edit="nothing" source-0="533288" master-source-0="533288"/>
+      <Region name="Take5_Pianoteq 6-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b103765@b684517" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="224" id="533749" type="midi" first-edit="nothing" source-0="533740" master-source-0="533740"/>
+    </Playlist>
+  </Playlists>
+  <UnusedPlaylists/>
+  <RouteGroups/>
+  <Click>
+    <IO name="Click" id="533099" direction="Output" default-type="audio">
+      <Port name="Click/audio_out 1" type="audio" direction="Output">
+        <ExtConnection for="JACK"/>
+        <ExtConnection for="JACK" other="system:playback_1"/>
+      </Port>
+      <Port name="Click/audio_out 2" type="audio" direction="Output">
+        <ExtConnection for="JACK"/>
+        <ExtConnection for="JACK" other="system:playback_2"/>
+      </Port>
+    </IO>
+    <Processor id="533100" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+      <Automation>
+        <AutomationList automation-id="gain" id="533097" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
+      </Automation>
+      <Controllable name="gaincontrol" id="533098" flags="GainLike" value="1"/>
+    </Processor>
+  </Click>
+  <Speakers>
+    <Speaker azimuth="240" elevation="0" distance="1"/>
+    <Speaker azimuth="120" elevation="0" distance="1"/>
+  </Speakers>
+  <TempoMap superclocks-per-second="282240000">
+    <Tempos>
+      <Tempo npm="120" enpm="120" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="0" quarters="0:0" bbt="1|1|0" omega="0"/>
+    </Tempos>
+    <Meters>
+      <Meter note-value="4" divisions-per-bar="4" sclock="0" quarters="0:0" bbt="1|1|0"/>
+    </Meters>
+    <MusicTimes/>
+  </TempoMap>
+  <ControlProtocols>
+    <Protocol name="Ableton Push 2" active="0" session-state="0"/>
+    <Protocol name="ContourDesign" active="0" session-state="0"/>
+    <Protocol name="Generic MIDI" active="0" session-state="0"/>
+    <Protocol name="Mackie" active="0" session-state="0"/>
+    <Protocol name="Novation Launch Control XL" active="0" session-state="0"/>
+    <Protocol name="Open Sound Control (OSC)" active="0" session-state="0"/>
+    <Protocol name="PreSonus FaderPort" active="0" session-state="0"/>
+    <Protocol name="PreSonus FaderPort16" active="0" session-state="0"/>
+    <Protocol name="PreSonus FaderPort2" active="0" session-state="0"/>
+    <Protocol name="PreSonus FaderPort8" active="0" session-state="0"/>
+    <Protocol name="SSL 360: UF8 UF1" active="0" session-state="0"/>
+    <Protocol name="Softube Console1" active="0" session-state="0"/>
+    <Protocol name="Steinberg CC121" active="0" session-state="0"/>
+    <Protocol name="Tascam US-2400" active="0" session-state="0"/>
+    <Protocol name="Wiimote" active="0" session-state="0"/>
+  </ControlProtocols>
+  <Extra>
+    <AddRouteDialog LastRouteType="MidiTrack"/>
+    <UI>
+      <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="session-options-editor" visible="0" x-off="1920" y-off="934" x-size="1008" y-size="558"/>
+      <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="878" y-size="545"/>
+      <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="script-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="locations" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-clock" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-transport" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="virtual-keyboard" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="library-downloader" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="midi-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="luawindow" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="io-plugins" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="plugin-manager" visible="0" x-off="2797" y-off="956" x-size="1920" y-size="1055"/>
+      <Window name="plugin-dsp-load" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="dsp-statistics" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="transport-masters" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-533104" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-533202" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-533202-533205" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-533202-533311" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-533202-533311" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <GUIObjectState>
+        <Object id="strip 80922" visible="1" strip-width="Wide">
+          <Object id="processor 80952">
+            <Object id="control 80926" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 81138" visible="1" strip-width="Wide">
+          <Object id="processor 81168">
+            <Object id="control 81142" visible="0"/>
+          </Object>
+          <Object id="processor 81202">
+            <Object id="control 81204" visible="0"/>
+            <Object id="control 81206" visible="0"/>
+            <Object id="control 81208" visible="0"/>
+            <Object id="control 81210" visible="0"/>
+            <Object id="control 81212" visible="0"/>
+            <Object id="control 81214" visible="0"/>
+            <Object id="control 81216" visible="0"/>
+            <Object id="control 81218" visible="0"/>
+            <Object id="control 81220" visible="0"/>
+            <Object id="control 81222" visible="0"/>
+            <Object id="control 81224" visible="0"/>
+            <Object id="control 81226" visible="0"/>
+            <Object id="control 81228" visible="0"/>
+            <Object id="control 81230" visible="0"/>
+            <Object id="control 81232" visible="0"/>
+            <Object id="control 81234" visible="0"/>
+            <Object id="control 81236" visible="0"/>
+            <Object id="control 81238" visible="0"/>
+            <Object id="control 81240" visible="0"/>
+            <Object id="control 81242" visible="0"/>
+            <Object id="control 81244" visible="0"/>
+            <Object id="control 81246" visible="0"/>
+            <Object id="control 81248" visible="0"/>
+            <Object id="control 81250" visible="0"/>
+            <Object id="control 81252" visible="0"/>
+            <Object id="control 81254" visible="0"/>
+            <Object id="control 81256" visible="0"/>
+            <Object id="control 81258" visible="0"/>
+            <Object id="control 81260" visible="0"/>
+            <Object id="control 81262" visible="0"/>
+            <Object id="control 81264" visible="0"/>
+            <Object id="control 81266" visible="0"/>
+          </Object>
+          <Object id="processor 527890"/>
+          <Object id="processor 528279">
+            <Object id="control 528283" visible="0"/>
+            <Object id="control 528285" visible="0"/>
+            <Object id="control 528287" visible="0"/>
+            <Object id="control 528289" visible="0"/>
+            <Object id="control 528291" visible="0"/>
+            <Object id="control 528293" visible="0"/>
+            <Object id="control 528295" visible="0"/>
+            <Object id="control 528297" visible="0"/>
+            <Object id="control 528299" visible="0"/>
+            <Object id="control 528301" visible="0"/>
+            <Object id="control 528303" visible="0"/>
+            <Object id="control 528305" visible="0"/>
+            <Object id="control 528307" visible="0"/>
+            <Object id="control 528309" visible="0"/>
+            <Object id="control 528311" visible="0"/>
+            <Object id="control 528313" visible="0"/>
+            <Object id="control 528315" visible="0"/>
+            <Object id="control 528317" visible="0"/>
+            <Object id="control 528319" visible="0"/>
+            <Object id="control 528321" visible="0"/>
+            <Object id="control 528323" visible="0"/>
+            <Object id="control 528325" visible="0"/>
+            <Object id="control 528327" visible="0"/>
+            <Object id="control 528329" visible="0"/>
+            <Object id="control 528331" visible="0"/>
+            <Object id="control 528333" visible="0"/>
+            <Object id="control 528335" visible="0"/>
+            <Object id="control 528337" visible="0"/>
+            <Object id="control 528339" visible="0"/>
+            <Object id="control 528341" visible="0"/>
+            <Object id="control 528343" visible="0"/>
+            <Object id="control 528345" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 81866" strip-width="Wide">
+          <Object id="processor 81940">
+            <Object id="control 81942" visible="0"/>
+            <Object id="control 81944" visible="0"/>
+            <Object id="control 81946" visible="0"/>
+            <Object id="control 81948" visible="0"/>
+            <Object id="control 81950" visible="0"/>
+            <Object id="control 81952" visible="0"/>
+            <Object id="control 81954" visible="0"/>
+            <Object id="control 81956" visible="0"/>
+            <Object id="control 81958" visible="0"/>
+            <Object id="control 81960" visible="0"/>
+            <Object id="control 81962" visible="0"/>
+            <Object id="control 81964" visible="0"/>
+            <Object id="control 81966" visible="0"/>
+            <Object id="control 81968" visible="0"/>
+            <Object id="control 81970" visible="0"/>
+            <Object id="control 81972" visible="0"/>
+            <Object id="control 81974" visible="0"/>
+            <Object id="control 81976" visible="0"/>
+            <Object id="control 81978" visible="0"/>
+            <Object id="control 81980" visible="0"/>
+            <Object id="control 81982" visible="0"/>
+            <Object id="control 81984" visible="0"/>
+            <Object id="control 81986" visible="0"/>
+            <Object id="control 81988" visible="0"/>
+            <Object id="control 81990" visible="0"/>
+            <Object id="control 81992" visible="0"/>
+            <Object id="control 81994" visible="0"/>
+            <Object id="control 81996" visible="0"/>
+            <Object id="control 81998" visible="0"/>
+            <Object id="control 82000" visible="0"/>
+            <Object id="control 82002" visible="0"/>
+            <Object id="control 82004" visible="0"/>
+          </Object>
+          <Object id="processor 81896">
+            <Object id="control 81870" visible="0"/>
+          </Object>
+          <Object id="processor 241741">
+            <Object id="control 241743" visible="0"/>
+            <Object id="control 241745" visible="0"/>
+            <Object id="control 241747" visible="0"/>
+          </Object>
+          <Object id="processor 528076"/>
+          <Object id="processor 531393">
+            <Object id="control 531397" visible="0"/>
+            <Object id="control 531399" visible="0"/>
+            <Object id="control 531401" visible="0"/>
+            <Object id="control 531403" visible="0"/>
+            <Object id="control 531405" visible="0"/>
+            <Object id="control 531407" visible="0"/>
+            <Object id="control 531409" visible="0"/>
+            <Object id="control 531411" visible="0"/>
+            <Object id="control 531413" visible="0"/>
+            <Object id="control 531415" visible="0"/>
+            <Object id="control 531417" visible="0"/>
+            <Object id="control 531419" visible="0"/>
+            <Object id="control 531421" visible="0"/>
+            <Object id="control 531423" visible="0"/>
+            <Object id="control 531425" visible="0"/>
+            <Object id="control 531427" visible="0"/>
+            <Object id="control 531429" visible="0"/>
+            <Object id="control 531431" visible="0"/>
+            <Object id="control 531433" visible="0"/>
+            <Object id="control 531435" visible="0"/>
+            <Object id="control 531437" visible="0"/>
+            <Object id="control 531439" visible="0"/>
+            <Object id="control 531441" visible="0"/>
+            <Object id="control 531443" visible="0"/>
+            <Object id="control 531445" visible="0"/>
+            <Object id="control 531447" visible="0"/>
+            <Object id="control 531449" visible="0"/>
+            <Object id="control 531451" visible="0"/>
+            <Object id="control 531453" visible="0"/>
+            <Object id="control 531455" visible="0"/>
+            <Object id="control 531457" visible="0"/>
+            <Object id="control 531459" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 81511" strip-width="Wide">
+          <Object id="processor 81580">
+            <Object id="control 81582" visible="0"/>
+            <Object id="control 81584" visible="0"/>
+            <Object id="control 81586" visible="0"/>
+            <Object id="control 81588" visible="0"/>
+            <Object id="control 81590" visible="0"/>
+            <Object id="control 81592" visible="0"/>
+            <Object id="control 81594" visible="0"/>
+            <Object id="control 81596" visible="0"/>
+            <Object id="control 81598" visible="0"/>
+            <Object id="control 81600" visible="0"/>
+            <Object id="control 81602" visible="0"/>
+            <Object id="control 81604" visible="0"/>
+            <Object id="control 81606" visible="0"/>
+            <Object id="control 81608" visible="0"/>
+            <Object id="control 81610" visible="0"/>
+            <Object id="control 81612" visible="0"/>
+            <Object id="control 81614" visible="0"/>
+            <Object id="control 81616" visible="0"/>
+            <Object id="control 81618" visible="0"/>
+            <Object id="control 81620" visible="0"/>
+            <Object id="control 81622" visible="0"/>
+            <Object id="control 81624" visible="0"/>
+            <Object id="control 81626" visible="0"/>
+            <Object id="control 81628" visible="0"/>
+            <Object id="control 81630" visible="0"/>
+            <Object id="control 81632" visible="0"/>
+            <Object id="control 81634" visible="0"/>
+            <Object id="control 81636" visible="0"/>
+            <Object id="control 81638" visible="0"/>
+            <Object id="control 81640" visible="0"/>
+            <Object id="control 81642" visible="0"/>
+            <Object id="control 81644" visible="0"/>
+          </Object>
+          <Object id="processor 81541">
+            <Object id="control 81515" visible="0"/>
+          </Object>
+          <Object id="processor 241751">
+            <Object id="control 241753" visible="0"/>
+            <Object id="control 241755" visible="0"/>
+            <Object id="control 241757" visible="0"/>
+          </Object>
+          <Object id="processor 527983"/>
+          <Object id="processor 529836">
+            <Object id="control 529840" visible="0"/>
+            <Object id="control 529842" visible="0"/>
+            <Object id="control 529844" visible="0"/>
+            <Object id="control 529846" visible="0"/>
+            <Object id="control 529848" visible="0"/>
+            <Object id="control 529850" visible="0"/>
+            <Object id="control 529852" visible="0"/>
+            <Object id="control 529854" visible="0"/>
+            <Object id="control 529856" visible="0"/>
+            <Object id="control 529858" visible="0"/>
+            <Object id="control 529860" visible="0"/>
+            <Object id="control 529862" visible="0"/>
+            <Object id="control 529864" visible="0"/>
+            <Object id="control 529866" visible="0"/>
+            <Object id="control 529868" visible="0"/>
+            <Object id="control 529870" visible="0"/>
+            <Object id="control 529872" visible="0"/>
+            <Object id="control 529874" visible="0"/>
+            <Object id="control 529876" visible="0"/>
+            <Object id="control 529878" visible="0"/>
+            <Object id="control 529880" visible="0"/>
+            <Object id="control 529882" visible="0"/>
+            <Object id="control 529884" visible="0"/>
+            <Object id="control 529886" visible="0"/>
+            <Object id="control 529888" visible="0"/>
+            <Object id="control 529890" visible="0"/>
+            <Object id="control 529892" visible="0"/>
+            <Object id="control 529894" visible="0"/>
+            <Object id="control 529896" visible="0"/>
+            <Object id="control 529898" visible="0"/>
+            <Object id="control 529900" visible="0"/>
+            <Object id="control 529902" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="rtav 533104" height="84"/>
+        <Object id="automation 533108" height="84" visible="0"/>
+        <Object id="automation 533110" height="84" visible="0"/>
+        <Object id="automation 533104 12/0/0" height="84" visible="0"/>
+        <Object id="automation 533123" height="84" visible="0"/>
+        <Object id="strip 533104">
+          <Object id="processor 533134">
+            <Object id="control 533108" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 533202">
+          <Object id="processor 533265">
+            <Object id="control 533239" visible="0"/>
+          </Object>
+          <Object id="processor 533311">
+            <Object id="control 533315" visible="0"/>
+            <Object id="control 533317" visible="0"/>
+            <Object id="control 533319" visible="0"/>
+            <Object id="control 533321" visible="0"/>
+            <Object id="control 533323" visible="0"/>
+            <Object id="control 533325" visible="0"/>
+            <Object id="control 533327" visible="0"/>
+            <Object id="control 533329" visible="0"/>
+            <Object id="control 533331" visible="0"/>
+            <Object id="control 533333" visible="0"/>
+            <Object id="control 533335" visible="0"/>
+            <Object id="control 533337" visible="0"/>
+            <Object id="control 533339" visible="0"/>
+            <Object id="control 533341" visible="0"/>
+            <Object id="control 533343" visible="0"/>
+            <Object id="control 533345" visible="0"/>
+            <Object id="control 533347" visible="0"/>
+            <Object id="control 533349" visible="0"/>
+            <Object id="control 533351" visible="0"/>
+            <Object id="control 533353" visible="0"/>
+            <Object id="control 533355" visible="0"/>
+            <Object id="control 533357" visible="0"/>
+            <Object id="control 533359" visible="0"/>
+            <Object id="control 533361" visible="0"/>
+            <Object id="control 533363" visible="0"/>
+            <Object id="control 533365" visible="0"/>
+            <Object id="control 533367" visible="0"/>
+            <Object id="control 533369" visible="0"/>
+            <Object id="control 533371" visible="0"/>
+            <Object id="control 533373" visible="0"/>
+            <Object id="control 533375" visible="0"/>
+            <Object id="control 533377" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="rtav 533202" height="84" note-range-min="39" note-range-max="94" midnam-custom-device-mode="General MIDI" color-mode="MeterColors"/>
+        <Object id="automation 533239" height="84" visible="0"/>
+        <Object id="automation 533202 12/0/0" height="84" visible="0"/>
+        <Object id="automation 533202 31/0/0" height="84" visible="0"/>
+        <Object id="automation 533254" height="84" visible="0"/>
+      </GUIObjectState>
+    </UI>
+    <Videomonitor active="0"/>
+  </Extra>
+  <Script lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</Script>
+  <IOPlugins/>
+</Session>
