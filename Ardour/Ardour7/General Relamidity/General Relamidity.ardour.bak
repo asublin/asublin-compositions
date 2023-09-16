@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="General Relamidity" sample-rate="44100" session-range-is-free="0" id-counter="171138" rg-counter="253" name-counter="2" event-counter="3150418" vca-counter="1">
+<Session version="7002" name="General Relamidity" sample-rate="44100" session-range-is-free="0" id-counter="171226" rg-counter="254" name-counter="2" event-counter="3193713" vca-counter="1">
   <ProgramVersion created-with="Ardour 7.5-1115-g9b503058db" modified-with="Ardour 7.5-1115-g9b503058db"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -13,7 +13,7 @@
       <Connection other="Bell/midi_in 1"/>
       <Connection other="Dooh/midi_in 1"/>
       <Connection other="Pad/midi_in 1"/>
-      <Connection other="Pad/midi_in 1"/>
+      <Connection other="Dooh/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -264,6 +264,14 @@
     <Source name="Take5_Kick-56.mid" take-id="" type="midi" flags="Writable,CanRename,Removable,RemovableIfEmpty,Empty" id="163810" natural-position="a0" origin=""/>
     <Source name="Take6_Pad-37.mid" take-id="" type="midi" flags="Writable,CanRename,Removable,RemovableIfEmpty,Empty" id="163899" origin=""/>
     <Source name="Take6_Pad-38.mid" take-id="" type="midi" flags="Writable,CanRename" id="163911" origin=""/>
+    <Source name="Take5_Dooh-36.mid" take-id="" type="midi" flags="Writable,CanRename" id="171140" natural-position="a0" origin=""/>
+    <Source name="Take5_Dooh-37.mid" take-id="" type="midi" flags="Writable,CanRename" id="171148" natural-position="a0" origin=""/>
+    <Source name="Take5_Dooh-38.mid" take-id="" type="midi" flags="Writable,CanRename" id="171156" natural-position="a0" origin=""/>
+    <Source name="Take5_Dooh-39.mid" take-id="" type="midi" flags="Writable,CanRename" id="171164" natural-position="a0" origin=""/>
+    <Source name="Take5_Dooh-40.mid" take-id="" type="midi" flags="Writable,CanRename" id="171172" natural-position="a0" origin=""/>
+    <Source name="Take5_Dooh-41.mid" take-id="" type="midi" flags="Writable,CanRename" id="171180" natural-position="a0" origin=""/>
+    <Source name="Take5_Dooh-42.mid" take-id="" type="midi" flags="Writable,CanRename" id="171188" natural-position="a0" origin=""/>
+    <Source name="Take5_Dooh-43.mid" take-id="" type="midi" flags="Writable,CanRename" id="171196" natural-position="a0" origin=""/>
   </Sources>
   <TriggerBindings/>
   <Regions>
@@ -1003,7 +1011,9 @@
       <Controllable name="solo-safe" id="598" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Dooh" id="610" direction="Input" default-type="midi">
         <Port name="Dooh/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="a2j:UM-1 [28] (capture): UM-1 MIDI 1"/>
           <ExtConnection for="JACK" other="a2j:USB Device 0x41e:0x3f00 [36] (capture): USB Device 0x41e:0x3f00 MIDI 1"/>
         </Port>
       </IO>
@@ -1263,7 +1273,7 @@ a18446400000 0
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="141362" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="141356" flags="GainLike,InlineControl" value="9.9999999999999995e-08"/>
+        <Controllable name="gaincontrol" id="141356" flags="GainLike,InlineControl" value="0.97597819297086741"/>
       </Processor>
       <Processor id="14226" name="Short Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="2" selfdestruct="0" target="4026" allow-feedback="0">
         <Automation>
@@ -1674,7 +1684,7 @@ a18446400000 0
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="141385" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="141379" flags="GainLike,InlineControl" value="9.9999999999999995e-08"/>
+        <Controllable name="gaincontrol" id="141379" flags="GainLike,InlineControl" value="0.97597819297086741"/>
       </Processor>
       <Processor id="884" name="meter-SynEcho" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="885" name="SynEcho" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="SynEcho" type="main-outs" role="Main">
@@ -1806,9 +1816,7 @@ a18446400000 0
       <Controllable name="solo-safe" id="1158" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Pad" id="1170" direction="Input" default-type="midi">
         <Port name="Pad/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="a2j:UM-1 [28] (capture): UM-1 MIDI 1"/>
           <ExtConnection for="JACK" other="a2j:USB Device 0x41e:0x3f00 [36] (capture): USB Device 0x41e:0x3f00 MIDI 1"/>
         </Port>
       </IO>
@@ -2987,6 +2995,10 @@ a21772800000 0.99999994039535522
       <Region name="Take5_Dooh-20.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b84480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="0" id="99076" type="midi" first-edit="nothing" source-0="99074" master-source-0="99074"/>
       <Region name="Take5_Dooh-22.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b92160" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" id="113999" type="midi" first-edit="nothing" source-0="113997" master-source-0="113997"/>
       <Region name="Take5_Dooh-26.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b99840" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="0" id="114736" type="midi" first-edit="nothing" source-0="114734" master-source-0="114734"/>
+      <Region name="Take5_Dooh-36.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b138240" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="10" tags="" contents="0" rgroup="0" id="171204" type="midi" first-edit="nothing" source-0="171140" master-source-0="171140"/>
+      <Region name="Take5_Dooh-39.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b145920" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="171210" type="midi" first-edit="nothing" source-0="171164" master-source-0="171164"/>
+      <Region name="Take5_Dooh-38.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b153600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="0" id="171208" type="midi" first-edit="nothing" source-0="171156" master-source-0="171156"/>
+      <Region name="Take5_Dooh-37.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b161280" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="11" tags="" contents="0" rgroup="0" id="171206" type="midi" first-edit="nothing" source-0="171148" master-source-0="171148"/>
     </Playlist>
     <Playlist id="758" name="Bell" type="midi" orig-track-id="680" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take6_Bell-31" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b107520" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="146860" type="midi" first-edit="nothing" source-0="146855" master-source-0="146855"/>
@@ -3002,6 +3014,10 @@ a21772800000 0.99999994039535522
       <Region name="Take5_Dooh-21.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b84480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="0" id="99083" type="midi" first-edit="nothing" source-0="99081" master-source-0="99081"/>
       <Region name="Take5_Dooh-23.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b92160" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" id="114006" type="midi" first-edit="nothing" source-0="114004" master-source-0="114004"/>
       <Region name="Take5_Dooh-27.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b99840" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="0" id="114743" type="midi" first-edit="nothing" source-0="114741" master-source-0="114741"/>
+      <Region name="Take5_Dooh-43.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b138240" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="171218" type="midi" first-edit="nothing" source-0="171196" master-source-0="171196"/>
+      <Region name="Take5_Dooh-42.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b145920" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="0" id="171216" type="midi" first-edit="nothing" source-0="171188" master-source-0="171188"/>
+      <Region name="Take5_Dooh-41.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b153600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="11" tags="" contents="0" rgroup="0" id="171214" type="midi" first-edit="nothing" source-0="171180" master-source-0="171180"/>
+      <Region name="Take5_Dooh-40.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b161280" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="10" tags="" contents="0" rgroup="0" id="171212" type="midi" first-edit="nothing" source-0="171172" master-source-0="171172"/>
     </Playlist>
     <Playlist id="1038" name="Choir" type="midi" orig-track-id="960" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0"/>
     <Playlist id="1187" name="Pad" type="midi" orig-track-id="1109" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">

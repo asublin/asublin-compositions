@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1693768187" tv-usec="983309" name="add note">
-    <NoteDiffCommand midi-source="163911">
-      <ChangedNotes/>
-      <AddedNotes>
-        <note id="2987623" note="67" channel="0" time="24:0" length="2:0" velocity="106"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1693768195" tv-usec="604531" name="resize note">
-    <NoteDiffCommand midi-source="163911">
-      <ChangedNotes>
-        <Change property="Length" old="4:0" new="1:0" id="2987400"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1693768198" tv-usec="18968" name="resize note">
     <NoteDiffCommand midi-source="163911">
       <ChangedNotes>
@@ -191,5 +173,58 @@
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1693769234" tv-usec="708782" name="region copy">
+    <StatefulDiffCommand obj-id="627" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="171208"/>
+          <Add id="171206"/>
+          <Add id="171204"/>
+          <Add id="171210"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="895" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="171214"/>
+          <Add id="171212"/>
+          <Add id="171218"/>
+          <Add id="171216"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="3076" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="8819"/>
+            <Region id="35014"/>
+            <Region id="35021"/>
+            <Region id="25397"/>
+            <Region id="50072"/>
+            <Region id="50074"/>
+            <Region id="50076"/>
+            <Region id="50070"/>
+          </Regions>
+          <Marker id="4630" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="3076" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="171204"/>
+            <Region id="171206"/>
+            <Region id="171208"/>
+            <Region id="171210"/>
+            <Region id="171212"/>
+            <Region id="171214"/>
+            <Region id="171216"/>
+            <Region id="171218"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
   </UndoTransaction>
 </UndoHistory>
