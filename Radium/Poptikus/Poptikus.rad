@@ -667,7 +667,7 @@ TRACKER_WINDOW
 17
 
 ?curr_block
-8
+10
 
 ?maxwtracksize
 0
@@ -4176,7 +4176,7 @@ WBLOCK
 0
 
 ?curr_realline
-4
+60
 
 ?num_reallines
 64
@@ -5263,7 +5263,7 @@ WBLOCK
 0
 
 ?curr_realline
-63
+61
 
 ?num_reallines
 64
@@ -5723,6 +5723,47 @@ WTRACK
 3
 
 ?fxwidth
+141
+
+?is_wide
+0
+
+?show_pianoroll
+0
+
+?pianoroll_lowkey
+48
+
+?pianoroll_highkey
+60
+
+?show_centtext
+0
+
+?show_chancetext
+1
+
+?show_veltext
+0
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+
+\
+WTRACK
+11
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
 140
 
 ?is_wide
@@ -5742,6 +5783,611 @@ WTRACK
 
 ?show_chancetext
 0
+
+?show_veltext
+1
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+
+\
+WTRACK
+12
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
+140
+
+?is_wide
+0
+
+?show_pianoroll
+0
+
+?pianoroll_lowkey
+48
+
+?pianoroll_highkey
+60
+
+?show_centtext
+0
+
+?show_chancetext
+0
+
+?show_veltext
+1
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+
+\
+WTRACK
+13
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
+140
+
+?is_wide
+0
+
+?show_pianoroll
+0
+
+?pianoroll_lowkey
+48
+
+?pianoroll_highkey
+60
+
+?show_centtext
+0
+
+?show_chancetext
+0
+
+?show_veltext
+1
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+/
+
+\
+WBLOCK
+11
+
+?tempotrackonoff
+1
+
+?temponodetrackonoff
+0
+
+?linenumarea
+28
+
+?lpbTypearea
+10
+
+?lpbarea
+20
+
+?tempoTypearea
+10
+
+?tempoarea
+40
+
+?temponodearea
+169
+
+?maxwtracksize
+0
+
+?curr_realline
+29
+
+?num_reallines
+64
+
+?num_expand_lines
+1
+
+?reltempomax
+2
+
+?isranged
+0
+
+?rangex1
+0
+
+?rangex2
+0
+
+\
+RANGE_START
+34
+0
+1
+/
+
+\
+RANGE_END
+64
+0
+1
+/
+
+\
+LOCALZOOMS
+64
+/
+
+\
+WTRACK
+0
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
+141
+
+?is_wide
+0
+
+?show_pianoroll
+0
+
+?pianoroll_lowkey
+48
+
+?pianoroll_highkey
+60
+
+?show_centtext
+0
+
+?show_chancetext
+1
+
+?show_veltext
+1
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+
+\
+WTRACK
+1
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
+141
+
+?is_wide
+0
+
+?show_pianoroll
+0
+
+?pianoroll_lowkey
+48
+
+?pianoroll_highkey
+60
+
+?show_centtext
+0
+
+?show_chancetext
+0
+
+?show_veltext
+1
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+
+\
+WTRACK
+2
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
+141
+
+?is_wide
+0
+
+?show_pianoroll
+0
+
+?pianoroll_lowkey
+48
+
+?pianoroll_highkey
+60
+
+?show_centtext
+0
+
+?show_chancetext
+1
+
+?show_veltext
+1
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+
+\
+WTRACK
+3
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
+141
+
+?is_wide
+0
+
+?show_pianoroll
+0
+
+?pianoroll_lowkey
+48
+
+?pianoroll_highkey
+60
+
+?show_centtext
+0
+
+?show_chancetext
+1
+
+?show_veltext
+1
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+
+\
+WTRACK
+4
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
+141
+
+?is_wide
+0
+
+?show_pianoroll
+0
+
+?pianoroll_lowkey
+48
+
+?pianoroll_highkey
+60
+
+?show_centtext
+0
+
+?show_chancetext
+0
+
+?show_veltext
+1
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+
+\
+WTRACK
+5
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
+141
+
+?is_wide
+0
+
+?show_pianoroll
+0
+
+?pianoroll_lowkey
+48
+
+?pianoroll_highkey
+60
+
+?show_centtext
+0
+
+?show_chancetext
+0
+
+?show_veltext
+0
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+
+\
+WTRACK
+6
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
+141
+
+?is_wide
+0
+
+?show_pianoroll
+0
+
+?pianoroll_lowkey
+48
+
+?pianoroll_highkey
+60
+
+?show_centtext
+0
+
+?show_chancetext
+0
+
+?show_veltext
+1
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+
+\
+WTRACK
+7
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
+141
+
+?is_wide
+0
+
+?show_pianoroll
+0
+
+?pianoroll_lowkey
+72
+
+?pianoroll_highkey
+84
+
+?show_centtext
+0
+
+?show_chancetext
+1
+
+?show_veltext
+1
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+
+\
+WTRACK
+8
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
+141
+
+?is_wide
+0
+
+?show_pianoroll
+1
+
+?pianoroll_lowkey
+72
+
+?pianoroll_highkey
+84
+
+?show_centtext
+0
+
+?show_chancetext
+1
+
+?show_veltext
+1
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+
+\
+WTRACK
+9
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
+141
+
+?is_wide
+0
+
+?show_pianoroll
+0
+
+?pianoroll_lowkey
+48
+
+?pianoroll_highkey
+60
+
+?show_centtext
+0
+
+?show_chancetext
+1
+
+?show_veltext
+1
+
+?show_fxtext
+0
+
+?show_swingtext
+0
+/
+
+\
+WTRACK
+10
+
+?notesonoff
+1
+
+?notelength
+3
+
+?fxwidth
+141
+
+?is_wide
+0
+
+?show_pianoroll
+0
+
+?pianoroll_lowkey
+48
+
+?pianoroll_highkey
+60
+
+?show_centtext
+0
+
+?show_chancetext
+1
 
 ?show_veltext
 1
@@ -5834,574 +6480,10 @@ WTRACK
 ?show_swingtext
 0
 /
-/
-
-\
-WBLOCK
-11
-
-?tempotrackonoff
-1
-
-?temponodetrackonoff
-0
-
-?linenumarea
-28
-
-?lpbTypearea
-10
-
-?lpbarea
-20
-
-?tempoTypearea
-10
-
-?tempoarea
-40
-
-?temponodearea
-169
-
-?maxwtracksize
-0
-
-?curr_realline
-63
-
-?num_reallines
-64
-
-?num_expand_lines
-1
-
-?reltempomax
-2
-
-?isranged
-0
-
-?rangex1
-0
-
-?rangex2
-0
-
-\
-RANGE_START
-34
-0
-1
-/
-
-\
-RANGE_END
-64
-0
-1
-/
-
-\
-LOCALZOOMS
-64
-/
 
 \
 WTRACK
-0
-
-?notesonoff
-1
-
-?notelength
-3
-
-?fxwidth
-141
-
-?is_wide
-0
-
-?show_pianoroll
-0
-
-?pianoroll_lowkey
-48
-
-?pianoroll_highkey
-60
-
-?show_centtext
-0
-
-?show_chancetext
-1
-
-?show_veltext
-1
-
-?show_fxtext
-0
-
-?show_swingtext
-0
-/
-
-\
-WTRACK
-1
-
-?notesonoff
-1
-
-?notelength
-3
-
-?fxwidth
-141
-
-?is_wide
-0
-
-?show_pianoroll
-0
-
-?pianoroll_lowkey
-48
-
-?pianoroll_highkey
-60
-
-?show_centtext
-0
-
-?show_chancetext
-0
-
-?show_veltext
-1
-
-?show_fxtext
-0
-
-?show_swingtext
-0
-/
-
-\
-WTRACK
-2
-
-?notesonoff
-1
-
-?notelength
-3
-
-?fxwidth
-141
-
-?is_wide
-0
-
-?show_pianoroll
-0
-
-?pianoroll_lowkey
-48
-
-?pianoroll_highkey
-60
-
-?show_centtext
-0
-
-?show_chancetext
-1
-
-?show_veltext
-1
-
-?show_fxtext
-0
-
-?show_swingtext
-0
-/
-
-\
-WTRACK
-3
-
-?notesonoff
-1
-
-?notelength
-3
-
-?fxwidth
-141
-
-?is_wide
-0
-
-?show_pianoroll
-0
-
-?pianoroll_lowkey
-48
-
-?pianoroll_highkey
-60
-
-?show_centtext
-0
-
-?show_chancetext
-1
-
-?show_veltext
-1
-
-?show_fxtext
-0
-
-?show_swingtext
-0
-/
-
-\
-WTRACK
-4
-
-?notesonoff
-1
-
-?notelength
-3
-
-?fxwidth
-141
-
-?is_wide
-0
-
-?show_pianoroll
-0
-
-?pianoroll_lowkey
-48
-
-?pianoroll_highkey
-60
-
-?show_centtext
-0
-
-?show_chancetext
-0
-
-?show_veltext
-1
-
-?show_fxtext
-0
-
-?show_swingtext
-0
-/
-
-\
-WTRACK
-5
-
-?notesonoff
-1
-
-?notelength
-3
-
-?fxwidth
-141
-
-?is_wide
-0
-
-?show_pianoroll
-0
-
-?pianoroll_lowkey
-48
-
-?pianoroll_highkey
-60
-
-?show_centtext
-0
-
-?show_chancetext
-0
-
-?show_veltext
-0
-
-?show_fxtext
-0
-
-?show_swingtext
-0
-/
-
-\
-WTRACK
-6
-
-?notesonoff
-1
-
-?notelength
-3
-
-?fxwidth
-141
-
-?is_wide
-0
-
-?show_pianoroll
-0
-
-?pianoroll_lowkey
-48
-
-?pianoroll_highkey
-60
-
-?show_centtext
-0
-
-?show_chancetext
-0
-
-?show_veltext
-1
-
-?show_fxtext
-0
-
-?show_swingtext
-0
-/
-
-\
-WTRACK
-7
-
-?notesonoff
-1
-
-?notelength
-3
-
-?fxwidth
-141
-
-?is_wide
-0
-
-?show_pianoroll
-0
-
-?pianoroll_lowkey
-72
-
-?pianoroll_highkey
-84
-
-?show_centtext
-0
-
-?show_chancetext
-1
-
-?show_veltext
-1
-
-?show_fxtext
-0
-
-?show_swingtext
-0
-/
-
-\
-WTRACK
-8
-
-?notesonoff
-1
-
-?notelength
-3
-
-?fxwidth
-141
-
-?is_wide
-0
-
-?show_pianoroll
-1
-
-?pianoroll_lowkey
-72
-
-?pianoroll_highkey
-84
-
-?show_centtext
-0
-
-?show_chancetext
-1
-
-?show_veltext
-1
-
-?show_fxtext
-0
-
-?show_swingtext
-0
-/
-
-\
-WTRACK
-9
-
-?notesonoff
-1
-
-?notelength
-3
-
-?fxwidth
-141
-
-?is_wide
-0
-
-?show_pianoroll
-0
-
-?pianoroll_lowkey
-48
-
-?pianoroll_highkey
-60
-
-?show_centtext
-0
-
-?show_chancetext
-1
-
-?show_veltext
-1
-
-?show_fxtext
-0
-
-?show_swingtext
-0
-/
-
-\
-WTRACK
-10
-
-?notesonoff
-1
-
-?notelength
-3
-
-?fxwidth
-140
-
-?is_wide
-0
-
-?show_pianoroll
-0
-
-?pianoroll_lowkey
-48
-
-?pianoroll_highkey
-60
-
-?show_centtext
-0
-
-?show_chancetext
-0
-
-?show_veltext
-1
-
-?show_fxtext
-0
-
-?show_swingtext
-0
-/
-
-\
-WTRACK
-11
-
-?notesonoff
-1
-
-?notelength
-3
-
-?fxwidth
-140
-
-?is_wide
-0
-
-?show_pianoroll
-0
-
-?pianoroll_lowkey
-48
-
-?pianoroll_highkey
-60
-
-?show_centtext
-0
-
-?show_chancetext
-0
-
-?show_veltext
-1
-
-?show_fxtext
-0
-
-?show_swingtext
-0
-/
-
-\
-WTRACK
-12
+13
 
 ?notesonoff
 1
@@ -8801,7 +8883,7 @@ WBLOCK
 0
 
 ?curr_realline
-1
+6
 
 ?num_reallines
 64
@@ -64198,7 +64280,7 @@ BLOCK
 Chorus 1
 
 ?num_tracks
-13
+14
 
 ?num_lines
 64
@@ -69019,6 +69101,246 @@ TRACK
 0
 
 ?patchnum
+61
+
+?instrument_type
+2
+
+\
+NOTE
+4
+0
+1
+72
+LOGTYPE_LINEAR
+0
+32768
+LOGTYPE_LINEAR
+12
+1
+32768
+0
+1
+256
+
+\
+VELOCITIES2
+/
+
+\
+PITCHES
+/
+/
+
+\
+NOTE
+12
+0
+1
+72
+LOGTYPE_LINEAR
+0
+32768
+LOGTYPE_LINEAR
+20
+1
+32768
+0
+1
+256
+
+\
+VELOCITIES2
+/
+
+\
+PITCHES
+/
+/
+
+\
+NOTE
+20
+0
+1
+72
+LOGTYPE_LINEAR
+0
+32768
+LOGTYPE_LINEAR
+28
+1
+32768
+0
+1
+256
+
+\
+VELOCITIES2
+/
+
+\
+PITCHES
+/
+/
+
+\
+NOTE
+28
+0
+1
+72
+LOGTYPE_LINEAR
+0
+32768
+LOGTYPE_LINEAR
+36
+1
+32768
+0
+1
+256
+
+\
+VELOCITIES2
+/
+
+\
+PITCHES
+/
+/
+
+\
+NOTE
+36
+0
+1
+72
+LOGTYPE_LINEAR
+0
+32768
+LOGTYPE_LINEAR
+44
+1
+32768
+0
+1
+256
+
+\
+VELOCITIES2
+/
+
+\
+PITCHES
+/
+/
+
+\
+NOTE
+44
+0
+1
+72
+LOGTYPE_LINEAR
+0
+32768
+LOGTYPE_LINEAR
+52
+1
+32768
+0
+1
+256
+
+\
+VELOCITIES2
+/
+
+\
+PITCHES
+/
+/
+
+\
+NOTE
+52
+0
+1
+72
+LOGTYPE_LINEAR
+0
+32768
+LOGTYPE_LINEAR
+60
+1
+32768
+0
+1
+256
+
+\
+VELOCITIES2
+/
+
+\
+PITCHES
+/
+/
+
+\
+NOTE
+60
+0
+1
+72
+LOGTYPE_LINEAR
+0
+32768
+LOGTYPE_LINEAR
+4194175
+65534
+32768
+0
+1
+256
+
+\
+VELOCITIES2
+/
+
+\
+PITCHES
+/
+/
+/
+
+\
+TRACK
+10
+
+?onoff
+1
+
+?trackname
+(click me)
+
+?volume
+1000
+
+?pan
+0
+
+?volumeonoff
+1
+
+?panonoff
+0
+
+?midi_channel
+0
+
+?patchnum
 41
 
 ?instrument_type
@@ -69053,7 +69375,7 @@ PITCHES
 
 \
 TRACK
-10
+11
 
 ?onoff
 1
@@ -69293,7 +69615,7 @@ PITCHES
 
 \
 TRACK
-11
+12
 
 ?onoff
 1
@@ -69533,7 +69855,7 @@ PITCHES
 
 \
 TRACK
-12
+13
 
 ?onoff
 1
@@ -70179,7 +70501,7 @@ BLOCK
 Chorus 2
 
 ?num_tracks
-13
+14
 
 ?num_lines
 64
@@ -74407,6 +74729,142 @@ TRACK
 0
 
 ?patchnum
+61
+
+?instrument_type
+2
+
+\
+NOTE
+4
+0
+1
+72
+LOGTYPE_LINEAR
+0
+32768
+LOGTYPE_LINEAR
+12
+1
+32768
+0
+1
+256
+
+\
+VELOCITIES2
+/
+
+\
+PITCHES
+/
+/
+
+\
+NOTE
+12
+0
+1
+72
+LOGTYPE_LINEAR
+0
+32768
+LOGTYPE_LINEAR
+20
+1
+32768
+0
+1
+256
+
+\
+VELOCITIES2
+/
+
+\
+PITCHES
+/
+/
+
+\
+NOTE
+20
+0
+1
+72
+LOGTYPE_LINEAR
+0
+32768
+LOGTYPE_LINEAR
+28
+1
+32768
+0
+1
+256
+
+\
+VELOCITIES2
+/
+
+\
+PITCHES
+/
+/
+
+\
+NOTE
+28
+0
+1
+72
+LOGTYPE_LINEAR
+0
+32768
+LOGTYPE_LINEAR
+4194175
+65534
+32768
+0
+1
+256
+
+\
+VELOCITIES2
+/
+
+\
+PITCHES
+/
+/
+/
+
+\
+TRACK
+10
+
+?onoff
+1
+
+?trackname
+(click me)
+
+?volume
+1000
+
+?pan
+0
+
+?volumeonoff
+1
+
+?panonoff
+0
+
+?midi_channel
+0
+
+?patchnum
 41
 
 ?instrument_type
@@ -74441,7 +74899,7 @@ PITCHES
 
 \
 TRACK
-10
+11
 
 ?onoff
 1
@@ -74692,7 +75150,7 @@ STOPS
 
 \
 TRACK
-11
+12
 
 ?onoff
 1
@@ -74947,7 +75405,7 @@ STOPS
 
 \
 TRACK
-12
+13
 
 ?onoff
 1
@@ -113245,7 +113703,7 @@ BOOL_TYPE
 curr_seqblock_id
 0
 INT_TYPE
-205
+4604
 curr_seqtracknum
 0
 INT_TYPE
@@ -116654,9 +117112,901 @@ chips
 0
 HASH_TYPE
 >> HASH MAP V5 BEGIN
-30
+31
 
 0
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+4
+patch
+0
+INSTRUMENT_TYPE
+61
+plugin
+0
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+12
+___radium_plugin_state_v3
+0
+INT_TYPE
+1
+ab
+0
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+9
+curr_ab_num
+0
+INT_TYPE
+0
+is_valid
+0
+BOOL_TYPE
+0
+is_valid
+1
+BOOL_TYPE
+0
+is_valid
+2
+BOOL_TYPE
+0
+is_valid
+3
+BOOL_TYPE
+0
+is_valid
+4
+BOOL_TYPE
+0
+is_valid
+5
+BOOL_TYPE
+0
+is_valid
+6
+BOOL_TYPE
+0
+is_valid
+7
+BOOL_TYPE
+0
+<< HASH MAP V5 END
+auto_suspend_behavior
+0
+INT_TYPE
+0
+effects
+0
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+95
+System Aux 1
+0
+FLOAT_TYPE
+0
+System Aux 2
+0
+FLOAT_TYPE
+0
+System Aux 3
+0
+FLOAT_TYPE
+0
+System Chance Voice 1
+0
+FLOAT_TYPE
+256
+System Chance Voice 2
+0
+FLOAT_TYPE
+256
+System Chance Voice 3
+0
+FLOAT_TYPE
+256
+System Chance Voice 4
+0
+FLOAT_TYPE
+256
+System Chance Voice 5
+0
+FLOAT_TYPE
+256
+System Chance Voice 6
+0
+FLOAT_TYPE
+256
+System Chance Voice 7
+0
+FLOAT_TYPE
+256
+System Chorus
+0
+FLOAT_TYPE
+0
+System Compression Attack
+0
+FLOAT_TYPE
+49.807373046875
+System Compression Makeup Gain
+0
+FLOAT_TYPE
+0
+System Compression On/Off
+0
+FLOAT_TYPE
+0
+System Compression Ratio
+0
+FLOAT_TYPE
+2
+System Compression Release
+0
+FLOAT_TYPE
+100.2368087768555
+System Compression Threshold
+0
+FLOAT_TYPE
+-20
+System Controls On/Off
+0
+FLOAT_TYPE
+1
+System Dry/Wet
+0
+FLOAT_TYPE
+1
+System Effects On/Off
+0
+FLOAT_TYPE
+1
+System Eq1 F.
+0
+FLOAT_TYPE
+400
+System Eq1 L.
+0
+FLOAT_TYPE
+0.5
+System Eq1 On/Off
+0
+FLOAT_TYPE
+0
+System Eq2 F.
+0
+FLOAT_TYPE
+1000
+System Eq2 L.
+0
+FLOAT_TYPE
+0.5
+System Eq2 On/Off
+0
+FLOAT_TYPE
+0
+System Highpass On/Off
+0
+FLOAT_TYPE
+0
+System Hp F.
+0
+FLOAT_TYPE
+200
+System Hs F.
+0
+FLOAT_TYPE
+1500
+System Hs L.
+0
+FLOAT_TYPE
+0
+System Hs On/Off
+0
+FLOAT_TYPE
+0
+System In
+0
+FLOAT_TYPE
+1
+System In On/Off
+0
+FLOAT_TYPE
+1
+System Length Voice 1
+0
+FLOAT_TYPE
+0
+System Length Voice 2
+0
+FLOAT_TYPE
+0
+System Length Voice 3
+0
+FLOAT_TYPE
+0
+System Length Voice 4
+0
+FLOAT_TYPE
+0
+System Length Voice 5
+0
+FLOAT_TYPE
+0
+System Length Voice 6
+0
+FLOAT_TYPE
+0
+System Length Voice 7
+0
+FLOAT_TYPE
+0
+System Lowpass On/Off
+0
+FLOAT_TYPE
+0
+System Lp F.
+0
+FLOAT_TYPE
+5000
+System Ls F.
+0
+FLOAT_TYPE
+400
+System Ls L.
+0
+FLOAT_TYPE
+0
+System Ls On/Off
+0
+FLOAT_TYPE
+0
+System On/Off Voice 1
+0
+FLOAT_TYPE
+1
+System On/Off Voice 2
+0
+FLOAT_TYPE
+0
+System On/Off Voice 3
+0
+FLOAT_TYPE
+0
+System On/Off Voice 4
+0
+FLOAT_TYPE
+0
+System On/Off Voice 5
+0
+FLOAT_TYPE
+0
+System On/Off Voice 6
+0
+FLOAT_TYPE
+0
+System On/Off Voice 7
+0
+FLOAT_TYPE
+0
+System Out
+0
+FLOAT_TYPE
+1
+System Out On/Off
+0
+FLOAT_TYPE
+1
+System Pan
+0
+FLOAT_TYPE
+0.1162000000476837
+System Pan On/Off
+0
+FLOAT_TYPE
+1
+System Pan Voice 1
+0
+FLOAT_TYPE
+0
+System Pan Voice 2
+0
+FLOAT_TYPE
+0
+System Pan Voice 3
+0
+FLOAT_TYPE
+0
+System Pan Voice 4
+0
+FLOAT_TYPE
+0
+System Pan Voice 5
+0
+FLOAT_TYPE
+0
+System Pan Voice 6
+0
+FLOAT_TYPE
+0
+System Pan Voice 7
+0
+FLOAT_TYPE
+0
+System Pitch
+0
+FLOAT_TYPE
+0
+System Pitch type
+0
+FLOAT_TYPE
+0
+System Reverb
+0
+FLOAT_TYPE
+0.9467821717262268
+System Sample Browser On/Off
+0
+FLOAT_TYPE
+1
+System Show Compressor GUI
+0
+FLOAT_TYPE
+0
+System Show Equalizer GUI
+0
+FLOAT_TYPE
+1
+System Solo On/Off
+0
+FLOAT_TYPE
+0
+System Start Voice 1
+0
+FLOAT_TYPE
+0
+System Start Voice 2
+0
+FLOAT_TYPE
+0
+System Start Voice 3
+0
+FLOAT_TYPE
+0
+System Start Voice 4
+0
+FLOAT_TYPE
+0
+System Start Voice 5
+0
+FLOAT_TYPE
+0
+System Start Voice 6
+0
+FLOAT_TYPE
+0
+System Start Voice 7
+0
+FLOAT_TYPE
+0
+System Transpose Voice 1
+0
+FLOAT_TYPE
+0
+System Transpose Voice 2
+0
+FLOAT_TYPE
+12
+System Transpose Voice 3
+0
+FLOAT_TYPE
+19
+System Transpose Voice 4
+0
+FLOAT_TYPE
+24
+System Transpose Voice 5
+0
+FLOAT_TYPE
+-12
+System Transpose Voice 6
+0
+FLOAT_TYPE
+-24
+System Transpose Voice 7
+0
+FLOAT_TYPE
+0.25
+System Volume
+0
+FLOAT_TYPE
+1
+System Volume On/Off
+0
+FLOAT_TYPE
+1
+System Volume Voice 1
+0
+FLOAT_TYPE
+0
+System Volume Voice 2
+0
+FLOAT_TYPE
+0
+System Volume Voice 3
+0
+FLOAT_TYPE
+0
+System Volume Voice 4
+0
+FLOAT_TYPE
+0
+System Volume Voice 5
+0
+FLOAT_TYPE
+0
+System Volume Voice 6
+0
+FLOAT_TYPE
+0
+System Volume Voice 7
+0
+FLOAT_TYPE
+0
+System Width
+0
+FLOAT_TYPE
+0
+System Width On/Off
+0
+FLOAT_TYPE
+0
+<< HASH MAP V5 END
+enable_sample_seek
+0
+BOOL_TYPE
+0
+is_dpi_aware
+0
+BOOL_TYPE
+1
+name
+0
+STRING_TYPE
+Faust Dev
+plugin_state
+0
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+3
+code
+0
+STRING_TYPE
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLw0KLy8gU25hcmUgZnJvbSB0aGUgc3ludGggbGlicmFyeSAvLw0KLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLw0KaW1wb3J0KCJzdGRmYXVzdC5saWIiKTsNCiANCi8vIE1JREkgY29udHJvbCANCmZyZXEgPSBuZW50cnkoImZyZXEiLDIwMCw0MCwyMDAwLDAuMDEpOw0KYmVuZCA9IG5lbnRyeSgiYmVuZCIsMSwwLDEwLDAuMDEpOw0KZ2FpbiA9IG5lbnRyeSgiZ2FpbiIsMSwwLDEsMC4wMSk7DQpnYXRlID0gYnV0dG9uKCJnYXRlIik7DQoNCi8vIFBhcmFtZXRlcnMNCnRvbmUgPSA0MDAwOw0KYXR0YWNrID0gMC4wOw0KZGVjYXkgPSAwLjI7DQoNCi8vIFByb2Nlc3NpbmcNCnByb2Nlc3MgPSBzeS5oYXQoZnJlcSx0b25lLGF0dGFjayxkZWNheSxnYXRlKSAqIGdhaW4gPDogXyxfOw0K
+options
+0
+STRING_TYPE
+LUkKJXJhZGl1bV9wYXRoJS9wYWNrYWdlcy9mYXVzdC9saWJyYXJpZXM=
+use_interpreter_backend
+0
+BOOL_TYPE
+0
+<< HASH MAP V5 END
+plugin_type_version
+0
+INT_TYPE
+0
+preset_filename
+0
+FILEPATH_TYPE
+Z:/home/asublin/Downloads/Windows/radium_64bit_windows-7.1.92/bin/faustdev_examples/Sawtooth_Instrument.rec
+random_change
+0
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+96
+NOTUSED
+0
+BOOL_TYPE
+1
+System Aux 1
+0
+BOOL_TYPE
+0
+System Aux 2
+0
+BOOL_TYPE
+0
+System Aux 3
+0
+BOOL_TYPE
+0
+System Chance Voice 1
+0
+BOOL_TYPE
+0
+System Chance Voice 2
+0
+BOOL_TYPE
+0
+System Chance Voice 3
+0
+BOOL_TYPE
+0
+System Chance Voice 4
+0
+BOOL_TYPE
+0
+System Chance Voice 5
+0
+BOOL_TYPE
+0
+System Chance Voice 6
+0
+BOOL_TYPE
+0
+System Chance Voice 7
+0
+BOOL_TYPE
+0
+System Chorus
+0
+BOOL_TYPE
+0
+System Compression Attack
+0
+BOOL_TYPE
+0
+System Compression Makeup Gain
+0
+BOOL_TYPE
+0
+System Compression On/Off
+0
+BOOL_TYPE
+0
+System Compression Ratio
+0
+BOOL_TYPE
+0
+System Compression Release
+0
+BOOL_TYPE
+0
+System Compression Threshold
+0
+BOOL_TYPE
+0
+System Controls On/Off
+0
+BOOL_TYPE
+0
+System Dry/Wet
+0
+BOOL_TYPE
+0
+System Effects On/Off
+0
+BOOL_TYPE
+0
+System Eq1 F.
+0
+BOOL_TYPE
+0
+System Eq1 L.
+0
+BOOL_TYPE
+0
+System Eq1 On/Off
+0
+BOOL_TYPE
+0
+System Eq2 F.
+0
+BOOL_TYPE
+0
+System Eq2 L.
+0
+BOOL_TYPE
+0
+System Eq2 On/Off
+0
+BOOL_TYPE
+0
+System Highpass On/Off
+0
+BOOL_TYPE
+0
+System Hp F.
+0
+BOOL_TYPE
+0
+System Hs F.
+0
+BOOL_TYPE
+0
+System Hs L.
+0
+BOOL_TYPE
+0
+System Hs On/Off
+0
+BOOL_TYPE
+0
+System In
+0
+BOOL_TYPE
+0
+System In On/Off
+0
+BOOL_TYPE
+0
+System Length Voice 1
+0
+BOOL_TYPE
+0
+System Length Voice 2
+0
+BOOL_TYPE
+0
+System Length Voice 3
+0
+BOOL_TYPE
+0
+System Length Voice 4
+0
+BOOL_TYPE
+0
+System Length Voice 5
+0
+BOOL_TYPE
+0
+System Length Voice 6
+0
+BOOL_TYPE
+0
+System Length Voice 7
+0
+BOOL_TYPE
+0
+System Lowpass On/Off
+0
+BOOL_TYPE
+0
+System Lp F.
+0
+BOOL_TYPE
+0
+System Ls F.
+0
+BOOL_TYPE
+0
+System Ls L.
+0
+BOOL_TYPE
+0
+System Ls On/Off
+0
+BOOL_TYPE
+0
+System On/Off Voice 1
+0
+BOOL_TYPE
+0
+System On/Off Voice 2
+0
+BOOL_TYPE
+0
+System On/Off Voice 3
+0
+BOOL_TYPE
+0
+System On/Off Voice 4
+0
+BOOL_TYPE
+0
+System On/Off Voice 5
+0
+BOOL_TYPE
+0
+System On/Off Voice 6
+0
+BOOL_TYPE
+0
+System On/Off Voice 7
+0
+BOOL_TYPE
+0
+System Out
+0
+BOOL_TYPE
+0
+System Out On/Off
+0
+BOOL_TYPE
+0
+System Pan
+0
+BOOL_TYPE
+0
+System Pan On/Off
+0
+BOOL_TYPE
+0
+System Pan Voice 1
+0
+BOOL_TYPE
+0
+System Pan Voice 2
+0
+BOOL_TYPE
+0
+System Pan Voice 3
+0
+BOOL_TYPE
+0
+System Pan Voice 4
+0
+BOOL_TYPE
+0
+System Pan Voice 5
+0
+BOOL_TYPE
+0
+System Pan Voice 6
+0
+BOOL_TYPE
+0
+System Pan Voice 7
+0
+BOOL_TYPE
+0
+System Pitch
+0
+BOOL_TYPE
+0
+System Pitch type
+0
+BOOL_TYPE
+0
+System Reverb
+0
+BOOL_TYPE
+0
+System Sample Browser On/Off
+0
+BOOL_TYPE
+0
+System Show Compressor GUI
+0
+BOOL_TYPE
+0
+System Show Equalizer GUI
+0
+BOOL_TYPE
+0
+System Solo On/Off
+0
+BOOL_TYPE
+0
+System Start Voice 1
+0
+BOOL_TYPE
+0
+System Start Voice 2
+0
+BOOL_TYPE
+0
+System Start Voice 3
+0
+BOOL_TYPE
+0
+System Start Voice 4
+0
+BOOL_TYPE
+0
+System Start Voice 5
+0
+BOOL_TYPE
+0
+System Start Voice 6
+0
+BOOL_TYPE
+0
+System Start Voice 7
+0
+BOOL_TYPE
+0
+System Transpose Voice 1
+0
+BOOL_TYPE
+0
+System Transpose Voice 2
+0
+BOOL_TYPE
+0
+System Transpose Voice 3
+0
+BOOL_TYPE
+0
+System Transpose Voice 4
+0
+BOOL_TYPE
+0
+System Transpose Voice 5
+0
+BOOL_TYPE
+0
+System Transpose Voice 6
+0
+BOOL_TYPE
+0
+System Transpose Voice 7
+0
+BOOL_TYPE
+0
+System Volume
+0
+BOOL_TYPE
+0
+System Volume On/Off
+0
+BOOL_TYPE
+0
+System Volume Voice 1
+0
+BOOL_TYPE
+0
+System Volume Voice 2
+0
+BOOL_TYPE
+0
+System Volume Voice 3
+0
+BOOL_TYPE
+0
+System Volume Voice 4
+0
+BOOL_TYPE
+0
+System Volume Voice 5
+0
+BOOL_TYPE
+0
+System Volume Voice 6
+0
+BOOL_TYPE
+0
+System Volume Voice 7
+0
+BOOL_TYPE
+0
+System Width
+0
+BOOL_TYPE
+0
+System Width On/Off
+0
+BOOL_TYPE
+0
+<< HASH MAP V5 END
+type_name
+0
+STRING_TYPE
+Faust Dev
+<< HASH MAP V5 END
+x
+0
+FLOAT_TYPE
+-240
+y
+0
+FLOAT_TYPE
+512
+<< HASH MAP V5 END
+
+1
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -117556,7 +118906,7 @@ FLOAT_TYPE
 480
 << HASH MAP V5 END
 
-1
+2
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -118430,7 +119780,7 @@ FLOAT_TYPE
 -32
 << HASH MAP V5 END
 
-2
+3
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -119320,7 +120670,7 @@ FLOAT_TYPE
 -32
 << HASH MAP V5 END
 
-3
+4
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -120266,7 +121616,7 @@ FLOAT_TYPE
 448
 << HASH MAP V5 END
 
-4
+5
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -121180,7 +122530,7 @@ FLOAT_TYPE
 416
 << HASH MAP V5 END
 
-5
+6
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -122068,7 +123418,7 @@ FLOAT_TYPE
 384
 << HASH MAP V5 END
 
-6
+7
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -122956,7 +124306,7 @@ FLOAT_TYPE
 352
 << HASH MAP V5 END
 
-7
+8
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -123844,7 +125194,7 @@ FLOAT_TYPE
 288
 << HASH MAP V5 END
 
-8
+9
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -124798,7 +126148,7 @@ FLOAT_TYPE
 -32
 << HASH MAP V5 END
 
-9
+10
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -125698,7 +127048,7 @@ FLOAT_TYPE
 256
 << HASH MAP V5 END
 
-10
+11
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -126598,7 +127948,7 @@ FLOAT_TYPE
 224
 << HASH MAP V5 END
 
-11
+12
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -127486,7 +128836,7 @@ FLOAT_TYPE
 192
 << HASH MAP V5 END
 
-12
+13
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -128374,7 +129724,7 @@ FLOAT_TYPE
 96
 << HASH MAP V5 END
 
-13
+14
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -129266,7 +130616,7 @@ FLOAT_TYPE
 64
 << HASH MAP V5 END
 
-14
+15
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -130132,7 +131482,7 @@ FLOAT_TYPE
 -32
 << HASH MAP V5 END
 
-15
+16
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -131094,7 +132444,7 @@ FLOAT_TYPE
 -64
 << HASH MAP V5 END
 
-16
+17
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -132000,7 +133350,7 @@ FLOAT_TYPE
 -96
 << HASH MAP V5 END
 
-17
+18
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -133144,7 +134494,7 @@ FLOAT_TYPE
 -128
 << HASH MAP V5 END
 
-18
+19
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -134048,7 +135398,7 @@ FLOAT_TYPE
 128
 << HASH MAP V5 END
 
-19
+20
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -134944,7 +136294,7 @@ FLOAT_TYPE
 160
 << HASH MAP V5 END
 
-20
+21
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -135832,7 +137182,7 @@ FLOAT_TYPE
 320
 << HASH MAP V5 END
 
-21
+22
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -136712,7 +138062,7 @@ FLOAT_TYPE
 -32
 << HASH MAP V5 END
 
-22
+23
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -137578,7 +138928,7 @@ FLOAT_TYPE
 32
 << HASH MAP V5 END
 
-23
+24
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -138444,7 +139794,7 @@ FLOAT_TYPE
 0
 << HASH MAP V5 END
 
-24
+25
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -139310,7 +140660,7 @@ FLOAT_TYPE
 -32
 << HASH MAP V5 END
 
-25
+26
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -140176,7 +141526,7 @@ FLOAT_TYPE
 -96
 << HASH MAP V5 END
 
-26
+27
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 4
@@ -141052,15 +142402,75 @@ FLOAT_TYPE
 num_chips
 0
 INT_TYPE
-27
+28
 << HASH MAP V5 END
 connections
 0
 HASH_TYPE
 >> HASH MAP V5 BEGIN
-50
+52
 
 0
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+6
+:connection-type
+0
+INT_TYPE
+0
+enabled
+0
+BOOL_TYPE
+1
+from_patch
+0
+INSTRUMENT_TYPE
+61
+gain
+0
+FLOAT_TYPE
+0.9467821717262268
+is_event_connection
+0
+BOOL_TYPE
+0
+to_patch
+0
+INSTRUMENT_TYPE
+19
+<< HASH MAP V5 END
+
+1
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+6
+:connection-type
+0
+INT_TYPE
+0
+enabled
+0
+BOOL_TYPE
+1
+from_patch
+0
+INSTRUMENT_TYPE
+61
+gain
+0
+FLOAT_TYPE
+1
+is_event_connection
+0
+BOOL_TYPE
+0
+to_patch
+0
+INSTRUMENT_TYPE
+0
+<< HASH MAP V5 END
+
+2
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141090,7 +142500,7 @@ INSTRUMENT_TYPE
 19
 << HASH MAP V5 END
 
-1
+3
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141120,66 +142530,6 @@ INSTRUMENT_TYPE
 0
 << HASH MAP V5 END
 
-2
-HASH_TYPE
->> HASH MAP V5 BEGIN
-6
-:connection-type
-0
-INT_TYPE
-2
-enabled
-0
-BOOL_TYPE
-1
-from_patch
-0
-INSTRUMENT_TYPE
-59
-gain
-0
-FLOAT_TYPE
-1
-is_event_connection
-0
-BOOL_TYPE
-0
-to_patch
-0
-INSTRUMENT_TYPE
-57
-<< HASH MAP V5 END
-
-3
-HASH_TYPE
->> HASH MAP V5 BEGIN
-6
-:connection-type
-0
-INT_TYPE
-1
-enabled
-0
-BOOL_TYPE
-1
-from_patch
-0
-INSTRUMENT_TYPE
-0
-gain
-0
-FLOAT_TYPE
-1
-is_event_connection
-0
-BOOL_TYPE
-0
-to_patch
-0
-INSTRUMENT_TYPE
-59
-<< HASH MAP V5 END
-
 4
 HASH_TYPE
 >> HASH MAP V5 BEGIN
@@ -141195,6 +142545,66 @@ BOOL_TYPE
 from_patch
 0
 INSTRUMENT_TYPE
+59
+gain
+0
+FLOAT_TYPE
+1
+is_event_connection
+0
+BOOL_TYPE
+0
+to_patch
+0
+INSTRUMENT_TYPE
+57
+<< HASH MAP V5 END
+
+5
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+6
+:connection-type
+0
+INT_TYPE
+1
+enabled
+0
+BOOL_TYPE
+1
+from_patch
+0
+INSTRUMENT_TYPE
+0
+gain
+0
+FLOAT_TYPE
+1
+is_event_connection
+0
+BOOL_TYPE
+0
+to_patch
+0
+INSTRUMENT_TYPE
+59
+<< HASH MAP V5 END
+
+6
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+6
+:connection-type
+0
+INT_TYPE
+2
+enabled
+0
+BOOL_TYPE
+1
+from_patch
+0
+INSTRUMENT_TYPE
 57
 gain
 0
@@ -141210,7 +142620,7 @@ INSTRUMENT_TYPE
 1
 << HASH MAP V5 END
 
-5
+7
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141240,7 +142650,7 @@ INSTRUMENT_TYPE
 24
 << HASH MAP V5 END
 
-6
+8
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141270,7 +142680,7 @@ INSTRUMENT_TYPE
 19
 << HASH MAP V5 END
 
-7
+9
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141300,7 +142710,7 @@ INSTRUMENT_TYPE
 0
 << HASH MAP V5 END
 
-8
+10
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141330,7 +142740,7 @@ INSTRUMENT_TYPE
 24
 << HASH MAP V5 END
 
-9
+11
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141360,7 +142770,7 @@ INSTRUMENT_TYPE
 19
 << HASH MAP V5 END
 
-10
+12
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141390,7 +142800,7 @@ INSTRUMENT_TYPE
 0
 << HASH MAP V5 END
 
-11
+13
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141420,7 +142830,7 @@ INSTRUMENT_TYPE
 24
 << HASH MAP V5 END
 
-12
+14
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141450,7 +142860,7 @@ INSTRUMENT_TYPE
 17
 << HASH MAP V5 END
 
-13
+15
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141480,7 +142890,7 @@ INSTRUMENT_TYPE
 19
 << HASH MAP V5 END
 
-14
+16
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141510,7 +142920,7 @@ INSTRUMENT_TYPE
 0
 << HASH MAP V5 END
 
-15
+17
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141540,7 +142950,7 @@ INSTRUMENT_TYPE
 24
 << HASH MAP V5 END
 
-16
+18
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141570,7 +142980,7 @@ INSTRUMENT_TYPE
 17
 << HASH MAP V5 END
 
-17
+19
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141600,7 +143010,7 @@ INSTRUMENT_TYPE
 19
 << HASH MAP V5 END
 
-18
+20
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141630,7 +143040,7 @@ INSTRUMENT_TYPE
 0
 << HASH MAP V5 END
 
-19
+21
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141660,7 +143070,7 @@ INSTRUMENT_TYPE
 0
 << HASH MAP V5 END
 
-20
+22
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141690,7 +143100,7 @@ INSTRUMENT_TYPE
 24
 << HASH MAP V5 END
 
-21
+23
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141720,7 +143130,7 @@ INSTRUMENT_TYPE
 24
 << HASH MAP V5 END
 
-22
+24
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141750,7 +143160,7 @@ INSTRUMENT_TYPE
 0
 << HASH MAP V5 END
 
-23
+25
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141780,7 +143190,7 @@ INSTRUMENT_TYPE
 40
 << HASH MAP V5 END
 
-24
+26
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141810,7 +143220,7 @@ INSTRUMENT_TYPE
 19
 << HASH MAP V5 END
 
-25
+27
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141840,7 +143250,7 @@ INSTRUMENT_TYPE
 0
 << HASH MAP V5 END
 
-26
+28
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141870,7 +143280,7 @@ INSTRUMENT_TYPE
 0
 << HASH MAP V5 END
 
-27
+29
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141900,7 +143310,7 @@ INSTRUMENT_TYPE
 19
 << HASH MAP V5 END
 
-28
+30
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141930,7 +143340,7 @@ INSTRUMENT_TYPE
 17
 << HASH MAP V5 END
 
-29
+31
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141960,7 +143370,7 @@ INSTRUMENT_TYPE
 19
 << HASH MAP V5 END
 
-30
+32
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -141990,7 +143400,7 @@ INSTRUMENT_TYPE
 17
 << HASH MAP V5 END
 
-31
+33
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -142020,66 +143430,6 @@ INSTRUMENT_TYPE
 19
 << HASH MAP V5 END
 
-32
-HASH_TYPE
->> HASH MAP V5 BEGIN
-6
-:connection-type
-0
-INT_TYPE
-0
-enabled
-0
-BOOL_TYPE
-1
-from_patch
-0
-INSTRUMENT_TYPE
-37
-gain
-0
-FLOAT_TYPE
-1
-is_event_connection
-0
-BOOL_TYPE
-0
-to_patch
-0
-INSTRUMENT_TYPE
-0
-<< HASH MAP V5 END
-
-33
-HASH_TYPE
->> HASH MAP V5 BEGIN
-6
-:connection-type
-0
-INT_TYPE
-0
-enabled
-0
-BOOL_TYPE
-1
-from_patch
-0
-INSTRUMENT_TYPE
-29
-gain
-0
-FLOAT_TYPE
-1
-is_event_connection
-0
-BOOL_TYPE
-0
-to_patch
-0
-INSTRUMENT_TYPE
-0
-<< HASH MAP V5 END
-
 34
 HASH_TYPE
 >> HASH MAP V5 BEGIN
@@ -142095,7 +143445,7 @@ BOOL_TYPE
 from_patch
 0
 INSTRUMENT_TYPE
-28
+37
 gain
 0
 FLOAT_TYPE
@@ -142125,7 +143475,7 @@ BOOL_TYPE
 from_patch
 0
 INSTRUMENT_TYPE
-22
+29
 gain
 0
 FLOAT_TYPE
@@ -142155,7 +143505,7 @@ BOOL_TYPE
 from_patch
 0
 INSTRUMENT_TYPE
-7
+28
 gain
 0
 FLOAT_TYPE
@@ -142185,7 +143535,7 @@ BOOL_TYPE
 from_patch
 0
 INSTRUMENT_TYPE
-23
+22
 gain
 0
 FLOAT_TYPE
@@ -142201,6 +143551,66 @@ INSTRUMENT_TYPE
 << HASH MAP V5 END
 
 38
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+6
+:connection-type
+0
+INT_TYPE
+0
+enabled
+0
+BOOL_TYPE
+1
+from_patch
+0
+INSTRUMENT_TYPE
+7
+gain
+0
+FLOAT_TYPE
+1
+is_event_connection
+0
+BOOL_TYPE
+0
+to_patch
+0
+INSTRUMENT_TYPE
+0
+<< HASH MAP V5 END
+
+39
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+6
+:connection-type
+0
+INT_TYPE
+0
+enabled
+0
+BOOL_TYPE
+1
+from_patch
+0
+INSTRUMENT_TYPE
+23
+gain
+0
+FLOAT_TYPE
+1
+is_event_connection
+0
+BOOL_TYPE
+0
+to_patch
+0
+INSTRUMENT_TYPE
+0
+<< HASH MAP V5 END
+
+40
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -142230,7 +143640,7 @@ INSTRUMENT_TYPE
 7
 << HASH MAP V5 END
 
-39
+41
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -142260,7 +143670,7 @@ INSTRUMENT_TYPE
 23
 << HASH MAP V5 END
 
-40
+42
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -142290,7 +143700,7 @@ INSTRUMENT_TYPE
 0
 << HASH MAP V5 END
 
-41
+43
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -142320,7 +143730,7 @@ INSTRUMENT_TYPE
 0
 << HASH MAP V5 END
 
-42
+44
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -142350,7 +143760,7 @@ INSTRUMENT_TYPE
 0
 << HASH MAP V5 END
 
-43
+45
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -142380,7 +143790,7 @@ INSTRUMENT_TYPE
 19
 << HASH MAP V5 END
 
-44
+46
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -142410,7 +143820,7 @@ INSTRUMENT_TYPE
 17
 << HASH MAP V5 END
 
-45
+47
 HASH_TYPE
 >> HASH MAP V5 BEGIN
 6
@@ -142457,7 +143867,7 @@ ARRAY_TYPE
 num_connections
 0
 INT_TYPE
-46
+48
 << HASH MAP V5 END
 mixer_strips_configuration
 0
@@ -142557,7 +143967,7 @@ INSTRUMENT
 Audio instrument
 
 ?num_patches
-27
+28
 
 \
 PATCH_V2
@@ -177383,6 +178793,1285 @@ uuid
 0
 STRING_TYPE
 {7976dbbe-5350-443f-8d23-d072f0d99238}
+wide_mixer_strip
+0
+BOOL_TYPE
+1
+widget_height_type
+0
+INT_TYPE
+0
+<< HASH MAP V5 END
+/
+
+\
+PATCH_V2
+>> HASH MAP V5 BEGIN
+20
+___radium_patch_state_v3
+0
+INT_TYPE
+1
+always_receive_MIDI_input
+0
+BOOL_TYPE
+0
+audio
+0
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+12
+___radium_plugin_state_v3
+0
+INT_TYPE
+1
+ab
+0
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+9
+curr_ab_num
+0
+INT_TYPE
+0
+is_valid
+0
+BOOL_TYPE
+0
+is_valid
+1
+BOOL_TYPE
+0
+is_valid
+2
+BOOL_TYPE
+0
+is_valid
+3
+BOOL_TYPE
+0
+is_valid
+4
+BOOL_TYPE
+0
+is_valid
+5
+BOOL_TYPE
+0
+is_valid
+6
+BOOL_TYPE
+0
+is_valid
+7
+BOOL_TYPE
+0
+<< HASH MAP V5 END
+auto_suspend_behavior
+0
+INT_TYPE
+0
+effects
+0
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+95
+System Aux 1
+0
+FLOAT_TYPE
+0
+System Aux 2
+0
+FLOAT_TYPE
+0
+System Aux 3
+0
+FLOAT_TYPE
+0
+System Chance Voice 1
+0
+FLOAT_TYPE
+256
+System Chance Voice 2
+0
+FLOAT_TYPE
+256
+System Chance Voice 3
+0
+FLOAT_TYPE
+256
+System Chance Voice 4
+0
+FLOAT_TYPE
+256
+System Chance Voice 5
+0
+FLOAT_TYPE
+256
+System Chance Voice 6
+0
+FLOAT_TYPE
+256
+System Chance Voice 7
+0
+FLOAT_TYPE
+256
+System Chorus
+0
+FLOAT_TYPE
+0
+System Compression Attack
+0
+FLOAT_TYPE
+49.807373046875
+System Compression Makeup Gain
+0
+FLOAT_TYPE
+0
+System Compression On/Off
+0
+FLOAT_TYPE
+0
+System Compression Ratio
+0
+FLOAT_TYPE
+2
+System Compression Release
+0
+FLOAT_TYPE
+100.2368087768555
+System Compression Threshold
+0
+FLOAT_TYPE
+-20
+System Controls On/Off
+0
+FLOAT_TYPE
+1
+System Dry/Wet
+0
+FLOAT_TYPE
+1
+System Effects On/Off
+0
+FLOAT_TYPE
+1
+System Eq1 F.
+0
+FLOAT_TYPE
+400
+System Eq1 L.
+0
+FLOAT_TYPE
+0.5
+System Eq1 On/Off
+0
+FLOAT_TYPE
+0
+System Eq2 F.
+0
+FLOAT_TYPE
+1000
+System Eq2 L.
+0
+FLOAT_TYPE
+0.5
+System Eq2 On/Off
+0
+FLOAT_TYPE
+0
+System Highpass On/Off
+0
+FLOAT_TYPE
+0
+System Hp F.
+0
+FLOAT_TYPE
+200
+System Hs F.
+0
+FLOAT_TYPE
+1500
+System Hs L.
+0
+FLOAT_TYPE
+0
+System Hs On/Off
+0
+FLOAT_TYPE
+0
+System In
+0
+FLOAT_TYPE
+1
+System In On/Off
+0
+FLOAT_TYPE
+1
+System Length Voice 1
+0
+FLOAT_TYPE
+0
+System Length Voice 2
+0
+FLOAT_TYPE
+0
+System Length Voice 3
+0
+FLOAT_TYPE
+0
+System Length Voice 4
+0
+FLOAT_TYPE
+0
+System Length Voice 5
+0
+FLOAT_TYPE
+0
+System Length Voice 6
+0
+FLOAT_TYPE
+0
+System Length Voice 7
+0
+FLOAT_TYPE
+0
+System Lowpass On/Off
+0
+FLOAT_TYPE
+0
+System Lp F.
+0
+FLOAT_TYPE
+5000
+System Ls F.
+0
+FLOAT_TYPE
+400
+System Ls L.
+0
+FLOAT_TYPE
+0
+System Ls On/Off
+0
+FLOAT_TYPE
+0
+System On/Off Voice 1
+0
+FLOAT_TYPE
+1
+System On/Off Voice 2
+0
+FLOAT_TYPE
+0
+System On/Off Voice 3
+0
+FLOAT_TYPE
+0
+System On/Off Voice 4
+0
+FLOAT_TYPE
+0
+System On/Off Voice 5
+0
+FLOAT_TYPE
+0
+System On/Off Voice 6
+0
+FLOAT_TYPE
+0
+System On/Off Voice 7
+0
+FLOAT_TYPE
+0
+System Out
+0
+FLOAT_TYPE
+1
+System Out On/Off
+0
+FLOAT_TYPE
+1
+System Pan
+0
+FLOAT_TYPE
+0.1162000000476837
+System Pan On/Off
+0
+FLOAT_TYPE
+1
+System Pan Voice 1
+0
+FLOAT_TYPE
+0
+System Pan Voice 2
+0
+FLOAT_TYPE
+0
+System Pan Voice 3
+0
+FLOAT_TYPE
+0
+System Pan Voice 4
+0
+FLOAT_TYPE
+0
+System Pan Voice 5
+0
+FLOAT_TYPE
+0
+System Pan Voice 6
+0
+FLOAT_TYPE
+0
+System Pan Voice 7
+0
+FLOAT_TYPE
+0
+System Pitch
+0
+FLOAT_TYPE
+0
+System Pitch type
+0
+FLOAT_TYPE
+0
+System Reverb
+0
+FLOAT_TYPE
+0.9467821717262268
+System Sample Browser On/Off
+0
+FLOAT_TYPE
+1
+System Show Compressor GUI
+0
+FLOAT_TYPE
+0
+System Show Equalizer GUI
+0
+FLOAT_TYPE
+1
+System Solo On/Off
+0
+FLOAT_TYPE
+0
+System Start Voice 1
+0
+FLOAT_TYPE
+0
+System Start Voice 2
+0
+FLOAT_TYPE
+0
+System Start Voice 3
+0
+FLOAT_TYPE
+0
+System Start Voice 4
+0
+FLOAT_TYPE
+0
+System Start Voice 5
+0
+FLOAT_TYPE
+0
+System Start Voice 6
+0
+FLOAT_TYPE
+0
+System Start Voice 7
+0
+FLOAT_TYPE
+0
+System Transpose Voice 1
+0
+FLOAT_TYPE
+0
+System Transpose Voice 2
+0
+FLOAT_TYPE
+12
+System Transpose Voice 3
+0
+FLOAT_TYPE
+19
+System Transpose Voice 4
+0
+FLOAT_TYPE
+24
+System Transpose Voice 5
+0
+FLOAT_TYPE
+-12
+System Transpose Voice 6
+0
+FLOAT_TYPE
+-24
+System Transpose Voice 7
+0
+FLOAT_TYPE
+0.25
+System Volume
+0
+FLOAT_TYPE
+1
+System Volume On/Off
+0
+FLOAT_TYPE
+1
+System Volume Voice 1
+0
+FLOAT_TYPE
+0
+System Volume Voice 2
+0
+FLOAT_TYPE
+0
+System Volume Voice 3
+0
+FLOAT_TYPE
+0
+System Volume Voice 4
+0
+FLOAT_TYPE
+0
+System Volume Voice 5
+0
+FLOAT_TYPE
+0
+System Volume Voice 6
+0
+FLOAT_TYPE
+0
+System Volume Voice 7
+0
+FLOAT_TYPE
+0
+System Width
+0
+FLOAT_TYPE
+0
+System Width On/Off
+0
+FLOAT_TYPE
+0
+<< HASH MAP V5 END
+enable_sample_seek
+0
+BOOL_TYPE
+0
+is_dpi_aware
+0
+BOOL_TYPE
+1
+name
+0
+STRING_TYPE
+Faust Dev
+plugin_state
+0
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+3
+code
+0
+STRING_TYPE
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLw0KLy8gU25hcmUgZnJvbSB0aGUgc3ludGggbGlicmFyeSAvLw0KLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLw0KaW1wb3J0KCJzdGRmYXVzdC5saWIiKTsNCiANCi8vIE1JREkgY29udHJvbCANCmZyZXEgPSBuZW50cnkoImZyZXEiLDIwMCw0MCwyMDAwLDAuMDEpOw0KYmVuZCA9IG5lbnRyeSgiYmVuZCIsMSwwLDEwLDAuMDEpOw0KZ2FpbiA9IG5lbnRyeSgiZ2FpbiIsMSwwLDEsMC4wMSk7DQpnYXRlID0gYnV0dG9uKCJnYXRlIik7DQoNCi8vIFBhcmFtZXRlcnMNCnRvbmUgPSA0MDAwOw0KYXR0YWNrID0gMC4wOw0KZGVjYXkgPSAwLjI7DQoNCi8vIFByb2Nlc3NpbmcNCnByb2Nlc3MgPSBzeS5oYXQoZnJlcSx0b25lLGF0dGFjayxkZWNheSxnYXRlKSAqIGdhaW4gPDogXyxfOw0K
+options
+0
+STRING_TYPE
+LUkKJXJhZGl1bV9wYXRoJS9wYWNrYWdlcy9mYXVzdC9saWJyYXJpZXM=
+use_interpreter_backend
+0
+BOOL_TYPE
+0
+<< HASH MAP V5 END
+plugin_type_version
+0
+INT_TYPE
+0
+preset_filename
+0
+FILEPATH_TYPE
+Z:/home/asublin/Downloads/Windows/radium_64bit_windows-7.1.92/bin/faustdev_examples/Sawtooth_Instrument.rec
+random_change
+0
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+96
+NOTUSED
+0
+BOOL_TYPE
+1
+System Aux 1
+0
+BOOL_TYPE
+0
+System Aux 2
+0
+BOOL_TYPE
+0
+System Aux 3
+0
+BOOL_TYPE
+0
+System Chance Voice 1
+0
+BOOL_TYPE
+0
+System Chance Voice 2
+0
+BOOL_TYPE
+0
+System Chance Voice 3
+0
+BOOL_TYPE
+0
+System Chance Voice 4
+0
+BOOL_TYPE
+0
+System Chance Voice 5
+0
+BOOL_TYPE
+0
+System Chance Voice 6
+0
+BOOL_TYPE
+0
+System Chance Voice 7
+0
+BOOL_TYPE
+0
+System Chorus
+0
+BOOL_TYPE
+0
+System Compression Attack
+0
+BOOL_TYPE
+0
+System Compression Makeup Gain
+0
+BOOL_TYPE
+0
+System Compression On/Off
+0
+BOOL_TYPE
+0
+System Compression Ratio
+0
+BOOL_TYPE
+0
+System Compression Release
+0
+BOOL_TYPE
+0
+System Compression Threshold
+0
+BOOL_TYPE
+0
+System Controls On/Off
+0
+BOOL_TYPE
+0
+System Dry/Wet
+0
+BOOL_TYPE
+0
+System Effects On/Off
+0
+BOOL_TYPE
+0
+System Eq1 F.
+0
+BOOL_TYPE
+0
+System Eq1 L.
+0
+BOOL_TYPE
+0
+System Eq1 On/Off
+0
+BOOL_TYPE
+0
+System Eq2 F.
+0
+BOOL_TYPE
+0
+System Eq2 L.
+0
+BOOL_TYPE
+0
+System Eq2 On/Off
+0
+BOOL_TYPE
+0
+System Highpass On/Off
+0
+BOOL_TYPE
+0
+System Hp F.
+0
+BOOL_TYPE
+0
+System Hs F.
+0
+BOOL_TYPE
+0
+System Hs L.
+0
+BOOL_TYPE
+0
+System Hs On/Off
+0
+BOOL_TYPE
+0
+System In
+0
+BOOL_TYPE
+0
+System In On/Off
+0
+BOOL_TYPE
+0
+System Length Voice 1
+0
+BOOL_TYPE
+0
+System Length Voice 2
+0
+BOOL_TYPE
+0
+System Length Voice 3
+0
+BOOL_TYPE
+0
+System Length Voice 4
+0
+BOOL_TYPE
+0
+System Length Voice 5
+0
+BOOL_TYPE
+0
+System Length Voice 6
+0
+BOOL_TYPE
+0
+System Length Voice 7
+0
+BOOL_TYPE
+0
+System Lowpass On/Off
+0
+BOOL_TYPE
+0
+System Lp F.
+0
+BOOL_TYPE
+0
+System Ls F.
+0
+BOOL_TYPE
+0
+System Ls L.
+0
+BOOL_TYPE
+0
+System Ls On/Off
+0
+BOOL_TYPE
+0
+System On/Off Voice 1
+0
+BOOL_TYPE
+0
+System On/Off Voice 2
+0
+BOOL_TYPE
+0
+System On/Off Voice 3
+0
+BOOL_TYPE
+0
+System On/Off Voice 4
+0
+BOOL_TYPE
+0
+System On/Off Voice 5
+0
+BOOL_TYPE
+0
+System On/Off Voice 6
+0
+BOOL_TYPE
+0
+System On/Off Voice 7
+0
+BOOL_TYPE
+0
+System Out
+0
+BOOL_TYPE
+0
+System Out On/Off
+0
+BOOL_TYPE
+0
+System Pan
+0
+BOOL_TYPE
+0
+System Pan On/Off
+0
+BOOL_TYPE
+0
+System Pan Voice 1
+0
+BOOL_TYPE
+0
+System Pan Voice 2
+0
+BOOL_TYPE
+0
+System Pan Voice 3
+0
+BOOL_TYPE
+0
+System Pan Voice 4
+0
+BOOL_TYPE
+0
+System Pan Voice 5
+0
+BOOL_TYPE
+0
+System Pan Voice 6
+0
+BOOL_TYPE
+0
+System Pan Voice 7
+0
+BOOL_TYPE
+0
+System Pitch
+0
+BOOL_TYPE
+0
+System Pitch type
+0
+BOOL_TYPE
+0
+System Reverb
+0
+BOOL_TYPE
+0
+System Sample Browser On/Off
+0
+BOOL_TYPE
+0
+System Show Compressor GUI
+0
+BOOL_TYPE
+0
+System Show Equalizer GUI
+0
+BOOL_TYPE
+0
+System Solo On/Off
+0
+BOOL_TYPE
+0
+System Start Voice 1
+0
+BOOL_TYPE
+0
+System Start Voice 2
+0
+BOOL_TYPE
+0
+System Start Voice 3
+0
+BOOL_TYPE
+0
+System Start Voice 4
+0
+BOOL_TYPE
+0
+System Start Voice 5
+0
+BOOL_TYPE
+0
+System Start Voice 6
+0
+BOOL_TYPE
+0
+System Start Voice 7
+0
+BOOL_TYPE
+0
+System Transpose Voice 1
+0
+BOOL_TYPE
+0
+System Transpose Voice 2
+0
+BOOL_TYPE
+0
+System Transpose Voice 3
+0
+BOOL_TYPE
+0
+System Transpose Voice 4
+0
+BOOL_TYPE
+0
+System Transpose Voice 5
+0
+BOOL_TYPE
+0
+System Transpose Voice 6
+0
+BOOL_TYPE
+0
+System Transpose Voice 7
+0
+BOOL_TYPE
+0
+System Volume
+0
+BOOL_TYPE
+0
+System Volume On/Off
+0
+BOOL_TYPE
+0
+System Volume Voice 1
+0
+BOOL_TYPE
+0
+System Volume Voice 2
+0
+BOOL_TYPE
+0
+System Volume Voice 3
+0
+BOOL_TYPE
+0
+System Volume Voice 4
+0
+BOOL_TYPE
+0
+System Volume Voice 5
+0
+BOOL_TYPE
+0
+System Volume Voice 6
+0
+BOOL_TYPE
+0
+System Volume Voice 7
+0
+BOOL_TYPE
+0
+System Width
+0
+BOOL_TYPE
+0
+System Width On/Off
+0
+BOOL_TYPE
+0
+<< HASH MAP V5 END
+type_name
+0
+STRING_TYPE
+Faust Dev
+<< HASH MAP V5 END
+color
+0
+STRING_TYPE
+#ff49583b
+comment
+0
+STRING_TYPE
+Comment
+forward_events
+0
+INT_TYPE
+1
+id
+0
+INSTRUMENT_TYPE
+61
+instrument
+0
+STRING_TYPE
+audio
+name
+0
+STRING_TYPE
+Snare
+name_is_edited
+0
+INT_TYPE
+1
+patchvoice
+0
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+11
+chance
+0
+INT_TYPE
+256
+is_on
+0
+INT_TYPE
+1
+length
+0
+FLOAT_TYPE
+0
+only_set_new_pan_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_transpose_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_volume_when_note_on
+0
+BOOL_TYPE
+0
+pan
+0
+FLOAT_TYPE
+0
+start
+0
+FLOAT_TYPE
+0
+time_format
+0
+INT_TYPE
+1
+transpose
+0
+FLOAT_TYPE
+0
+volume
+0
+FLOAT_TYPE
+0
+<< HASH MAP V5 END
+patchvoice
+1
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+11
+chance
+0
+INT_TYPE
+256
+is_on
+0
+INT_TYPE
+0
+length
+0
+FLOAT_TYPE
+0
+only_set_new_pan_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_transpose_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_volume_when_note_on
+0
+BOOL_TYPE
+0
+pan
+0
+FLOAT_TYPE
+0
+start
+0
+FLOAT_TYPE
+0
+time_format
+0
+INT_TYPE
+1
+transpose
+0
+FLOAT_TYPE
+12
+volume
+0
+FLOAT_TYPE
+0
+<< HASH MAP V5 END
+patchvoice
+2
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+11
+chance
+0
+INT_TYPE
+256
+is_on
+0
+INT_TYPE
+0
+length
+0
+FLOAT_TYPE
+0
+only_set_new_pan_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_transpose_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_volume_when_note_on
+0
+BOOL_TYPE
+0
+pan
+0
+FLOAT_TYPE
+0
+start
+0
+FLOAT_TYPE
+0
+time_format
+0
+INT_TYPE
+1
+transpose
+0
+FLOAT_TYPE
+19
+volume
+0
+FLOAT_TYPE
+0
+<< HASH MAP V5 END
+patchvoice
+3
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+11
+chance
+0
+INT_TYPE
+256
+is_on
+0
+INT_TYPE
+0
+length
+0
+FLOAT_TYPE
+0
+only_set_new_pan_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_transpose_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_volume_when_note_on
+0
+BOOL_TYPE
+0
+pan
+0
+FLOAT_TYPE
+0
+start
+0
+FLOAT_TYPE
+0
+time_format
+0
+INT_TYPE
+1
+transpose
+0
+FLOAT_TYPE
+24
+volume
+0
+FLOAT_TYPE
+0
+<< HASH MAP V5 END
+patchvoice
+4
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+11
+chance
+0
+INT_TYPE
+256
+is_on
+0
+INT_TYPE
+0
+length
+0
+FLOAT_TYPE
+0
+only_set_new_pan_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_transpose_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_volume_when_note_on
+0
+BOOL_TYPE
+0
+pan
+0
+FLOAT_TYPE
+0
+start
+0
+FLOAT_TYPE
+0
+time_format
+0
+INT_TYPE
+1
+transpose
+0
+FLOAT_TYPE
+-12
+volume
+0
+FLOAT_TYPE
+0
+<< HASH MAP V5 END
+patchvoice
+5
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+11
+chance
+0
+INT_TYPE
+256
+is_on
+0
+INT_TYPE
+0
+length
+0
+FLOAT_TYPE
+0
+only_set_new_pan_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_transpose_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_volume_when_note_on
+0
+BOOL_TYPE
+0
+pan
+0
+FLOAT_TYPE
+0
+start
+0
+FLOAT_TYPE
+0
+time_format
+0
+INT_TYPE
+1
+transpose
+0
+FLOAT_TYPE
+-24
+volume
+0
+FLOAT_TYPE
+0
+<< HASH MAP V5 END
+patchvoice
+6
+HASH_TYPE
+>> HASH MAP V5 BEGIN
+11
+chance
+0
+INT_TYPE
+256
+is_on
+0
+INT_TYPE
+0
+length
+0
+FLOAT_TYPE
+0
+only_set_new_pan_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_transpose_when_note_on
+0
+BOOL_TYPE
+0
+only_set_new_volume_when_note_on
+0
+BOOL_TYPE
+0
+pan
+0
+FLOAT_TYPE
+0
+start
+0
+FLOAT_TYPE
+0
+time_format
+0
+INT_TYPE
+1
+transpose
+0
+FLOAT_TYPE
+0.25
+volume
+0
+FLOAT_TYPE
+0
+<< HASH MAP V5 END
+uuid
+0
+STRING_TYPE
+{04599470-68d0-4ddc-bee1-e19606876bd3}
 wide_mixer_strip
 0
 BOOL_TYPE
