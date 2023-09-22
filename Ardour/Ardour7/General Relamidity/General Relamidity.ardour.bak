@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="General Relamidity" sample-rate="44100" session-range-is-free="0" id-counter="250372" rg-counter="442" name-counter="2" event-counter="5452151" vca-counter="1">
+<Session version="7002" name="General Relamidity" sample-rate="44100" session-range-is-free="0" id-counter="250372" rg-counter="443" name-counter="2" event-counter="5485054" vca-counter="1">
   <ProgramVersion created-with="Ardour 7.5-1115-g9b503058db" modified-with="Ardour 7.5-1340-gaae66d0f86"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -1451,7 +1451,7 @@ a32659200000 0
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="141362" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="141356" flags="GainLike,InlineControl" value="0"/>
+        <Controllable name="gaincontrol" id="141356" flags="GainLike,InlineControl" value="9.9999999999999995e-08"/>
       </Processor>
       <Processor id="14226" name="Short Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="2" selfdestruct="0" target="4026" allow-feedback="0">
         <Automation>
@@ -1896,7 +1896,7 @@ a32659200000 0
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="141385" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="141379" flags="GainLike,InlineControl" value="0"/>
+        <Controllable name="gaincontrol" id="141379" flags="GainLike,InlineControl" value="9.9999999999999995e-08"/>
       </Processor>
       <Processor id="884" name="meter-SynEcho" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="885" name="SynEcho" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="SynEcho" type="main-outs" role="Main">
@@ -2876,7 +2876,7 @@ a33868800000 0.99999994039535522
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="3882" flags="GainLike" value="1.0000311136245728"/>
+        <Controllable name="gaincontrol" id="3882" flags="GainLike" value="0.99999994039535522"/>
       </Processor>
       <Processor id="8746" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="1" selfdestruct="0" target="1356" allow-feedback="0">
         <Automation>
@@ -3424,7 +3424,7 @@ a32659200000 0.70794570446014404
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="181111" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="181105" flags="GainLike,InlineControl" value="0.70794570446014404"/>
+        <Controllable name="gaincontrol" id="181105" flags="GainLike,InlineControl" value="0.70794580446014399"/>
       </Processor>
       <Processor id="180958" name="meter-SynSaw" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="180959" name="SynVoice" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="SynVoice" type="main-outs" role="Main">

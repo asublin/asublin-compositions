@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1695407163" tv-usec="103215" name="change note velocity">
-    <NoteDiffCommand midi-source="244391">
-      <ChangedNotes>
-        <Change property="Velocity" old="88" new="96" id="5065314"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1695407166" tv-usec="399147" name="change note velocity">
-    <NoteDiffCommand midi-source="244391">
-      <ChangedNotes>
-        <Change property="Velocity" old="72" new="88" id="5064020"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1695407167" tv-usec="775164" name="change note velocity">
     <NoteDiffCommand midi-source="244391">
       <ChangedNotes>
@@ -438,5 +420,23 @@ a33868800000 0.99999994039535522
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1695408891" tv-usec="749440" name="resize note">
+    <NoteDiffCommand midi-source="222495">
+      <ChangedNotes>
+        <Change property="Length" old="0:960" new="0:1440" id="4936505"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1695409326" tv-usec="145383" name="capture">
+    <StatefulDiffCommand obj-id="502" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="256364"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
   </UndoTransaction>
 </UndoHistory>
