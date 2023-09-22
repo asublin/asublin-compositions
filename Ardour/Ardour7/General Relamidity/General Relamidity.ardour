@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="General Relamidity" sample-rate="44100" session-range-is-free="0" id-counter="213787" rg-counter="384" name-counter="2" event-counter="4602975" vca-counter="1">
+<Session version="7002" name="General Relamidity" sample-rate="44100" session-range-is-free="0" id-counter="234883" rg-counter="413" name-counter="2" event-counter="4848412" vca-counter="1">
   <ProgramVersion created-with="Ardour 7.5-1115-g9b503058db" modified-with="Ardour 7.5-1340-gaae66d0f86"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -11,10 +11,9 @@
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
       <Connection other="Dooh/midi_in 1"/>
-      <Connection other="Drum Kit/midi_in 1"/>
       <Connection other="Guitar/midi_in 1"/>
       <Connection other="SynSaw/midi_in 1"/>
-      <Connection other="Drum Kit/midi_in 1"/>
+      <Connection other="SynSaw/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -342,7 +341,10 @@
     <Source name="Take6_Bell-40.mid" take-id="" type="midi" flags="Writable,CanRename" id="212875" natural-position="a0" origin=""/>
     <Source name="Take6_Pad-42.mid" take-id="" type="midi" flags="Writable,CanRename" id="212883" natural-position="a0" origin=""/>
     <Source name="Take5_Kick-65.mid" take-id="" type="midi" flags="Writable,CanRename" id="212891" natural-position="a0" captured-for="Kick" origin=""/>
-    <Source name="Take6_SynSaw-3.mid" take-id="" type="midi" flags="Writable,CanRename,Removable,RemovableIfEmpty,Empty" id="213716" origin=""/>
+    <Source name="Take6_SynSaw-3.mid" take-id="" type="midi" flags="Writable,CanRename" id="213716" origin=""/>
+    <Source name="Take6_SynSaw-12.mid" take-id="" type="midi" flags="Writable,CanRename" id="221126" natural-position="a0" origin=""/>
+    <Source name="Take6_SynSaw-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="221410" natural-position="a0" origin=""/>
+    <Source name="Take6_SynSaw-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="222495" origin=""/>
   </Sources>
   <TriggerBindings/>
   <Regions>
@@ -448,6 +450,7 @@
     <Region name="Take6_SynSaw-7.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b138240" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="0" id="211705" type="midi" first-edit="nothing" source-0="211703" master-source-0="211703"/>
     <Region name="Take6_SynSaw-8.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b145920" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" id="211712" type="midi" first-edit="nothing" source-0="211710" master-source-0="211710"/>
     <Region name="Take6_SynSaw-3" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b153600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="213718" type="midi" first-edit="nothing" source-0="213716" master-source-0="213716"/>
+    <Region name="Take6_SynSaw-11" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b176640" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="222497" type="midi" first-edit="nothing" source-0="222495" master-source-0="222495"/>
   </Regions>
   <Selection/>
   <Locations>
@@ -470,15 +473,13 @@
       <Controllable name="solo-safe" id="87" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Master" id="99" direction="Input" default-type="audio">
         <Port name="Master/audio_in 1" type="audio" direction="Input">
-          <Connection other="Chorus/audio_out 1"/>
-          <Connection other="SynSaw/audio_out 1"/>
           <Connection other="Bass/audio_out 1"/>
           <Connection other="Bell/audio_out 1"/>
           <Connection other="Bright/audio_out 1"/>
           <Connection other="Choir/audio_out 1"/>
           <Connection other="Chorus/audio_out 1"/>
           <Connection other="Dooh/audio_out 1"/>
-          <Connection other="Drum Kit/audio_out 1"/>
+          <Connection other="Drums/audio_out 1"/>
           <Connection other="Guitar/audio_out 1"/>
           <Connection other="Kick/audio_out 1"/>
           <Connection other="Long Delay/audio_out 1"/>
@@ -490,15 +491,13 @@
           <Connection other="SynSaw/audio_out 1"/>
         </Port>
         <Port name="Master/audio_in 2" type="audio" direction="Input">
-          <Connection other="Chorus/audio_out 2"/>
-          <Connection other="SynSaw/audio_out 2"/>
           <Connection other="Bass/audio_out 2"/>
           <Connection other="Bell/audio_out 2"/>
           <Connection other="Bright/audio_out 2"/>
           <Connection other="Choir/audio_out 2"/>
           <Connection other="Chorus/audio_out 2"/>
           <Connection other="Dooh/audio_out 2"/>
-          <Connection other="Drum Kit/audio_out 2"/>
+          <Connection other="Drums/audio_out 2"/>
           <Connection other="Guitar/audio_out 2"/>
           <Connection other="Kick/audio_out 2"/>
           <Connection other="Long Delay/audio_out 2"/>
@@ -571,9 +570,7 @@
       <Controllable name="solo-safe" id="219" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Drums" id="231" direction="Input" default-type="midi">
         <Port name="Drums/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="a2j:UM-1 [28] (capture): UM-1 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Drums" id="232" direction="Output" default-type="midi">
@@ -3184,16 +3181,16 @@ a19353600000 0.99999994039535522
       <Controllable name="solo-safe" id="180940" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="SynSaw" id="180952" direction="Input" default-type="midi">
         <Port name="SynSaw/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="a2j:UM-1 [28] (capture): UM-1 MIDI 1"/>
         </Port>
       </IO>
       <IO name="SynSaw" id="180953" direction="Output" default-type="midi">
         <Port name="SynSaw/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
-          <Connection other="Master/audio_in 1"/>
         </Port>
         <Port name="SynSaw/audio_out 2" type="audio" direction="Output">
-          <Connection other="Master/audio_in 2"/>
           <Connection other="Master/audio_in 2"/>
         </Port>
         <Port name="SynSaw/midi_out 1" type="midi" direction="Output"/>
@@ -3425,10 +3422,8 @@ a19353600000 0.99999994039535522
       <IO name="Chorus" id="181167" direction="Output" default-type="audio">
         <Port name="Chorus/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
-          <Connection other="Master/audio_in 1"/>
         </Port>
         <Port name="Chorus/audio_out 2" type="audio" direction="Output">
-          <Connection other="Master/audio_in 2"/>
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -3753,6 +3748,9 @@ a19353600000 0.99999994039535522
       <Region name="Take6_SynSaw-9.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b138240" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="0" id="212331" type="midi" first-edit="nothing" source-0="212329" master-source-0="212329"/>
       <Region name="Take6_SynSaw-10.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b145920" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" id="212338" type="midi" first-edit="nothing" source-0="212336" master-source-0="212336"/>
       <Region name="Take6_SynSaw-3" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b153600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" id="213721" type="midi" first-edit="nothing" source-0="213716" master-source-0="213716"/>
+      <Region name="Take6_SynSaw-12.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b161280" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="0" id="221134" type="midi" first-edit="nothing" source-0="221126" master-source-0="221126"/>
+      <Region name="Take6_SynSaw-13.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b168960" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="6" tags="" contents="0" rgroup="0" id="221418" type="midi" first-edit="nothing" source-0="221410" master-source-0="221410"/>
+      <Region name="Take6_SynSaw-11" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b176640" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="0" id="222500" type="midi" first-edit="nothing" source-0="222495" master-source-0="222495"/>
     </Playlist>
   </Playlists>
   <UnusedPlaylists/>
@@ -3857,6 +3855,7 @@ a19353600000 0.99999994039535522
       <Window name="RPM-3845" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-549" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-817" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-180891" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-424" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-680" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-1109" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -3864,6 +3863,7 @@ a19353600000 0.99999994039535522
       <Window name="RPM-1356" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-4026" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-1401" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-181138" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1448-1451" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1448-14372" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-1448-1614" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -3904,6 +3904,11 @@ a19353600000 0.99999994039535522
       <Window name="PM-817-50104" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-817-951" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-817-50114" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-180891-180894" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-180891-181083" visible="0" x-off="3017" y-off="1180" x-size="458" y-size="411" custom-ui="1"/>
+      <Window name="P-180891-181242" visible="0" x-off="2888" y-off="1179" x-size="716" y-size="413" custom-ui="1"/>
+      <Window name="PM-180891-181083" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-180891-181242" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-424-427" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-424-176019" visible="0" x-off="1920" y-off="618" x-size="451" y-size="324" custom-ui="1"/>
       <Window name="P-424-540" visible="0" x-off="1920" y-off="600" x-size="458" y-size="411" custom-ui="1"/>
@@ -3932,15 +3937,8 @@ a19353600000 0.99999994039535522
       <Window name="PM-4026-8770" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1401-141299" visible="0" x-off="2895" y-off="1144" x-size="945" y-size="445" custom-ui="1"/>
       <Window name="PM-1401-141299" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-180891" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-180891-180894" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-180891-181083" visible="0" x-off="3017" y-off="1180" x-size="458" y-size="411" custom-ui="1"/>
-      <Window name="PM-180891-181083" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-181138" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-181138-181183" visible="0" x-off="2773" y-off="1135" x-size="946" y-size="501" custom-ui="1"/>
       <Window name="PM-181138-181183" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-180891-181242" visible="0" x-off="2888" y-off="1179" x-size="716" y-size="413" custom-ui="1"/>
-      <Window name="PM-180891-181242" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 71" height="40"/>
         <Object id="automation 75" height="40" visible="0"/>
