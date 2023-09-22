@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="General Relamidity" sample-rate="44100" session-range-is-free="0" id-counter="234819" rg-counter="412" name-counter="2" event-counter="4845939" vca-counter="1">
+<Session version="7002" name="General Relamidity" sample-rate="44100" session-range-is-free="0" id-counter="250372" rg-counter="442" name-counter="2" event-counter="5452151" vca-counter="1">
   <ProgramVersion created-with="Ardour 7.5-1115-g9b503058db" modified-with="Ardour 7.5-1340-gaae66d0f86"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -10,9 +10,13 @@
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
+      <Connection other="Bell/midi_in 1"/>
+      <Connection other="Bright/midi_in 1"/>
       <Connection other="Dooh/midi_in 1"/>
       <Connection other="Guitar/midi_in 1"/>
+      <Connection other="Pad/midi_in 1"/>
       <Connection other="SynSaw/midi_in 1"/>
+      <Connection other="Bright/midi_in 1"/>
       <Connection other="SynSaw/midi_in 1"/>
     </Port>
   </MIDIPorts>
@@ -345,6 +349,8 @@
     <Source name="Take6_SynSaw-12.mid" take-id="" type="midi" flags="Writable,CanRename" id="221126" natural-position="a0" origin=""/>
     <Source name="Take6_SynSaw-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="221410" natural-position="a0" origin=""/>
     <Source name="Take6_SynSaw-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="222495" origin=""/>
+    <Source name="Take6_SynSaw-15.mid" take-id="" type="midi" flags="Writable,CanRename" id="241914" natural-position="a0" origin=""/>
+    <Source name="Take6_SynSaw-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="244391" origin=""/>
   </Sources>
   <TriggerBindings/>
   <Regions>
@@ -423,6 +429,7 @@
     <Region name="Take5_Kick-44.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b115200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="32" tags="" contents="0" rgroup="0" id="141391" type="midi" first-edit="nothing" source-0="141389" master-source-0="141389"/>
     <Region name="Take5_Kick-47.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b122880" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="35" tags="" contents="0" rgroup="0" id="141412" type="midi" first-edit="nothing" source-0="141410" master-source-0="141410"/>
     <Region name="Take6_Bell-31" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b115200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="146857" type="midi" first-edit="nothing" source-0="146855" master-source-0="146855"/>
+    <Region name="Take6_Bell-31" muted="1" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b107520" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="146860" type="midi" first-edit="nothing" source-0="146855" master-source-0="146855"/>
     <Region name="Take6_Pad-31" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b115200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="146917" type="midi" first-edit="nothing" source-0="146915" master-source-0="146915"/>
     <Region name="Take6_Pad-31" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b107520" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="146920" type="midi" first-edit="nothing" source-0="146915" master-source-0="146915"/>
     <Region name="Take5_Kick-48.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b153600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="36" tags="" contents="0" rgroup="0" id="152921" type="midi" first-edit="nothing" source-0="152919" master-source-0="152919"/>
@@ -451,10 +458,13 @@
     <Region name="Take6_SynSaw-8.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b145920" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" id="211712" type="midi" first-edit="nothing" source-0="211710" master-source-0="211710"/>
     <Region name="Take6_SynSaw-3" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b153600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="213718" type="midi" first-edit="nothing" source-0="213716" master-source-0="213716"/>
     <Region name="Take6_SynSaw-11" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b176640" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="222497" type="midi" first-edit="nothing" source-0="222495" master-source-0="222495"/>
+    <Region name="Take6_SynSaw-14" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b192000" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="244393" type="midi" first-edit="nothing" source-0="244391" master-source-0="244391"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="424" control="0" order="43"/>
+  </Selection>
   <Locations>
-    <Location id="4112" name="session" start="a0" end="a52012800000" flags="IsSessionRange" locked="0" timestamp="1693752747" cue="0"/>
+    <Location id="4112" name="session" start="a0" end="a38707200000" flags="IsSessionRange" locked="0" timestamp="1693752747" cue="0"/>
     <Location id="4630" name="Loop" start="a9676800000" end="a16934400000" flags="IsAutoLoop" locked="0" timestamp="1693752964" cue="0"/>
     <Location id="114314" name="Verse" start="a4838400000" end="a4838400000" flags="IsMark" locked="0" timestamp="1693761021" cue="0"/>
     <Location id="114659" name="Trans A" start="a9676800000" end="a9676800000" flags="IsMark" locked="0" timestamp="1693761161" cue="0"/>
@@ -1009,7 +1019,9 @@
       <Controllable name="solo-safe" id="473" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Bright" id="485" direction="Input" default-type="midi">
         <Port name="Bright/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="a2j:UM-1 [28] (capture): UM-1 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Bright" id="486" direction="Output" default-type="midi">
@@ -1414,6 +1426,10 @@ a16632000000 0
 a16783200000 0.99999994039535522
 a16934400000 0.99999994039535522
 a18446400000 0
+a31147200000 0
+a31298400000 0.99999994039535522
+a31449600000 0.99999994039535522
+a32659200000 0
 </events>
           </AutomationList>
         </Automation>
@@ -1602,7 +1618,7 @@ a18446400000 0
         <Automation>
           <AutomationList automation-id="gain" id="716" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="717" flags="GainLike" value="0.50118720531463623"/>
+        <Controllable name="gaincontrol" id="717" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="146831" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="11" selfdestruct="0" target="1356" allow-feedback="0">
         <Automation>
@@ -1855,6 +1871,10 @@ a16632000000 0
 a16783200000 0.99999994039535522
 a16934400000 0.99999994039535522
 a18446400000 0
+a31147200000 0
+a31298400000 0.99999994039535522
+a31449600000 0.99999994039535522
+a32659200000 0
 </events>
           </AutomationList>
         </Automation>
@@ -2850,10 +2870,13 @@ a16934400000 0.99999994039535522
 a18144000000 1.4125375747680664
 a18748800000 1.7773488759994507
 a19353600000 0.99999994039535522
+a31449600000 0.99999994039535522
+a32659200000 1.4125375747680664
+a33868800000 0.99999994039535522
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="3882" flags="GainLike" value="0.99999994039535522"/>
+        <Controllable name="gaincontrol" id="3882" flags="GainLike" value="1.0000311136245728"/>
       </Processor>
       <Processor id="8746" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="1" selfdestruct="0" target="1356" allow-feedback="0">
         <Automation>
@@ -3174,26 +3197,24 @@ a19353600000 0.99999994039535522
       <Controllable name="midicc-0-32" id="54117" flags="" value="0"/>
       <Controllable name="midi-pgm-change-0" id="54118" flags="" value="119"/>
     </Route>
-    <Route version="7002" id="180891" name="SynSaw" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="180969" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
+    <Route version="7002" id="180891" name="SynVoice" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="180969" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
       <PresentationInfo order="8" flags="MidiTrack,OrderSet,TriggerTrack" color="2855877119"/>
       <Controllable name="solo" id="180932" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="180938" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="180940" flags="Toggle" value="0" solo-safe="0"/>
-      <IO name="SynSaw" id="180952" direction="Input" default-type="midi">
-        <Port name="SynSaw/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
+      <IO name="SynVoice" id="180952" direction="Input" default-type="midi">
+        <Port name="SynVoice/midi_in 1" type="midi" direction="Input">
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="a2j:UM-1 [28] (capture): UM-1 MIDI 1"/>
         </Port>
       </IO>
-      <IO name="SynSaw" id="180953" direction="Output" default-type="midi">
-        <Port name="SynSaw/audio_out 1" type="audio" direction="Output">
+      <IO name="SynVoice" id="180953" direction="Output" default-type="midi">
+        <Port name="SynVoice/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port name="SynSaw/audio_out 2" type="audio" direction="Output">
+        <Port name="SynVoice/audio_out 2" type="audio" direction="Output">
           <Connection other="Master/audio_in 2"/>
         </Port>
-        <Port name="SynSaw/midi_out 1" type="midi" direction="Output"/>
+        <Port name="SynVoice/midi_out 1" type="midi" direction="Output"/>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
       <Controllable name="mute" id="180934" flags="Toggle,RealTime" value="0"/>
@@ -3223,8 +3244,8 @@ a19353600000 0.99999994039535522
           <AutomationList automation-id="pan-lfe" id="180950" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
         </Automation>
       </Pannable>
-      <Processor id="180962" name="recorder:SynSaw" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
-      <Processor id="180961" name="player:SynSaw" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="180962" name="recorder:SynVoice" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="180961" name="player:SynVoice" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
       <Processor id="180894" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="midi" order="7">
         <Triggers>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
@@ -3376,7 +3397,14 @@ a19353600000 0.99999994039535522
       <Processor id="181091" name="Long Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="13" selfdestruct="0" target="1401" allow-feedback="0">
         <Automation>
           <AutomationList automation-id="phase" id="181110" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
-          <AutomationList automation-id="send" id="181104" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="send" id="181104" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+            <events>a0 0.70794570446014404
+a31147200000 0.70794570446014404
+a31298400000 1.9952623844146729
+a31449600000 1.9952623844146729
+a32659200000 0.70794570446014404
+</events>
+          </AutomationList>
         </Automation>
         <PannerShell bypassed="0" user-panner="" linked-to-route="1">
           <Panner uri="http://ardour.org/plugin/panner_balance" type="Stereo Balance"/>
@@ -3399,7 +3427,7 @@ a19353600000 0.99999994039535522
         <Controllable name="gaincontrol" id="181105" flags="GainLike,InlineControl" value="0.70794570446014404"/>
       </Processor>
       <Processor id="180958" name="meter-SynSaw" active="1" user-latency="0" use-user-latency="0" type="meter"/>
-      <Processor id="180959" name="SynSaw" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="SynSaw" type="main-outs" role="Main">
+      <Processor id="180959" name="SynVoice" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="SynVoice" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
       </Processor>
       <Slavable/>
@@ -3641,8 +3669,7 @@ a19353600000 0.99999994039535522
       <Region name="Take5_Dooh-44.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b192000" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="0" id="213227" type="midi" first-edit="nothing" source-0="212723" master-source-0="212723"/>
     </Playlist>
     <Playlist id="758" name="Bell" type="midi" orig-track-id="680" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Take6_Bell-31" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b107520" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="146860" type="midi" first-edit="nothing" source-0="146855" master-source-0="146855"/>
-      <Region name="Take6_Bell-40.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b199680" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" id="213649" type="midi" first-edit="nothing" source-0="212875" master-source-0="212875"/>
+      <Region name="Take6_Bell-40.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b199680" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="213649" type="midi" first-edit="nothing" source-0="212875" master-source-0="212875"/>
     </Playlist>
     <Playlist id="895" name="SynEcho" type="midi" orig-track-id="817" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take5_Dooh-10.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b30720" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="50070" type="midi" first-edit="nothing" source-0="50038" master-source-0="50038"/>
@@ -3751,6 +3778,8 @@ a19353600000 0.99999994039535522
       <Region name="Take6_SynSaw-12.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b161280" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="0" id="221134" type="midi" first-edit="nothing" source-0="221126" master-source-0="221126"/>
       <Region name="Take6_SynSaw-13.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b168960" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="6" tags="" contents="0" rgroup="0" id="221418" type="midi" first-edit="nothing" source-0="221410" master-source-0="221410"/>
       <Region name="Take6_SynSaw-11" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b176640" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="0" id="222500" type="midi" first-edit="nothing" source-0="222495" master-source-0="222495"/>
+      <Region name="Take6_SynSaw-15.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b184320" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" id="241916" type="midi" first-edit="nothing" source-0="241914" master-source-0="241914"/>
+      <Region name="Take6_SynSaw-14" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b192000" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="0" id="244396" type="midi" first-edit="nothing" source-0="244391" master-source-0="244391"/>
     </Playlist>
   </Playlists>
   <UnusedPlaylists/>
@@ -4414,7 +4443,7 @@ a19353600000 0.99999994039535522
             <Object id="control 181215" visible="0"/>
           </Object>
         </Object>
-        <Object id="automation 181105" height="40" visible="0"/>
+        <Object id="automation 181105" height="40" visible="1"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
