@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="General Relamidity" sample-rate="44100" session-range-is-free="0" id-counter="327379" rg-counter="520" name-counter="6" event-counter="7754573" vca-counter="1">
+<Session version="7002" name="General Relamidity" sample-rate="44100" session-range-is-free="0" id-counter="334548" rg-counter="573" name-counter="6" event-counter="9928784" vca-counter="1">
   <ProgramVersion created-with="Ardour 7.5-1115-g9b503058db" modified-with="Ardour 7.5-1340-gaae66d0f86"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -17,12 +17,16 @@
       <Connection other="Bell/midi_in 1"/>
       <Connection other="Bright/midi_in 1"/>
       <Connection other="Dooh/midi_in 1"/>
+      <Connection other="Drums/midi_in 1"/>
       <Connection other="Guitar/midi_in 1"/>
+      <Connection other="Kick/midi_in 1"/>
       <Connection other="Pad/midi_in 1"/>
+      <Connection other="Reverse Crash/midi_in 1"/>
+      <Connection other="SynEcho/midi_in 1"/>
       <Connection other="SynVoice/midi_in 1"/>
       <Connection other="Bass 1/midi_in 1"/>
       <Connection other="Bass/midi_in 1"/>
-      <Connection other="Dooh/midi_in 1"/>
+      <Connection other="SynVoice/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -50,7 +54,7 @@
     <Option name="midi-search-path" value=""/>
     <Option name="track-name-number" value="0"/>
     <Option name="track-name-take" value="1"/>
-    <Option name="take-name" value="Take7"/>
+    <Option name="take-name" value="Take8"/>
     <Option name="jack-time-master" value="1"/>
     <Option name="use-video-sync" value="0"/>
     <Option name="video-pullup" value="0"/>
@@ -357,6 +361,7 @@
     <Source name="Take6_SynSaw-15.mid" take-id="" type="midi" flags="Writable,CanRename" id="241914" natural-position="a0" origin=""/>
     <Source name="Take6_SynSaw-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="244391" origin=""/>
     <Source name="Take6_Bright-64.mid" take-id="2023-09-22 22.02.06" type="midi" flags="Writable,CanRename" id="254623" natural-position="a33868800000" captured-for="Bright" origin=""/>
+    <Source name="Take7_Bell-2.mid" take-id="2023-09-27 19.51.56" type="midi" flags="Writable,CanRename" id="260657" natural-position="a40577228800" captured-for="Bell" origin=""/>
     <Source name="Take6_Bell-41.mid" take-id="" type="midi" flags="Writable,CanRename" id="262321" natural-position="a0" origin=""/>
     <Source name="Take6_Bell-42.mid" take-id="" type="midi" flags="Writable,CanRename" id="262363" natural-position="a0" origin=""/>
     <Source name="Take4_Bass-37.mid" take-id="" type="midi" flags="Writable,CanRename" id="263247" natural-position="a0" origin=""/>
@@ -416,6 +421,24 @@
     <Source name="Take4_Bass-91.mid" take-id="" type="midi" flags="Writable,CanRename" id="264283" natural-position="a0" origin=""/>
     <Source name="Take4_Bass-92.mid" take-id="" type="midi" flags="Writable,CanRename" id="264293" natural-position="a0" origin=""/>
     <Source name="Take4_Bass-93.mid" take-id="" type="midi" flags="Writable,CanRename" id="264303" natural-position="a0" origin=""/>
+    <Source name="Take6_Drum Kit-81.mid" take-id="" type="midi" flags="Writable,CanRename" id="330832" natural-position="a0" origin=""/>
+    <Source name="Take5_Kick-66.mid" take-id="" type="midi" flags="Writable,CanRename" id="330839" natural-position="a0" captured-for="Kick" origin=""/>
+    <Source name="Take6_Drum Kit-82.mid" take-id="" type="midi" flags="Writable,CanRename" id="330850" natural-position="a0" origin=""/>
+    <Source name="Take5_Kick-67.mid" take-id="" type="midi" flags="Writable,CanRename" id="330857" natural-position="a0" captured-for="Kick" origin=""/>
+    <Source name="Take6_Drum Kit-83.mid" take-id="" type="midi" flags="Writable,CanRename" id="330868" natural-position="a0" origin=""/>
+    <Source name="Take5_Kick-68.mid" take-id="" type="midi" flags="Writable,CanRename" id="330875" natural-position="a0" captured-for="Kick" origin=""/>
+    <Source name="Take6_Drum Kit-84.mid" take-id="" type="midi" flags="Writable,CanRename" id="330886" natural-position="a0" origin=""/>
+    <Source name="Take5_Kick-69.mid" take-id="" type="midi" flags="Writable,CanRename" id="330893" natural-position="a0" captured-for="Kick" origin=""/>
+    <Source name="Take6_Drum Kit-85.mid" take-id="" type="midi" flags="Writable,CanRename" id="330904" natural-position="a0" origin=""/>
+    <Source name="Take5_Kick-70.mid" take-id="" type="midi" flags="Writable,CanRename" id="330911" natural-position="a0" captured-for="Kick" origin=""/>
+    <Source name="Take6_Drum Kit-86.mid" take-id="" type="midi" flags="Writable,CanRename" id="330922" natural-position="a0" origin=""/>
+    <Source name="Take5_Kick-71.mid" take-id="" type="midi" flags="Writable,CanRename" id="330929" natural-position="a0" captured-for="Kick" origin=""/>
+    <Source name="Take6_Drum Kit-87.mid" take-id="" type="midi" flags="Writable,CanRename" id="330940" natural-position="a0" origin=""/>
+    <Source name="Take5_Kick-72.mid" take-id="" type="midi" flags="Writable,CanRename" id="330947" natural-position="a0" captured-for="Kick" origin=""/>
+    <Source name="Take6_Drum Kit-88.mid" take-id="" type="midi" flags="Writable,CanRename" id="330958" natural-position="a0" origin=""/>
+    <Source name="Take5_Kick-73.mid" take-id="" type="midi" flags="Writable,CanRename" id="330965" natural-position="a0" captured-for="Kick" origin=""/>
+    <Source name="Take7_Bass Pick-1.mid" take-id="" type="midi" flags="Writable,CanRename" id="330979" origin=""/>
+    <Source name="Take7_Bass Pick-3.mid" take-id="" type="midi" flags="Writable,CanRename" id="331672" natural-position="a0" origin=""/>
   </Sources>
   <TriggerBindings/>
   <Regions>
@@ -564,12 +587,23 @@
     <Region name="Take4_Bass-63.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b199680" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="20" tags="" contents="0" rgroup="0" id="263534" type="midi" first-edit="nothing" source-0="263533" master-source-0="263533"/>
     <Region name="Take4_Bass-64.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b207360" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="19" tags="" contents="0" rgroup="0" id="263545" type="midi" first-edit="nothing" source-0="263544" master-source-0="263544"/>
     <Region name="Take4_Bass-65.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="27" tags="" contents="0" rgroup="0" id="264025" type="midi" first-edit="nothing" source-0="264015" master-source-0="264015"/>
+    <Region name="Take6_Drum Kit-81.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b215040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="28" tags="" contents="0" rgroup="0" id="330834" type="midi" first-edit="nothing" source-0="330832" master-source-0="330832"/>
+    <Region name="Take6_Drum Kit-82.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b222720" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="29" tags="" contents="0" rgroup="0" id="330852" type="midi" first-edit="nothing" source-0="330850" master-source-0="330850"/>
+    <Region name="Take6_Drum Kit-83.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b230400" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="30" tags="" contents="0" rgroup="0" id="330870" type="midi" first-edit="nothing" source-0="330868" master-source-0="330868"/>
+    <Region name="Take6_Drum Kit-84.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b238080" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="31" tags="" contents="0" rgroup="0" id="330888" type="midi" first-edit="nothing" source-0="330886" master-source-0="330886"/>
+    <Region name="Take6_Drum Kit-85.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b245760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="32" tags="" contents="0" rgroup="0" id="330906" type="midi" first-edit="nothing" source-0="330904" master-source-0="330904"/>
+    <Region name="Take6_Drum Kit-86.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b253440" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="33" tags="" contents="0" rgroup="0" id="330924" type="midi" first-edit="nothing" source-0="330922" master-source-0="330922"/>
+    <Region name="Take6_Drum Kit-87.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b261120" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="34" tags="" contents="0" rgroup="0" id="330942" type="midi" first-edit="nothing" source-0="330940" master-source-0="330940"/>
+    <Region name="Take6_Drum Kit-88.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b268800" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="35" tags="" contents="0" rgroup="0" id="330960" type="midi" first-edit="nothing" source-0="330958" master-source-0="330958"/>
+    <Region name="Take7_Bass Pick-1" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b215040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="330981" type="midi" first-edit="nothing" source-0="330979" master-source-0="330979"/>
+    <Region name="Take7_Bass Pick-3.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b61440@b215040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="28" tags="" contents="0" rgroup="0" id="331674" type="midi" first-edit="nothing" source-0="331672" master-source-0="331672"/>
+    <Region name="Take7_Bell-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b15626@a40577228800" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="334344" type="midi" first-edit="nothing" source-0="260657" master-source-0="260657"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="549" control="0" order="26"/>
+    <StripableAutomationControl stripable="180891" control="0" order="61"/>
   </Selection>
   <Locations>
-    <Location id="4112" name="session" start="a0" end="a38707200000" flags="IsSessionRange" locked="0" timestamp="1693752747" cue="0"/>
+    <Location id="4112" name="session" start="a0" end="a43848000000" flags="IsSessionRange" locked="0" timestamp="1693752747" cue="0"/>
     <Location id="4630" name="Loop" start="a9676800000" end="a16934400000" flags="IsAutoLoop" locked="0" timestamp="1693752964" cue="0"/>
     <Location id="114314" name="Verse" start="a4838400000" end="a4838400000" flags="IsMark" locked="0" timestamp="1693761021" cue="0"/>
     <Location id="114659" name="Trans A" start="a9676800000" end="a9676800000" flags="IsMark" locked="0" timestamp="1693761161" cue="0"/>
@@ -884,12 +918,12 @@
       <Controllable name="rec-enable" id="243" flags="Toggle,RealTime" value="0"/>
       <Controllable name="midicc-0-0" id="285" flags="" value="0"/>
       <Controllable name="midicc-0-32" id="286" flags="" value="0"/>
-      <Controllable name="midicc-1-0" id="282" flags="" value="1"/>
+      <Controllable name="midicc-1-0" id="282" flags="" value="8"/>
       <Controllable name="midicc-1-32" id="283" flags="" value="0"/>
       <Controllable name="midicc-2-0" id="279" flags="" value="0"/>
       <Controllable name="midicc-2-32" id="280" flags="" value="0"/>
       <Controllable name="midi-pgm-change-0" id="287" flags="" value="127"/>
-      <Controllable name="midi-pgm-change-1" id="284" flags="" value="56"/>
+      <Controllable name="midi-pgm-change-1" id="284" flags="" value="25"/>
       <Controllable name="midi-pgm-change-2" id="281" flags="" value="5"/>
     </Route>
     <Route version="7002" id="305" name="Bass Pick" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="383" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
@@ -911,8 +945,8 @@
         </Port>
         <Port name="Bass Pick/midi_out 1" type="midi" direction="Output"/>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="348" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="348" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="350" flags="Toggle" value="0" phase-invert=""/>
       <Automation>
         <AutomationList automation-id="solo" id="345" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
@@ -1119,7 +1153,7 @@
       <Controllable name="midicc-0-32" id="421" flags="" value="0"/>
       <Controllable name="midi-pgm-change-0" id="422" flags="" value="34"/>
     </Route>
-    <Route version="7002" id="424" name="Bright" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="502" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
+    <Route version="7002" id="424" name="Bright" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="502" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
       <PresentationInfo order="10" flags="MidiTrack,OrderSet,TriggerTrack" color="2148865535"/>
       <Controllable name="solo" id="465" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="471" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -1166,7 +1200,6 @@
           <AutomationList automation-id="pan-lfe" id="483" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
         </Automation>
       </Pannable>
-      <Processor id="491" name="meter-Bright" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="495" name="recorder:Bright" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
       <Processor id="494" name="player:Bright" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
       <Processor id="427" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="midi" order="9">
@@ -1275,13 +1308,14 @@
         <Controllable name="polarity-invert" id="50159" flags="Toggle" value="0"/>
         <Controllable name="gaincontrol" id="50153" flags="GainLike,InlineControl" value="1.4956567287445068"/>
       </Processor>
+      <Processor id="491" name="meter-Bright" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="492" name="Bright" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Bright" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
       </Processor>
       <Slavable/>
       <Controllable name="monitor" id="501" flags="RealTime" value="0" monitoring=""/>
       <Controllable name="rec-safe" id="499" flags="Toggle,RealTime" value="0"/>
-      <Controllable name="rec-enable" id="497" flags="Toggle,RealTime" value="1"/>
+      <Controllable name="rec-enable" id="497" flags="Toggle,RealTime" value="0"/>
       <Controllable name="midicc-0-0" id="545" flags="" value="0"/>
       <Controllable name="midicc-0-32" id="546" flags="" value="0"/>
       <Controllable name="midi-pgm-change-0" id="547" flags="" value="100"/>
@@ -1293,9 +1327,7 @@
       <Controllable name="solo-safe" id="598" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Dooh" id="610" direction="Input" default-type="midi">
         <Port name="Dooh/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="a2j:UM-1 [28] (capture): UM-1 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Dooh" id="611" direction="Output" default-type="midi">
@@ -1322,7 +1354,7 @@
         <AutomationList automation-id="midi-velocity" id="633" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="601" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="601" flags="" value="0.46313580246913566"/>
         <Controllable name="pan-width" id="605" flags="" value="0"/>
         <Controllable name="pan-elevation" id="603" flags="" value="0"/>
         <Controllable name="pan-frontback" id="607" flags="" value="0"/>
@@ -1597,7 +1629,7 @@ a32659200000 0
       <Controllable name="midicc-0-32" id="677" flags="" value="0"/>
       <Controllable name="midi-pgm-change-0" id="678" flags="" value="53"/>
     </Route>
-    <Route version="7002" id="680" name="Bell" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="758" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+    <Route version="7002" id="680" name="Bell" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterInput" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="758" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
       <PresentationInfo order="11" flags="MidiTrack,OrderSet,TriggerTrack" color="2861447679"/>
       <Controllable name="solo" id="721" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="727" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -1644,6 +1676,7 @@ a32659200000 0
           <AutomationList automation-id="pan-lfe" id="739" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
         </Automation>
       </Pannable>
+      <Processor id="747" name="meter-OrchHit" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="751" name="recorder:Bell" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
       <Processor id="750" name="player:Bell" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
       <Processor id="683" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="midi" order="10">
@@ -1752,14 +1785,13 @@ a32659200000 0
         <Controllable name="polarity-invert" id="146851" flags="Toggle" value="0"/>
         <Controllable name="gaincontrol" id="146845" flags="GainLike,InlineControl" value="1.4956637620925903"/>
       </Processor>
-      <Processor id="747" name="meter-OrchHit" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="748" name="Bell" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Bell" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
       </Processor>
       <Slavable/>
       <Controllable name="monitor" id="757" flags="RealTime" value="0" monitoring=""/>
       <Controllable name="rec-safe" id="755" flags="Toggle,RealTime" value="0"/>
-      <Controllable name="rec-enable" id="753" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="753" flags="Toggle,RealTime" value="1"/>
       <Controllable name="midicc-0-0" id="813" flags="" value="0"/>
       <Controllable name="midicc-0-32" id="814" flags="" value="0"/>
       <Controllable name="midi-pgm-change-0" id="815" flags="" value="14"/>
@@ -1798,7 +1830,7 @@ a32659200000 0
         <AutomationList automation-id="midi-velocity" id="901" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="869" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="869" flags="" value="0.1915308641975299"/>
         <Controllable name="pan-width" id="873" flags="" value="0"/>
         <Controllable name="pan-elevation" id="871" flags="" value="0"/>
         <Controllable name="pan-frontback" id="875" flags="" value="0"/>
@@ -1941,7 +1973,7 @@ a32659200000 0
         <Automation>
           <AutomationList automation-id="gain" id="853" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="854" flags="GainLike" value="0.70794576406478882"/>
+        <Controllable name="gaincontrol" id="854" flags="GainLike" value="0.50118720531463623"/>
       </Processor>
       <Processor id="50080" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="6" selfdestruct="0" target="1356" allow-feedback="0">
         <Automation>
@@ -2193,7 +2225,7 @@ a32659200000 0
         <AutomationList automation-id="midi-velocity" id="1193" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="1161" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="1161" flags="" value="0.35819753086419792"/>
         <Controllable name="pan-width" id="1165" flags="" value="0"/>
         <Controllable name="pan-elevation" id="1163" flags="" value="0"/>
         <Controllable name="pan-frontback" id="1167" flags="" value="0"/>
@@ -2908,7 +2940,7 @@ a32659200000 0
         <AutomationList automation-id="midi-velocity" id="3929" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="3897" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="3897" flags="" value="0.67266666666666741"/>
         <Controllable name="pan-width" id="3901" flags="" value="0"/>
         <Controllable name="pan-elevation" id="3899" flags="" value="0"/>
         <Controllable name="pan-frontback" id="3903" flags="" value="0"/>
@@ -2986,7 +3018,7 @@ a47779200000 1.5079869031906128
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="3882" flags="GainLike" value="1.2493535040035995"/>
+        <Controllable name="gaincontrol" id="3882" flags="GainLike" value="0"/>
       </Processor>
       <Processor id="8746" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="1" selfdestruct="0" target="1356" allow-feedback="0">
         <Automation>
@@ -3314,7 +3346,9 @@ a47779200000 1.5079869031906128
       <Controllable name="solo-safe" id="180940" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="SynVoice" id="180952" direction="Input" default-type="midi">
         <Port name="SynVoice/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="a2j:UM-1 [28] (capture): UM-1 MIDI 1"/>
         </Port>
       </IO>
       <IO name="SynVoice" id="180953" direction="Output" default-type="midi">
@@ -3341,7 +3375,7 @@ a47779200000 1.5079869031906128
         <AutomationList automation-id="midi-velocity" id="180975" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="180943" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="180943" flags="" value="0.56772839506172845"/>
         <Controllable name="pan-width" id="180947" flags="" value="0"/>
         <Controllable name="pan-elevation" id="180945" flags="" value="0"/>
         <Controllable name="pan-frontback" id="180949" flags="" value="0"/>
@@ -3683,7 +3717,7 @@ a32659200000 0.70794570446014404
       </Processor>
       <Slavable/>
     </Route>
-    <Route version="7002" id="263632" name="Bass Synth" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="263242" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+    <Route version="7002" id="263632" name="Bass Synth" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="263242" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
       <PresentationInfo order="5" flags="MidiTrack,OrderSet,TriggerTrack" color="1157658623"/>
       <Controllable name="solo" id="263593" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="263800" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -3702,8 +3736,8 @@ a32659200000 0.70794570446014404
         </Port>
         <Port name="Bass Synth/midi_out 1" type="midi" direction="Output"/>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
-      <Controllable name="mute" id="263802" flags="Toggle,RealTime" value="1"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="263802" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="263803" flags="Toggle" value="0" phase-invert=""/>
       <Automation>
         <AutomationList automation-id="solo" id="263804" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
@@ -3717,7 +3751,7 @@ a32659200000 0.70794570446014404
         <AutomationList automation-id="midi-velocity" id="263812" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="263635" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="263635" flags="" value="0.32733333333333292"/>
         <Controllable name="pan-width" id="263636" flags="" value="0"/>
         <Controllable name="pan-elevation" id="263637" flags="" value="0"/>
         <Controllable name="pan-frontback" id="263638" flags="" value="0"/>
@@ -3868,7 +3902,32 @@ a32659200000 0.70794570446014404
         <Automation>
           <AutomationList automation-id="gain" id="263756" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="263757" flags="GainLike" value="0.70794576406478882"/>
+        <Controllable name="gaincontrol" id="263757" flags="GainLike" value="0.50118720531463623"/>
+      </Processor>
+      <Processor id="329570" name="Chorus" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="17" selfdestruct="0" target="181138" allow-feedback="0">
+        <Automation>
+          <AutomationList automation-id="phase" id="329589" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="send" id="329583" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
+        </Automation>
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1">
+          <Panner uri="http://ardour.org/plugin/panner_balance" type="Stereo Balance"/>
+        </PannerShell>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="329574" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="329578" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="329576" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="329580" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="329582" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="329573" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="329575" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+            <AutomationList automation-id="pan-width" id="329577" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="329579" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="329581" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          </Automation>
+        </Pannable>
+        <Controllable name="polarity-invert" id="329590" flags="Toggle" value="0"/>
+        <Controllable name="gaincontrol" id="329584" flags="GainLike,InlineControl" value="0.49606654047966003"/>
       </Processor>
       <Processor id="263781" name="Short Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="16" selfdestruct="0" target="4026" allow-feedback="0">
         <Automation>
@@ -4007,6 +4066,7 @@ a32659200000 0.70794570446014404
       <Region name="Take6_Bell-41.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b30720" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" id="262329" type="midi" first-edit="nothing" source-0="262321" master-source-0="262321"/>
       <Region name="Take6_Bell-42.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b122880" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="0" id="262371" type="midi" first-edit="nothing" source-0="262363" master-source-0="262363"/>
       <Region name="Take6_Bell-40.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b199680" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="213649" type="midi" first-edit="nothing" source-0="212875" master-source-0="212875"/>
+      <Region name="Take7_Bell-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b3487" length="b15360@b261120" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="9072" id="334347" type="midi" first-edit="nothing" source-0="260657" master-source-0="260657"/>
     </Playlist>
     <Playlist id="895" name="SynEcho" type="midi" orig-track-id="817" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take5_Dooh-43.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b122880" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" id="171218" type="midi" first-edit="nothing" source-0="171196" master-source-0="171196"/>
@@ -4055,6 +4115,14 @@ a32659200000 0.70794570446014404
       <Region name="Take5_Kick-59.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b192000" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="23" tags="" contents="0" rgroup="432" id="212903" type="midi" first-edit="nothing" source-0="212443" master-source-0="212443"/>
       <Region name="Take5_Kick-58.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b199680" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="22" tags="" contents="0" rgroup="432" id="212901" type="midi" first-edit="nothing" source-0="212435" master-source-0="212435"/>
       <Region name="Take5_Kick-57.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b207360" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="21" tags="" contents="0" rgroup="432" id="212899" type="midi" first-edit="nothing" source-0="212427" master-source-0="212427"/>
+      <Region name="Take5_Kick-66.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b215040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="30" tags="" contents="0" rgroup="432" id="330841" type="midi" first-edit="nothing" source-0="330839" master-source-0="330839"/>
+      <Region name="Take5_Kick-67.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b222720" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="31" tags="" contents="0" rgroup="432" id="330859" type="midi" first-edit="nothing" source-0="330857" master-source-0="330857"/>
+      <Region name="Take5_Kick-68.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b230400" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="32" tags="" contents="0" rgroup="432" id="330877" type="midi" first-edit="nothing" source-0="330875" master-source-0="330875"/>
+      <Region name="Take5_Kick-69.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b238080" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="33" tags="" contents="0" rgroup="432" id="330895" type="midi" first-edit="nothing" source-0="330893" master-source-0="330893"/>
+      <Region name="Take5_Kick-70.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b245760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="34" tags="" contents="0" rgroup="432" id="330913" type="midi" first-edit="nothing" source-0="330911" master-source-0="330911"/>
+      <Region name="Take5_Kick-71.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b253440" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="35" tags="" contents="0" rgroup="432" id="330931" type="midi" first-edit="nothing" source-0="330929" master-source-0="330929"/>
+      <Region name="Take5_Kick-72.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b261120" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="36" tags="" contents="0" rgroup="432" id="330949" type="midi" first-edit="nothing" source-0="330947" master-source-0="330947"/>
+      <Region name="Take5_Kick-73.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b268800" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="37" tags="" contents="0" rgroup="432" id="330967" type="midi" first-edit="nothing" source-0="330965" master-source-0="330965"/>
     </Playlist>
     <Playlist id="3923" name="Guitar" type="midi" orig-track-id="3845" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take4_Guitar-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="224" id="4865" type="midi" first-edit="nothing" source-0="3931" master-source-0="3931"/>
@@ -4137,6 +4205,7 @@ a32659200000 0.70794570446014404
       <Region name="Take4_Bass-68.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b192000" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="0" id="264317" type="midi" first-edit="nothing" source-0="264053" master-source-0="264053"/>
       <Region name="Take4_Bass-67.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b199680" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" id="264315" type="midi" first-edit="nothing" source-0="264043" master-source-0="264043"/>
       <Region name="Take4_Bass-66.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b207360" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="264313" type="midi" first-edit="nothing" source-0="264033" master-source-0="264033"/>
+      <Region name="Take7_Bass Pick-3.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b61440@b215040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="28" tags="" contents="0" rgroup="0" id="331680" type="midi" first-edit="nothing" source-0="331672" master-source-0="331672"/>
     </Playlist>
   </Playlists>
   <UnusedPlaylists/>
@@ -4205,14 +4274,39 @@ a32659200000 0.70794570446014404
     <Protocol name="Wiimote" active="0" session-state="0"/>
   </ControlProtocols>
   <Extra>
-    <AddRouteDialog LastRouteType="AudioBus"/>
+    <AddRouteDialog LastRouteType="MidiTrack"/>
     <RulerVisibility minsec="1" timecode="1" samples="0" bbt="0" meter="0" tempo="0" rangemarker="1" transportmarker="1" cdmarker="1" arrangement="0" marker="1" cuemarker="0" videotl="0"/>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="4112" realtime="0"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="Master/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="Master/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="0627662f-f190-468d-9bb8-db0cca42eac5"/>
+      <ExportFilename>
+        <Folder relative="1" path="export"/>
+        <Field name="label" enabled="0"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="1"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_ISO"/>
+      </ExportFilename>
+    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="1920" y-off="934" x-size="1008" y-size="558"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="878" y-size="545"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="913" y-size="545"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -4477,7 +4571,7 @@ a32659200000 0.70794570446014404
           </Object>
         </Object>
         <Object id="automation 601" height="40" visible="0"/>
-        <Object id="rtav 680" height="40" note-range-min="76" note-range-max="79" midnam-custom-device-mode="" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="rtav 680" height="40" note-range-min="58" note-range-max="79" midnam-custom-device-mode="" color-mode="MeterColors" midnam-channel="Channel  1"/>
         <Object id="automation 717" height="40" visible="0"/>
         <Object id="automation 680 12/0/0" height="40" visible="0"/>
         <Object id="automation 680 31/0/0" height="40" visible="0"/>
@@ -4648,7 +4742,7 @@ a32659200000 0.70794570446014404
             <Object id="control 141337" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 1448" height="40" note-range-min="60" note-range-max="71" midnam-custom-device-mode="" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="rtav 1448" height="40" note-range-min="35" note-range-max="71" midnam-custom-device-mode="" color-mode="MeterColors" midnam-channel="Channel  1"/>
         <Object id="automation 1485" height="40" visible="0"/>
         <Object id="automation 1448 12/0/0" height="40" visible="0"/>
         <Object id="automation 1448 31/0/0" height="40" visible="0"/>
@@ -4838,6 +4932,20 @@ a32659200000 0.70794570446014404
           <Object id="processor 263781">
             <Object id="control 263795" visible="0"/>
             <Object id="control 263780" visible="1"/>
+          </Object>
+          <Object id="processor 329570">
+            <Object id="control 329590" visible="0"/>
+            <Object id="control 329584" visible="1"/>
+          </Object>
+        </Object>
+        <Object id="strip 329595">
+          <Object id="processor 329658">
+            <Object id="control 329632" visible="0"/>
+          </Object>
+          <Object id="processor 329806"/>
+          <Object id="processor 329811">
+            <Object id="control 329831" visible="0"/>
+            <Object id="control 329825" visible="1"/>
           </Object>
         </Object>
       </GUIObjectState>
