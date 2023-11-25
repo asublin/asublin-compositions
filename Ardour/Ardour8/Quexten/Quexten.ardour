@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Quexten" sample-rate="44100" session-range-is-free="0" id-counter="6614720" rg-counter="125" name-counter="2" event-counter="19304300" vca-counter="1">
+<Session version="7002" name="Quexten" sample-rate="44100" session-range-is-free="0" id-counter="6614722" rg-counter="128" name-counter="2" event-counter="19356350" vca-counter="1">
   <ProgramVersion created-with="Ardour 7.0-pre0-1502-g58868e175e" modified-with="Ardour 8.1-883-g87c7dfa3c9"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -975,7 +975,7 @@ a152409600000 0.0010506436228752136
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="70" flags="GainLike" value="0.99751849371743184"/>
+        <Controllable name="gaincontrol" id="70" flags="GainLike" value="0.015439607525407437"/>
       </Processor>
       <Processor id="1427526" name="x42-dpl - Digital Peak Limiter Stereo" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/dpl#stereo" count="1" custom="0">
         <Automation>
@@ -1340,7 +1340,7 @@ a15240960000 2
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="172" flags="GainLike" value="2"/>
+        <Controllable name="gaincontrol" id="172" flags="GainLike" value="0.94952547550201416"/>
       </Processor>
       <Processor id="4273530" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="23" selfdestruct="0" target="10583" allow-feedback="0">
         <Automation>
@@ -2378,7 +2378,7 @@ a131072256000 0.99999994039535522
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="9991" flags="GainLike" value="0.99999994039535522"/>
+        <Controllable name="gaincontrol" id="9991" flags="GainLike" value="9.9999999999999995e-08"/>
       </Processor>
       <Processor id="10756" name="Inter Delay" active="0" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="1" selfdestruct="0" target="10668" allow-feedback="0">
         <Automation>
@@ -3768,7 +3768,7 @@ a112783104000 0.99999994039535522
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="44248" flags="GainLike" value="0.99999994039535522"/>
+        <Controllable name="gaincontrol" id="44248" flags="GainLike" value="1.0000000403953553"/>
       </Processor>
       <Processor id="567819" name="Short Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="13" selfdestruct="0" target="567693" allow-feedback="0">
         <Automation>
@@ -4832,7 +4832,7 @@ a152409600000 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="257265" flags="GainLike" value="0.44216162717156693"/>
+        <Controllable name="gaincontrol" id="257265" flags="GainLike" value="0.0010306727750334333"/>
       </Processor>
       <Processor id="371839" name="Inter Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="11" selfdestruct="0" target="10668" allow-feedback="0">
         <Automation>
@@ -5776,7 +5776,7 @@ a15240960000 0.64857000112533569
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="266653" flags="GainLike" value="0.64857000112533569"/>
+        <Controllable name="gaincontrol" id="266653" flags="GainLike" value="9.9999999999999995e-08"/>
       </Processor>
       <Processor id="328087" name="Inter Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="7" selfdestruct="0" target="10668" allow-feedback="0">
         <Automation>
@@ -6719,7 +6719,7 @@ a15240960000 0.99999994039535522
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="302541" flags="GainLike" value="0.99999994039535522"/>
+        <Controllable name="gaincontrol" id="302541" flags="GainLike" value="0.004324694512354405"/>
       </Processor>
       <Processor id="323876" name="Delay Feedback" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="9" selfdestruct="0" target="323750" allow-feedback="0">
         <Automation>
@@ -7851,7 +7851,7 @@ a137173708800 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="375552" flags="GainLike" value="0"/>
+        <Controllable name="gaincontrol" id="375552" flags="GainLike" value="9.9999999999999995e-08"/>
       </Processor>
       <Processor id="376187" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="12" selfdestruct="0" target="10583" allow-feedback="0">
         <Automation>
@@ -9948,7 +9948,7 @@ a152409588480 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="1069080" flags="GainLike" value="0.20108413874762374"/>
+        <Controllable name="gaincontrol" id="1069080" flags="GainLike" value="0.00033969679519085442"/>
       </Processor>
       <Processor id="1172468" name="Inter Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="15" selfdestruct="0" target="10668" allow-feedback="0">
         <Automation>
@@ -11067,7 +11067,7 @@ a137168640000 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="1251974" flags="GainLike" value="0"/>
+        <Controllable name="gaincontrol" id="1251974" flags="GainLike" value="0.00045578352373288429"/>
       </Processor>
       <Processor id="1861651" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="16" selfdestruct="0" target="10583" allow-feedback="0">
         <Automation>
@@ -14952,7 +14952,7 @@ a131061450240 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="4279600" flags="GainLike" value="0"/>
+        <Controllable name="gaincontrol" id="4279600" flags="GainLike" value="0.0004996021599677511"/>
       </Processor>
       <Processor id="4341445" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="24" selfdestruct="0" target="10583" allow-feedback="0">
         <Automation>
@@ -16845,7 +16845,7 @@ a152409600000 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="6525834" flags="GainLike" value="0.26073783237928"/>
+        <Controllable name="gaincontrol" id="6525834" flags="GainLike" value="2"/>
       </Processor>
       <Processor id="6526943" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="26" selfdestruct="0" target="10583" allow-feedback="0">
         <Automation>
@@ -17366,31 +17366,6 @@ a152409600000 0
     <Protocol name="Wiimote" active="0" session-state="0"/>
   </ControlProtocols>
   <Extra>
-    <ExportRevision revision="2"/>
-    <ExportProfile>
-      <ExportTimespan format="Timecode">
-        <Range id="323"/>
-      </ExportTimespan>
-      <ExportChannelConfiguration split="0" channels="2">
-        <Channel number="1">
-          <Port name="Master/audio_out 1"/>
-        </Channel>
-        <Channel number="2">
-          <Port name="Master/audio_out 2"/>
-        </Channel>
-      </ExportChannelConfiguration>
-      <ExportFormat id="13765a92-0ab8-464e-ac1b-a5320572bf7d"/>
-      <ExportFilename>
-        <Folder relative="1" path="export"/>
-        <Field name="label" enabled="0"/>
-        <Field name="session" enabled="1"/>
-        <Field name="snapshot" enabled="0"/>
-        <Field name="timespan" enabled="1"/>
-        <Field name="revision" enabled="1"/>
-        <Field name="time" enabled="0" value="T_None"/>
-        <Field name="date" enabled="1" value="D_ISO"/>
-      </ExportFilename>
-    </ExportProfile>
     <AddRouteDialog LastRouteType="MidiTrack"/>
     <RulerVisibility minsec="0" timecode="0" samples="0" bbt="1" meter="0" tempo="0" rangemarker="0" transportmarker="0" cdmarker="0" arrangement="0" marker="1" cuemarker="0" videotl="0"/>
     <UI>
@@ -18810,6 +18785,31 @@ a152409600000 0
         <Object id="automation 10812" height="40" visible="1"/>
       </GUIObjectState>
     </UI>
+    <ExportRevision revision="2"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="323" realtime="0"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="Master/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="Master/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="0627662f-f190-468d-9bb8-db0cca42eac5"/>
+      <ExportFilename>
+        <Folder relative="1" path="export"/>
+        <Field name="label" enabled="0"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="1"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_ISO"/>
+      </ExportFilename>
+    </ExportProfile>
     <Videomonitor active="0"/>
   </Extra>
   <Script lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</Script>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Quexten" sample-rate="44100" session-range-is-free="0" id-counter="6614693" rg-counter="123" name-counter="2" event-counter="19277265" vca-counter="1">
+<Session version="7002" name="Quexten" sample-rate="44100" session-range-is-free="0" id-counter="6614720" rg-counter="125" name-counter="2" event-counter="19304300" vca-counter="1">
   <ProgramVersion created-with="Ardour 7.0-pre0-1502-g58868e175e" modified-with="Ardour 8.1-883-g87c7dfa3c9"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -605,6 +605,7 @@
     <Source name="Take9_Synth Bass-67.mid" take-id="" type="midi" flags="Writable,CanRename" id="6546071" natural-position="a0" origin="Take9_Synth Bass-67.mid"/>
     <Source name="Take9_Synth Bass-68.mid" take-id="" type="midi" flags="Writable,CanRename" id="6546079" natural-position="a0" origin="Take9_Synth Bass-68.mid"/>
     <Source name="Take9_Kick-65.mid" take-id="" type="midi" flags="Writable,CanRename" id="6546087" natural-position="a0" origin="Take9_Kick-65.mid"/>
+    <Source name="Take33_Crash-26.mid" take-id="" type="midi" flags="Writable,CanRename" id="6614695" natural-position="a0" origin=""/>
   </Sources>
   <TriggerBindings/>
   <Regions>
@@ -974,7 +975,7 @@ a152409600000 0.0010506436228752136
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="70" flags="GainLike" value="0.96325790882110596"/>
+        <Controllable name="gaincontrol" id="70" flags="GainLike" value="0.99751849371743184"/>
       </Processor>
       <Processor id="1427526" name="x42-dpl - Digital Peak Limiter Stereo" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/dpl#stereo" count="1" custom="0">
         <Automation>
@@ -1371,7 +1372,7 @@ a152409600000 2
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="4273550" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="4273544" flags="GainLike,InlineControl" value="0"/>
+        <Controllable name="gaincontrol" id="4273544" flags="GainLike,InlineControl" value="1.9999999283365564"/>
       </Processor>
       <Processor id="10777" name="Inter Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="2" selfdestruct="0" target="10668" allow-feedback="0">
         <Automation>
@@ -1401,7 +1402,7 @@ a15240960000 1.00043785572052
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="4263619" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="10791" flags="GainLike,InlineControl" value="1.00043785572052"/>
+        <Controllable name="gaincontrol" id="10791" flags="GainLike,InlineControl" value="0.00089605399720020431"/>
       </Processor>
       <Processor id="202" name="meter-Arp" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="203" name="Arp" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Arp" type="main-outs" role="Main">
@@ -2434,7 +2435,7 @@ a134120448000 2
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="4264290" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="10812" flags="GainLike,InlineControl" value="1.1885913610458374"/>
+        <Controllable name="gaincontrol" id="10812" flags="GainLike,InlineControl" value="1.1889058334916214"/>
       </Processor>
       <Processor id="10021" name="meter-Chamus" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="10022" name="Chamus" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Chamus" type="main-outs" role="Main">
@@ -3767,7 +3768,7 @@ a112783104000 0.99999994039535522
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="44248" flags="GainLike" value="0.59138721227645874"/>
+        <Controllable name="gaincontrol" id="44248" flags="GainLike" value="0.99999994039535522"/>
       </Processor>
       <Processor id="567819" name="Short Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="13" selfdestruct="0" target="567693" allow-feedback="0">
         <Automation>
@@ -4831,7 +4832,7 @@ a152409600000 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="257265" flags="GainLike" value="0.69607001543045044"/>
+        <Controllable name="gaincontrol" id="257265" flags="GainLike" value="0.44216162717156693"/>
       </Processor>
       <Processor id="371839" name="Inter Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="11" selfdestruct="0" target="10668" allow-feedback="0">
         <Automation>
@@ -7844,13 +7845,13 @@ a100590969600 0.25118860602378845
 a115833818880 0.25118860602378845
 a121935300476 0.3548133373260498
 a128035494720 0.50118720531463623
-a131072256000 0.3548133373260498
-a134116634880 0.25118860602378845
+a131072256000 0.50118720531463623
+a134116634880 0.3548133373260498
 a137173708800 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="375552" flags="GainLike" value="0.3283562958240509"/>
+        <Controllable name="gaincontrol" id="375552" flags="GainLike" value="0"/>
       </Processor>
       <Processor id="376187" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="12" selfdestruct="0" target="10583" allow-feedback="0">
         <Automation>
@@ -9947,7 +9948,7 @@ a152409588480 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="1069080" flags="GainLike" value="0.38273850083351135"/>
+        <Controllable name="gaincontrol" id="1069080" flags="GainLike" value="0.20108413874762374"/>
       </Processor>
       <Processor id="1172468" name="Inter Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="15" selfdestruct="0" target="10668" allow-feedback="0">
         <Automation>
@@ -11066,7 +11067,7 @@ a137168640000 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="1251974" flags="GainLike" value="1.035104513168335"/>
+        <Controllable name="gaincontrol" id="1251974" flags="GainLike" value="0"/>
       </Processor>
       <Processor id="1861651" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="16" selfdestruct="0" target="10583" allow-feedback="0">
         <Automation>
@@ -14951,7 +14952,7 @@ a131061450240 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="4279600" flags="GainLike" value="0.88626188039779663"/>
+        <Controllable name="gaincontrol" id="4279600" flags="GainLike" value="0"/>
       </Processor>
       <Processor id="4341445" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="24" selfdestruct="0" target="10583" allow-feedback="0">
         <Automation>
@@ -16844,7 +16845,7 @@ a152409600000 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="6525834" flags="GainLike" value="0.97477197647094727"/>
+        <Controllable name="gaincontrol" id="6525834" flags="GainLike" value="0.26073783237928"/>
       </Processor>
       <Processor id="6526943" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="26" selfdestruct="0" target="10583" allow-feedback="0">
         <Automation>
@@ -17280,6 +17281,7 @@ a152409600000 0
       <Region name="Take33_Crash-4.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b9600@b86400" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" id="6525443" type="midi" first-edit="nothing" source-0="6525435" master-source-0="6525435"/>
       <Region name="Take33_Crash-6.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b9600@b115200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" id="6525782" type="midi" first-edit="nothing" source-0="6525766" master-source-0="6525766"/>
       <Region name="Take33_Crash-7.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b9600@b124800" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" id="6525788" type="midi" first-edit="nothing" source-0="6525774" master-source-0="6525774"/>
+      <Region name="Take33_Crash-26.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b9600@b316800" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="0" id="6614703" type="midi" first-edit="nothing" source-0="6614695" master-source-0="6614695"/>
       <Region name="Take33_Crash-10.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b9600@b374400" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="6" tags="" contents="0" rgroup="0" id="6528439" type="midi" first-edit="nothing" source-0="6528423" master-source-0="6528423"/>
       <Region name="Take33_Crash-11.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b9600@b384000" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="0" id="6528445" type="midi" first-edit="nothing" source-0="6528431" master-source-0="6528431"/>
       <Region name="Take33_Crash-12.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b9600@b393600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" id="6528470" type="midi" first-edit="nothing" source-0="6528454" master-source-0="6528454"/>
