@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UndoHistory>
+  <UndoTransaction tv-sec="1701377144" tv-usec="330552" name="capture">
+    <StatefulDiffCommand obj-id="248" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="331"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1701377292" tv-usec="693415" name="add marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="334" name="session" start="b0" end="b27152824" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="334" name="session" start="b0" end="b27152824" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="mark1" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="221602" left-frame="0" y-origin="0">
+        <Selection>
+          <StripableView id="170"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="221602" left-frame="0" y-origin="0">
+        <Selection>
+          <Marker id="340" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1701377298" tv-usec="415214" name="rename marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="334" name="session" start="b0" end="b27152824" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="mark1" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="334" name="session" start="b0" end="b27152824" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="221602" left-frame="0" y-origin="0">
+        <Selection>
+          <Marker id="340" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="221602" left-frame="0" y-origin="0">
+        <Selection>
+          <Marker id="340" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1701623049" tv-usec="755627" name="capture">
+    <StatefulDiffCommand obj-id="248" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="684"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1701623192" tv-usec="822859" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="334" name="session" start="b0" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="334" name="session" start="b27571200" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="263201" left-frame="0" y-origin="0">
+        <Selection>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="263201" left-frame="0" y-origin="0">
+        <Selection>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1701623253" tv-usec="175916" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="334" name="session" start="b27571200" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="334" name="session" start="b28231680" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="39158" left-frame="315231935" y-origin="0">
+        <Selection>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="39158" left-frame="315231935" y-origin="0">
+        <Selection>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1701623256" tv-usec="802237" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="334" name="session" start="b28231680" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="334" name="session" start="b28224000" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="39158" left-frame="315231935" y-origin="0">
+        <Selection>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="39158" left-frame="315231935" y-origin="0">
+        <Selection>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1701623572" tv-usec="680172" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="334" name="session" start="b28224000" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="334" name="session" start="b29168640" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="39158" left-frame="315231935" y-origin="0">
+        <Selection>
+          <StripableView id="71"/>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="39158" left-frame="315231935" y-origin="0">
+        <Selection>
+          <StripableView id="71"/>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1701623830" tv-usec="460484" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="334" name="session" start="b29168640" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="334" name="session" start="b29176320" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1223" left-frame="334575988" y-origin="0">
+        <Selection>
+          <StripableView id="71"/>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1223" left-frame="334575988" y-origin="0">
+        <Selection>
+          <StripableView id="71"/>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1701623841" tv-usec="486574" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="334" name="session" start="b29176320" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="334" name="session" start="b29184000" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1223" left-frame="334575988" y-origin="0">
+        <Selection>
+          <StripableView id="71"/>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1223" left-frame="334575988" y-origin="0">
+        <Selection>
+          <StripableView id="71"/>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1701623861" tv-usec="11019" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="334" name="session" start="b29184000" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="334" name="session" start="b29187834" end="b32249857" flags="IsSessionRange" locked="0" timestamp="1701377144" cue="0"/>
+        <Location id="340" name="Nice" start="b8256000" end="b8256000" flags="IsMark" locked="0" timestamp="1701377292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1223" left-frame="334575988" y-origin="0">
+        <Selection>
+          <StripableView id="71"/>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1223" left-frame="334575988" y-origin="0">
+        <Selection>
+          <StripableView id="71"/>
+          <Marker id="334" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+</UndoHistory>

@@ -1,0 +1,1561 @@
+// Sfz exported from a sf2 file with Polyphone
+// Name      : Grand Piano
+// Author    : 
+// Copyright : 
+// Date      : 2023/11/03
+// Comment   : http://freepats.zenvoid.org/Piano/acoustic-grand-piano.html#YamahaDisklavierPro
+
+<group>
+lovel=108 hivel=127
+ampeg_release=0.799683
+loop_mode=no_loop
+ampeg_attack=0.001
+amplfo_freq=8.176
+fillfo_freq=8.176
+pitchlfo_freq=8.176
+fil_type=lpf_2p
+cutoff=19913
+
+<region>
+sample=samples\piano021v123.wav
+lokey=20 hikey=22
+pitch_keycenter=21
+pan=-60
+offset=0
+end=928639
+loop_start=8
+loop_end=928631
+
+<region>
+sample=samples\piano024v117.wav
+lokey=23 hikey=25
+pitch_keycenter=24
+pan=-58
+offset=0
+end=923647
+loop_start=8
+loop_end=923639
+
+<region>
+sample=samples\piano027v125.wav
+lokey=26 hikey=28
+pitch_keycenter=27
+pan=-56
+offset=0
+end=919167
+loop_start=8
+loop_end=919159
+
+<region>
+sample=samples\piano030v124.wav
+lokey=29 hikey=31
+pitch_keycenter=30
+pan=-54
+offset=0
+end=856661
+loop_start=8
+loop_end=856653
+
+<region>
+sample=samples\piano033v123.wav
+lokey=32 hikey=34
+pitch_keycenter=33
+pan=-50
+offset=0
+end=923775
+loop_start=8
+loop_end=923767
+
+<region>
+sample=samples\piano036v120.wav
+lokey=35 hikey=37
+pitch_keycenter=36
+pan=-46
+offset=0
+end=880070
+loop_start=8
+loop_end=880062
+
+<region>
+sample=samples\piano039v125.wav
+lokey=38 hikey=40
+pitch_keycenter=39
+pan=-42
+offset=0
+end=884191
+loop_start=8
+loop_end=884183
+
+<region>
+sample=samples\piano042v123.wav
+lokey=41 hikey=43
+pitch_keycenter=42
+pan=-38
+offset=0
+end=920447
+loop_start=8
+loop_end=920439
+
+<region>
+sample=samples\piano045v124.wav
+lokey=44 hikey=46
+pitch_keycenter=45
+pan=-32
+offset=0
+end=859327
+loop_start=8
+loop_end=859319
+
+<region>
+sample=samples\piano048v125.wav
+lokey=47 hikey=49
+pitch_keycenter=48
+pan=-26
+offset=0
+end=851071
+loop_start=8
+loop_end=851063
+
+<region>
+sample=samples\piano051v125.wav
+lokey=50 hikey=52
+pitch_keycenter=51
+pan=-20
+offset=0
+end=898751
+loop_start=8
+loop_end=898743
+
+<region>
+sample=samples\piano054v125.wav
+lokey=53 hikey=55
+pitch_keycenter=54
+pan=-14
+offset=0
+end=843775
+loop_start=8
+loop_end=843767
+
+<region>
+sample=samples\piano057v123.wav
+lokey=56 hikey=58
+pitch_keycenter=57
+pan=-8
+offset=0
+end=788351
+loop_start=8
+loop_end=788343
+
+<region>
+sample=samples\piano060v125.wav
+lokey=59 hikey=61
+pitch_keycenter=60
+pan=-2
+offset=0
+end=598504
+loop_start=8
+loop_end=598496
+
+<region>
+sample=samples\piano063v125.wav
+lokey=62 hikey=64
+pitch_keycenter=63
+pan=4
+offset=0
+end=578943
+loop_start=8
+loop_end=578935
+
+<region>
+sample=samples\piano066v125.wav
+lokey=65 hikey=67
+pitch_keycenter=66
+pan=10
+offset=0
+end=587007
+loop_start=8
+loop_end=586999
+
+<region>
+sample=samples\piano069v125.wav
+lokey=68 hikey=70
+pitch_keycenter=69
+pan=16
+offset=0
+end=438783
+loop_start=8
+loop_end=438775
+
+<region>
+sample=samples\piano072v123.wav
+lokey=71 hikey=73
+pitch_keycenter=72
+pan=22
+offset=0
+end=418303
+loop_start=8
+loop_end=418295
+
+<region>
+sample=samples\piano075v125.wav
+lokey=74 hikey=76
+pitch_keycenter=75
+pan=28
+offset=0
+end=299775
+loop_start=8
+loop_end=299767
+
+<region>
+sample=samples\piano078v125.wav
+lokey=77 hikey=79
+pitch_keycenter=78
+pan=34
+offset=0
+end=299756
+loop_start=8
+loop_end=299748
+
+<region>
+sample=samples\piano081v126.wav
+lokey=80 hikey=82
+pitch_keycenter=81
+pan=40
+offset=0
+end=257279
+loop_start=8
+loop_end=257271
+
+<region>
+sample=samples\piano084v125.wav
+lokey=83 hikey=85
+pitch_keycenter=84
+pan=44
+offset=0
+end=193062
+loop_start=8
+loop_end=193054
+
+<region>
+sample=samples\piano087v125.wav
+lokey=86 hikey=88
+pitch_keycenter=87
+pan=48
+offset=0
+end=218623
+loop_start=8
+loop_end=218615
+
+<region>
+sample=samples\piano090v127.wav
+lokey=89 hikey=91
+pitch_keycenter=90
+pan=52
+offset=0
+end=200598
+loop_start=8
+loop_end=200590
+
+<region>
+sample=samples\piano093v127.wav
+lokey=92 hikey=94
+pitch_keycenter=93
+pan=54
+offset=0
+end=191743
+loop_start=8
+loop_end=191735
+
+<region>
+sample=samples\piano096v127.wav
+lokey=95 hikey=97
+pitch_keycenter=96
+pan=56
+offset=0
+end=175231
+loop_start=8
+loop_end=175223
+
+<region>
+sample=samples\piano099v127.wav
+lokey=98 hikey=100
+pitch_keycenter=99
+pan=58
+offset=0
+end=123135
+loop_start=8
+loop_end=123127
+
+<region>
+sample=samples\piano102v127.wav
+lokey=101 hikey=103
+pitch_keycenter=102
+pan=60
+offset=0
+end=107263
+loop_start=8
+loop_end=107255
+
+<region>
+sample=samples\piano105v127.wav
+lokey=104 hikey=106
+pitch_keycenter=105
+pan=62
+offset=0
+end=86527
+loop_start=8
+loop_end=86519
+
+<region>
+sample=samples\piano108v125.wav
+lokey=107 hikey=109
+pitch_keycenter=108
+pan=64
+offset=0
+end=94719
+loop_start=8
+loop_end=94711
+
+<group>
+lovel=97 hivel=107
+ampeg_release=0.800607
+loop_mode=no_loop
+ampeg_attack=0.001
+amplfo_freq=8.176
+fillfo_freq=8.176
+pitchlfo_freq=8.176
+fil_type=lpf_2p
+cutoff=19913
+
+<region>
+sample=samples\piano021v123.wav
+lokey=20 hikey=22
+pitch_keycenter=21
+pan=-60
+offset=0
+end=928639
+loop_start=8
+loop_end=928631
+
+<region>
+sample=samples\piano024v117.wav
+lokey=23 hikey=25
+pitch_keycenter=24
+pan=-58
+offset=0
+end=923647
+loop_start=8
+loop_end=923639
+
+<region>
+sample=samples\piano027v122.wav
+lokey=26 hikey=28
+pitch_keycenter=27
+pan=-56
+offset=0
+end=826385
+loop_start=8
+loop_end=826377
+
+<region>
+sample=samples\piano030v124.wav
+lokey=29 hikey=31
+pitch_keycenter=30
+pan=-54
+offset=0
+end=856661
+loop_start=8
+loop_end=856653
+
+<region>
+sample=samples\piano033v123.wav
+lokey=32 hikey=34
+pitch_keycenter=33
+pan=-50
+offset=0
+end=923775
+loop_start=8
+loop_end=923767
+
+<region>
+sample=samples\piano036v120.wav
+lokey=35 hikey=37
+pitch_keycenter=36
+pan=-46
+offset=0
+end=880070
+loop_start=8
+loop_end=880062
+
+<region>
+sample=samples\piano039v120.wav
+lokey=38 hikey=40
+pitch_keycenter=39
+pan=-42
+offset=0
+end=864511
+loop_start=8
+loop_end=864503
+
+<region>
+sample=samples\piano042v120.wav
+lokey=41 hikey=43
+pitch_keycenter=42
+pan=-38
+offset=0
+end=834815
+loop_start=8
+loop_end=834807
+
+<region>
+sample=samples\piano045v124.wav
+lokey=44 hikey=46
+pitch_keycenter=45
+pan=-32
+offset=0
+end=859327
+loop_start=8
+loop_end=859319
+
+<region>
+sample=samples\piano048v121.wav
+lokey=47 hikey=49
+pitch_keycenter=48
+pan=-26
+offset=0
+end=799743
+loop_start=8
+loop_end=799735
+
+<region>
+sample=samples\piano051v120.wav
+lokey=50 hikey=52
+pitch_keycenter=51
+pan=-20
+offset=0
+end=849919
+loop_start=8
+loop_end=849911
+
+<region>
+sample=samples\piano054v122.wav
+lokey=53 hikey=55
+pitch_keycenter=54
+pan=-14
+offset=0
+end=794111
+loop_start=8
+loop_end=794103
+
+<region>
+sample=samples\piano057v123.wav
+lokey=56 hikey=58
+pitch_keycenter=57
+pan=-8
+offset=0
+end=788351
+loop_start=8
+loop_end=788343
+
+<region>
+sample=samples\piano060v122.wav
+lokey=59 hikey=61
+pitch_keycenter=60
+pan=-2
+offset=0
+end=468479
+loop_start=8
+loop_end=468471
+
+<region>
+sample=samples\piano063v120.wav
+lokey=62 hikey=64
+pitch_keycenter=63
+pan=4
+offset=0
+end=563199
+loop_start=8
+loop_end=563191
+
+<region>
+sample=samples\piano066v120.wav
+lokey=65 hikey=67
+pitch_keycenter=66
+pan=10
+offset=0
+end=453119
+loop_start=8
+loop_end=453111
+
+<region>
+sample=samples\piano069v120.wav
+lokey=68 hikey=70
+pitch_keycenter=69
+pan=16
+offset=0
+end=382975
+loop_start=8
+loop_end=382967
+
+<region>
+sample=samples\piano072v123.wav
+lokey=71 hikey=73
+pitch_keycenter=72
+pan=22
+offset=0
+end=418303
+loop_start=8
+loop_end=418295
+
+<region>
+sample=samples\piano075v123.wav
+lokey=74 hikey=76
+pitch_keycenter=75
+pan=28
+offset=0
+end=312831
+loop_start=8
+loop_end=312823
+
+<region>
+sample=samples\piano078v123.wav
+lokey=77 hikey=79
+pitch_keycenter=78
+pan=34
+offset=0
+end=318869
+loop_start=8
+loop_end=318861
+
+<region>
+sample=samples\piano081v122.wav
+lokey=80 hikey=82
+pitch_keycenter=81
+pan=40
+offset=0
+end=249855
+loop_start=8
+loop_end=249847
+
+<region>
+sample=samples\piano084v123.wav
+lokey=83 hikey=85
+pitch_keycenter=84
+pan=44
+offset=0
+end=206079
+loop_start=8
+loop_end=206071
+
+<region>
+sample=samples\piano087v123.wav
+lokey=86 hikey=88
+pitch_keycenter=87
+pan=48
+offset=0
+end=237311
+loop_start=8
+loop_end=237303
+
+<region>
+sample=samples\piano090v120.wav
+lokey=89 hikey=91
+pitch_keycenter=90
+pan=52
+offset=0
+end=190719
+loop_start=8
+loop_end=190711
+
+<region>
+sample=samples\piano093v127.wav
+lokey=92 hikey=94
+pitch_keycenter=93
+pan=54
+offset=0
+end=191743
+loop_start=8
+loop_end=191735
+
+<region>
+sample=samples\piano096v127.wav
+lokey=95 hikey=97
+pitch_keycenter=96
+pan=56
+offset=0
+end=175231
+loop_start=8
+loop_end=175223
+
+<region>
+sample=samples\piano099v118.wav
+lokey=98 hikey=100
+pitch_keycenter=99
+pan=58
+offset=0
+end=84223
+loop_start=8
+loop_end=84215
+
+<region>
+sample=samples\piano102v118.wav
+lokey=101 hikey=103
+pitch_keycenter=102
+pan=60
+offset=0
+end=98815
+loop_start=8
+loop_end=98807
+
+<region>
+sample=samples\piano105v120.wav
+lokey=104 hikey=106
+pitch_keycenter=105
+pan=62
+offset=0
+end=76351
+loop_start=8
+loop_end=76343
+
+<region>
+sample=samples\piano108v125.wav
+lokey=107 hikey=109
+pitch_keycenter=108
+pan=64
+offset=0
+end=94719
+loop_start=8
+loop_end=94711
+
+<group>
+lovel=88 hivel=96
+ampeg_release=0.799683
+loop_mode=no_loop
+ampeg_attack=0.001
+amplfo_freq=8.176
+fillfo_freq=8.176
+pitchlfo_freq=8.176
+fil_type=lpf_2p
+cutoff=19913
+
+<region>
+sample=samples\piano021v116.wav
+lokey=20 hikey=22
+pitch_keycenter=21
+pan=-60
+offset=0
+end=866350
+loop_start=8
+loop_end=866342
+
+<region>
+sample=samples\piano024v117.wav
+lokey=23 hikey=25
+pitch_keycenter=24
+pan=-58
+offset=0
+end=923647
+loop_start=8
+loop_end=923639
+
+<region>
+sample=samples\piano027v119.wav
+lokey=26 hikey=28
+pitch_keycenter=27
+pan=-56
+offset=0
+end=850943
+loop_start=8
+loop_end=850935
+
+<region>
+sample=samples\piano030v115.wav
+lokey=29 hikey=31
+pitch_keycenter=30
+pan=-54
+offset=0
+end=874495
+loop_start=8
+loop_end=874487
+
+<region>
+sample=samples\piano033v110.wav
+lokey=32 hikey=34
+pitch_keycenter=33
+pan=-50
+offset=0
+end=871423
+loop_start=8
+loop_end=871415
+
+<region>
+sample=samples\piano036v120.wav
+lokey=35 hikey=37
+pitch_keycenter=36
+pan=-46
+offset=0
+end=880070
+loop_start=8
+loop_end=880062
+
+<region>
+sample=samples\piano039v120.wav
+lokey=38 hikey=40
+pitch_keycenter=39
+pan=-42
+offset=0
+end=864511
+loop_start=8
+loop_end=864503
+
+<region>
+sample=samples\piano042v120.wav
+lokey=41 hikey=43
+pitch_keycenter=42
+pan=-38
+offset=0
+end=834815
+loop_start=8
+loop_end=834807
+
+<region>
+sample=samples\piano045v117.wav
+lokey=44 hikey=46
+pitch_keycenter=45
+pan=-32
+offset=0
+end=683007
+loop_start=8
+loop_end=682999
+
+<region>
+sample=samples\piano048v118.wav
+lokey=47 hikey=49
+pitch_keycenter=48
+pan=-26
+offset=0
+end=789503
+loop_start=8
+loop_end=789495
+
+<region>
+sample=samples\piano051v115.wav
+lokey=50 hikey=52
+pitch_keycenter=51
+pan=-20
+offset=0
+end=842623
+loop_start=8
+loop_end=842615
+
+<region>
+sample=samples\piano054v117.wav
+lokey=53 hikey=55
+pitch_keycenter=54
+pan=-14
+offset=0
+end=635903
+loop_start=8
+loop_end=635895
+
+<region>
+sample=samples\piano057v117.wav
+lokey=56 hikey=58
+pitch_keycenter=57
+pan=-8
+offset=0
+end=691199
+loop_start=8
+loop_end=691191
+
+<region>
+sample=samples\piano060v117.wav
+lokey=59 hikey=61
+pitch_keycenter=60
+pan=-2
+offset=0
+end=453631
+loop_start=8
+loop_end=453623
+
+<region>
+sample=samples\piano063v115.wav
+lokey=62 hikey=64
+pitch_keycenter=63
+pan=4
+offset=0
+end=550399
+loop_start=8
+loop_end=550391
+
+<region>
+sample=samples\piano066v120.wav
+lokey=65 hikey=67
+pitch_keycenter=66
+pan=10
+offset=0
+end=453119
+loop_start=8
+loop_end=453111
+
+<region>
+sample=samples\piano069v115.wav
+lokey=68 hikey=70
+pitch_keycenter=69
+pan=16
+offset=0
+end=455167
+loop_start=8
+loop_end=455159
+
+<region>
+sample=samples\piano072v117.wav
+lokey=71 hikey=73
+pitch_keycenter=72
+pan=22
+offset=0
+end=369151
+loop_start=8
+loop_end=369143
+
+<region>
+sample=samples\piano075v115.wav
+lokey=74 hikey=76
+pitch_keycenter=75
+pan=28
+offset=0
+end=361471
+loop_start=8
+loop_end=361463
+
+<region>
+sample=samples\piano078v117.wav
+lokey=77 hikey=79
+pitch_keycenter=78
+pan=34
+offset=0
+end=307711
+loop_start=8
+loop_end=307703
+
+<region>
+sample=samples\piano081v117.wav
+lokey=80 hikey=82
+pitch_keycenter=81
+pan=40
+offset=0
+end=198143
+loop_start=8
+loop_end=198135
+
+<region>
+sample=samples\piano084v117.wav
+lokey=83 hikey=85
+pitch_keycenter=84
+pan=44
+offset=0
+end=185343
+loop_start=8
+loop_end=185335
+
+<region>
+sample=samples\piano087v117.wav
+lokey=86 hikey=88
+pitch_keycenter=87
+pan=48
+offset=0
+end=145919
+loop_start=8
+loop_end=145911
+
+<region>
+sample=samples\piano090v120.wav
+lokey=89 hikey=91
+pitch_keycenter=90
+pan=52
+offset=0
+end=190719
+loop_start=8
+loop_end=190711
+
+<region>
+sample=samples\piano093v112.wav
+lokey=92 hikey=94
+pitch_keycenter=93
+pan=54
+offset=0
+end=128383
+loop_start=8
+loop_end=128375
+
+<region>
+sample=samples\piano096v115.wav
+lokey=95 hikey=97
+pitch_keycenter=96
+pan=56
+offset=0
+end=120334
+loop_start=8
+loop_end=120326
+
+<region>
+sample=samples\piano099v118.wav
+lokey=98 hikey=100
+pitch_keycenter=99
+pan=58
+offset=0
+end=84223
+loop_start=8
+loop_end=84215
+
+<region>
+sample=samples\piano102v118.wav
+lokey=101 hikey=103
+pitch_keycenter=102
+pan=60
+offset=0
+end=98815
+loop_start=8
+loop_end=98807
+
+<region>
+sample=samples\piano105v120.wav
+lokey=104 hikey=106
+pitch_keycenter=105
+pan=62
+offset=0
+end=76351
+loop_start=8
+loop_end=76343
+
+<region>
+sample=samples\piano108v112.wav
+lokey=107 hikey=109
+pitch_keycenter=108
+pan=64
+offset=0
+end=73599
+loop_start=8
+loop_end=73591
+
+<group>
+lovel=74 hivel=87
+ampeg_release=0.799683
+loop_mode=no_loop
+ampeg_attack=0.001
+amplfo_freq=8.176
+fillfo_freq=8.176
+pitchlfo_freq=8.176
+fil_type=lpf_2p
+cutoff=19913
+
+<region>
+sample=samples\piano021v108.wav
+lokey=20 hikey=22
+pitch_keycenter=21
+pan=-60
+offset=0
+end=920063
+loop_start=8
+loop_end=920055
+
+<region>
+sample=samples\piano024v112.wav
+lokey=23 hikey=25
+pitch_keycenter=24
+pan=-58
+offset=0
+end=821247
+loop_start=8
+loop_end=821239
+
+<region>
+sample=samples\piano027v119.wav
+lokey=26 hikey=28
+pitch_keycenter=27
+pan=-56
+offset=0
+end=850943
+loop_start=8
+loop_end=850935
+
+<region>
+sample=samples\piano030v115.wav
+lokey=29 hikey=31
+pitch_keycenter=30
+pan=-54
+offset=0
+end=874495
+loop_start=8
+loop_end=874487
+
+<region>
+sample=samples\piano033v110.wav
+lokey=32 hikey=34
+pitch_keycenter=33
+pan=-50
+offset=0
+end=871423
+loop_start=8
+loop_end=871415
+
+<region>
+sample=samples\piano036v105.wav
+lokey=35 hikey=37
+pitch_keycenter=36
+pan=-46
+offset=0
+end=841343
+loop_start=8
+loop_end=841335
+
+<region>
+sample=samples\piano039v105.wav
+lokey=38 hikey=40
+pitch_keycenter=39
+pan=-42
+offset=0
+end=888831
+loop_start=8
+loop_end=888823
+
+<region>
+sample=samples\piano042v110.wav
+lokey=41 hikey=43
+pitch_keycenter=42
+pan=-38
+offset=0
+end=858111
+loop_start=8
+loop_end=858103
+
+<region>
+sample=samples\piano045v117.wav
+lokey=44 hikey=46
+pitch_keycenter=45
+pan=-32
+offset=0
+end=683007
+loop_start=8
+loop_end=682999
+
+<region>
+sample=samples\piano048v112.wav
+lokey=47 hikey=49
+pitch_keycenter=48
+pan=-26
+offset=0
+end=798719
+loop_start=8
+loop_end=798711
+
+<region>
+sample=samples\piano051v115.wav
+lokey=50 hikey=52
+pitch_keycenter=51
+pan=-20
+offset=0
+end=842623
+loop_start=8
+loop_end=842615
+
+<region>
+sample=samples\piano054v112.wav
+lokey=53 hikey=55
+pitch_keycenter=54
+pan=-14
+offset=0
+end=624639
+loop_start=8
+loop_end=624631
+
+<region>
+sample=samples\piano057v110.wav
+lokey=56 hikey=58
+pitch_keycenter=57
+pan=-8
+offset=0
+end=678911
+loop_start=8
+loop_end=678903
+
+<region>
+sample=samples\piano060v112.wav
+lokey=59 hikey=61
+pitch_keycenter=60
+pan=-2
+offset=0
+end=449535
+loop_start=8
+loop_end=449527
+
+<region>
+sample=samples\piano063v110.wav
+lokey=62 hikey=64
+pitch_keycenter=63
+pan=4
+offset=0
+end=491919
+loop_start=8
+loop_end=491911
+
+<region>
+sample=samples\piano066v110.wav
+lokey=65 hikey=67
+pitch_keycenter=66
+pan=10
+offset=0
+end=291385
+loop_start=8
+loop_end=291377
+
+<region>
+sample=samples\piano069v110.wav
+lokey=68 hikey=70
+pitch_keycenter=69
+pan=16
+offset=0
+end=282786
+loop_start=8
+loop_end=282778
+
+<region>
+sample=samples\piano072v112.wav
+lokey=71 hikey=73
+pitch_keycenter=72
+pan=22
+offset=0
+end=345599
+loop_start=8
+loop_end=345591
+
+<region>
+sample=samples\piano075v112.wav
+lokey=74 hikey=76
+pitch_keycenter=75
+pan=28
+offset=0
+end=278015
+loop_start=8
+loop_end=278007
+
+<region>
+sample=samples\piano078v112.wav
+lokey=77 hikey=79
+pitch_keycenter=78
+pan=34
+offset=0
+end=311295
+loop_start=8
+loop_end=311287
+
+<region>
+sample=samples\piano081v112.wav
+lokey=80 hikey=82
+pitch_keycenter=81
+pan=40
+offset=0
+end=130559
+loop_start=8
+loop_end=130551
+
+<region>
+sample=samples\piano084v112.wav
+lokey=83 hikey=85
+pitch_keycenter=84
+pan=44
+offset=0
+end=185599
+loop_start=8
+loop_end=185591
+
+<region>
+sample=samples\piano087v112.wav
+lokey=86 hikey=88
+pitch_keycenter=87
+pan=48
+offset=0
+end=153599
+loop_start=8
+loop_end=153591
+
+<region>
+sample=samples\piano090v110.wav
+lokey=89 hikey=91
+pitch_keycenter=90
+pan=52
+offset=0
+end=169215
+loop_start=8
+loop_end=169207
+
+<region>
+sample=samples\piano093v112.wav
+lokey=92 hikey=94
+pitch_keycenter=93
+pan=54
+offset=0
+end=128383
+loop_start=8
+loop_end=128375
+
+<region>
+sample=samples\piano096v115.wav
+lokey=95 hikey=97
+pitch_keycenter=96
+pan=56
+offset=0
+end=120334
+loop_start=8
+loop_end=120326
+
+<region>
+sample=samples\piano099v109.wav
+lokey=98 hikey=100
+pitch_keycenter=99
+pan=58
+offset=0
+end=100095
+loop_start=8
+loop_end=100087
+
+<region>
+sample=samples\piano102v109.wav
+lokey=101 hikey=103
+pitch_keycenter=102
+pan=60
+offset=0
+end=86143
+loop_start=8
+loop_end=86135
+
+<region>
+sample=samples\piano105v112.wav
+lokey=104 hikey=106
+pitch_keycenter=105
+pan=62
+offset=0
+end=67479
+loop_start=8
+loop_end=67471
+
+<region>
+sample=samples\piano108v112.wav
+lokey=107 hikey=109
+pitch_keycenter=108
+pan=64
+offset=0
+end=73599
+loop_start=8
+loop_end=73591
+
+<group>
+lovel=0 hivel=73
+ampeg_release=0.799683
+loop_mode=no_loop
+ampeg_attack=0.001
+amplfo_freq=8.176
+fillfo_freq=8.176
+pitchlfo_freq=8.176
+fil_type=lpf_2p
+cutoff=19913
+
+<region>
+sample=samples\piano021v100.wav
+lokey=20 hikey=22
+pitch_keycenter=21
+pan=-60
+offset=0
+end=865279
+loop_start=8
+loop_end=865271
+
+<region>
+sample=samples\piano024v096.wav
+lokey=23 hikey=25
+pitch_keycenter=24
+pan=-58
+offset=0
+end=816127
+loop_start=8
+loop_end=816119
+
+<region>
+sample=samples\piano027v104.wav
+lokey=26 hikey=28
+pitch_keycenter=27
+pan=-56
+offset=0
+end=821247
+loop_start=8
+loop_end=821239
+
+<region>
+sample=samples\piano030v085.wav
+lokey=29 hikey=31
+pitch_keycenter=30
+pan=-54
+offset=0
+end=923207
+loop_start=8
+loop_end=923199
+
+<region>
+sample=samples\piano033v100.wav
+lokey=32 hikey=34
+pitch_keycenter=33
+pan=-50
+offset=0
+end=923326
+loop_start=8
+loop_end=923318
+
+<region>
+sample=samples\piano036v096.wav
+lokey=35 hikey=37
+pitch_keycenter=36
+pan=-46
+offset=0
+end=858111
+loop_start=8
+loop_end=858103
+
+<region>
+sample=samples\piano039v105.wav
+lokey=38 hikey=40
+pitch_keycenter=39
+pan=-42
+offset=0
+end=888831
+loop_start=8
+loop_end=888823
+
+<region>
+sample=samples\piano042v095.wav
+lokey=41 hikey=43
+pitch_keycenter=42
+pan=-38
+offset=0
+end=849919
+loop_start=8
+loop_end=849911
+
+<region>
+sample=samples\piano045v100.wav
+lokey=44 hikey=46
+pitch_keycenter=45
+pan=-32
+offset=0
+end=689151
+loop_start=8
+loop_end=689143
+
+<region>
+sample=samples\piano048v105.wav
+lokey=47 hikey=49
+pitch_keycenter=48
+pan=-26
+offset=0
+end=790527
+loop_start=8
+loop_end=790519
+
+<region>
+sample=samples\piano051v095.wav
+lokey=50 hikey=52
+pitch_keycenter=51
+pan=-20
+offset=0
+end=747007
+loop_start=8
+loop_end=746999
+
+<region>
+sample=samples\piano054v100.wav
+lokey=53 hikey=55
+pitch_keycenter=54
+pan=-14
+offset=0
+end=851967
+loop_start=8
+loop_end=851959
+
+<region>
+sample=samples\piano057v095.wav
+lokey=56 hikey=58
+pitch_keycenter=57
+pan=-8
+offset=0
+end=792319
+loop_start=8
+loop_end=792311
+
+<region>
+sample=samples\piano060v100.wav
+lokey=59 hikey=61
+pitch_keycenter=60
+pan=-2
+offset=0
+end=523263
+loop_start=8
+loop_end=523255
+
+<region>
+sample=samples\piano063v095.wav
+lokey=62 hikey=64
+pitch_keycenter=63
+pan=4
+offset=0
+end=563455
+loop_start=8
+loop_end=563447
+
+<region>
+sample=samples\piano066v105.wav
+lokey=65 hikey=67
+pitch_keycenter=66
+pan=10
+offset=0
+end=439295
+loop_start=8
+loop_end=439287
+
+<region>
+sample=samples\piano069v105.wav
+lokey=68 hikey=70
+pitch_keycenter=69
+pan=16
+offset=0
+end=441087
+loop_start=8
+loop_end=441079
+
+<region>
+sample=samples\piano072v100.wav
+lokey=71 hikey=73
+pitch_keycenter=72
+pan=22
+offset=0
+end=373759
+loop_start=8
+loop_end=373751
+
+<region>
+sample=samples\piano075v103.wav
+lokey=74 hikey=76
+pitch_keycenter=75
+pan=28
+offset=0
+end=343551
+loop_start=8
+loop_end=343543
+
+<region>
+sample=samples\piano078v100.wav
+lokey=77 hikey=79
+pitch_keycenter=78
+pan=34
+offset=0
+end=306175
+loop_start=8
+loop_end=306167
+
+<region>
+sample=samples\piano081v105.wav
+lokey=80 hikey=82
+pitch_keycenter=81
+pan=40
+offset=0
+end=134143
+loop_start=8
+loop_end=134135
+
+<region>
+sample=samples\piano084v100.wav
+lokey=83 hikey=85
+pitch_keycenter=84
+pan=44
+offset=0
+end=148479
+loop_start=8
+loop_end=148471
+
+<region>
+sample=samples\piano087v100.wav
+lokey=86 hikey=88
+pitch_keycenter=87
+pan=48
+offset=0
+end=157183
+loop_start=8
+loop_end=157175
+
+<region>
+sample=samples\piano090v100.wav
+lokey=89 hikey=91
+pitch_keycenter=90
+pan=52
+offset=0
+end=179199
+loop_start=8
+loop_end=179191
+
+<region>
+sample=samples\piano093v100.wav
+lokey=92 hikey=94
+pitch_keycenter=93
+pan=54
+offset=0
+end=110591
+loop_start=8
+loop_end=110583
+
+<region>
+sample=samples\piano096v100.wav
+lokey=95 hikey=97
+pitch_keycenter=96
+pan=56
+offset=0
+end=122367
+loop_start=8
+loop_end=122359
+
+<region>
+sample=samples\piano099v100.wav
+lokey=98 hikey=100
+pitch_keycenter=99
+pan=58
+offset=0
+end=80703
+loop_start=8
+loop_end=80695
+
+<region>
+sample=samples\piano102v100.wav
+lokey=101 hikey=103
+pitch_keycenter=102
+pan=60
+offset=0
+end=65279
+loop_start=8
+loop_end=65271
+
+<region>
+sample=samples\piano105v064.wav
+lokey=104 hikey=106
+pitch_keycenter=105
+pan=62
+offset=0
+end=36470
+loop_start=8
+loop_end=36462
+
+<region>
+sample=samples\piano108v100.wav
+lokey=107 hikey=109
+pitch_keycenter=108
+pan=64
+offset=0
+end=46975
+loop_start=8
+loop_end=46967
