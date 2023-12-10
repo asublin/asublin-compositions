@@ -9,7 +9,9 @@
       <Release/>
     </Buttons>
     <Selection>
-      <StripableView id="257261"/>
+      <Regions>
+        <Region id="6281398"/>
+      </Regions>
     </Selection>
     <EditorLocations clock-mode="Timecode"/>
   </Editor>
@@ -33,13 +35,13 @@
     <Clock name="secondary" mode="Timecode" on="1"/>
     <Clock name="bigclock" mode="Timecode" on="1"/>
     <Clock name="nudge" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-start" mode="Timecode" on="0"/>
-    <Clock name="EditorTimeInfo-selection-end" mode="Timecode" on="0"/>
-    <Clock name="EditorTimeInfo-selection-length" mode="Timecode" on="0"/>
+    <Clock name="EditorTimeInfo-selection-start" mode="Timecode" on="1"/>
+    <Clock name="EditorTimeInfo-selection-end" mode="Timecode" on="1"/>
+    <Clock name="EditorTimeInfo-selection-length" mode="Timecode" on="1"/>
     <Clock name="EditorTimeInfo-punch-start" mode="Timecode" on="0"/>
     <Clock name="EditorTimeInfo-punch-end" mode="Timecode" on="0"/>
-    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="0"/>
-    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="0"/>
-    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="1"/>
+    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="1"/>
+    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="1"/>
   </ClockModes>
 </instant>
