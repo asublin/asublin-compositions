@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1704120962" tv-usec="390178" name="delete note">
-    <NoteDiffCommand midi-source="542530">
-      <ChangedNotes/>
-      <AddedNotes/>
-      <RemovedNotes>
-        <note id="3515068" note="66" channel="0" time="7:1440" length="0:480" velocity="95"/>
-      </RemovedNotes>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1704120962" tv-usec="570589" name="delete note">
-    <NoteDiffCommand midi-source="542565">
-      <ChangedNotes>
-        <Change property="Length" old="0:960" new="0:1440" id="3272994"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes>
-        <note id="3516758" note="66" channel="0" time="7:1440" length="0:480" velocity="88"/>
-      </RemovedNotes>
-    </NoteDiffCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1704120966" tv-usec="908457" name="add note">
     <NoteDiffCommand midi-source="542537">
       <ChangedNotes/>
@@ -286,6 +266,66 @@ a11780448000 0.70794570446014404
         </Selection>
       </SelectionMemento>
       <SelectionMemento mouse-mode="MouseDraw" zoom="2968" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="296802" parameter="send" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1704122161" tv-usec="905924" name="automation event move">
+    <MementoUndoCommand obj-id="296802" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="296802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1
+a7362777600 0
+a11780448000 0.70794570446014404
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="296802" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="296802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1.9952623844146729
+a7362777600 0
+a11780448000 0.70794570446014404
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="3004" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="296802" parameter="send" view-index="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="3004" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="296802" parameter="send" view-index="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1704122197" tv-usec="680494" name="automation event move">
+    <MementoUndoCommand obj-id="296802" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="296802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1.9952623844146729
+a7362777600 0
+a11780448000 0.70794570446014404
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="296802" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="296802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1.9952623844146729
+a8835334400 0
+a11780448000 0.70794570446014404
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="3004" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="296802" parameter="send" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="3004" left-frame="0" y-origin="0">
         <Selection>
           <ControlPoint type="track" route-id="170" automation-list-id="296802" parameter="send" view-index="1"/>
         </Selection>
