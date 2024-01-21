@@ -1,0 +1,21 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <http://code.google.com/p/amsynth/amsynth> ;
+	state:state [
+		<http://code.google.com/p/amsynth/amsynth#max_polyphony> "0" ;
+		<http://code.google.com/p/amsynth/amsynth#midi_channel> "0" ;
+		<http://code.google.com/p/amsynth/amsynth#pitch_bend_range> "2" ;
+		<http://code.google.com/p/amsynth/amsynth#preset_bank_name> "BriansBank10" ;
+		<http://code.google.com/p/amsynth/amsynth#preset_name> "Theory" ;
+		<http://code.google.com/p/amsynth/amsynth#preset_number> "91" ;
+		<http://code.google.com/p/amsynth/amsynth#tuning_mts_esp_disabled> "0"
+	] .
+
