@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="The Walker Thinker" sample-rate="44100" session-range-is-free="0" id-counter="430572" rg-counter="1687" name-counter="1" event-counter="16596740" vca-counter="1">
+<Session version="7002" name="The Walker Thinker" sample-rate="44100" session-range-is-free="0" id-counter="433047" rg-counter="1724" name-counter="1" event-counter="16928155" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2-785-gf961980ef0" modified-with="Ardour 8.2-784-g3ce1719658"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -12,9 +12,11 @@
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
       <Connection other="Arp Double/midi_in 1"/>
       <Connection other="Arp/midi_in 1"/>
+      <Connection other="Bass/midi_in 1"/>
+      <Connection other="Breath/midi_in 1"/>
       <Connection other="Lead/midi_in 1"/>
       <Connection other="Wou/midi_in 1"/>
-      <Connection other="Arp Double/midi_in 1"/>
+      <Connection other="Arp/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -2768,7 +2770,7 @@ a56447987200 0.00049271195894107223
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="75" flags="GainLike" value="0.00049271195894107223"/>
+        <Controllable name="gaincontrol" id="75" flags="GainLike" value="0.99999994039535522"/>
       </Processor>
       <Processor id="22237" name="x42-dpl - Digital Peak Limiter Stereo" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/dpl#stereo" count="1" custom="0">
         <Automation>
@@ -2820,7 +2822,9 @@ a56447987200 0.00049271195894107223
       <Controllable name="solo-safe" id="219" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Arp" id="231" direction="Input" default-type="midi">
         <Port name="Arp/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="a2j:UM-1 [24] (capture): UM-1 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Arp" id="232" direction="Output" default-type="midi">
@@ -3077,7 +3081,14 @@ a56447987200 0.00049271195894107223
       </Processor>
       <Processor id="233" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
         <Automation>
-          <AutomationList automation-id="gain" id="206" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="gain" id="206" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+            <events>a0 1
+a48197907200 0.99999994039535522
+a48632121600 0
+a52105843200 0.1258925199508667
+a55579564800 0.99999994039535522
+</events>
+          </AutomationList>
         </Automation>
         <Controllable name="gaincontrol" id="207" flags="GainLike" value="1"/>
       </Processor>
@@ -3104,7 +3115,7 @@ a56447987200 0.00049271195894107223
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="6167" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="6161" flags="GainLike,InlineControl" value="0.50144851207733154"/>
+        <Controllable name="gaincontrol" id="6161" flags="GainLike,InlineControl" value="0.35462486743927002"/>
       </Processor>
       <Processor id="1844" name="Chorus" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="2" selfdestruct="0" target="1783" allow-feedback="0">
         <Automation>
@@ -3168,7 +3179,7 @@ a45158393600 0.70794570446014404
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="470" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="464" flags="GainLike,InlineControl" value="9.9999999999999995e-08"/>
+        <Controllable name="gaincontrol" id="464" flags="GainLike,InlineControl" value="0"/>
       </Processor>
       <Processor id="237" name="meter-amsynth" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="238" name="Arp" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Arp" type="main-outs" role="Main">
@@ -6349,7 +6360,7 @@ a17368614400 0.99999994039535522
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="50814" flags="GainLike" value="0.99999994039535522"/>
+        <Controllable name="gaincontrol" id="50814" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="50899" name="meter-Delay" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="50900" name="Delay 3th Feedback" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Delay 3th Feedback" type="main-outs" role="Main">
@@ -6679,9 +6690,7 @@ a17368614400 0.99999994039535522
       <Controllable name="solo-safe" id="100175" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Arp Double" id="99812" direction="Input" default-type="midi">
         <Port name="Arp Double/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="a2j:UM-1 [24] (capture): UM-1 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Arp Double" id="99813" direction="Output" default-type="midi">
@@ -7007,7 +7016,7 @@ a27789779200 0.50118720531463623
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="100053" flags="GainLike" value="0.50118720531463623"/>
+        <Controllable name="gaincontrol" id="100053" flags="GainLike" value="0"/>
       </Processor>
       <Processor id="100077" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="16" selfdestruct="0" target="6063" allow-feedback="0">
         <Automation>
@@ -7401,7 +7410,7 @@ a52105843200 0.25118860602378845
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="100644" flags="GainLike" value="0.25118860602378845"/>
+        <Controllable name="gaincontrol" id="100644" flags="GainLike" value="0"/>
       </Processor>
       <Processor id="100668" name="Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="19" selfdestruct="0" target="19398" allow-feedback="0">
         <Automation>
@@ -7490,7 +7499,7 @@ a52105843200 0.25118860602378845
       <Controllable name="midicc-0-32" id="100781" flags="" value="0"/>
       <Controllable name="midi-pgm-change-0" id="100783" flags="" value="88"/>
     </Route>
-    <Route version="7002" id="128185" name="Breath" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="128263" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+    <Route version="7002" id="128185" name="Breath" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="128263" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
       <PresentationInfo order="5" flags="MidiTrack,OrderSet,TriggerTrack" color="2855877119"/>
       <Controllable name="solo" id="128226" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="128232" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -7788,7 +7797,7 @@ b337920 3999.999267578125
           <Port id="1" value="100"/>
           <Port id="2" value="0.7070000171661377"/>
           <Port id="3" value="1"/>
-          <Port id="4" value="17906.625"/>
+          <Port id="4" value="13693.814453125"/>
           <Port id="5" value="0.7070000171661377"/>
           <Port id="6" value="1"/>
         </luaproc>
@@ -7796,7 +7805,7 @@ b337920 3999.999267578125
         <Controllable name="High Pass Cut off frequency" id="169313" flags="" value="100" parameter="1"/>
         <Controllable name="High Pass Resonance" id="169315" flags="" value="0.7070000171661377" parameter="2"/>
         <Controllable name="Low Pass Steepness" id="169317" flags="" value="1" parameter="3"/>
-        <Controllable name="Low Pass Cut off frequency" id="169319" flags="" value="17906.625" parameter="4"/>
+        <Controllable name="Low Pass Cut off frequency" id="169319" flags="" value="13693.814453125" parameter="4"/>
         <Controllable name="Low Pass Resonance" id="169321" flags="" value="0.7070000171661377" parameter="5"/>
         <Controllable name="Enable" id="169323" flags="Toggle" value="1" parameter="6"/>
       </Processor>
@@ -7809,7 +7818,7 @@ a14763321600 0.70794570446014404
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="128222" flags="GainLike" value="0.70794570446014404"/>
+        <Controllable name="gaincontrol" id="128222" flags="GainLike" value="0.91485995054244995"/>
       </Processor>
       <Processor id="169196" name="Delay 6th" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="27" selfdestruct="0" target="22252" allow-feedback="0">
         <Automation>
@@ -7855,7 +7864,7 @@ a38210953792 0
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="169216" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="169210" flags="GainLike,InlineControl" value="9.9999999999999995e-08"/>
+        <Controllable name="gaincontrol" id="169210" flags="GainLike,InlineControl" value="0"/>
       </Processor>
       <Processor id="138095" name="Chorus" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="23" selfdestruct="0" target="1783" allow-feedback="0">
         <Automation>
@@ -7916,7 +7925,7 @@ a38210953792 0
       <Controllable name="rec-safe" id="128260" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="128258" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7002" id="348250" name="Wou" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" midi-playlist="348328" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
+    <Route version="7002" id="348250" name="Wou" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" midi-playlist="348328" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
       <PresentationInfo order="11" flags="MidiTrack,OrderSet,TriggerTrack" color="2855877119"/>
       <Controllable name="solo" id="348291" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="348297" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -7950,7 +7959,7 @@ a38210953792 0
         <AutomationList automation-id="midi-velocity" id="348334" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="348302" flags="" value="1"/>
+        <Controllable name="pan-azimuth" id="348302" flags="" value="0.33369140624999999"/>
         <Controllable name="pan-width" id="348306" flags="" value="0"/>
         <Controllable name="pan-elevation" id="348304" flags="" value="0"/>
         <Controllable name="pan-frontback" id="348308" flags="" value="0"/>
@@ -8258,7 +8267,7 @@ a3473721600 0.50118720531463623
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="348579" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="348573" flags="GainLike,InlineControl" value="0.00020404366160250208"/>
+        <Controllable name="gaincontrol" id="348573" flags="GainLike,InlineControl" value="0.31996160745620728"/>
       </Processor>
       <Processor id="348317" name="meter-Wou" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="348318" name="Wou" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Wou" type="main-outs" role="Main">
@@ -8706,7 +8715,7 @@ a3473721600 0.50118720531463623
         <Object id="automation 71 12/0/0" height="40" visible="0"/>
         <Object id="automation 90" height="40" visible="0"/>
         <Object id="rtav 170" height="40" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="41" note-range-max="71"/>
-        <Object id="automation 207" height="40" visible="0"/>
+        <Object id="automation 207" height="40" visible="1"/>
         <Object id="automation 170 12/0/0" height="40" visible="0"/>
         <Object id="automation 170 31/0/0" height="40" visible="0"/>
         <Object id="automation 222" height="40" visible="0"/>
@@ -8845,7 +8854,7 @@ a3473721600 0.50118720531463623
           </Object>
         </Object>
         <Object id="automation 1357" height="40" visible="0"/>
-        <Object id="rtav 1565" height="128" midnam-custom-device-mode="General MIDI" note-range-min="53" note-range-max="79" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="rtav 1565" height="40" midnam-custom-device-mode="General MIDI" note-range-min="53" note-range-max="79" color-mode="MeterColors" midnam-channel="Channel  1"/>
         <Object id="automation 1602" height="40" visible="0"/>
         <Object id="automation 1565 12/0/0" height="40" visible="0"/>
         <Object id="automation 1565 31/0/0" height="40" visible="0"/>
@@ -9663,7 +9672,7 @@ a3473721600 0.50118720531463623
             <Object id="control 331701" visible="1"/>
           </Object>
         </Object>
-        <Object id="rtav 348250" height="136" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="91" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="rtav 348250" height="40" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="91" color-mode="MeterColors" midnam-channel="Channel  1"/>
         <Object id="automation 348287" height="40" visible="0"/>
         <Object id="automation 348250 12/0/0" height="40" visible="0"/>
         <Object id="automation 348250 31/0/0" height="40" visible="0"/>
@@ -9757,7 +9766,7 @@ a3473721600 0.50118720531463623
           </Object>
         </Object>
         <Object id="automation 348302" height="40" visible="1"/>
-        <Object id="automation 348573" height="84" visible="1"/>
+        <Object id="automation 348573" height="40" visible="1"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
