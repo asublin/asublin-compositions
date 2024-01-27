@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="The Walker Thinker" sample-rate="44100" session-range-is-free="0" id-counter="433047" rg-counter="1724" name-counter="1" event-counter="16927685" vca-counter="1">
+<Session version="7002" name="The Walker Thinker" sample-rate="44100" session-range-is-free="0" id-counter="433047" rg-counter="1725" name-counter="1" event-counter="16965015" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2-785-gf961980ef0" modified-with="Ardour 8.2-784-g3ce1719658"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -2770,7 +2770,7 @@ a56447987200 0.00049271195894107223
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="75" flags="GainLike" value="0.042968888134966431"/>
+        <Controllable name="gaincontrol" id="75" flags="GainLike" value="0.00049271195894107223"/>
       </Processor>
       <Processor id="22237" name="x42-dpl - Digital Peak Limiter Stereo" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/dpl#stereo" count="1" custom="0">
         <Automation>
@@ -8714,7 +8714,7 @@ a3473721600 0.50118720531463623
         <Object id="automation 77" height="40" visible="0"/>
         <Object id="automation 71 12/0/0" height="40" visible="0"/>
         <Object id="automation 90" height="40" visible="0"/>
-        <Object id="rtav 170" height="135" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="41" note-range-max="71"/>
+        <Object id="rtav 170" height="40" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="41" note-range-max="71"/>
         <Object id="automation 207" height="40" visible="1"/>
         <Object id="automation 170 12/0/0" height="40" visible="0"/>
         <Object id="automation 170 31/0/0" height="40" visible="0"/>
