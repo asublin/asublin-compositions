@@ -1,231 +1,3561 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1711781145" tv-usec="166077" name="change note velocity">
-    <NoteDiffCommand midi-source="338141">
+  <UndoTransaction tv-sec="1711784711" tv-usec="739388" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
       <ChangedNotes>
-        <Change property="Velocity" old="100" new="115" id="55704526"/>
+        <Change property="Velocity" old="54" new="53" id="56015075"/>
+        <Change property="Velocity" old="39" new="38" id="56017520"/>
+        <Change property="Velocity" old="83" new="82" id="56015546"/>
+        <Change property="Velocity" old="66" new="65" id="56015785"/>
+        <Change property="Velocity" old="57" new="56" id="56006112"/>
+        <Change property="Velocity" old="53" new="52" id="55981442"/>
+        <Change property="Velocity" old="70" new="69" id="55983316"/>
+        <Change property="Velocity" old="57" new="56" id="55987221"/>
+        <Change property="Velocity" old="76" new="75" id="55984666"/>
+        <Change property="Velocity" old="84" new="83" id="55974233"/>
+        <Change property="Velocity" old="70" new="69" id="55984076"/>
+        <Change property="Velocity" old="58" new="57" id="55984468"/>
+        <Change property="Velocity" old="66" new="65" id="55983130"/>
+        <Change property="Velocity" old="56" new="55" id="55982947"/>
+        <Change property="Velocity" old="80" new="79" id="55974057"/>
+        <Change property="Velocity" old="72" new="71" id="56018544"/>
+        <Change property="Velocity" old="63" new="62" id="56004772"/>
+        <Change property="Velocity" old="73" new="72" id="56004128"/>
+        <Change property="Velocity" old="83" new="82" id="55973884"/>
+        <Change property="Velocity" old="84" new="83" id="55974409"/>
+        <Change property="Velocity" old="63" new="62" id="55984868"/>
+        <Change property="Velocity" old="76" new="75" id="56013679"/>
+        <Change property="Velocity" old="72" new="71" id="56015310"/>
+        <Change property="Velocity" old="65" new="64" id="56016026"/>
+        <Change property="Velocity" old="67" new="66" id="56005438"/>
+        <Change property="Velocity" old="72" new="71" id="56017261"/>
+        <Change property="Velocity" old="80" new="79" id="55991297"/>
+        <Change property="Velocity" old="76" new="75" id="56006338"/>
+        <Change property="Velocity" old="78" new="77" id="56018283"/>
+        <Change property="Velocity" old="20" new="19" id="56017767"/>
+        <Change property="Velocity" old="80" new="79" id="56016761"/>
+        <Change property="Velocity" old="72" new="71" id="56016514"/>
+        <Change property="Velocity" old="59" new="58" id="56017011"/>
+        <Change property="Velocity" old="73" new="72" id="56003697"/>
+        <Change property="Velocity" old="70" new="69" id="55996388"/>
+        <Change property="Velocity" old="80" new="79" id="56006567"/>
+        <Change property="Velocity" old="78" new="77" id="56003912"/>
+        <Change property="Velocity" old="65" new="64" id="55987426"/>
+        <Change property="Velocity" old="81" new="80" id="56018024"/>
+        <Change property="Velocity" old="81" new="80" id="55991499"/>
+        <Change property="Velocity" old="84" new="83" id="55989333"/>
+        <Change property="Velocity" old="77" new="76" id="56000260"/>
+        <Change property="Velocity" old="81" new="80" id="56016269"/>
+        <Change property="Velocity" old="70" new="69" id="55989130"/>
+        <Change property="Velocity" old="70" new="69" id="56051576"/>
+        <Change property="Velocity" old="83" new="82" id="56003484"/>
+        <Change property="Velocity" old="53" new="52" id="56003064"/>
+        <Change property="Velocity" old="65" new="64" id="56000466"/>
+        <Change property="Velocity" old="68" new="67" id="56003272"/>
+        <Change property="Velocity" old="57" new="56" id="56004993"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781145" tv-usec="787622" name="change note velocity">
-    <NoteDiffCommand midi-source="338141">
-      <ChangedNotes>
-        <Change property="Velocity" old="100" new="86" id="55704962"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781146" tv-usec="422337" name="change note velocity">
-    <NoteDiffCommand midi-source="338141">
-      <ChangedNotes>
-        <Change property="Velocity" old="100" new="49" id="55705400"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781147" tv-usec="61427" name="change note velocity">
-    <NoteDiffCommand midi-source="338141">
-      <ChangedNotes>
-        <Change property="Velocity" old="100" new="68" id="55706280"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781147" tv-usec="695250" name="change note velocity">
-    <NoteDiffCommand midi-source="338141">
-      <ChangedNotes>
-        <Change property="Velocity" old="100" new="76" id="55706722"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781167" tv-usec="804600" name="change note velocity">
-    <NoteDiffCommand midi-source="338133">
-      <ChangedNotes>
-        <Change property="Velocity" old="121" new="112" id="54791691"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781171" tv-usec="498683" name="change note velocity">
-    <NoteDiffCommand midi-source="338133">
-      <ChangedNotes>
-        <Change property="Velocity" old="112" new="104" id="54792139"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781195" tv-usec="113608" name="automation event move">
-    <MementoUndoCommand obj-id="314859" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="314859" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.12570592761039734
-a62866872198 0.12570592761039734
-a63240425139 0.70794570446014404
-a64734630400 2
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="314859" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="314859" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.12570592761039734
-a62866872198 0.12570592761039734
-a63240425139 0.99999994039535522
-a64734630400 2
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="7581" left-frame="0" y-origin="560">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
         <Selection>
-          <ControlPoint type="track" route-id="34807" automation-list-id="314859" parameter="send" view-index="2"/>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="7581" left-frame="0" y-origin="560">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
         <Selection>
-          <ControlPoint type="track" route-id="34807" automation-list-id="314859" parameter="send" view-index="2"/>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1711781292" tv-usec="563935" name="change note">
-    <NoteDiffCommand midi-source="236006">
+  <UndoTransaction tv-sec="1711784712" tv-usec="187168" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
       <ChangedNotes>
-        <Change property="NoteNumber" old="76" new="69" id="54781350"/>
+        <Change property="Velocity" old="53" new="52" id="56015075"/>
+        <Change property="Velocity" old="38" new="37" id="56017520"/>
+        <Change property="Velocity" old="82" new="81" id="56015546"/>
+        <Change property="Velocity" old="65" new="64" id="56015785"/>
+        <Change property="Velocity" old="56" new="55" id="56006112"/>
+        <Change property="Velocity" old="52" new="51" id="55981442"/>
+        <Change property="Velocity" old="69" new="68" id="55983316"/>
+        <Change property="Velocity" old="56" new="55" id="55987221"/>
+        <Change property="Velocity" old="75" new="74" id="55984666"/>
+        <Change property="Velocity" old="83" new="82" id="55974233"/>
+        <Change property="Velocity" old="69" new="68" id="55984076"/>
+        <Change property="Velocity" old="57" new="56" id="55984468"/>
+        <Change property="Velocity" old="65" new="64" id="55983130"/>
+        <Change property="Velocity" old="55" new="54" id="55982947"/>
+        <Change property="Velocity" old="79" new="78" id="55974057"/>
+        <Change property="Velocity" old="71" new="70" id="56018544"/>
+        <Change property="Velocity" old="62" new="61" id="56004772"/>
+        <Change property="Velocity" old="72" new="71" id="56004128"/>
+        <Change property="Velocity" old="82" new="81" id="55973884"/>
+        <Change property="Velocity" old="83" new="82" id="55974409"/>
+        <Change property="Velocity" old="62" new="61" id="55984868"/>
+        <Change property="Velocity" old="75" new="74" id="56013679"/>
+        <Change property="Velocity" old="71" new="70" id="56015310"/>
+        <Change property="Velocity" old="64" new="63" id="56016026"/>
+        <Change property="Velocity" old="66" new="65" id="56005438"/>
+        <Change property="Velocity" old="71" new="70" id="56017261"/>
+        <Change property="Velocity" old="79" new="78" id="55991297"/>
+        <Change property="Velocity" old="75" new="74" id="56006338"/>
+        <Change property="Velocity" old="77" new="76" id="56018283"/>
+        <Change property="Velocity" old="19" new="18" id="56017767"/>
+        <Change property="Velocity" old="79" new="78" id="56016761"/>
+        <Change property="Velocity" old="71" new="70" id="56016514"/>
+        <Change property="Velocity" old="58" new="57" id="56017011"/>
+        <Change property="Velocity" old="72" new="71" id="56003697"/>
+        <Change property="Velocity" old="69" new="68" id="55996388"/>
+        <Change property="Velocity" old="79" new="78" id="56006567"/>
+        <Change property="Velocity" old="77" new="76" id="56003912"/>
+        <Change property="Velocity" old="64" new="63" id="55987426"/>
+        <Change property="Velocity" old="80" new="79" id="56018024"/>
+        <Change property="Velocity" old="80" new="79" id="55991499"/>
+        <Change property="Velocity" old="83" new="82" id="55989333"/>
+        <Change property="Velocity" old="76" new="75" id="56000260"/>
+        <Change property="Velocity" old="80" new="79" id="56016269"/>
+        <Change property="Velocity" old="69" new="68" id="55989130"/>
+        <Change property="Velocity" old="69" new="68" id="56051576"/>
+        <Change property="Velocity" old="82" new="81" id="56003484"/>
+        <Change property="Velocity" old="52" new="51" id="56003064"/>
+        <Change property="Velocity" old="64" new="63" id="56000466"/>
+        <Change property="Velocity" old="67" new="66" id="56003272"/>
+        <Change property="Velocity" old="56" new="55" id="56004993"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781294" tv-usec="271405" name="add note">
-    <NoteDiffCommand midi-source="236006">
-      <ChangedNotes>
-        <Change property="Length" old="0:960" new="0:480" id="54781350"/>
-      </ChangedNotes>
-      <AddedNotes>
-        <note id="55744320" note="76" channel="0" time="115:834" length="0:480" velocity="103"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781296" tv-usec="200175" name="delete note">
-    <NoteDiffCommand midi-source="236006">
-      <ChangedNotes>
-        <Change property="Length" old="0:480" new="0:960" id="54781350"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes>
-        <note id="55744320" note="76" channel="0" time="115:834" length="0:480" velocity="103"/>
-      </RemovedNotes>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781298" tv-usec="297608" name="change note">
-    <NoteDiffCommand midi-source="236006">
-      <ChangedNotes>
-        <Change property="NoteNumber" old="69" new="76" id="54781582"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781302" tv-usec="186291" name="change note">
-    <NoteDiffCommand midi-source="338133">
-      <ChangedNotes>
-        <Change property="NoteNumber" old="76" new="69" id="54790163"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781304" tv-usec="641458" name="change note">
-    <NoteDiffCommand midi-source="338133">
-      <ChangedNotes>
-        <Change property="NoteNumber" old="69" new="76" id="54790377"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781317" tv-usec="662898" name="resize note">
-    <NoteDiffCommand midi-source="236006">
-      <ChangedNotes>
-        <Change property="Length" old="2:0" new="3:0" id="54781582"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781319" tv-usec="508926" name="resize note">
-    <NoteDiffCommand midi-source="338133">
-      <ChangedNotes>
-        <Change property="Length" old="2:0" new="3:0" id="54790377"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781374" tv-usec="598076" name="change note">
-    <NoteDiffCommand midi-source="338133">
-      <ChangedNotes>
-        <Change property="NoteNumber" old="69" new="74" id="54790809"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781378" tv-usec="545726" name="change note">
-    <NoteDiffCommand midi-source="236006">
-      <ChangedNotes>
-        <Change property="NoteNumber" old="69" new="74" id="54782050"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781487" tv-usec="154979" name="change note velocity">
-    <NoteDiffCommand midi-source="352966">
-      <ChangedNotes>
-        <Change property="Velocity" old="80" new="64" id="55166443"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1711781574" tv-usec="471029" name="automation event move">
-    <MementoUndoCommand obj-id="314859" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="314859" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.12570592761039734
-a62866872198 0.12570592761039734
-a63240425139 0.99999994039535522
-a64734630400 2
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="314859" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="314859" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.12570592761039734
-a62866872198 0.12570592761039734
-a63240425139 1.4125375747680664
-a64734630400 2
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="7581" left-frame="0" y-origin="480">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
         <Selection>
-          <ControlPoint type="track" route-id="34807" automation-list-id="314859" parameter="send" view-index="2"/>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="7581" left-frame="0" y-origin="480">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
         <Selection>
-          <ControlPoint type="track" route-id="34807" automation-list-id="314859" parameter="send" view-index="2"/>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784712" tv-usec="206842" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="52" new="51" id="56015075"/>
+        <Change property="Velocity" old="37" new="36" id="56017520"/>
+        <Change property="Velocity" old="81" new="80" id="56015546"/>
+        <Change property="Velocity" old="64" new="63" id="56015785"/>
+        <Change property="Velocity" old="55" new="54" id="56006112"/>
+        <Change property="Velocity" old="51" new="50" id="55981442"/>
+        <Change property="Velocity" old="68" new="67" id="55983316"/>
+        <Change property="Velocity" old="55" new="54" id="55987221"/>
+        <Change property="Velocity" old="74" new="73" id="55984666"/>
+        <Change property="Velocity" old="82" new="81" id="55974233"/>
+        <Change property="Velocity" old="68" new="67" id="55984076"/>
+        <Change property="Velocity" old="56" new="55" id="55984468"/>
+        <Change property="Velocity" old="64" new="63" id="55983130"/>
+        <Change property="Velocity" old="54" new="53" id="55982947"/>
+        <Change property="Velocity" old="78" new="77" id="55974057"/>
+        <Change property="Velocity" old="70" new="69" id="56018544"/>
+        <Change property="Velocity" old="61" new="60" id="56004772"/>
+        <Change property="Velocity" old="71" new="70" id="56004128"/>
+        <Change property="Velocity" old="81" new="80" id="55973884"/>
+        <Change property="Velocity" old="82" new="81" id="55974409"/>
+        <Change property="Velocity" old="61" new="60" id="55984868"/>
+        <Change property="Velocity" old="74" new="73" id="56013679"/>
+        <Change property="Velocity" old="70" new="69" id="56015310"/>
+        <Change property="Velocity" old="63" new="62" id="56016026"/>
+        <Change property="Velocity" old="65" new="64" id="56005438"/>
+        <Change property="Velocity" old="70" new="69" id="56017261"/>
+        <Change property="Velocity" old="78" new="77" id="55991297"/>
+        <Change property="Velocity" old="74" new="73" id="56006338"/>
+        <Change property="Velocity" old="76" new="75" id="56018283"/>
+        <Change property="Velocity" old="18" new="17" id="56017767"/>
+        <Change property="Velocity" old="78" new="77" id="56016761"/>
+        <Change property="Velocity" old="70" new="69" id="56016514"/>
+        <Change property="Velocity" old="57" new="56" id="56017011"/>
+        <Change property="Velocity" old="71" new="70" id="56003697"/>
+        <Change property="Velocity" old="68" new="67" id="55996388"/>
+        <Change property="Velocity" old="78" new="77" id="56006567"/>
+        <Change property="Velocity" old="76" new="75" id="56003912"/>
+        <Change property="Velocity" old="63" new="62" id="55987426"/>
+        <Change property="Velocity" old="79" new="78" id="56018024"/>
+        <Change property="Velocity" old="79" new="78" id="55991499"/>
+        <Change property="Velocity" old="82" new="81" id="55989333"/>
+        <Change property="Velocity" old="75" new="74" id="56000260"/>
+        <Change property="Velocity" old="79" new="78" id="56016269"/>
+        <Change property="Velocity" old="68" new="67" id="55989130"/>
+        <Change property="Velocity" old="68" new="67" id="56051576"/>
+        <Change property="Velocity" old="81" new="80" id="56003484"/>
+        <Change property="Velocity" old="51" new="50" id="56003064"/>
+        <Change property="Velocity" old="63" new="62" id="56000466"/>
+        <Change property="Velocity" old="66" new="65" id="56003272"/>
+        <Change property="Velocity" old="55" new="54" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784712" tv-usec="227190" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="51" new="50" id="56015075"/>
+        <Change property="Velocity" old="36" new="35" id="56017520"/>
+        <Change property="Velocity" old="80" new="79" id="56015546"/>
+        <Change property="Velocity" old="63" new="62" id="56015785"/>
+        <Change property="Velocity" old="54" new="53" id="56006112"/>
+        <Change property="Velocity" old="50" new="49" id="55981442"/>
+        <Change property="Velocity" old="67" new="66" id="55983316"/>
+        <Change property="Velocity" old="54" new="53" id="55987221"/>
+        <Change property="Velocity" old="73" new="72" id="55984666"/>
+        <Change property="Velocity" old="81" new="80" id="55974233"/>
+        <Change property="Velocity" old="67" new="66" id="55984076"/>
+        <Change property="Velocity" old="55" new="54" id="55984468"/>
+        <Change property="Velocity" old="63" new="62" id="55983130"/>
+        <Change property="Velocity" old="53" new="52" id="55982947"/>
+        <Change property="Velocity" old="77" new="76" id="55974057"/>
+        <Change property="Velocity" old="69" new="68" id="56018544"/>
+        <Change property="Velocity" old="60" new="59" id="56004772"/>
+        <Change property="Velocity" old="70" new="69" id="56004128"/>
+        <Change property="Velocity" old="80" new="79" id="55973884"/>
+        <Change property="Velocity" old="81" new="80" id="55974409"/>
+        <Change property="Velocity" old="60" new="59" id="55984868"/>
+        <Change property="Velocity" old="73" new="72" id="56013679"/>
+        <Change property="Velocity" old="69" new="68" id="56015310"/>
+        <Change property="Velocity" old="62" new="61" id="56016026"/>
+        <Change property="Velocity" old="64" new="63" id="56005438"/>
+        <Change property="Velocity" old="69" new="68" id="56017261"/>
+        <Change property="Velocity" old="77" new="76" id="55991297"/>
+        <Change property="Velocity" old="73" new="72" id="56006338"/>
+        <Change property="Velocity" old="75" new="74" id="56018283"/>
+        <Change property="Velocity" old="17" new="16" id="56017767"/>
+        <Change property="Velocity" old="77" new="76" id="56016761"/>
+        <Change property="Velocity" old="69" new="68" id="56016514"/>
+        <Change property="Velocity" old="56" new="55" id="56017011"/>
+        <Change property="Velocity" old="70" new="69" id="56003697"/>
+        <Change property="Velocity" old="67" new="66" id="55996388"/>
+        <Change property="Velocity" old="77" new="76" id="56006567"/>
+        <Change property="Velocity" old="75" new="74" id="56003912"/>
+        <Change property="Velocity" old="62" new="61" id="55987426"/>
+        <Change property="Velocity" old="78" new="77" id="56018024"/>
+        <Change property="Velocity" old="78" new="77" id="55991499"/>
+        <Change property="Velocity" old="81" new="80" id="55989333"/>
+        <Change property="Velocity" old="74" new="73" id="56000260"/>
+        <Change property="Velocity" old="78" new="77" id="56016269"/>
+        <Change property="Velocity" old="67" new="66" id="55989130"/>
+        <Change property="Velocity" old="67" new="66" id="56051576"/>
+        <Change property="Velocity" old="80" new="79" id="56003484"/>
+        <Change property="Velocity" old="50" new="49" id="56003064"/>
+        <Change property="Velocity" old="62" new="61" id="56000466"/>
+        <Change property="Velocity" old="65" new="64" id="56003272"/>
+        <Change property="Velocity" old="54" new="53" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784712" tv-usec="247066" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="50" new="49" id="56015075"/>
+        <Change property="Velocity" old="35" new="34" id="56017520"/>
+        <Change property="Velocity" old="79" new="78" id="56015546"/>
+        <Change property="Velocity" old="62" new="61" id="56015785"/>
+        <Change property="Velocity" old="53" new="52" id="56006112"/>
+        <Change property="Velocity" old="49" new="48" id="55981442"/>
+        <Change property="Velocity" old="66" new="65" id="55983316"/>
+        <Change property="Velocity" old="53" new="52" id="55987221"/>
+        <Change property="Velocity" old="72" new="71" id="55984666"/>
+        <Change property="Velocity" old="80" new="79" id="55974233"/>
+        <Change property="Velocity" old="66" new="65" id="55984076"/>
+        <Change property="Velocity" old="54" new="53" id="55984468"/>
+        <Change property="Velocity" old="62" new="61" id="55983130"/>
+        <Change property="Velocity" old="52" new="51" id="55982947"/>
+        <Change property="Velocity" old="76" new="75" id="55974057"/>
+        <Change property="Velocity" old="68" new="67" id="56018544"/>
+        <Change property="Velocity" old="59" new="58" id="56004772"/>
+        <Change property="Velocity" old="69" new="68" id="56004128"/>
+        <Change property="Velocity" old="79" new="78" id="55973884"/>
+        <Change property="Velocity" old="80" new="79" id="55974409"/>
+        <Change property="Velocity" old="59" new="58" id="55984868"/>
+        <Change property="Velocity" old="72" new="71" id="56013679"/>
+        <Change property="Velocity" old="68" new="67" id="56015310"/>
+        <Change property="Velocity" old="61" new="60" id="56016026"/>
+        <Change property="Velocity" old="63" new="62" id="56005438"/>
+        <Change property="Velocity" old="68" new="67" id="56017261"/>
+        <Change property="Velocity" old="76" new="75" id="55991297"/>
+        <Change property="Velocity" old="72" new="71" id="56006338"/>
+        <Change property="Velocity" old="74" new="73" id="56018283"/>
+        <Change property="Velocity" old="16" new="15" id="56017767"/>
+        <Change property="Velocity" old="76" new="75" id="56016761"/>
+        <Change property="Velocity" old="68" new="67" id="56016514"/>
+        <Change property="Velocity" old="55" new="54" id="56017011"/>
+        <Change property="Velocity" old="69" new="68" id="56003697"/>
+        <Change property="Velocity" old="66" new="65" id="55996388"/>
+        <Change property="Velocity" old="76" new="75" id="56006567"/>
+        <Change property="Velocity" old="74" new="73" id="56003912"/>
+        <Change property="Velocity" old="61" new="60" id="55987426"/>
+        <Change property="Velocity" old="77" new="76" id="56018024"/>
+        <Change property="Velocity" old="77" new="76" id="55991499"/>
+        <Change property="Velocity" old="80" new="79" id="55989333"/>
+        <Change property="Velocity" old="73" new="72" id="56000260"/>
+        <Change property="Velocity" old="77" new="76" id="56016269"/>
+        <Change property="Velocity" old="66" new="65" id="55989130"/>
+        <Change property="Velocity" old="66" new="65" id="56051576"/>
+        <Change property="Velocity" old="79" new="78" id="56003484"/>
+        <Change property="Velocity" old="49" new="48" id="56003064"/>
+        <Change property="Velocity" old="61" new="60" id="56000466"/>
+        <Change property="Velocity" old="64" new="63" id="56003272"/>
+        <Change property="Velocity" old="53" new="52" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784712" tv-usec="267836" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="49" new="48" id="56015075"/>
+        <Change property="Velocity" old="34" new="33" id="56017520"/>
+        <Change property="Velocity" old="78" new="77" id="56015546"/>
+        <Change property="Velocity" old="61" new="60" id="56015785"/>
+        <Change property="Velocity" old="52" new="51" id="56006112"/>
+        <Change property="Velocity" old="48" new="47" id="55981442"/>
+        <Change property="Velocity" old="65" new="64" id="55983316"/>
+        <Change property="Velocity" old="52" new="51" id="55987221"/>
+        <Change property="Velocity" old="71" new="70" id="55984666"/>
+        <Change property="Velocity" old="79" new="78" id="55974233"/>
+        <Change property="Velocity" old="65" new="64" id="55984076"/>
+        <Change property="Velocity" old="53" new="52" id="55984468"/>
+        <Change property="Velocity" old="61" new="60" id="55983130"/>
+        <Change property="Velocity" old="51" new="50" id="55982947"/>
+        <Change property="Velocity" old="75" new="74" id="55974057"/>
+        <Change property="Velocity" old="67" new="66" id="56018544"/>
+        <Change property="Velocity" old="58" new="57" id="56004772"/>
+        <Change property="Velocity" old="68" new="67" id="56004128"/>
+        <Change property="Velocity" old="78" new="77" id="55973884"/>
+        <Change property="Velocity" old="79" new="78" id="55974409"/>
+        <Change property="Velocity" old="58" new="57" id="55984868"/>
+        <Change property="Velocity" old="71" new="70" id="56013679"/>
+        <Change property="Velocity" old="67" new="66" id="56015310"/>
+        <Change property="Velocity" old="60" new="59" id="56016026"/>
+        <Change property="Velocity" old="62" new="61" id="56005438"/>
+        <Change property="Velocity" old="67" new="66" id="56017261"/>
+        <Change property="Velocity" old="75" new="74" id="55991297"/>
+        <Change property="Velocity" old="71" new="70" id="56006338"/>
+        <Change property="Velocity" old="73" new="72" id="56018283"/>
+        <Change property="Velocity" old="15" new="14" id="56017767"/>
+        <Change property="Velocity" old="75" new="74" id="56016761"/>
+        <Change property="Velocity" old="67" new="66" id="56016514"/>
+        <Change property="Velocity" old="54" new="53" id="56017011"/>
+        <Change property="Velocity" old="68" new="67" id="56003697"/>
+        <Change property="Velocity" old="65" new="64" id="55996388"/>
+        <Change property="Velocity" old="75" new="74" id="56006567"/>
+        <Change property="Velocity" old="73" new="72" id="56003912"/>
+        <Change property="Velocity" old="60" new="59" id="55987426"/>
+        <Change property="Velocity" old="76" new="75" id="56018024"/>
+        <Change property="Velocity" old="76" new="75" id="55991499"/>
+        <Change property="Velocity" old="79" new="78" id="55989333"/>
+        <Change property="Velocity" old="72" new="71" id="56000260"/>
+        <Change property="Velocity" old="76" new="75" id="56016269"/>
+        <Change property="Velocity" old="65" new="64" id="55989130"/>
+        <Change property="Velocity" old="65" new="64" id="56051576"/>
+        <Change property="Velocity" old="78" new="77" id="56003484"/>
+        <Change property="Velocity" old="48" new="47" id="56003064"/>
+        <Change property="Velocity" old="60" new="59" id="56000466"/>
+        <Change property="Velocity" old="63" new="62" id="56003272"/>
+        <Change property="Velocity" old="52" new="51" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784712" tv-usec="287450" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="48" new="47" id="56015075"/>
+        <Change property="Velocity" old="33" new="32" id="56017520"/>
+        <Change property="Velocity" old="77" new="76" id="56015546"/>
+        <Change property="Velocity" old="60" new="59" id="56015785"/>
+        <Change property="Velocity" old="51" new="50" id="56006112"/>
+        <Change property="Velocity" old="47" new="46" id="55981442"/>
+        <Change property="Velocity" old="64" new="63" id="55983316"/>
+        <Change property="Velocity" old="51" new="50" id="55987221"/>
+        <Change property="Velocity" old="70" new="69" id="55984666"/>
+        <Change property="Velocity" old="78" new="77" id="55974233"/>
+        <Change property="Velocity" old="64" new="63" id="55984076"/>
+        <Change property="Velocity" old="52" new="51" id="55984468"/>
+        <Change property="Velocity" old="60" new="59" id="55983130"/>
+        <Change property="Velocity" old="50" new="49" id="55982947"/>
+        <Change property="Velocity" old="74" new="73" id="55974057"/>
+        <Change property="Velocity" old="66" new="65" id="56018544"/>
+        <Change property="Velocity" old="57" new="56" id="56004772"/>
+        <Change property="Velocity" old="67" new="66" id="56004128"/>
+        <Change property="Velocity" old="77" new="76" id="55973884"/>
+        <Change property="Velocity" old="78" new="77" id="55974409"/>
+        <Change property="Velocity" old="57" new="56" id="55984868"/>
+        <Change property="Velocity" old="70" new="69" id="56013679"/>
+        <Change property="Velocity" old="66" new="65" id="56015310"/>
+        <Change property="Velocity" old="59" new="58" id="56016026"/>
+        <Change property="Velocity" old="61" new="60" id="56005438"/>
+        <Change property="Velocity" old="66" new="65" id="56017261"/>
+        <Change property="Velocity" old="74" new="73" id="55991297"/>
+        <Change property="Velocity" old="70" new="69" id="56006338"/>
+        <Change property="Velocity" old="72" new="71" id="56018283"/>
+        <Change property="Velocity" old="14" new="13" id="56017767"/>
+        <Change property="Velocity" old="74" new="73" id="56016761"/>
+        <Change property="Velocity" old="66" new="65" id="56016514"/>
+        <Change property="Velocity" old="53" new="52" id="56017011"/>
+        <Change property="Velocity" old="67" new="66" id="56003697"/>
+        <Change property="Velocity" old="64" new="63" id="55996388"/>
+        <Change property="Velocity" old="74" new="73" id="56006567"/>
+        <Change property="Velocity" old="72" new="71" id="56003912"/>
+        <Change property="Velocity" old="59" new="58" id="55987426"/>
+        <Change property="Velocity" old="75" new="74" id="56018024"/>
+        <Change property="Velocity" old="75" new="74" id="55991499"/>
+        <Change property="Velocity" old="78" new="77" id="55989333"/>
+        <Change property="Velocity" old="71" new="70" id="56000260"/>
+        <Change property="Velocity" old="75" new="74" id="56016269"/>
+        <Change property="Velocity" old="64" new="63" id="55989130"/>
+        <Change property="Velocity" old="64" new="63" id="56051576"/>
+        <Change property="Velocity" old="77" new="76" id="56003484"/>
+        <Change property="Velocity" old="47" new="46" id="56003064"/>
+        <Change property="Velocity" old="59" new="58" id="56000466"/>
+        <Change property="Velocity" old="62" new="61" id="56003272"/>
+        <Change property="Velocity" old="51" new="50" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784712" tv-usec="309679" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="47" new="46" id="56015075"/>
+        <Change property="Velocity" old="32" new="31" id="56017520"/>
+        <Change property="Velocity" old="76" new="75" id="56015546"/>
+        <Change property="Velocity" old="59" new="58" id="56015785"/>
+        <Change property="Velocity" old="50" new="49" id="56006112"/>
+        <Change property="Velocity" old="46" new="45" id="55981442"/>
+        <Change property="Velocity" old="63" new="62" id="55983316"/>
+        <Change property="Velocity" old="50" new="49" id="55987221"/>
+        <Change property="Velocity" old="69" new="68" id="55984666"/>
+        <Change property="Velocity" old="77" new="76" id="55974233"/>
+        <Change property="Velocity" old="63" new="62" id="55984076"/>
+        <Change property="Velocity" old="51" new="50" id="55984468"/>
+        <Change property="Velocity" old="59" new="58" id="55983130"/>
+        <Change property="Velocity" old="49" new="48" id="55982947"/>
+        <Change property="Velocity" old="73" new="72" id="55974057"/>
+        <Change property="Velocity" old="65" new="64" id="56018544"/>
+        <Change property="Velocity" old="56" new="55" id="56004772"/>
+        <Change property="Velocity" old="66" new="65" id="56004128"/>
+        <Change property="Velocity" old="76" new="75" id="55973884"/>
+        <Change property="Velocity" old="77" new="76" id="55974409"/>
+        <Change property="Velocity" old="56" new="55" id="55984868"/>
+        <Change property="Velocity" old="69" new="68" id="56013679"/>
+        <Change property="Velocity" old="65" new="64" id="56015310"/>
+        <Change property="Velocity" old="58" new="57" id="56016026"/>
+        <Change property="Velocity" old="60" new="59" id="56005438"/>
+        <Change property="Velocity" old="65" new="64" id="56017261"/>
+        <Change property="Velocity" old="73" new="72" id="55991297"/>
+        <Change property="Velocity" old="69" new="68" id="56006338"/>
+        <Change property="Velocity" old="71" new="70" id="56018283"/>
+        <Change property="Velocity" old="13" new="12" id="56017767"/>
+        <Change property="Velocity" old="73" new="72" id="56016761"/>
+        <Change property="Velocity" old="65" new="64" id="56016514"/>
+        <Change property="Velocity" old="52" new="51" id="56017011"/>
+        <Change property="Velocity" old="66" new="65" id="56003697"/>
+        <Change property="Velocity" old="63" new="62" id="55996388"/>
+        <Change property="Velocity" old="73" new="72" id="56006567"/>
+        <Change property="Velocity" old="71" new="70" id="56003912"/>
+        <Change property="Velocity" old="58" new="57" id="55987426"/>
+        <Change property="Velocity" old="74" new="73" id="56018024"/>
+        <Change property="Velocity" old="74" new="73" id="55991499"/>
+        <Change property="Velocity" old="77" new="76" id="55989333"/>
+        <Change property="Velocity" old="70" new="69" id="56000260"/>
+        <Change property="Velocity" old="74" new="73" id="56016269"/>
+        <Change property="Velocity" old="63" new="62" id="55989130"/>
+        <Change property="Velocity" old="63" new="62" id="56051576"/>
+        <Change property="Velocity" old="76" new="75" id="56003484"/>
+        <Change property="Velocity" old="46" new="45" id="56003064"/>
+        <Change property="Velocity" old="58" new="57" id="56000466"/>
+        <Change property="Velocity" old="61" new="60" id="56003272"/>
+        <Change property="Velocity" old="50" new="49" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784713" tv-usec="432767" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="46" new="45" id="56015075"/>
+        <Change property="Velocity" old="31" new="30" id="56017520"/>
+        <Change property="Velocity" old="75" new="74" id="56015546"/>
+        <Change property="Velocity" old="58" new="57" id="56015785"/>
+        <Change property="Velocity" old="49" new="48" id="56006112"/>
+        <Change property="Velocity" old="45" new="44" id="55981442"/>
+        <Change property="Velocity" old="62" new="61" id="55983316"/>
+        <Change property="Velocity" old="49" new="48" id="55987221"/>
+        <Change property="Velocity" old="68" new="67" id="55984666"/>
+        <Change property="Velocity" old="76" new="75" id="55974233"/>
+        <Change property="Velocity" old="62" new="61" id="55984076"/>
+        <Change property="Velocity" old="50" new="49" id="55984468"/>
+        <Change property="Velocity" old="58" new="57" id="55983130"/>
+        <Change property="Velocity" old="48" new="47" id="55982947"/>
+        <Change property="Velocity" old="72" new="71" id="55974057"/>
+        <Change property="Velocity" old="64" new="63" id="56018544"/>
+        <Change property="Velocity" old="55" new="54" id="56004772"/>
+        <Change property="Velocity" old="65" new="64" id="56004128"/>
+        <Change property="Velocity" old="75" new="74" id="55973884"/>
+        <Change property="Velocity" old="76" new="75" id="55974409"/>
+        <Change property="Velocity" old="55" new="54" id="55984868"/>
+        <Change property="Velocity" old="68" new="67" id="56013679"/>
+        <Change property="Velocity" old="64" new="63" id="56015310"/>
+        <Change property="Velocity" old="57" new="56" id="56016026"/>
+        <Change property="Velocity" old="59" new="58" id="56005438"/>
+        <Change property="Velocity" old="64" new="63" id="56017261"/>
+        <Change property="Velocity" old="72" new="71" id="55991297"/>
+        <Change property="Velocity" old="68" new="67" id="56006338"/>
+        <Change property="Velocity" old="70" new="69" id="56018283"/>
+        <Change property="Velocity" old="12" new="11" id="56017767"/>
+        <Change property="Velocity" old="72" new="71" id="56016761"/>
+        <Change property="Velocity" old="64" new="63" id="56016514"/>
+        <Change property="Velocity" old="51" new="50" id="56017011"/>
+        <Change property="Velocity" old="65" new="64" id="56003697"/>
+        <Change property="Velocity" old="62" new="61" id="55996388"/>
+        <Change property="Velocity" old="72" new="71" id="56006567"/>
+        <Change property="Velocity" old="70" new="69" id="56003912"/>
+        <Change property="Velocity" old="57" new="56" id="55987426"/>
+        <Change property="Velocity" old="73" new="72" id="56018024"/>
+        <Change property="Velocity" old="73" new="72" id="55991499"/>
+        <Change property="Velocity" old="76" new="75" id="55989333"/>
+        <Change property="Velocity" old="69" new="68" id="56000260"/>
+        <Change property="Velocity" old="73" new="72" id="56016269"/>
+        <Change property="Velocity" old="62" new="61" id="55989130"/>
+        <Change property="Velocity" old="62" new="61" id="56051576"/>
+        <Change property="Velocity" old="75" new="74" id="56003484"/>
+        <Change property="Velocity" old="45" new="44" id="56003064"/>
+        <Change property="Velocity" old="57" new="56" id="56000466"/>
+        <Change property="Velocity" old="60" new="59" id="56003272"/>
+        <Change property="Velocity" old="49" new="48" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784729" tv-usec="895494" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="45" new="44" id="56015075"/>
+        <Change property="Velocity" old="30" new="29" id="56017520"/>
+        <Change property="Velocity" old="74" new="73" id="56015546"/>
+        <Change property="Velocity" old="57" new="56" id="56015785"/>
+        <Change property="Velocity" old="48" new="47" id="56006112"/>
+        <Change property="Velocity" old="44" new="43" id="55981442"/>
+        <Change property="Velocity" old="61" new="60" id="55983316"/>
+        <Change property="Velocity" old="48" new="47" id="55987221"/>
+        <Change property="Velocity" old="67" new="66" id="55984666"/>
+        <Change property="Velocity" old="75" new="74" id="55974233"/>
+        <Change property="Velocity" old="61" new="60" id="55984076"/>
+        <Change property="Velocity" old="49" new="48" id="55984468"/>
+        <Change property="Velocity" old="57" new="56" id="55983130"/>
+        <Change property="Velocity" old="47" new="46" id="55982947"/>
+        <Change property="Velocity" old="71" new="70" id="55974057"/>
+        <Change property="Velocity" old="63" new="62" id="56018544"/>
+        <Change property="Velocity" old="54" new="53" id="56004772"/>
+        <Change property="Velocity" old="64" new="63" id="56004128"/>
+        <Change property="Velocity" old="74" new="73" id="55973884"/>
+        <Change property="Velocity" old="75" new="74" id="55974409"/>
+        <Change property="Velocity" old="54" new="53" id="55984868"/>
+        <Change property="Velocity" old="67" new="66" id="56013679"/>
+        <Change property="Velocity" old="63" new="62" id="56015310"/>
+        <Change property="Velocity" old="56" new="55" id="56016026"/>
+        <Change property="Velocity" old="58" new="57" id="56005438"/>
+        <Change property="Velocity" old="63" new="62" id="56017261"/>
+        <Change property="Velocity" old="71" new="70" id="55991297"/>
+        <Change property="Velocity" old="67" new="66" id="56006338"/>
+        <Change property="Velocity" old="69" new="68" id="56018283"/>
+        <Change property="Velocity" old="11" new="10" id="56017767"/>
+        <Change property="Velocity" old="71" new="70" id="56016761"/>
+        <Change property="Velocity" old="63" new="62" id="56016514"/>
+        <Change property="Velocity" old="50" new="49" id="56017011"/>
+        <Change property="Velocity" old="64" new="63" id="56003697"/>
+        <Change property="Velocity" old="61" new="60" id="55996388"/>
+        <Change property="Velocity" old="71" new="70" id="56006567"/>
+        <Change property="Velocity" old="69" new="68" id="56003912"/>
+        <Change property="Velocity" old="56" new="55" id="55987426"/>
+        <Change property="Velocity" old="72" new="71" id="56018024"/>
+        <Change property="Velocity" old="72" new="71" id="55991499"/>
+        <Change property="Velocity" old="75" new="74" id="55989333"/>
+        <Change property="Velocity" old="68" new="67" id="56000260"/>
+        <Change property="Velocity" old="72" new="71" id="56016269"/>
+        <Change property="Velocity" old="61" new="60" id="55989130"/>
+        <Change property="Velocity" old="61" new="60" id="56051576"/>
+        <Change property="Velocity" old="74" new="73" id="56003484"/>
+        <Change property="Velocity" old="44" new="43" id="56003064"/>
+        <Change property="Velocity" old="56" new="55" id="56000466"/>
+        <Change property="Velocity" old="59" new="58" id="56003272"/>
+        <Change property="Velocity" old="48" new="47" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784729" tv-usec="950703" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="44" new="43" id="56015075"/>
+        <Change property="Velocity" old="29" new="28" id="56017520"/>
+        <Change property="Velocity" old="73" new="72" id="56015546"/>
+        <Change property="Velocity" old="56" new="55" id="56015785"/>
+        <Change property="Velocity" old="47" new="46" id="56006112"/>
+        <Change property="Velocity" old="43" new="42" id="55981442"/>
+        <Change property="Velocity" old="60" new="59" id="55983316"/>
+        <Change property="Velocity" old="47" new="46" id="55987221"/>
+        <Change property="Velocity" old="66" new="65" id="55984666"/>
+        <Change property="Velocity" old="74" new="73" id="55974233"/>
+        <Change property="Velocity" old="60" new="59" id="55984076"/>
+        <Change property="Velocity" old="48" new="47" id="55984468"/>
+        <Change property="Velocity" old="56" new="55" id="55983130"/>
+        <Change property="Velocity" old="46" new="45" id="55982947"/>
+        <Change property="Velocity" old="70" new="69" id="55974057"/>
+        <Change property="Velocity" old="62" new="61" id="56018544"/>
+        <Change property="Velocity" old="53" new="52" id="56004772"/>
+        <Change property="Velocity" old="63" new="62" id="56004128"/>
+        <Change property="Velocity" old="73" new="72" id="55973884"/>
+        <Change property="Velocity" old="74" new="73" id="55974409"/>
+        <Change property="Velocity" old="53" new="52" id="55984868"/>
+        <Change property="Velocity" old="66" new="65" id="56013679"/>
+        <Change property="Velocity" old="62" new="61" id="56015310"/>
+        <Change property="Velocity" old="55" new="54" id="56016026"/>
+        <Change property="Velocity" old="57" new="56" id="56005438"/>
+        <Change property="Velocity" old="62" new="61" id="56017261"/>
+        <Change property="Velocity" old="70" new="69" id="55991297"/>
+        <Change property="Velocity" old="66" new="65" id="56006338"/>
+        <Change property="Velocity" old="68" new="67" id="56018283"/>
+        <Change property="Velocity" old="10" new="9" id="56017767"/>
+        <Change property="Velocity" old="70" new="69" id="56016761"/>
+        <Change property="Velocity" old="62" new="61" id="56016514"/>
+        <Change property="Velocity" old="49" new="48" id="56017011"/>
+        <Change property="Velocity" old="63" new="62" id="56003697"/>
+        <Change property="Velocity" old="60" new="59" id="55996388"/>
+        <Change property="Velocity" old="70" new="69" id="56006567"/>
+        <Change property="Velocity" old="68" new="67" id="56003912"/>
+        <Change property="Velocity" old="55" new="54" id="55987426"/>
+        <Change property="Velocity" old="71" new="70" id="56018024"/>
+        <Change property="Velocity" old="71" new="70" id="55991499"/>
+        <Change property="Velocity" old="74" new="73" id="55989333"/>
+        <Change property="Velocity" old="67" new="66" id="56000260"/>
+        <Change property="Velocity" old="71" new="70" id="56016269"/>
+        <Change property="Velocity" old="60" new="59" id="55989130"/>
+        <Change property="Velocity" old="60" new="59" id="56051576"/>
+        <Change property="Velocity" old="73" new="72" id="56003484"/>
+        <Change property="Velocity" old="43" new="42" id="56003064"/>
+        <Change property="Velocity" old="55" new="54" id="56000466"/>
+        <Change property="Velocity" old="58" new="57" id="56003272"/>
+        <Change property="Velocity" old="47" new="46" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784730" tv-usec="15775" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="43" new="42" id="56015075"/>
+        <Change property="Velocity" old="28" new="27" id="56017520"/>
+        <Change property="Velocity" old="72" new="71" id="56015546"/>
+        <Change property="Velocity" old="55" new="54" id="56015785"/>
+        <Change property="Velocity" old="46" new="45" id="56006112"/>
+        <Change property="Velocity" old="42" new="41" id="55981442"/>
+        <Change property="Velocity" old="59" new="58" id="55983316"/>
+        <Change property="Velocity" old="46" new="45" id="55987221"/>
+        <Change property="Velocity" old="65" new="64" id="55984666"/>
+        <Change property="Velocity" old="73" new="72" id="55974233"/>
+        <Change property="Velocity" old="59" new="58" id="55984076"/>
+        <Change property="Velocity" old="47" new="46" id="55984468"/>
+        <Change property="Velocity" old="55" new="54" id="55983130"/>
+        <Change property="Velocity" old="45" new="44" id="55982947"/>
+        <Change property="Velocity" old="69" new="68" id="55974057"/>
+        <Change property="Velocity" old="61" new="60" id="56018544"/>
+        <Change property="Velocity" old="52" new="51" id="56004772"/>
+        <Change property="Velocity" old="62" new="61" id="56004128"/>
+        <Change property="Velocity" old="72" new="71" id="55973884"/>
+        <Change property="Velocity" old="73" new="72" id="55974409"/>
+        <Change property="Velocity" old="52" new="51" id="55984868"/>
+        <Change property="Velocity" old="65" new="64" id="56013679"/>
+        <Change property="Velocity" old="61" new="60" id="56015310"/>
+        <Change property="Velocity" old="54" new="53" id="56016026"/>
+        <Change property="Velocity" old="56" new="55" id="56005438"/>
+        <Change property="Velocity" old="61" new="60" id="56017261"/>
+        <Change property="Velocity" old="69" new="68" id="55991297"/>
+        <Change property="Velocity" old="65" new="64" id="56006338"/>
+        <Change property="Velocity" old="67" new="66" id="56018283"/>
+        <Change property="Velocity" old="9" new="8" id="56017767"/>
+        <Change property="Velocity" old="69" new="68" id="56016761"/>
+        <Change property="Velocity" old="61" new="60" id="56016514"/>
+        <Change property="Velocity" old="48" new="47" id="56017011"/>
+        <Change property="Velocity" old="62" new="61" id="56003697"/>
+        <Change property="Velocity" old="59" new="58" id="55996388"/>
+        <Change property="Velocity" old="69" new="68" id="56006567"/>
+        <Change property="Velocity" old="67" new="66" id="56003912"/>
+        <Change property="Velocity" old="54" new="53" id="55987426"/>
+        <Change property="Velocity" old="70" new="69" id="56018024"/>
+        <Change property="Velocity" old="70" new="69" id="55991499"/>
+        <Change property="Velocity" old="73" new="72" id="55989333"/>
+        <Change property="Velocity" old="66" new="65" id="56000260"/>
+        <Change property="Velocity" old="70" new="69" id="56016269"/>
+        <Change property="Velocity" old="59" new="58" id="55989130"/>
+        <Change property="Velocity" old="59" new="58" id="56051576"/>
+        <Change property="Velocity" old="72" new="71" id="56003484"/>
+        <Change property="Velocity" old="42" new="41" id="56003064"/>
+        <Change property="Velocity" old="54" new="53" id="56000466"/>
+        <Change property="Velocity" old="57" new="56" id="56003272"/>
+        <Change property="Velocity" old="46" new="45" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784730" tv-usec="43034" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="42" new="41" id="56015075"/>
+        <Change property="Velocity" old="27" new="26" id="56017520"/>
+        <Change property="Velocity" old="71" new="70" id="56015546"/>
+        <Change property="Velocity" old="54" new="53" id="56015785"/>
+        <Change property="Velocity" old="45" new="44" id="56006112"/>
+        <Change property="Velocity" old="41" new="40" id="55981442"/>
+        <Change property="Velocity" old="58" new="57" id="55983316"/>
+        <Change property="Velocity" old="45" new="44" id="55987221"/>
+        <Change property="Velocity" old="64" new="63" id="55984666"/>
+        <Change property="Velocity" old="72" new="71" id="55974233"/>
+        <Change property="Velocity" old="58" new="57" id="55984076"/>
+        <Change property="Velocity" old="46" new="45" id="55984468"/>
+        <Change property="Velocity" old="54" new="53" id="55983130"/>
+        <Change property="Velocity" old="44" new="43" id="55982947"/>
+        <Change property="Velocity" old="68" new="67" id="55974057"/>
+        <Change property="Velocity" old="60" new="59" id="56018544"/>
+        <Change property="Velocity" old="51" new="50" id="56004772"/>
+        <Change property="Velocity" old="61" new="60" id="56004128"/>
+        <Change property="Velocity" old="71" new="70" id="55973884"/>
+        <Change property="Velocity" old="72" new="71" id="55974409"/>
+        <Change property="Velocity" old="51" new="50" id="55984868"/>
+        <Change property="Velocity" old="64" new="63" id="56013679"/>
+        <Change property="Velocity" old="60" new="59" id="56015310"/>
+        <Change property="Velocity" old="53" new="52" id="56016026"/>
+        <Change property="Velocity" old="55" new="54" id="56005438"/>
+        <Change property="Velocity" old="60" new="59" id="56017261"/>
+        <Change property="Velocity" old="68" new="67" id="55991297"/>
+        <Change property="Velocity" old="64" new="63" id="56006338"/>
+        <Change property="Velocity" old="66" new="65" id="56018283"/>
+        <Change property="Velocity" old="8" new="7" id="56017767"/>
+        <Change property="Velocity" old="68" new="67" id="56016761"/>
+        <Change property="Velocity" old="60" new="59" id="56016514"/>
+        <Change property="Velocity" old="47" new="46" id="56017011"/>
+        <Change property="Velocity" old="61" new="60" id="56003697"/>
+        <Change property="Velocity" old="58" new="57" id="55996388"/>
+        <Change property="Velocity" old="68" new="67" id="56006567"/>
+        <Change property="Velocity" old="66" new="65" id="56003912"/>
+        <Change property="Velocity" old="53" new="52" id="55987426"/>
+        <Change property="Velocity" old="69" new="68" id="56018024"/>
+        <Change property="Velocity" old="69" new="68" id="55991499"/>
+        <Change property="Velocity" old="72" new="71" id="55989333"/>
+        <Change property="Velocity" old="65" new="64" id="56000260"/>
+        <Change property="Velocity" old="69" new="68" id="56016269"/>
+        <Change property="Velocity" old="58" new="57" id="55989130"/>
+        <Change property="Velocity" old="58" new="57" id="56051576"/>
+        <Change property="Velocity" old="71" new="70" id="56003484"/>
+        <Change property="Velocity" old="41" new="40" id="56003064"/>
+        <Change property="Velocity" old="53" new="52" id="56000466"/>
+        <Change property="Velocity" old="56" new="55" id="56003272"/>
+        <Change property="Velocity" old="45" new="44" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784730" tv-usec="68058" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="41" new="40" id="56015075"/>
+        <Change property="Velocity" old="26" new="25" id="56017520"/>
+        <Change property="Velocity" old="70" new="69" id="56015546"/>
+        <Change property="Velocity" old="53" new="52" id="56015785"/>
+        <Change property="Velocity" old="44" new="43" id="56006112"/>
+        <Change property="Velocity" old="40" new="39" id="55981442"/>
+        <Change property="Velocity" old="57" new="56" id="55983316"/>
+        <Change property="Velocity" old="44" new="43" id="55987221"/>
+        <Change property="Velocity" old="63" new="62" id="55984666"/>
+        <Change property="Velocity" old="71" new="70" id="55974233"/>
+        <Change property="Velocity" old="57" new="56" id="55984076"/>
+        <Change property="Velocity" old="45" new="44" id="55984468"/>
+        <Change property="Velocity" old="53" new="52" id="55983130"/>
+        <Change property="Velocity" old="43" new="42" id="55982947"/>
+        <Change property="Velocity" old="67" new="66" id="55974057"/>
+        <Change property="Velocity" old="59" new="58" id="56018544"/>
+        <Change property="Velocity" old="50" new="49" id="56004772"/>
+        <Change property="Velocity" old="60" new="59" id="56004128"/>
+        <Change property="Velocity" old="70" new="69" id="55973884"/>
+        <Change property="Velocity" old="71" new="70" id="55974409"/>
+        <Change property="Velocity" old="50" new="49" id="55984868"/>
+        <Change property="Velocity" old="63" new="62" id="56013679"/>
+        <Change property="Velocity" old="59" new="58" id="56015310"/>
+        <Change property="Velocity" old="52" new="51" id="56016026"/>
+        <Change property="Velocity" old="54" new="53" id="56005438"/>
+        <Change property="Velocity" old="59" new="58" id="56017261"/>
+        <Change property="Velocity" old="67" new="66" id="55991297"/>
+        <Change property="Velocity" old="63" new="62" id="56006338"/>
+        <Change property="Velocity" old="65" new="64" id="56018283"/>
+        <Change property="Velocity" old="7" new="6" id="56017767"/>
+        <Change property="Velocity" old="67" new="66" id="56016761"/>
+        <Change property="Velocity" old="59" new="58" id="56016514"/>
+        <Change property="Velocity" old="46" new="45" id="56017011"/>
+        <Change property="Velocity" old="60" new="59" id="56003697"/>
+        <Change property="Velocity" old="57" new="56" id="55996388"/>
+        <Change property="Velocity" old="67" new="66" id="56006567"/>
+        <Change property="Velocity" old="65" new="64" id="56003912"/>
+        <Change property="Velocity" old="52" new="51" id="55987426"/>
+        <Change property="Velocity" old="68" new="67" id="56018024"/>
+        <Change property="Velocity" old="68" new="67" id="55991499"/>
+        <Change property="Velocity" old="71" new="70" id="55989333"/>
+        <Change property="Velocity" old="64" new="63" id="56000260"/>
+        <Change property="Velocity" old="68" new="67" id="56016269"/>
+        <Change property="Velocity" old="57" new="56" id="55989130"/>
+        <Change property="Velocity" old="57" new="56" id="56051576"/>
+        <Change property="Velocity" old="70" new="69" id="56003484"/>
+        <Change property="Velocity" old="40" new="39" id="56003064"/>
+        <Change property="Velocity" old="52" new="51" id="56000466"/>
+        <Change property="Velocity" old="55" new="54" id="56003272"/>
+        <Change property="Velocity" old="44" new="43" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784730" tv-usec="113953" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="40" new="39" id="56015075"/>
+        <Change property="Velocity" old="25" new="24" id="56017520"/>
+        <Change property="Velocity" old="69" new="68" id="56015546"/>
+        <Change property="Velocity" old="52" new="51" id="56015785"/>
+        <Change property="Velocity" old="43" new="42" id="56006112"/>
+        <Change property="Velocity" old="39" new="38" id="55981442"/>
+        <Change property="Velocity" old="56" new="55" id="55983316"/>
+        <Change property="Velocity" old="43" new="42" id="55987221"/>
+        <Change property="Velocity" old="62" new="61" id="55984666"/>
+        <Change property="Velocity" old="70" new="69" id="55974233"/>
+        <Change property="Velocity" old="56" new="55" id="55984076"/>
+        <Change property="Velocity" old="44" new="43" id="55984468"/>
+        <Change property="Velocity" old="52" new="51" id="55983130"/>
+        <Change property="Velocity" old="42" new="41" id="55982947"/>
+        <Change property="Velocity" old="66" new="65" id="55974057"/>
+        <Change property="Velocity" old="58" new="57" id="56018544"/>
+        <Change property="Velocity" old="49" new="48" id="56004772"/>
+        <Change property="Velocity" old="59" new="58" id="56004128"/>
+        <Change property="Velocity" old="69" new="68" id="55973884"/>
+        <Change property="Velocity" old="70" new="69" id="55974409"/>
+        <Change property="Velocity" old="49" new="48" id="55984868"/>
+        <Change property="Velocity" old="62" new="61" id="56013679"/>
+        <Change property="Velocity" old="58" new="57" id="56015310"/>
+        <Change property="Velocity" old="51" new="50" id="56016026"/>
+        <Change property="Velocity" old="53" new="52" id="56005438"/>
+        <Change property="Velocity" old="58" new="57" id="56017261"/>
+        <Change property="Velocity" old="66" new="65" id="55991297"/>
+        <Change property="Velocity" old="62" new="61" id="56006338"/>
+        <Change property="Velocity" old="64" new="63" id="56018283"/>
+        <Change property="Velocity" old="6" new="5" id="56017767"/>
+        <Change property="Velocity" old="66" new="65" id="56016761"/>
+        <Change property="Velocity" old="58" new="57" id="56016514"/>
+        <Change property="Velocity" old="45" new="44" id="56017011"/>
+        <Change property="Velocity" old="59" new="58" id="56003697"/>
+        <Change property="Velocity" old="56" new="55" id="55996388"/>
+        <Change property="Velocity" old="66" new="65" id="56006567"/>
+        <Change property="Velocity" old="64" new="63" id="56003912"/>
+        <Change property="Velocity" old="51" new="50" id="55987426"/>
+        <Change property="Velocity" old="67" new="66" id="56018024"/>
+        <Change property="Velocity" old="67" new="66" id="55991499"/>
+        <Change property="Velocity" old="70" new="69" id="55989333"/>
+        <Change property="Velocity" old="63" new="62" id="56000260"/>
+        <Change property="Velocity" old="67" new="66" id="56016269"/>
+        <Change property="Velocity" old="56" new="55" id="55989130"/>
+        <Change property="Velocity" old="56" new="55" id="56051576"/>
+        <Change property="Velocity" old="69" new="68" id="56003484"/>
+        <Change property="Velocity" old="39" new="38" id="56003064"/>
+        <Change property="Velocity" old="51" new="50" id="56000466"/>
+        <Change property="Velocity" old="54" new="53" id="56003272"/>
+        <Change property="Velocity" old="43" new="42" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784730" tv-usec="560806" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="39" new="38" id="56015075"/>
+        <Change property="Velocity" old="24" new="23" id="56017520"/>
+        <Change property="Velocity" old="68" new="67" id="56015546"/>
+        <Change property="Velocity" old="51" new="50" id="56015785"/>
+        <Change property="Velocity" old="42" new="41" id="56006112"/>
+        <Change property="Velocity" old="38" new="37" id="55981442"/>
+        <Change property="Velocity" old="55" new="54" id="55983316"/>
+        <Change property="Velocity" old="42" new="41" id="55987221"/>
+        <Change property="Velocity" old="61" new="60" id="55984666"/>
+        <Change property="Velocity" old="69" new="68" id="55974233"/>
+        <Change property="Velocity" old="55" new="54" id="55984076"/>
+        <Change property="Velocity" old="43" new="42" id="55984468"/>
+        <Change property="Velocity" old="51" new="50" id="55983130"/>
+        <Change property="Velocity" old="41" new="40" id="55982947"/>
+        <Change property="Velocity" old="65" new="64" id="55974057"/>
+        <Change property="Velocity" old="57" new="56" id="56018544"/>
+        <Change property="Velocity" old="48" new="47" id="56004772"/>
+        <Change property="Velocity" old="58" new="57" id="56004128"/>
+        <Change property="Velocity" old="68" new="67" id="55973884"/>
+        <Change property="Velocity" old="69" new="68" id="55974409"/>
+        <Change property="Velocity" old="48" new="47" id="55984868"/>
+        <Change property="Velocity" old="61" new="60" id="56013679"/>
+        <Change property="Velocity" old="57" new="56" id="56015310"/>
+        <Change property="Velocity" old="50" new="49" id="56016026"/>
+        <Change property="Velocity" old="52" new="51" id="56005438"/>
+        <Change property="Velocity" old="57" new="56" id="56017261"/>
+        <Change property="Velocity" old="65" new="64" id="55991297"/>
+        <Change property="Velocity" old="61" new="60" id="56006338"/>
+        <Change property="Velocity" old="63" new="62" id="56018283"/>
+        <Change property="Velocity" old="5" new="4" id="56017767"/>
+        <Change property="Velocity" old="65" new="64" id="56016761"/>
+        <Change property="Velocity" old="57" new="56" id="56016514"/>
+        <Change property="Velocity" old="44" new="43" id="56017011"/>
+        <Change property="Velocity" old="58" new="57" id="56003697"/>
+        <Change property="Velocity" old="55" new="54" id="55996388"/>
+        <Change property="Velocity" old="65" new="64" id="56006567"/>
+        <Change property="Velocity" old="63" new="62" id="56003912"/>
+        <Change property="Velocity" old="50" new="49" id="55987426"/>
+        <Change property="Velocity" old="66" new="65" id="56018024"/>
+        <Change property="Velocity" old="66" new="65" id="55991499"/>
+        <Change property="Velocity" old="69" new="68" id="55989333"/>
+        <Change property="Velocity" old="62" new="61" id="56000260"/>
+        <Change property="Velocity" old="66" new="65" id="56016269"/>
+        <Change property="Velocity" old="55" new="54" id="55989130"/>
+        <Change property="Velocity" old="55" new="54" id="56051576"/>
+        <Change property="Velocity" old="68" new="67" id="56003484"/>
+        <Change property="Velocity" old="38" new="37" id="56003064"/>
+        <Change property="Velocity" old="50" new="49" id="56000466"/>
+        <Change property="Velocity" old="53" new="52" id="56003272"/>
+        <Change property="Velocity" old="42" new="41" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784730" tv-usec="609253" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="38" new="37" id="56015075"/>
+        <Change property="Velocity" old="23" new="22" id="56017520"/>
+        <Change property="Velocity" old="67" new="66" id="56015546"/>
+        <Change property="Velocity" old="50" new="49" id="56015785"/>
+        <Change property="Velocity" old="41" new="40" id="56006112"/>
+        <Change property="Velocity" old="37" new="36" id="55981442"/>
+        <Change property="Velocity" old="54" new="53" id="55983316"/>
+        <Change property="Velocity" old="41" new="40" id="55987221"/>
+        <Change property="Velocity" old="60" new="59" id="55984666"/>
+        <Change property="Velocity" old="68" new="67" id="55974233"/>
+        <Change property="Velocity" old="54" new="53" id="55984076"/>
+        <Change property="Velocity" old="42" new="41" id="55984468"/>
+        <Change property="Velocity" old="50" new="49" id="55983130"/>
+        <Change property="Velocity" old="40" new="39" id="55982947"/>
+        <Change property="Velocity" old="64" new="63" id="55974057"/>
+        <Change property="Velocity" old="56" new="55" id="56018544"/>
+        <Change property="Velocity" old="47" new="46" id="56004772"/>
+        <Change property="Velocity" old="57" new="56" id="56004128"/>
+        <Change property="Velocity" old="67" new="66" id="55973884"/>
+        <Change property="Velocity" old="68" new="67" id="55974409"/>
+        <Change property="Velocity" old="47" new="46" id="55984868"/>
+        <Change property="Velocity" old="60" new="59" id="56013679"/>
+        <Change property="Velocity" old="56" new="55" id="56015310"/>
+        <Change property="Velocity" old="49" new="48" id="56016026"/>
+        <Change property="Velocity" old="51" new="50" id="56005438"/>
+        <Change property="Velocity" old="56" new="55" id="56017261"/>
+        <Change property="Velocity" old="64" new="63" id="55991297"/>
+        <Change property="Velocity" old="60" new="59" id="56006338"/>
+        <Change property="Velocity" old="62" new="61" id="56018283"/>
+        <Change property="Velocity" old="4" new="3" id="56017767"/>
+        <Change property="Velocity" old="64" new="63" id="56016761"/>
+        <Change property="Velocity" old="56" new="55" id="56016514"/>
+        <Change property="Velocity" old="43" new="42" id="56017011"/>
+        <Change property="Velocity" old="57" new="56" id="56003697"/>
+        <Change property="Velocity" old="54" new="53" id="55996388"/>
+        <Change property="Velocity" old="64" new="63" id="56006567"/>
+        <Change property="Velocity" old="62" new="61" id="56003912"/>
+        <Change property="Velocity" old="49" new="48" id="55987426"/>
+        <Change property="Velocity" old="65" new="64" id="56018024"/>
+        <Change property="Velocity" old="65" new="64" id="55991499"/>
+        <Change property="Velocity" old="68" new="67" id="55989333"/>
+        <Change property="Velocity" old="61" new="60" id="56000260"/>
+        <Change property="Velocity" old="65" new="64" id="56016269"/>
+        <Change property="Velocity" old="54" new="53" id="55989130"/>
+        <Change property="Velocity" old="54" new="53" id="56051576"/>
+        <Change property="Velocity" old="67" new="66" id="56003484"/>
+        <Change property="Velocity" old="37" new="36" id="56003064"/>
+        <Change property="Velocity" old="49" new="48" id="56000466"/>
+        <Change property="Velocity" old="52" new="51" id="56003272"/>
+        <Change property="Velocity" old="41" new="40" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784730" tv-usec="631232" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="37" new="36" id="56015075"/>
+        <Change property="Velocity" old="22" new="21" id="56017520"/>
+        <Change property="Velocity" old="66" new="65" id="56015546"/>
+        <Change property="Velocity" old="49" new="48" id="56015785"/>
+        <Change property="Velocity" old="40" new="39" id="56006112"/>
+        <Change property="Velocity" old="36" new="35" id="55981442"/>
+        <Change property="Velocity" old="53" new="52" id="55983316"/>
+        <Change property="Velocity" old="40" new="39" id="55987221"/>
+        <Change property="Velocity" old="59" new="58" id="55984666"/>
+        <Change property="Velocity" old="67" new="66" id="55974233"/>
+        <Change property="Velocity" old="53" new="52" id="55984076"/>
+        <Change property="Velocity" old="41" new="40" id="55984468"/>
+        <Change property="Velocity" old="49" new="48" id="55983130"/>
+        <Change property="Velocity" old="39" new="38" id="55982947"/>
+        <Change property="Velocity" old="63" new="62" id="55974057"/>
+        <Change property="Velocity" old="55" new="54" id="56018544"/>
+        <Change property="Velocity" old="46" new="45" id="56004772"/>
+        <Change property="Velocity" old="56" new="55" id="56004128"/>
+        <Change property="Velocity" old="66" new="65" id="55973884"/>
+        <Change property="Velocity" old="67" new="66" id="55974409"/>
+        <Change property="Velocity" old="46" new="45" id="55984868"/>
+        <Change property="Velocity" old="59" new="58" id="56013679"/>
+        <Change property="Velocity" old="55" new="54" id="56015310"/>
+        <Change property="Velocity" old="48" new="47" id="56016026"/>
+        <Change property="Velocity" old="50" new="49" id="56005438"/>
+        <Change property="Velocity" old="55" new="54" id="56017261"/>
+        <Change property="Velocity" old="63" new="62" id="55991297"/>
+        <Change property="Velocity" old="59" new="58" id="56006338"/>
+        <Change property="Velocity" old="61" new="60" id="56018283"/>
+        <Change property="Velocity" old="3" new="2" id="56017767"/>
+        <Change property="Velocity" old="63" new="62" id="56016761"/>
+        <Change property="Velocity" old="55" new="54" id="56016514"/>
+        <Change property="Velocity" old="42" new="41" id="56017011"/>
+        <Change property="Velocity" old="56" new="55" id="56003697"/>
+        <Change property="Velocity" old="53" new="52" id="55996388"/>
+        <Change property="Velocity" old="63" new="62" id="56006567"/>
+        <Change property="Velocity" old="61" new="60" id="56003912"/>
+        <Change property="Velocity" old="48" new="47" id="55987426"/>
+        <Change property="Velocity" old="64" new="63" id="56018024"/>
+        <Change property="Velocity" old="64" new="63" id="55991499"/>
+        <Change property="Velocity" old="67" new="66" id="55989333"/>
+        <Change property="Velocity" old="60" new="59" id="56000260"/>
+        <Change property="Velocity" old="64" new="63" id="56016269"/>
+        <Change property="Velocity" old="53" new="52" id="55989130"/>
+        <Change property="Velocity" old="53" new="52" id="56051576"/>
+        <Change property="Velocity" old="66" new="65" id="56003484"/>
+        <Change property="Velocity" old="36" new="35" id="56003064"/>
+        <Change property="Velocity" old="48" new="47" id="56000466"/>
+        <Change property="Velocity" old="51" new="50" id="56003272"/>
+        <Change property="Velocity" old="40" new="39" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784730" tv-usec="653801" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="36" new="35" id="56015075"/>
+        <Change property="Velocity" old="21" new="20" id="56017520"/>
+        <Change property="Velocity" old="65" new="64" id="56015546"/>
+        <Change property="Velocity" old="48" new="47" id="56015785"/>
+        <Change property="Velocity" old="39" new="38" id="56006112"/>
+        <Change property="Velocity" old="35" new="34" id="55981442"/>
+        <Change property="Velocity" old="52" new="51" id="55983316"/>
+        <Change property="Velocity" old="39" new="38" id="55987221"/>
+        <Change property="Velocity" old="58" new="57" id="55984666"/>
+        <Change property="Velocity" old="66" new="65" id="55974233"/>
+        <Change property="Velocity" old="52" new="51" id="55984076"/>
+        <Change property="Velocity" old="40" new="39" id="55984468"/>
+        <Change property="Velocity" old="48" new="47" id="55983130"/>
+        <Change property="Velocity" old="38" new="37" id="55982947"/>
+        <Change property="Velocity" old="62" new="61" id="55974057"/>
+        <Change property="Velocity" old="54" new="53" id="56018544"/>
+        <Change property="Velocity" old="45" new="44" id="56004772"/>
+        <Change property="Velocity" old="55" new="54" id="56004128"/>
+        <Change property="Velocity" old="65" new="64" id="55973884"/>
+        <Change property="Velocity" old="66" new="65" id="55974409"/>
+        <Change property="Velocity" old="45" new="44" id="55984868"/>
+        <Change property="Velocity" old="58" new="57" id="56013679"/>
+        <Change property="Velocity" old="54" new="53" id="56015310"/>
+        <Change property="Velocity" old="47" new="46" id="56016026"/>
+        <Change property="Velocity" old="49" new="48" id="56005438"/>
+        <Change property="Velocity" old="54" new="53" id="56017261"/>
+        <Change property="Velocity" old="62" new="61" id="55991297"/>
+        <Change property="Velocity" old="58" new="57" id="56006338"/>
+        <Change property="Velocity" old="60" new="59" id="56018283"/>
+        <Change property="Velocity" old="2" new="1" id="56017767"/>
+        <Change property="Velocity" old="62" new="61" id="56016761"/>
+        <Change property="Velocity" old="54" new="53" id="56016514"/>
+        <Change property="Velocity" old="41" new="40" id="56017011"/>
+        <Change property="Velocity" old="55" new="54" id="56003697"/>
+        <Change property="Velocity" old="52" new="51" id="55996388"/>
+        <Change property="Velocity" old="62" new="61" id="56006567"/>
+        <Change property="Velocity" old="60" new="59" id="56003912"/>
+        <Change property="Velocity" old="47" new="46" id="55987426"/>
+        <Change property="Velocity" old="63" new="62" id="56018024"/>
+        <Change property="Velocity" old="63" new="62" id="55991499"/>
+        <Change property="Velocity" old="66" new="65" id="55989333"/>
+        <Change property="Velocity" old="59" new="58" id="56000260"/>
+        <Change property="Velocity" old="63" new="62" id="56016269"/>
+        <Change property="Velocity" old="52" new="51" id="55989130"/>
+        <Change property="Velocity" old="52" new="51" id="56051576"/>
+        <Change property="Velocity" old="65" new="64" id="56003484"/>
+        <Change property="Velocity" old="35" new="34" id="56003064"/>
+        <Change property="Velocity" old="47" new="46" id="56000466"/>
+        <Change property="Velocity" old="50" new="49" id="56003272"/>
+        <Change property="Velocity" old="39" new="38" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711784730" tv-usec="676306" name="change velocities">
+    <NoteDiffCommand midi-source="600406">
+      <ChangedNotes>
+        <Change property="Velocity" old="35" new="34" id="56015075"/>
+        <Change property="Velocity" old="20" new="19" id="56017520"/>
+        <Change property="Velocity" old="64" new="63" id="56015546"/>
+        <Change property="Velocity" old="47" new="46" id="56015785"/>
+        <Change property="Velocity" old="38" new="37" id="56006112"/>
+        <Change property="Velocity" old="34" new="33" id="55981442"/>
+        <Change property="Velocity" old="51" new="50" id="55983316"/>
+        <Change property="Velocity" old="38" new="37" id="55987221"/>
+        <Change property="Velocity" old="57" new="56" id="55984666"/>
+        <Change property="Velocity" old="65" new="64" id="55974233"/>
+        <Change property="Velocity" old="51" new="50" id="55984076"/>
+        <Change property="Velocity" old="39" new="38" id="55984468"/>
+        <Change property="Velocity" old="47" new="46" id="55983130"/>
+        <Change property="Velocity" old="37" new="36" id="55982947"/>
+        <Change property="Velocity" old="61" new="60" id="55974057"/>
+        <Change property="Velocity" old="53" new="52" id="56018544"/>
+        <Change property="Velocity" old="44" new="43" id="56004772"/>
+        <Change property="Velocity" old="54" new="53" id="56004128"/>
+        <Change property="Velocity" old="64" new="63" id="55973884"/>
+        <Change property="Velocity" old="65" new="64" id="55974409"/>
+        <Change property="Velocity" old="44" new="43" id="55984868"/>
+        <Change property="Velocity" old="57" new="56" id="56013679"/>
+        <Change property="Velocity" old="53" new="52" id="56015310"/>
+        <Change property="Velocity" old="46" new="45" id="56016026"/>
+        <Change property="Velocity" old="48" new="47" id="56005438"/>
+        <Change property="Velocity" old="53" new="52" id="56017261"/>
+        <Change property="Velocity" old="61" new="60" id="55991297"/>
+        <Change property="Velocity" old="57" new="56" id="56006338"/>
+        <Change property="Velocity" old="59" new="58" id="56018283"/>
+        <Change property="Velocity" old="1" new="0" id="56017767"/>
+        <Change property="Velocity" old="61" new="60" id="56016761"/>
+        <Change property="Velocity" old="53" new="52" id="56016514"/>
+        <Change property="Velocity" old="40" new="39" id="56017011"/>
+        <Change property="Velocity" old="54" new="53" id="56003697"/>
+        <Change property="Velocity" old="51" new="50" id="55996388"/>
+        <Change property="Velocity" old="61" new="60" id="56006567"/>
+        <Change property="Velocity" old="59" new="58" id="56003912"/>
+        <Change property="Velocity" old="46" new="45" id="55987426"/>
+        <Change property="Velocity" old="62" new="61" id="56018024"/>
+        <Change property="Velocity" old="62" new="61" id="55991499"/>
+        <Change property="Velocity" old="65" new="64" id="55989333"/>
+        <Change property="Velocity" old="58" new="57" id="56000260"/>
+        <Change property="Velocity" old="62" new="61" id="56016269"/>
+        <Change property="Velocity" old="51" new="50" id="55989130"/>
+        <Change property="Velocity" old="51" new="50" id="56051576"/>
+        <Change property="Velocity" old="64" new="63" id="56003484"/>
+        <Change property="Velocity" old="34" new="33" id="56003064"/>
+        <Change property="Velocity" old="46" new="45" id="56000466"/>
+        <Change property="Velocity" old="49" new="48" id="56003272"/>
+        <Change property="Velocity" old="38" new="37" id="56004993"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="425" left-frame="9982785" y-origin="1080">
+        <Selection>
+          <Regions>
+            <Region id="600411"/>
+          </Regions>
+          <MIDINotes region-id="600411">
+            <note note-id="56015310"/>
+            <note note-id="56017261"/>
+            <note note-id="56017767"/>
+            <note note-id="55984076"/>
+            <note note-id="56013679"/>
+            <note note-id="55981442"/>
+            <note note-id="55974057"/>
+            <note note-id="55974233"/>
+            <note note-id="56000260"/>
+            <note note-id="55974409"/>
+            <note note-id="55984666"/>
+            <note note-id="56018544"/>
+            <note note-id="56006567"/>
+            <note note-id="55973884"/>
+            <note note-id="55983130"/>
+            <note note-id="56015546"/>
+            <note note-id="56016269"/>
+            <note note-id="56018283"/>
+            <note note-id="56017520"/>
+            <note note-id="56016761"/>
+            <note note-id="55991297"/>
+            <note note-id="56005438"/>
+            <note note-id="56004993"/>
+            <note note-id="55987221"/>
+            <note note-id="55984468"/>
+            <note note-id="56004772"/>
+            <note note-id="56006112"/>
+            <note note-id="56017011"/>
+            <note note-id="56016514"/>
+            <note note-id="55996388"/>
+            <note note-id="55991499"/>
+            <note note-id="55984868"/>
+            <note note-id="56018024"/>
+            <note note-id="55989333"/>
+            <note note-id="56003272"/>
+            <note note-id="56015075"/>
+            <note note-id="56015785"/>
+            <note note-id="56016026"/>
+            <note note-id="55987426"/>
+            <note note-id="55989130"/>
+            <note note-id="56003912"/>
+            <note note-id="56003697"/>
+            <note note-id="56006338"/>
+            <note note-id="56004128"/>
+            <note note-id="56051576"/>
+            <note note-id="56003484"/>
+            <note note-id="56000466"/>
+            <note note-id="55983316"/>
+            <note note-id="55982947"/>
+            <note note-id="56003064"/>
+          </MIDINotes>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
