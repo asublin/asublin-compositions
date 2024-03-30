@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="562677" rg-counter="1915" name-counter="2" event-counter="55554576" vca-counter="1">
+<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="585194" rg-counter="1943" name-counter="2" event-counter="55895651" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2-840-g064275108c" modified-with="Ardour 8.4-838-gae2819e30b"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -10,14 +10,14 @@
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
+      <Connection other="Arpeggio/midi_in 1"/>
       <Connection other="Bell/midi_in 1"/>
       <Connection other="Heavy Bass/midi_in 1"/>
       <Connection other="Lead Double/midi_in 1"/>
-      <Connection other="Lead Triple/midi_in 1"/>
       <Connection other="Lead/midi_in 1"/>
       <Connection other="Light Bass/midi_in 1"/>
       <Connection other="Pad/midi_in 1"/>
-      <Connection other="Light Bass/midi_in 1"/>
+      <Connection other="Bell/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -2257,9 +2257,7 @@ a52780940800 0.25118860602378845
       <Controllable name="solo-safe" id="18616" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Light Bass" id="18628" direction="Input" default-type="midi">
         <Port name="Light Bass/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="a2j:UMX 610 [28] (capture): UMX 610 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Light Bass" id="18629" direction="Output" default-type="midi">
@@ -3285,7 +3283,7 @@ a64734630400 0.00049271201714873314
           <AutomationList automation-id="send" id="314859" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
             <events>a0 0.12570592761039734
 a62866872198 0.12570592761039734
-a63240425139 0.70794570446014404
+a63240425139 1.4125375747680664
 a64734630400 2
 </events>
           </AutomationList>
@@ -6574,13 +6572,15 @@ a52780940800 0.3548133373260498
       <Controllable name="rec-enable" id="103438" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7002" id="123348" name="Bell" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="123426" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
-      <PresentationInfo order="11" flags="MidiTrack,OrderSet,TriggerTrack" color="2855877119"/>
+      <PresentationInfo order="11" flags="MidiTrack,OrderSet,TriggerTrack" color="13172735"/>
       <Controllable name="solo" id="123389" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="123395" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="123397" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Bell" id="123409" direction="Input" default-type="midi">
         <Port name="Bell/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="a2j:UMX 610 [28] (capture): UMX 610 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Bell" id="123410" direction="Output" default-type="midi">
@@ -12253,7 +12253,7 @@ a51660281600 0.50118720531463623
         <Object id="automation 314860" height="40" visible="1"/>
       </GUIObjectState>
     </UI>
-    <ExportRevision revision="5"/>
+    <ExportRevision revision="6"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="16973" realtime="0"/>
