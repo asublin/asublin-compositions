@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="604501" rg-counter="1979" name-counter="2" event-counter="56215448" vca-counter="1">
+<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="621316" rg-counter="1991" name-counter="2" event-counter="56396303" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2-840-g064275108c" modified-with="Ardour 8.4-838-gae2819e30b"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -12,7 +12,6 @@
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
       <Connection other="Miow/midi_in 1"/>
       <Connection other="Pad/midi_in 1"/>
-      <Connection other="Tom/midi_in 1"/>
       <Connection other="Tom/midi_in 1"/>
     </Port>
   </MIDIPorts>
@@ -1494,7 +1493,9 @@
     <Region name="Hard Snare-25.1" muted="1" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b11520@b979200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="18" tags="" contents="0" rgroup="0" id="409913" type="midi" first-edit="nothing" source-0="409911" master-source-0="409911"/>
     <Region name="Tom-38" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b11520" length="b1920@b1013760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="600408" type="midi" first-edit="nothing" source-0="600406" master-source-0="600406"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="72413" control="0" order="9"/>
+  </Selection>
   <Locations>
     <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
     <Location id="24254" name="Loop" start="b910080" end="b1008000" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
@@ -1514,7 +1515,6 @@
       <Controllable name="solo-safe" id="14981" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Master" id="14993" direction="Input" default-type="audio">
         <Port name="Master/audio_in 1" type="audio" direction="Input">
-          <Connection other="Miow/audio_out 1"/>
           <Connection other="Arpeggio Double/audio_out 1"/>
           <Connection other="Arpeggio/audio_out 1"/>
           <Connection other="Bell/audio_out 1"/>
@@ -1540,7 +1540,6 @@
           <Connection other="Tom/audio_out 1"/>
         </Port>
         <Port name="Master/audio_in 2" type="audio" direction="Input">
-          <Connection other="Miow/audio_out 2"/>
           <Connection other="Arpeggio Double/audio_out 2"/>
           <Connection other="Arpeggio/audio_out 2"/>
           <Connection other="Bell/audio_out 2"/>
@@ -4112,6 +4111,7 @@ a64734630400 2
       <Controllable name="solo-safe" id="43391" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Pad" id="43403" direction="Input" default-type="midi">
         <Port name="Pad/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -4700,6 +4700,7 @@ a64734636800 0
       <IO name="Lead Double" id="72474" direction="Input" default-type="midi">
         <Port name="Lead Double/midi_in 1" type="midi" direction="Input">
           <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="a2j:UMX 610 [28] (capture): UMX 610 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Lead Double" id="72475" direction="Output" default-type="midi">
@@ -8868,7 +8869,7 @@ a52780940800 0.50118720531463623
       <Controllable name="rec-safe" id="207048" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="207046" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7002" id="207444" name="Tom" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" midi-playlist="207522" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
+    <Route version="7002" id="207444" name="Tom" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" midi-playlist="207522" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
       <PresentationInfo order="16" flags="MidiTrack,OrderSet,TriggerTrack" color="2861447679"/>
       <Controllable name="solo" id="207485" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="207491" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -8877,7 +8878,6 @@ a52780940800 0.50118720531463623
         <Port name="Tom/midi_in 1" type="midi" direction="Input">
           <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="a2j:UMX 610 [28] (capture): UMX 610 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Tom" id="207506" direction="Output" default-type="midi">
@@ -10216,16 +10216,15 @@ a51660281600 0.50118720531463623
       <Controllable name="solo-safe" id="602622" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Miow" id="602634" direction="Input" default-type="midi">
         <Port name="Miow/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
       <IO name="Miow" id="602635" direction="Output" default-type="midi">
         <Port name="Miow/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
-          <Connection other="Master/audio_in 1"/>
         </Port>
         <Port name="Miow/audio_out 2" type="audio" direction="Output">
-          <Connection other="Master/audio_in 2"/>
           <Connection other="Master/audio_in 2"/>
         </Port>
         <Port name="Miow/midi_out 1" type="midi" direction="Output"/>
@@ -11034,6 +11033,7 @@ a51660281600 0.50118720531463623
       <Window name="RPM-36097" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-39067" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-57327" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-602573" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-14965-208659" visible="0" x-off="1050" y-off="226" x-size="1036" y-size="523" custom-ui="1"/>
       <Window name="P-14965-208532" visible="0" x-off="1050" y-off="332" x-size="633" y-size="154" custom-ui="1"/>
       <Window name="PM-14965-208659" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -11131,7 +11131,6 @@ a51660281600 0.50118720531463623
       <Window name="PM-39067-39112" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-57327-63539" visible="0" x-off="1050" y-off="226" x-size="934" y-size="469" custom-ui="1"/>
       <Window name="PM-57327-63539" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-602573" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-602573-602812" visible="0" x-off="1050" y-off="226" x-size="1239" y-size="866" custom-ui="1"/>
       <Window name="PM-602573-602812" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
@@ -12654,7 +12653,7 @@ a51660281600 0.50118720531463623
         <Object id="automation 602625" height="84" visible="0"/>
       </GUIObjectState>
     </UI>
-    <ExportRevision revision="7"/>
+    <ExportRevision revision="8"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="16973" realtime="0"/>
