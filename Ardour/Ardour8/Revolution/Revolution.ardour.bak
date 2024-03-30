@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="562450" rg-counter="1905" name-counter="2" event-counter="55354804" vca-counter="1">
+<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="562670" rg-counter="1909" name-counter="2" event-counter="55447008" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2-840-g064275108c" modified-with="Ardour 8.4-838-gae2819e30b"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -17,7 +17,7 @@
       <Connection other="Lead/midi_in 1"/>
       <Connection other="Light Bass/midi_in 1"/>
       <Connection other="Pad/midi_in 1"/>
-      <Connection other="Bell/midi_in 1"/>
+      <Connection other="Light Bass/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -1495,7 +1495,9 @@
     <Region name="Hard Snare-24.1" muted="1" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b11520@b967680" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="17" tags="" contents="0" rgroup="0" id="409906" type="midi" first-edit="nothing" source-0="409904" master-source-0="409904"/>
     <Region name="Hard Snare-25.1" muted="1" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b11520@b979200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="18" tags="" contents="0" rgroup="0" id="409913" type="midi" first-edit="nothing" source-0="409911" master-source-0="409911"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="18567" control="0" order="30"/>
+  </Selection>
   <Locations>
     <Location id="16973" name="session" start="b23040" end="b990720" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
     <Location id="24254" name="Loop" start="b910080" end="b990720" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
@@ -1614,7 +1616,7 @@ a67349504000 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="14969" flags="GainLike" value="0.0068212671050365721"/>
+        <Controllable name="gaincontrol" id="14969" flags="GainLike" value="0.32757001227681809"/>
       </Processor>
       <Processor id="208659" name="ACE Compressor (stereo)" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="0">
         <Automation>
@@ -2257,7 +2259,9 @@ a52780940800 0.25118860602378845
       <Controllable name="solo-safe" id="18616" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Light Bass" id="18628" direction="Input" default-type="midi">
         <Port name="Light Bass/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="a2j:UMX 610 [28] (capture): UMX 610 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Light Bass" id="18629" direction="Output" default-type="midi">
@@ -6578,9 +6582,7 @@ a52780940800 0.3548133373260498
       <Controllable name="solo-safe" id="123397" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Bell" id="123409" direction="Input" default-type="midi">
         <Port name="Bell/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="a2j:UMX 610 [28] (capture): UMX 610 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Bell" id="123410" direction="Output" default-type="midi">

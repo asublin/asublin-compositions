@@ -144,4 +144,38 @@
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
+  <UndoTransaction tv-sec="1711762415" tv-usec="478203" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="16973" name="session" start="b23040" end="b990720" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
+        <Location id="24254" name="Loop" start="b910080" end="b990720" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
+        <Location id="297227" name="Refrain" start="b483840" end="b483840" flags="IsMark" locked="0" timestamp="1711727679" cue="0"/>
+        <Location id="297244" name="Couplet" start="b184320" end="b184320" flags="IsMark" locked="0" timestamp="1711727699" cue="0"/>
+        <Location id="297253" name="Transition" start="b576000" end="b576000" flags="IsMark" locked="0" timestamp="1711727709" cue="0"/>
+        <Location id="311760" name="Pre-refrain" start="b691200" end="b691200" flags="IsMark" locked="0" timestamp="1711730288" cue="0"/>
+        <Location id="311769" name="Refrain" start="b783360" end="b783360" flags="IsMark" locked="0" timestamp="1711730300" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
+        <Location id="24254" name="Loop" start="b910080" end="b1008000" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
+        <Location id="297227" name="Refrain" start="b483840" end="b483840" flags="IsMark" locked="0" timestamp="1711727679" cue="0"/>
+        <Location id="297244" name="Couplet" start="b184320" end="b184320" flags="IsMark" locked="0" timestamp="1711727699" cue="0"/>
+        <Location id="297253" name="Transition" start="b576000" end="b576000" flags="IsMark" locked="0" timestamp="1711727709" cue="0"/>
+        <Location id="311760" name="Pre-refrain" start="b691200" end="b691200" flags="IsMark" locked="0" timestamp="1711730288" cue="0"/>
+        <Location id="311769" name="Refrain" start="b783360" end="b783360" flags="IsMark" locked="0" timestamp="1711730300" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="7581" left-frame="0" y-origin="280">
+        <Selection>
+          <Marker id="16973" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="7581" left-frame="0" y-origin="280">
+        <Selection>
+          <Marker id="16973" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
 </UndoHistory>
