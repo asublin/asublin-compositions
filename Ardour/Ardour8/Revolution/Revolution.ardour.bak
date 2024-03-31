@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="670890" rg-counter="2032" name-counter="2" event-counter="56936942" vca-counter="1">
+<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="670892" rg-counter="2035" name-counter="2" event-counter="56992332" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2-840-g064275108c" modified-with="Ardour 8.4-838-gae2819e30b"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -2194,7 +2194,7 @@ a52780940800 0.25118860602378845
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="15100" flags="GainLike" value="1.1247787643291511"/>
+        <Controllable name="gaincontrol" id="15100" flags="GainLike" value="1.2757870294621807"/>
       </Processor>
       <Processor id="202163" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="27" selfdestruct="0" target="200394" allow-feedback="0">
         <Automation>
@@ -2632,7 +2632,7 @@ a52780940800 0.50118720531463623
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="18604" flags="GainLike" value="0.84740603503869971"/>
+        <Controllable name="gaincontrol" id="18604" flags="GainLike" value="0.92830730663122596"/>
       </Processor>
       <Processor id="32160" name="Short Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="3" selfdestruct="0" target="24029" allow-feedback="0">
         <Automation>
@@ -4486,7 +4486,7 @@ a64734636800 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="43379" flags="GainLike" value="0.058117186371808439"/>
+        <Controllable name="gaincontrol" id="43379" flags="GainLike" value="0.073937894981433785"/>
       </Processor>
       <Processor id="43757" name="Short Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="8" selfdestruct="0" target="24029" allow-feedback="0">
         <Automation>
@@ -5067,7 +5067,7 @@ a33356185600 0.17782792448997498
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="72450" flags="GainLike" value="0.34420416376846658"/>
+        <Controllable name="gaincontrol" id="72450" flags="GainLike" value="0.34995113402539185"/>
       </Processor>
       <Processor id="200478" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="15" selfdestruct="0" target="200394" allow-feedback="0">
         <Automation>
@@ -5988,7 +5988,7 @@ a52780940800 0.3548133373260498
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="102805" flags="GainLike" value="0.22078170207455253"/>
+        <Controllable name="gaincontrol" id="102805" flags="GainLike" value="0.28848552399420863"/>
       </Processor>
       <Processor id="201321" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="24" selfdestruct="0" target="200394" allow-feedback="0">
         <Automation>
@@ -7583,7 +7583,7 @@ a52780940800 0.50118720531463623
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="201456" flags="GainLike" value="0.52260669141309657"/>
+        <Controllable name="gaincontrol" id="201456" flags="GainLike" value="0.61874515658380125"/>
       </Processor>
       <Processor id="201990" name="Short Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="26" selfdestruct="0" target="24029" allow-feedback="0">
         <Automation>
@@ -10799,31 +10799,6 @@ a51660281600 0.50118720531463623
         <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
     </RangeExportProfile>
-    <ExportRevision revision="10"/>
-    <ExportProfile>
-      <ExportTimespan format="Timecode">
-        <Range id="16973" realtime="0"/>
-      </ExportTimespan>
-      <ExportChannelConfiguration split="0" channels="2">
-        <ExportChannel type="PortExportChannel" number="1">
-          <Port name="Master/audio_out 1"/>
-        </ExportChannel>
-        <ExportChannel type="PortExportChannel" number="2">
-          <Port name="Master/audio_out 2"/>
-        </ExportChannel>
-      </ExportChannelConfiguration>
-      <ExportFormat id="0627662f-f190-468d-9bb8-db0cca42eac5"/>
-      <ExportFilename>
-        <Folder relative="1" path="export"/>
-        <Field name="label" enabled="0"/>
-        <Field name="session" enabled="1"/>
-        <Field name="snapshot" enabled="0"/>
-        <Field name="timespan" enabled="1"/>
-        <Field name="revision" enabled="1"/>
-        <Field name="time" enabled="0" value="T_None"/>
-        <Field name="date" enabled="1" value="D_ISO"/>
-      </ExportFilename>
-    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -12526,6 +12501,31 @@ a51660281600 0.50118720531463623
         <Object id="automation 236215" height="40" visible="1"/>
       </GUIObjectState>
     </UI>
+    <ExportRevision revision="11"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="16973" realtime="0"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="Master/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="Master/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="0627662f-f190-468d-9bb8-db0cca42eac5"/>
+      <ExportFilename>
+        <Folder relative="1" path="export"/>
+        <Field name="label" enabled="0"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="1"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_ISO"/>
+      </ExportFilename>
+    </ExportProfile>
     <Videomonitor active="0"/>
   </Extra>
   <Script lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</Script>

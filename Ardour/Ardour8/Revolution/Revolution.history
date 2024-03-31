@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1711870706" tv-usec="959718" name="change note velocity">
-    <NoteDiffCommand midi-source="208645">
-      <ChangedNotes>
-        <Change property="Velocity" old="100" new="119" id="56878575"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1711870709" tv-usec="951387" name="add note">
     <NoteDiffCommand midi-source="208645">
       <ChangedNotes>
@@ -224,6 +215,34 @@ b138240 18000.00390625
     <MementoRedoCommand obj-id="236214" type-name="ARDOUR::AutomationList">
       <AutomationList automation-id="parameter-4" id="236214" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
         <events>b0 200.00001525878906
+b138240 18000.00390625
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="7721" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="15063" automation-list-id="236214" parameter="parameter-4" view-index="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="7721" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="15063" automation-list-id="236214" parameter="parameter-4" view-index="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1711881503" tv-usec="323830" name="automation event move">
+    <MementoUndoCommand obj-id="236214" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-4" id="236214" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
+        <events>b0 200.00001525878906
+b138240 18000.00390625
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="236214" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-4" id="236214" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
+        <events>b0 20000
 b138240 18000.00390625
 </events>
       </AutomationList>
