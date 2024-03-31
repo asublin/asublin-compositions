@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="654912" rg-counter="2013" name-counter="2" event-counter="56765961" vca-counter="1">
+<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="670890" rg-counter="2032" name-counter="2" event-counter="56936942" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2-840-g064275108c" modified-with="Ardour 8.4-838-gae2819e30b"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -10,10 +10,10 @@
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
+      <Connection other="Arpeggio/midi_in 1"/>
+      <Connection other="Bell/midi_in 1"/>
       <Connection other="Kick/midi_in 1"/>
-      <Connection other="Snare/midi_in 1"/>
-      <Connection other="Tom/midi_in 1"/>
-      <Connection other="Tom/midi_in 1"/>
+      <Connection other="Bell/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -1494,9 +1494,7 @@
     <Region name="Hard Snare-25.1" muted="1" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b11520@b979200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="18" tags="" contents="0" rgroup="0" id="409913" type="midi" first-edit="nothing" source-0="409911" master-source-0="409911"/>
     <Region name="Tom-38" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b11520" length="b1920@b1013760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="600408" type="midi" first-edit="nothing" source-0="600406" master-source-0="600406"/>
   </Regions>
-  <Selection>
-    <StripableAutomationControl stripable="207444" control="0" order="2"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
     <Location id="24254" name="Loop" start="b910080" end="b1008000" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
@@ -1757,14 +1755,14 @@ a67349504000 0
         <AutomationList automation-id="midi-velocity" id="15147" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="15115" flags="" value="0.59349999999999969"/>
+        <Controllable name="pan-azimuth" id="15115" flags="" value="0.59275682343593794"/>
         <Controllable name="pan-width" id="15119" flags="" value="0"/>
         <Controllable name="pan-elevation" id="15117" flags="" value="0"/>
         <Controllable name="pan-frontback" id="15121" flags="" value="0"/>
         <Controllable name="pan-lfe" id="15123" flags="" value="0"/>
         <Automation>
           <AutomationList automation-id="pan-azimuth" id="15114" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-            <events>b23040 0.59349999999999969
+            <events>b0 0.59350001811981201
 b136129 0.58910894393920898
 b138240 0.068747520446777344
 b178560 0.2891356348991394
@@ -2130,7 +2128,11 @@ b178560 0.2891356348991394
           <AutomationList automation-id="parameter-1" id="236208" interpolation-style="Logarithmic" time-domain="BeatTime" state="Off"/>
           <AutomationList automation-id="parameter-2" id="236210" interpolation-style="Logarithmic" time-domain="BeatTime" state="Off"/>
           <AutomationList automation-id="parameter-3" id="236212" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-4" id="236214" interpolation-style="Logarithmic" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-4" id="236214" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
+            <events>b0 200.00001525878906
+b138240 18000.00390625
+</events>
+          </AutomationList>
           <AutomationList automation-id="parameter-5" id="236216" interpolation-style="Logarithmic" time-domain="BeatTime" state="Off"/>
           <AutomationList automation-id="parameter-6" id="236218" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
         </Automation>
@@ -2161,7 +2163,7 @@ b178560 0.2891356348991394
           <Port id="1" value="215.87965393066406"/>
           <Port id="2" value="0.7070000171661377"/>
           <Port id="3" value="1"/>
-          <Port id="4" value="18000"/>
+          <Port id="4" value="424.73934936523438"/>
           <Port id="5" value="0.7070000171661377"/>
           <Port id="6" value="1"/>
         </luaproc>
@@ -2169,15 +2171,15 @@ b178560 0.2891356348991394
         <Controllable name="High Pass Cut off frequency" id="236209" flags="" value="215.87965393066406" parameter="1"/>
         <Controllable name="High Pass Resonance" id="236211" flags="" value="0.7070000171661377" parameter="2"/>
         <Controllable name="Low Pass Steepness" id="236213" flags="" value="1" parameter="3"/>
-        <Controllable name="Low Pass Cut off frequency" id="236215" flags="" value="18000" parameter="4"/>
+        <Controllable name="Low Pass Cut off frequency" id="236215" flags="" value="424.73934936523438" parameter="4"/>
         <Controllable name="Low Pass Resonance" id="236217" flags="" value="0.7070000171661377" parameter="5"/>
         <Controllable name="Enable" id="236219" flags="Toggle" value="1" parameter="6"/>
       </Processor>
       <Processor id="15126" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="15099" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-            <events>a1652136588 0.99999994039535522
-a10236603584 0.99999994039535522
+            <events>a0 1.4125375747680664
+a10236603584 0.70794570446014404
 a10790375726 0.17782792448997498
 a13681665959 0.70794570446014404
 a24390918400 0.50118720531463623
@@ -2192,7 +2194,7 @@ a52780940800 0.25118860602378845
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="15100" flags="GainLike" value="1.0000000403953553"/>
+        <Controllable name="gaincontrol" id="15100" flags="GainLike" value="1.1247787643291511"/>
       </Processor>
       <Processor id="202163" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="27" selfdestruct="0" target="200394" allow-feedback="0">
         <Automation>
@@ -2630,7 +2632,7 @@ a52780940800 0.50118720531463623
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="18604" flags="GainLike" value="0.84766652200610548"/>
+        <Controllable name="gaincontrol" id="18604" flags="GainLike" value="0.84740603503869971"/>
       </Processor>
       <Processor id="32160" name="Short Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="3" selfdestruct="0" target="24029" allow-feedback="0">
         <Automation>
@@ -4484,7 +4486,7 @@ a64734636800 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="43379" flags="GainLike" value="0.05816576335865186"/>
+        <Controllable name="gaincontrol" id="43379" flags="GainLike" value="0.058117186371808439"/>
       </Processor>
       <Processor id="43757" name="Short Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="8" selfdestruct="0" target="24029" allow-feedback="0">
         <Automation>
@@ -5065,7 +5067,7 @@ a33356185600 0.17782792448997498
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="72450" flags="GainLike" value="0.34422315145948001"/>
+        <Controllable name="gaincontrol" id="72450" flags="GainLike" value="0.34420416376846658"/>
       </Processor>
       <Processor id="200478" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="15" selfdestruct="0" target="200394" allow-feedback="0">
         <Automation>
@@ -5986,7 +5988,7 @@ a52780940800 0.3548133373260498
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="102805" flags="GainLike" value="0.22098707223344383"/>
+        <Controllable name="gaincontrol" id="102805" flags="GainLike" value="0.22078170207455253"/>
       </Processor>
       <Processor id="201321" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="24" selfdestruct="0" target="200394" allow-feedback="0">
         <Automation>
@@ -6581,6 +6583,7 @@ a52780940800 0.3548133373260498
       <Controllable name="solo-safe" id="123397" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Bell" id="123409" direction="Input" default-type="midi">
         <Port name="Bell/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -7580,7 +7583,7 @@ a52780940800 0.50118720531463623
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="201456" flags="GainLike" value="0.522908113379005"/>
+        <Controllable name="gaincontrol" id="201456" flags="GainLike" value="0.52260669141309657"/>
       </Processor>
       <Processor id="201990" name="Short Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="26" selfdestruct="0" target="24029" allow-feedback="0">
         <Automation>
@@ -8893,14 +8896,13 @@ a52780940800 0.50118720531463623
       <Controllable name="rec-safe" id="207048" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="207046" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7002" id="207444" name="Tom" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" midi-playlist="207522" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
+    <Route version="7002" id="207444" name="Tom" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" midi-playlist="207522" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
       <PresentationInfo order="16" flags="MidiTrack,OrderSet,TriggerTrack" color="2861447679"/>
       <Controllable name="solo" id="207485" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="207491" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="207493" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Tom" id="207505" direction="Input" default-type="midi">
         <Port name="Tom/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -10797,7 +10799,7 @@ a51660281600 0.50118720531463623
         <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
     </RangeExportProfile>
-    <ExportRevision revision="9"/>
+    <ExportRevision revision="10"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="16973" realtime="0"/>
@@ -10876,6 +10878,12 @@ a51660281600 0.50118720531463623
       <Window name="P-14965-208532" visible="0" x-off="1050" y-off="332" x-size="633" y-size="154" custom-ui="1"/>
       <Window name="PM-14965-208659" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-14965-208532" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-207444-216838" visible="0" x-off="1050" y-off="247" x-size="451" y-size="325" custom-ui="1"/>
+      <Window name="P-207444-207663" visible="0" x-off="1050" y-off="226" x-size="1249" y-size="881" custom-ui="1"/>
+      <Window name="P-207444-216380" visible="0" x-off="1050" y-off="226" x-size="720" y-size="414" custom-ui="1"/>
+      <Window name="PM-207444-216838" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-207444-207663" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-207444-216380" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-15063-24788" visible="0" x-off="1050" y-off="245" x-size="451" y-size="325" custom-ui="1"/>
       <Window name="P-15063-24800" visible="0" x-off="1563" y-off="816" x-size="522" y-size="327" custom-ui="1"/>
       <Window name="P-15063-15172" visible="0" x-off="1050" y-off="226" x-size="1245" y-size="872" custom-ui="1"/>
@@ -10949,12 +10957,6 @@ a51660281600 0.50118720531463623
       <Window name="P-207903-208128" visible="0" x-off="1050" y-off="226" x-size="1251" y-size="872" custom-ui="1"/>
       <Window name="PM-207903-428377" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-207903-208128" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-207444-216838" visible="0" x-off="1050" y-off="247" x-size="451" y-size="325" custom-ui="1"/>
-      <Window name="P-207444-207663" visible="0" x-off="1050" y-off="226" x-size="1249" y-size="881" custom-ui="1"/>
-      <Window name="P-207444-216380" visible="0" x-off="1050" y-off="226" x-size="720" y-size="414" custom-ui="1"/>
-      <Window name="PM-207444-216838" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-207444-207663" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-207444-216380" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-216908-428367" visible="0" x-off="1050" y-off="248" x-size="451" y-size="325" custom-ui="1"/>
       <Window name="P-216908-217139" visible="0" x-off="1050" y-off="226" x-size="1253" y-size="874" custom-ui="1"/>
       <Window name="PM-216908-428367" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -12521,6 +12523,7 @@ a51660281600 0.50118720531463623
             <Object id="control 637244" visible="0"/>
           </Object>
         </Object>
+        <Object id="automation 236215" height="40" visible="1"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
