@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="720346" rg-counter="2052" name-counter="2" event-counter="57635541" vca-counter="1">
+<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="736892" rg-counter="2066" name-counter="2" event-counter="57833266" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2-840-g064275108c" modified-with="Ardour 8.4-838-gae2819e30b"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -11,9 +11,9 @@
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
       <Connection other="Cymbal/midi_in 1"/>
-      <Connection other="Hard Snare/midi_in 1"/>
-      <Connection other="Heavy Bass/midi_in 1"/>
-      <Connection other="Snare/midi_in 1"/>
+      <Connection other="HiHat/midi_in 1"/>
+      <Connection other="Lead Double/midi_in 1"/>
+      <Connection other="Pad/midi_in 1"/>
       <Connection other="Cymbal/midi_in 1"/>
     </Port>
   </MIDIPorts>
@@ -24,7 +24,7 @@
     <Option name="native-file-data-format" value="FormatFloat"/>
     <Option name="native-file-header-format" value="WAVE"/>
     <Option name="auto-play" value="0"/>
-    <Option name="auto-return" value="1"/>
+    <Option name="auto-return" value="0"/>
     <Option name="auto-input" value="1"/>
     <Option name="triggerbox-overrides-disk-monitoring" value="1"/>
     <Option name="cue-behavior" value="FollowCues"/>
@@ -1509,11 +1509,11 @@
     <Region name="Cymbal-3" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b483840" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="702397" type="midi" first-edit="nothing" source-0="702395" master-source-0="702395"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="701815" control="0" order="6"/>
+    <StripableAutomationControl stripable="701815" control="0" order="8"/>
   </Selection>
   <Locations>
     <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
-    <Location id="24254" name="Loop" start="b483840" end="b506880" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
+    <Location id="24254" name="Loop" start="b483840" end="b576000" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
     <Location id="297227" name="Refrain" start="b483840" end="b483840" flags="IsMark" locked="0" timestamp="1711727679" cue="0"/>
     <Location id="297244" name="Couplet" start="b184320" end="b184320" flags="IsMark" locked="0" timestamp="1711727699" cue="0"/>
     <Location id="297253" name="Transition" start="b576000" end="b576000" flags="IsMark" locked="0" timestamp="1711727709" cue="0"/>
@@ -1633,7 +1633,7 @@ a67349504000 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="14969" flags="GainLike" value="0"/>
+        <Controllable name="gaincontrol" id="14969" flags="GainLike" value="1.0000000403953553"/>
       </Processor>
       <Processor id="208659" name="ACE Compressor (stereo)" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="0">
         <Automation>
@@ -2212,7 +2212,7 @@ a52780940800 0.25118860602378845
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="15100" flags="GainLike" value="0.25118860602378845"/>
+        <Controllable name="gaincontrol" id="15100" flags="GainLike" value="0.36559634834347615"/>
       </Processor>
       <Processor id="202163" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="27" selfdestruct="0" target="200394" allow-feedback="0">
         <Automation>
@@ -2650,7 +2650,7 @@ a52780940800 0.50118720531463623
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="18604" flags="GainLike" value="0.50118720531463623"/>
+        <Controllable name="gaincontrol" id="18604" flags="GainLike" value="0.25766146674690882"/>
       </Processor>
       <Processor id="32160" name="Short Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="3" selfdestruct="0" target="24029" allow-feedback="0">
         <Automation>
@@ -3248,7 +3248,7 @@ a64734630400 0.00049271201714873314
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="34844" flags="GainLike" value="0.00049271201714873314"/>
+        <Controllable name="gaincontrol" id="34844" flags="GainLike" value="0.63095740543136591"/>
       </Processor>
       <Processor id="63582" name="Chorus" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="10" selfdestruct="0" target="36097" allow-feedback="0">
         <Automation>
@@ -3390,7 +3390,7 @@ a64734630400 2
       <Controllable name="rec-safe" id="34882" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="34880" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7002" id="35224" name="Heavy Bass" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="35302" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
+    <Route version="7002" id="35224" name="Heavy Bass" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="35302" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
       <PresentationInfo order="5" flags="MidiTrack,OrderSet,TriggerTrack" color="4390911"/>
       <Controllable name="solo" id="35265" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="35271" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -4493,8 +4493,8 @@ a64734630400 2
           <AutomationList automation-id="gain" id="43378" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
             <events>a0 0.089125074446201324
 a17666963200 0.0028854953125119209
-a24390918400 0.089125074446201324
-a32982636800 0.089125066995620728
+a24390918400 0.063095726072788239
+a32982636800 0.063095726072788239
 a33356185600 0.044668354094028473
 a52780940800 0.063095726072788239
 a58757789847 0.1258925199508667
@@ -4504,7 +4504,7 @@ a64734636800 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="43379" flags="GainLike" value="0"/>
+        <Controllable name="gaincontrol" id="43379" flags="GainLike" value="0.050134447418379746"/>
       </Processor>
       <Processor id="43757" name="Short Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="8" selfdestruct="0" target="24029" allow-feedback="0">
         <Automation>
@@ -4712,7 +4712,7 @@ a64734636800 0
       </Processor>
       <Slavable/>
     </Route>
-    <Route version="7002" id="72413" name="Lead Double" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="72491" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+    <Route version="7002" id="72413" name="Lead Double" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="72491" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
       <PresentationInfo order="8" flags="MidiTrack,OrderSet,TriggerTrack" color="2842769663"/>
       <Controllable name="solo" id="72454" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="72460" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -6006,7 +6006,7 @@ a52780940800 0.3548133373260498
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="102805" flags="GainLike" value="0.3548133373260498"/>
+        <Controllable name="gaincontrol" id="102805" flags="GainLike" value="0.41833888149047588"/>
       </Processor>
       <Processor id="201321" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="24" selfdestruct="0" target="200394" allow-feedback="0">
         <Automation>
@@ -6968,7 +6968,7 @@ a52780940800 0.25118860602378845
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="123385" flags="GainLike" value="0.25118860602378845"/>
+        <Controllable name="gaincontrol" id="123385" flags="GainLike" value="0.26757674253739794"/>
       </Processor>
       <Processor id="123808" name="Chorus" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="22" selfdestruct="0" target="36097" allow-feedback="0">
         <Automation>
@@ -7600,7 +7600,7 @@ a52780940800 0.50118720531463623
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="201456" flags="GainLike" value="0.50118720531463623"/>
+        <Controllable name="gaincontrol" id="201456" flags="GainLike" value="0.48784664554805574"/>
       </Processor>
       <Processor id="201990" name="Short Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="26" selfdestruct="0" target="24029" allow-feedback="0">
         <Automation>
@@ -10398,7 +10398,6 @@ a51660281600 0.50118720531463623
         <Port name="Cymbal/midi_in 1" type="midi" direction="Input">
           <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="a2j:UMX 610 [28] (capture): UMX 610 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Cymbal" id="701877" direction="Output" default-type="midi">
@@ -10425,7 +10424,7 @@ a51660281600 0.50118720531463623
         <AutomationList automation-id="midi-velocity" id="701899" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="701867" flags="" value="0.59974999999999967"/>
+        <Controllable name="pan-azimuth" id="701867" flags="" value="0.54974999999999985"/>
         <Controllable name="pan-width" id="701871" flags="" value="0"/>
         <Controllable name="pan-elevation" id="701869" flags="" value="0"/>
         <Controllable name="pan-frontback" id="701873" flags="" value="0"/>
@@ -11362,7 +11361,7 @@ a51660281600 0.50118720531463623
         <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
     </RangeExportProfile>
-    <ExportRevision revision="12"/>
+    <ExportRevision revision="13"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="16973" realtime="0"/>
