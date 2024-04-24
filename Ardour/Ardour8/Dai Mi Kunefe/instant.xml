@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instant>
   <LastUsedSnapshot name="Dai Mi Kunefe"/>
-  <Main x="1920" y="467" w="1920" h="1080" current-tab="editor"/>
-  <Editor id="46" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="6621" grid-type="GridTypeBeatDiv8" snap-mode="SnapOff" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapOff" pre-internal-grid-type="GridTypeBeatDiv8" pre-internal-snap-mode="SnapOff" edit-point="EditAtMouse" visible-track-count="-1" marker-click-behavior="MarkerClickSelectOnly" draw-length="GridTypeNone" draw-velocity="-1" draw-channel="-1" playhead="3993040" left-frame="3755267" y-origin="0" maximised="1" follow-playhead="1" stationary-playhead="0" mouse-mode="MouseContent" join-object-range="0" show-editor-mixer="1" show-editor-list="0" editor-list-page="0" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="a1411200000@a0">
+  <Main x="1050" y="226" w="1920" h="1080" current-tab="editor"/>
+  <Editor id="46" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="6621" grid-type="GridTypeBeatDiv8" snap-mode="SnapOff" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapOff" pre-internal-grid-type="GridTypeBeatDiv8" pre-internal-snap-mode="SnapOff" edit-point="EditAtMouse" visible-track-count="-1" marker-click-behavior="MarkerClickSelectOnly" draw-length="GridTypeNone" draw-velocity="-1" draw-channel="-1" playhead="3993040" left-frame="3755289" y-origin="57" maximised="1" follow-playhead="1" stationary-playhead="0" mouse-mode="MouseContent" join-object-range="0" show-editor-mixer="1" show-editor-list="0" editor-list-page="0" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="a1411200000@a0">
     <Window name="Editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="1"/>
     <Buttons>
       <Press/>
@@ -10,10 +10,10 @@
     </Buttons>
     <Selection>
       <Regions>
-        <Region id="9499"/>
+        <Region id="2089"/>
       </Regions>
-      <MIDINotes region-id="9499">
-        <note note-id="6222271"/>
+      <MIDINotes region-id="2089">
+        <note note-id="840843"/>
       </MIDINotes>
     </Selection>
     <EditorLocations clock-mode="Timecode"/>
@@ -22,7 +22,7 @@
     <Window name="Mixer" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="1"/>
   </Mixer>
   <Preferences>
-    <Window name="Preferences" visible="0" x-off="0" y-off="0" x-size="1227" y-size="940" tabbed="0"/>
+    <Window name="Preferences" visible="0" x-off="1050" y-off="226" x-size="1227" y-size="940" tabbed="0"/>
   </Preferences>
   <Meterbridge show-meterbridge="0">
     <geometry x-size="600" y-size="400" x-pos="1" y-pos="1"/>
