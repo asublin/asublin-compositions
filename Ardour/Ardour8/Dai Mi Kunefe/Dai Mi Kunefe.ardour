@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Dai Mi Kunefe" sample-rate="44100" session-range-is-free="0" id-counter="34535" rg-counter="263" name-counter="1" event-counter="9454808" vca-counter="1">
-  <ProgramVersion created-with="Ardour 8.2-784-g3ce1719658" modified-with="Ardour 8.4-838-gae2819e30b"/>
+<Session version="7002" name="Dai Mi Kunefe" sample-rate="44100" session-range-is-free="0" id-counter="37599" rg-counter="412" name-counter="1" event-counter="11478461" vca-counter="1">
+  <ProgramVersion created-with="Ardour 8.2-784-g3ce1719658" modified-with="Ardour 8.6-34-g895fe2f753"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
     <Port name="MIDI Clock out" type="midi" direction="Output"/>
@@ -12,7 +12,7 @@
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
       <Connection other="Bass/midi_in 1"/>
       <Connection other="Counterpoint/midi_in 1"/>
-      <Connection other="Bass/midi_in 1"/>
+      <Connection other="Counterpoint/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -71,7 +71,7 @@
     <Option name="show-name-on-meterbridge" value="1"/>
     <Option name="show-fader-on-meterbridge" value="0"/>
     <Option name="meterbridge-label-height" value="0"/>
-    <Option name="default-time-domain" value="AudioTime"/>
+    <Option name="default-time-domain" value="BeatTime"/>
   </Config>
   <Metadata/>
   <Sources>
@@ -111,19 +111,21 @@
     <Region name="Bass-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b445531@a50182560000" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="9496" type="midi" first-edit="nothing" source-0="9492" master-source-0="9492"/>
     <Region name="Bass-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b185374" length="b273077@b868130" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="2768" id="9499" type="midi" first-edit="nothing" source-0="9492" master-source-0="9492"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="5306" control="0" order="4"/>
+  </Selection>
   <Locations>
-    <Location id="1972" name="session" start="a25555456000" end="a83862502400" flags="IsSessionRange" locked="0" timestamp="1712238052" cue="0"/>
-    <Location id="9145" name="Refrain" start="a137894400" end="a137894400" flags="IsMark" locked="0" timestamp="1712248381" cue="0"/>
-    <Location id="9158" name="Transition" start="a9066803200" end="a9066803200" flags="IsMark" locked="0" timestamp="1712248402" cue="0"/>
-    <Location id="9167" name="Couplet" start="a17735065600" end="a17735065600" flags="IsMark" locked="0" timestamp="1712248422" cue="0"/>
-    <Location id="9180" name="Refrain" start="a25622937600" end="a25622937600" flags="IsMark" locked="0" timestamp="1712248438" cue="0"/>
-    <Location id="9189" name="Transition" start="a34573414400" end="a34573414400" flags="IsMark" locked="0" timestamp="1712248455" cue="0"/>
-    <Location id="9198" name="Couplet" start="a42942771200" end="a42942771200" flags="IsMark" locked="0" timestamp="1712248464" cue="0"/>
-    <Location id="9207" name="Refrain" start="a51312128000" end="a51312128000" flags="IsMark" locked="0" timestamp="1712248476" cue="0"/>
-    <Location id="9216" name="Transition" start="a59781120000" end="a59781120000" flags="IsMark" locked="0" timestamp="1712248487" cue="0"/>
-    <Location id="9225" name="Couplet" start="a68211398400" end="a68211398400" flags="IsMark" locked="0" timestamp="1712248498" cue="0"/>
-    <Location id="9239" name="Conclusion" start="a75954694400" end="a75954694400" flags="IsMark" locked="0" timestamp="1712248519" cue="0"/>
+    <Location id="1972" name="session" start="b347693" end="b1140986" flags="IsSessionRange" locked="0" timestamp="1712238052" cue="0"/>
+    <Location id="9145" name="Refrain" start="b1876" end="b1876" flags="IsMark" locked="0" timestamp="1712248381" cue="0"/>
+    <Location id="9158" name="Transition" start="b123358" end="b123358" flags="IsMark" locked="0" timestamp="1712248402" cue="0"/>
+    <Location id="9167" name="Couplet" start="b241293" end="b241293" flags="IsMark" locked="0" timestamp="1712248422" cue="0"/>
+    <Location id="9180" name="Refrain" start="b348611" end="b348611" flags="IsMark" locked="0" timestamp="1712248438" cue="0"/>
+    <Location id="9189" name="Transition" start="b470387" end="b470387" flags="IsMark" locked="0" timestamp="1712248455" cue="0"/>
+    <Location id="9198" name="Couplet" start="b584255" end="b584255" flags="IsMark" locked="0" timestamp="1712248464" cue="0"/>
+    <Location id="9207" name="Refrain" start="b694918" end="b694918" flags="IsMark" locked="0" timestamp="1712248476" cue="0"/>
+    <Location id="9216" name="Transition" start="b813349" end="b813349" flags="IsMark" locked="0" timestamp="1712248487" cue="0"/>
+    <Location id="9225" name="Couplet" start="b928046" end="b928046" flags="IsMark" locked="0" timestamp="1712248498" cue="0"/>
+    <Location id="9239" name="Conclusion" start="b1033397" end="b1033397" flags="IsMark" locked="0" timestamp="1712248519" cue="0"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -163,7 +165,7 @@
           <ExtConnection for="JACK" other="system:playback_2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
       <Controllable name="mute" id="81" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="83" flags="Toggle" value="0" phase-invert="00"/>
       <Controllable name="mastervolume" id="107" flags="GainLike,NotAutomatable" value="1"/>
@@ -331,13 +333,13 @@
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
           <Port symbol="enable" value="1"/>
-          <Port symbol="gain" value="0"/>
+          <Port symbol="gain" value="1.6000003814697266"/>
           <Port symbol="threshold" value="0"/>
           <Port symbol="release" value="0.0099999997764825821"/>
           <Port symbol="truepeak" value="0"/>
         </lv2>
         <Controllable name="Enable" id="934" flags="Toggle" value="1" parameter="2" symbol="enable"/>
-        <Controllable name="Input Gain" id="936" flags="" value="0" parameter="3" symbol="gain"/>
+        <Controllable name="Input Gain" id="936" flags="" value="1.6000003814697266" parameter="3" symbol="gain"/>
         <Controllable name="Threshold" id="938" flags="" value="0" parameter="4" symbol="threshold"/>
         <Controllable name="Release Time" id="940" flags="" value="0.0099999997764825821" parameter="5" symbol="release"/>
         <Controllable name="True Peak" id="12040" flags="Toggle" value="0" parameter="6" symbol="truepeak"/>
@@ -368,7 +370,7 @@
         </Port>
         <Port name="MDA Piano/midi_out 1" type="midi" direction="Output"/>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
       <Controllable name="mute" id="216" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="218" flags="Toggle" value="0" phase-invert=""/>
       <Automation>
@@ -444,11 +446,11 @@
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <Port symbol="channelf" value="0"/>
-          <Port symbol="transpose" value="-5"/>
+          <Port symbol="transpose" value="-7"/>
           <Port symbol="inversion" value="0"/>
         </lv2>
         <Controllable name="Filter Channel" id="946" flags="" value="0" parameter="3" symbol="channelf"/>
-        <Controllable name="Transpose" id="948" flags="" value="-5" parameter="4" symbol="transpose"/>
+        <Controllable name="Transpose" id="948" flags="" value="-7" parameter="4" symbol="transpose"/>
         <Controllable name="Inversion point" id="950" flags="" value="0" parameter="5" symbol="inversion"/>
       </Processor>
       <Processor id="277" name="MDA Piano" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://drobilla.net/plugins/mda/Piano" count="1" custom="0">
@@ -672,7 +674,7 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
       <Controllable name="mute" id="433" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="435" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
@@ -815,7 +817,7 @@
         </Port>
         <Port name="MDA ePiano/midi_out 1" type="midi" direction="Output"/>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
       <Controllable name="mute" id="1527" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="1529" flags="Toggle" value="0" phase-invert=""/>
       <Automation>
@@ -891,11 +893,11 @@
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <Port symbol="channelf" value="0"/>
-          <Port symbol="transpose" value="-5"/>
+          <Port symbol="transpose" value="-7"/>
           <Port symbol="inversion" value="0"/>
         </lv2>
         <Controllable name="Filter Channel" id="1809" flags="" value="0" parameter="3" symbol="channelf"/>
-        <Controllable name="Transpose" id="1811" flags="" value="-5" parameter="4" symbol="transpose"/>
+        <Controllable name="Transpose" id="1811" flags="" value="-7" parameter="4" symbol="transpose"/>
         <Controllable name="Inversion point" id="1813" flags="" value="0" parameter="5" symbol="inversion"/>
       </Processor>
       <Processor id="1601" name="MDA ePiano" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://drobilla.net/plugins/mda/EPiano" count="1" custom="0">
@@ -1040,7 +1042,7 @@
           <Connection other="MDA ePiano/midi_in 1"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
       <Controllable name="mute" id="1697" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="1699" flags="Toggle" value="0" phase-invert=""/>
       <Automation>
@@ -1124,7 +1126,7 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
       <Controllable name="mute" id="1827" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="1829" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
@@ -1299,13 +1301,12 @@
       <Slavable/>
     </Route>
     <Route version="7002" id="5140" name="Bass" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="5218" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
-      <PresentationInfo order="4" flags="MidiTrack,OrderSet,TriggerTrack" color="2635536383"/>
+      <PresentationInfo order="4" flags="MidiTrack,OrderSet,TriggerTrack" color="571907327"/>
       <Controllable name="solo" id="5181" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="5187" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="5189" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Bass" id="5201" direction="Input" default-type="midi">
         <Port name="Bass/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -1318,7 +1319,7 @@
         </Port>
         <Port name="Bass/midi_out 1" type="midi" direction="Output"/>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
       <Controllable name="mute" id="5183" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="5185" flags="Toggle" value="0" phase-invert=""/>
       <Automation>
@@ -1333,7 +1334,7 @@
         <AutomationList automation-id="midi-velocity" id="5224" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="5192" flags="" value="0.37525000000000042"/>
+        <Controllable name="pan-azimuth" id="5192" flags="" value="0.37525001168251038"/>
         <Controllable name="pan-width" id="5196" flags="" value="0"/>
         <Controllable name="pan-elevation" id="5194" flags="" value="0"/>
         <Controllable name="pan-frontback" id="5198" flags="" value="0"/>
@@ -1394,11 +1395,11 @@
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <Port symbol="channelf" value="0"/>
-          <Port symbol="transpose" value="-5"/>
+          <Port symbol="transpose" value="-7"/>
           <Port symbol="inversion" value="0"/>
         </lv2>
         <Controllable name="Filter Channel" id="9522" flags="" value="0" parameter="3" symbol="channelf"/>
-        <Controllable name="Transpose" id="9524" flags="" value="-5" parameter="4" symbol="transpose"/>
+        <Controllable name="Transpose" id="9524" flags="" value="-7" parameter="4" symbol="transpose"/>
         <Controllable name="Inversion point" id="9526" flags="" value="0" parameter="5" symbol="inversion"/>
       </Processor>
       <Processor id="5519" name="MDA ePiano" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://drobilla.net/plugins/mda/EPiano" count="1" custom="0">
@@ -1577,12 +1578,13 @@
       <Controllable name="rec-enable" id="5213" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7002" id="5306" name="Counterpoint" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="5384" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
-      <PresentationInfo order="5" flags="MidiTrack,OrderSet,TriggerTrack" color="4289374975"/>
+      <PresentationInfo order="5" flags="MidiTrack,OrderSet,TriggerTrack" color="4017255167"/>
       <Controllable name="solo" id="5347" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="5353" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="5355" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Counterpoint" id="5367" direction="Input" default-type="midi">
         <Port name="Counterpoint/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -1595,7 +1597,7 @@
         </Port>
         <Port name="Counterpoint/midi_out 1" type="midi" direction="Output"/>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
       <Controllable name="mute" id="5349" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="5351" flags="Toggle" value="0" phase-invert=""/>
       <Automation>
@@ -1678,11 +1680,11 @@ b1026889 0.091666638851165771
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <Port symbol="channelf" value="0"/>
-          <Port symbol="transpose" value="-5"/>
+          <Port symbol="transpose" value="-7"/>
           <Port symbol="inversion" value="0"/>
         </lv2>
         <Controllable name="Filter Channel" id="9539" flags="" value="0" parameter="3" symbol="channelf"/>
-        <Controllable name="Transpose" id="9541" flags="" value="-5" parameter="4" symbol="transpose"/>
+        <Controllable name="Transpose" id="9541" flags="" value="-7" parameter="4" symbol="transpose"/>
         <Controllable name="Inversion point" id="9543" flags="" value="0" parameter="5" symbol="inversion"/>
       </Processor>
       <Processor id="5448" name="MDA Piano" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://drobilla.net/plugins/mda/Piano" count="1" custom="0">
@@ -1801,31 +1803,6 @@ b1026889 0.091666638851165771
         </Automation>
         <Controllable name="gaincontrol" id="5343" flags="GainLike" value="1.4125375747680664"/>
       </Processor>
-      <Processor id="34414" name="Chorus" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="8" selfdestruct="0" target="1817" allow-feedback="0">
-        <Automation>
-          <AutomationList automation-id="phase" id="34433" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
-          <AutomationList automation-id="send" id="34427" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
-        </Automation>
-        <PannerShell bypassed="0" user-panner="" linked-to-route="1">
-          <Panner uri="http://ardour.org/plugin/panner_balance" type="Stereo Balance"/>
-        </PannerShell>
-        <Pannable>
-          <Controllable name="pan-azimuth" id="34418" flags="" value="0.5"/>
-          <Controllable name="pan-width" id="34422" flags="" value="0"/>
-          <Controllable name="pan-elevation" id="34420" flags="" value="0"/>
-          <Controllable name="pan-frontback" id="34424" flags="" value="0"/>
-          <Controllable name="pan-lfe" id="34426" flags="" value="0"/>
-          <Automation>
-            <AutomationList automation-id="pan-azimuth" id="34417" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
-            <AutomationList automation-id="pan-elevation" id="34419" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
-            <AutomationList automation-id="pan-width" id="34421" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
-            <AutomationList automation-id="pan-frontback" id="34423" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
-            <AutomationList automation-id="pan-lfe" id="34425" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
-          </Automation>
-        </Pannable>
-        <Controllable name="polarity-invert" id="34434" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="34428" flags="GainLike,InlineControl" value="0.50040984153747559"/>
-      </Processor>
       <Processor id="9417" name="Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="7" selfdestruct="0" target="9329" allow-feedback="0">
         <Automation>
           <AutomationList automation-id="phase" id="9436" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
@@ -1874,7 +1851,7 @@ b1026889 0.091666638851165771
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="7333" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="7327" flags="GainLike,InlineControl" value="1.4186060428619385"/>
+        <Controllable name="gaincontrol" id="7327" flags="GainLike,InlineControl" value="0.99599736928939819"/>
       </Processor>
       <Processor id="5373" name="meter-Counterpoint" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="5374" name="Counterpoint" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Counterpoint" type="main-outs" role="Main">
@@ -1902,7 +1879,7 @@ b1026889 0.091666638851165771
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
       <Controllable name="mute" id="9339" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="9341" flags="Toggle" value="0" phase-invert="00"/>
       <Automation>
@@ -2081,6 +2058,8 @@ b1026889 0.091666638851165771
   <TempoMap superclocks-per-second="282240000">
     <Tempos>
       <Tempo npm="120" enpm="120" note-type="4" type="Constant" locked-to-meter="0" continuing="0" active="1" sclock="0" quarters="0:0" bbt="1|1|0" omega="0"/>
+      <Tempo npm="120" enpm="60" note-type="4" type="Ramped" locked-to-meter="0" continuing="0" active="1" sclock="42759360000" quarters="303:0" bbt="76|4|0" omega="-2.2503212333560616e-09"/>
+      <Tempo npm="120" enpm="120" note-type="4" type="Constant" locked-to-meter="0" continuing="0" active="1" sclock="43150627720" quarters="305:0" bbt="77|2|0" omega="0"/>
     </Tempos>
     <Meters>
       <Meter note-value="4" divisions-per-bar="4" sclock="0" quarters="0:0" bbt="1|1|0"/>
@@ -2119,35 +2098,10 @@ b1026889 0.091666638851165771
   </ControlProtocols>
   <Extra>
     <AddRouteDialog LastRouteType="AudioBus"/>
-    <ExportRevision revision="1"/>
-    <ExportProfile>
-      <ExportTimespan format="Timecode">
-        <Range id="1972" realtime="0"/>
-      </ExportTimespan>
-      <ExportChannelConfiguration split="0" channels="2">
-        <ExportChannel type="PortExportChannel" number="1">
-          <Port name="Master/audio_out 1"/>
-        </ExportChannel>
-        <ExportChannel type="PortExportChannel" number="2">
-          <Port name="Master/audio_out 2"/>
-        </ExportChannel>
-      </ExportChannelConfiguration>
-      <ExportFormat id="0627662f-f190-468d-9bb8-db0cca42eac5"/>
-      <ExportFilename>
-        <Folder relative="1" path="export"/>
-        <Field name="label" enabled="0"/>
-        <Field name="session" enabled="1"/>
-        <Field name="snapshot" enabled="0"/>
-        <Field name="timespan" enabled="1"/>
-        <Field name="revision" enabled="0"/>
-        <Field name="time" enabled="0" value="T_None"/>
-        <Field name="date" enabled="1" value="D_ISO"/>
-      </ExportFilename>
-    </ExportProfile>
     <RulerVisibility minsec="1" timecode="0" samples="0" bbt="1" meter="0" tempo="1" rangemarker="0" transportmarker="0" cdmarker="0" arrangement="0" marker="1" cuemarker="0" videotl="0"/>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="session-options-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="session-options-editor" visible="0" x-off="1050" y-off="570" x-size="1008" y-size="558"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="923" y-size="559"/>
@@ -2180,7 +2134,9 @@ b1026889 0.091666638851165771
       <Window name="RPM-423" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-1817" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-9329" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-71-932" visible="0" x-off="1171" y-off="1080" x-size="633" y-size="154" custom-ui="1"/>
+      <Window name="P-71-34361" visible="0" x-off="1050" y-off="226" x-size="918" y-size="777" custom-ui="1"/>
+      <Window name="P-71-932" visible="1" x-off="179" y-off="666" x-size="633" y-size="154" custom-ui="1"/>
+      <Window name="PM-71-34361" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-71-932" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-173-944" visible="0" x-off="1920" y-off="485" x-size="451" y-size="325" custom-ui="1"/>
       <Window name="P-173-277" visible="0" x-off="790" y-off="887" x-size="481" y-size="557" custom-ui="1"/>
@@ -2212,14 +2168,12 @@ b1026889 0.091666638851165771
       <Window name="PM-1817-1890" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-9329-9374" visible="0" x-off="1920" y-off="467" x-size="934" y-size="469" custom-ui="1"/>
       <Window name="PM-9329-9374" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-71-34361" visible="0" x-off="1050" y-off="226" x-size="918" y-size="777" custom-ui="1"/>
-      <Window name="PM-71-34361" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
-        <Object id="rtav 71" height="59"/>
-        <Object id="automation 75" height="59" visible="0"/>
-        <Object id="automation 77" height="59" visible="0"/>
-        <Object id="automation 71 12/0/0" height="59" visible="0"/>
-        <Object id="automation 90" height="59" visible="0"/>
+        <Object id="rtav 71" height="65"/>
+        <Object id="automation 75" height="65" visible="0"/>
+        <Object id="automation 77" height="65" visible="0"/>
+        <Object id="automation 71 12/0/0" height="65" visible="0"/>
+        <Object id="automation 90" height="65" visible="0"/>
         <Object id="strip 71">
           <Object id="processor 101">
             <Object id="control 75" visible="0"/>
@@ -2260,9 +2214,9 @@ b1026889 0.091666638851165771
             <Object id="InlineDisplay" visible="1"/>
           </Object>
         </Object>
-        <Object id="rtav 173" height="59" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="71" color-mode="MeterColors" midnam-channel="Channel  1"/>
-        <Object id="automation 210" height="59" visible="0"/>
-        <Object id="automation 173 12/0/0" height="59" visible="0"/>
+        <Object id="rtav 173" height="65" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="71" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="automation 210" height="65" visible="0"/>
+        <Object id="automation 173 12/0/0" height="65" visible="0"/>
         <Object id="automation 173 31/0/0" height="59" visible="0"/>
         <Object id="strip 173">
           <Object id="processor 236">
@@ -2319,7 +2273,7 @@ b1026889 0.091666638851165771
             <Object id="InlineDisplay" visible="1"/>
           </Object>
         </Object>
-        <Object id="automation 225" height="59" visible="0"/>
+        <Object id="automation 225" height="65" visible="0"/>
         <Object id="strip 307">
           <Object id="processor 354">
             <Object id="control 328" visible="0"/>
@@ -2345,11 +2299,11 @@ b1026889 0.091666638851165771
             <Object id="control 419" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 423" height="59"/>
-        <Object id="automation 427" height="59" visible="0"/>
-        <Object id="automation 429" height="59" visible="0"/>
-        <Object id="automation 423 12/0/0" height="59" visible="0"/>
-        <Object id="automation 442" height="59" visible="0"/>
+        <Object id="rtav 423" height="65"/>
+        <Object id="automation 427" height="65" visible="0"/>
+        <Object id="automation 429" height="65" visible="0"/>
+        <Object id="automation 423 12/0/0" height="65" visible="0"/>
+        <Object id="automation 442" height="65" visible="0"/>
         <Object id="strip 423">
           <Object id="processor 453">
             <Object id="control 427" visible="0"/>
@@ -2375,9 +2329,9 @@ b1026889 0.091666638851165771
             <Object id="control 504" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 1484" height="59" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="71" color-mode="MeterColors" midnam-channel="Channel  1"/>
-        <Object id="automation 1521" height="59" visible="0"/>
-        <Object id="automation 1484 12/0/0" height="59" visible="0"/>
+        <Object id="rtav 1484" height="65" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="71" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="automation 1521" height="65" visible="0"/>
+        <Object id="automation 1484 12/0/0" height="65" visible="0"/>
         <Object id="automation 1484 31/0/0" height="59" visible="0"/>
         <Object id="strip 1484">
           <Object id="processor 1547">
@@ -2411,10 +2365,10 @@ b1026889 0.091666638851165771
             <Object id="control 1935" visible="1"/>
           </Object>
         </Object>
-        <Object id="automation 1536" height="59" visible="0"/>
-        <Object id="rtav 1654" height="59" midnam-custom-device-mode="General MIDI" note-range-min="45" note-range-max="110" color-mode="MeterColors" midnam-channel="Channel  1"/>
-        <Object id="automation 1691" height="59" visible="0"/>
-        <Object id="automation 1654 12/0/0" height="59" visible="0"/>
+        <Object id="automation 1536" height="65" visible="0"/>
+        <Object id="rtav 1654" height="65" midnam-custom-device-mode="General MIDI" note-range-min="45" note-range-max="110" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="automation 1691" height="65" visible="0"/>
+        <Object id="automation 1654 12/0/0" height="65" visible="0"/>
         <Object id="automation 1654 31/0/0" height="59" visible="0"/>
         <Object id="strip 1654">
           <Object id="processor 1717">
@@ -2436,11 +2390,11 @@ b1026889 0.091666638851165771
           </Object>
         </Object>
         <Object id="automation 1706" height="99" visible="0"/>
-        <Object id="rtav 1817" height="59"/>
-        <Object id="automation 1821" height="59" visible="0"/>
-        <Object id="automation 1823" height="59" visible="0"/>
-        <Object id="automation 1817 12/0/0" height="59" visible="0"/>
-        <Object id="automation 1836" height="59" visible="0"/>
+        <Object id="rtav 1817" height="65"/>
+        <Object id="automation 1821" height="65" visible="0"/>
+        <Object id="automation 1823" height="65" visible="0"/>
+        <Object id="automation 1817 12/0/0" height="65" visible="0"/>
+        <Object id="automation 1836" height="65" visible="0"/>
         <Object id="strip 1817">
           <Object id="processor 1847">
             <Object id="control 1821" visible="0"/>
@@ -2476,10 +2430,10 @@ b1026889 0.091666638851165771
             <Object id="control 1918" visible="0"/>
           </Object>
         </Object>
-        <Object id="automation 1654 13/64/0" height="59" visible="1"/>
-        <Object id="rtav 5140" height="59" midnam-custom-device-mode="General MIDI" note-range-min="33" note-range-max="64" color-mode="MeterColors" midnam-channel="Channel  1"/>
-        <Object id="automation 5177" height="59" visible="0"/>
-        <Object id="automation 5140 12/0/0" height="59" visible="0"/>
+        <Object id="automation 1654 13/64/0" height="65" visible="1"/>
+        <Object id="rtav 5140" height="65" midnam-custom-device-mode="General MIDI" note-range-min="33" note-range-max="64" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="automation 5177" height="65" visible="0"/>
+        <Object id="automation 5140 12/0/0" height="65" visible="0"/>
         <Object id="automation 5140 31/0/0" height="59" visible="1"/>
         <Object id="strip 5140">
           <Object id="processor 5203">
@@ -2537,10 +2491,10 @@ b1026889 0.091666638851165771
             <Object id="control 9526" visible="0"/>
           </Object>
         </Object>
-        <Object id="automation 5192" height="59" visible="0"/>
-        <Object id="rtav 5306" height="59" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="81" color-mode="MeterColors" midnam-channel="Channel  1"/>
-        <Object id="automation 5343" height="59" visible="0"/>
-        <Object id="automation 5306 12/0/0" height="59" visible="0"/>
+        <Object id="automation 5192" height="65" visible="0"/>
+        <Object id="rtav 5306" height="65" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="81" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="automation 5343" height="65" visible="0"/>
+        <Object id="automation 5306 12/0/0" height="65" visible="0"/>
         <Object id="automation 5306 31/0/0" height="59" visible="0"/>
         <Object id="strip 5306">
           <Object id="processor 5369">
@@ -2587,8 +2541,27 @@ b1026889 0.091666638851165771
             <Object id="control 34434" visible="0"/>
             <Object id="control 34428" visible="1"/>
           </Object>
+          <Object id="processor 36657">
+            <Object id="control 36659" visible="0"/>
+            <Object id="control 36661" visible="0"/>
+            <Object id="control 36663" visible="0"/>
+            <Object id="control 36665" visible="0"/>
+            <Object id="control 36667" visible="0"/>
+            <Object id="control 36669" visible="0"/>
+            <Object id="control 36671" visible="0"/>
+            <Object id="control 36673" visible="0"/>
+            <Object id="control 36675" visible="0"/>
+            <Object id="control 36677" visible="0"/>
+            <Object id="control 36679" visible="0"/>
+            <Object id="control 36681" visible="0"/>
+            <Object id="control 36683" visible="0"/>
+            <Object id="control 36685" visible="0"/>
+            <Object id="control 36687" visible="0"/>
+            <Object id="control 36689" visible="0"/>
+            <Object id="control 36691" visible="0"/>
+          </Object>
         </Object>
-        <Object id="automation 5358" height="59" visible="1"/>
+        <Object id="automation 5358" height="65" visible="1"/>
         <Object id="strip 9329">
           <Object id="processor 9359">
             <Object id="control 9333" visible="0"/>
@@ -2615,13 +2588,43 @@ b1026889 0.091666638851165771
             <Object id="control 9412" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 9329" height="59"/>
-        <Object id="automation 9333" height="59" visible="0"/>
-        <Object id="automation 9335" height="59" visible="0"/>
-        <Object id="automation 9329 12/0/0" height="59" visible="0"/>
-        <Object id="automation 9348" height="59" visible="0"/>
+        <Object id="rtav 9329" height="65"/>
+        <Object id="automation 9333" height="65" visible="0"/>
+        <Object id="automation 9335" height="65" visible="0"/>
+        <Object id="automation 9329 12/0/0" height="65" visible="0"/>
+        <Object id="automation 9348" height="65" visible="0"/>
+        <Object id="automation 1654 32/0/0" height="65" visible="0"/>
+        <Object id="automation 173 32/0/0" height="65" visible="0"/>
+        <Object id="automation 1484 32/0/0" height="65" visible="0"/>
+        <Object id="automation 5140 32/0/0" height="65" visible="0"/>
+        <Object id="automation 5306 32/0/0" height="65" visible="0"/>
       </GUIObjectState>
     </UI>
+    <ExportRevision revision="2"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="1972" realtime="0"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="Master/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="Master/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="0627662f-f190-468d-9bb8-db0cca42eac5"/>
+      <ExportFilename>
+        <Folder relative="1" path="export"/>
+        <Field name="label" enabled="0"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="1"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_ISO"/>
+      </ExportFilename>
+    </ExportProfile>
     <Videomonitor active="0"/>
   </Extra>
   <Script lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</Script>
