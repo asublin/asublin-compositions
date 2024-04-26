@@ -1,355 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1713632873" tv-usec="514591" name="change note velocity">
-    <NoteDiffCommand midi-source="266685">
-      <ChangedNotes>
-        <Change property="Velocity" old="106" new="90" id="4594202"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1713632874" tv-usec="185028" name="change note velocity">
-    <NoteDiffCommand midi-source="266685">
-      <ChangedNotes>
-        <Change property="Velocity" old="103" new="87" id="4594204"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1713632874" tv-usec="591132" name="change note velocity">
-    <NoteDiffCommand midi-source="266685">
-      <ChangedNotes>
-        <Change property="Velocity" old="98" new="82" id="4594206"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1713632896" tv-usec="630368" name="change note velocity">
-    <NoteDiffCommand midi-source="266685">
-      <ChangedNotes>
-        <Change property="Velocity" old="32" new="80" id="4594144"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1713632897" tv-usec="461171" name="change note velocity">
-    <NoteDiffCommand midi-source="266685">
-      <ChangedNotes>
-        <Change property="Velocity" old="42" new="74" id="4594146"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1713632897" tv-usec="866334" name="change note velocity">
-    <NoteDiffCommand midi-source="266685">
-      <ChangedNotes>
-        <Change property="Velocity" old="44" new="60" id="4594148"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1713635705" tv-usec="301983" name="automation event move">
-    <MementoUndoCommand obj-id="43378" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="43378" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.089125074446201324
-a17666963200 0.0028854953125119209
-a24390918400 0.089125074446201324
-a32982636800 0.089125066995620728
-a33356185600 0.044668354094028473
-a52780940800 0.063095726072788239
-a58757789847 0.1258925199508667
-a62493319257 0.17782792448997498
-a63240425139 0.089125066995620728
-a64734636800 0
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="43378" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="43378" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.089125074446201324
-a17666963200 0.0028854953125119209
-a24390918400 0.063095726072788239
-a32982636800 0.089125066995620728
-a33356185600 0.044668354094028473
-a52780940800 0.063095726072788239
-a58757789847 0.1258925199508667
-a62493319257 0.17782792448997498
-a63240425139 0.089125066995620728
-a64734636800 0
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="8921" left-frame="0" y-origin="440">
-        <Selection>
-          <ControlPoint type="track" route-id="43342" automation-list-id="43378" parameter="gain" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="8921" left-frame="0" y-origin="440">
-        <Selection>
-          <ControlPoint type="track" route-id="43342" automation-list-id="43378" parameter="gain" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1713635711" tv-usec="304067" name="automation event move">
-    <MementoUndoCommand obj-id="43378" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="43378" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.089125074446201324
-a17666963200 0.0028854953125119209
-a24390918400 0.063095726072788239
-a32982636800 0.089125066995620728
-a33356185600 0.044668354094028473
-a52780940800 0.063095726072788239
-a58757789847 0.1258925199508667
-a62493319257 0.17782792448997498
-a63240425139 0.089125066995620728
-a64734636800 0
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="43378" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="43378" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.089125074446201324
-a17666963200 0.0028854953125119209
-a24390918400 0.063095726072788239
-a32982636800 0.063095726072788239
-a33356185600 0.044668354094028473
-a52780940800 0.063095726072788239
-a58757789847 0.1258925199508667
-a62493319257 0.17782792448997498
-a63240425139 0.089125066995620728
-a64734636800 0
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="8921" left-frame="0" y-origin="440">
-        <Selection>
-          <ControlPoint type="track" route-id="43342" automation-list-id="43378" parameter="gain" view-index="3"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="8921" left-frame="0" y-origin="440">
-        <Selection>
-          <ControlPoint type="track" route-id="43342" automation-list-id="43378" parameter="gain" view-index="3"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1713635740" tv-usec="620840" name="add note">
+  <UndoTransaction tv-sec="1714148878" tv-usec="738001" name="change note velocity">
     <NoteDiffCommand midi-source="149503">
       <ChangedNotes>
-        <Change property="Length" old="2:0" new="1:0" id="29662426"/>
+        <Change property="Velocity" old="99" new="83" id="30561664"/>
       </ChangedNotes>
-      <AddedNotes>
-        <note id="57706683" note="76" channel="0" time="32:0" length="1:0" velocity="88"/>
-      </AddedNotes>
+      <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1713635740" tv-usec="726343" name="change note velocity">
+  <UndoTransaction tv-sec="1714148890" tv-usec="27117" name="change note velocity">
     <NoteDiffCommand midi-source="149503">
       <ChangedNotes>
-        <Change property="Velocity" old="100" new="111" id="57706683"/>
+        <Change property="Velocity" old="83" new="69" id="30561664"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1713635743" tv-usec="971508" name="change note velocity">
-    <NoteDiffCommand midi-source="149503">
+  <UndoTransaction tv-sec="1714148964" tv-usec="232934" name="change note velocity">
+    <NoteDiffCommand midi-source="702445">
       <ChangedNotes>
-        <Change property="Velocity" old="111" new="88" id="57706683"/>
+        <Change property="Velocity" old="96" new="72" id="57072414"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1713635831" tv-usec="845096" name="resize note">
-    <NoteDiffCommand midi-source="174329">
+  <UndoTransaction tv-sec="1714148967" tv-usec="929370" name="change note velocity">
+    <NoteDiffCommand midi-source="702459">
       <ChangedNotes>
-        <Change property="Length" old="9:0" new="6:0" id="33066998"/>
+        <Change property="Velocity" old="127" new="80" id="57072414"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1713635857" tv-usec="17355" name="resize note">
-    <NoteDiffCommand midi-source="149503">
+  <UndoTransaction tv-sec="1714148996" tv-usec="627024" name="change note velocity">
+    <NoteDiffCommand midi-source="702473">
       <ChangedNotes>
-        <Change property="Length" old="9:0" new="6:0" id="33066998"/>
+        <Change property="Velocity" old="96" new="104" id="57072414"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1713635890" tv-usec="2521" name="resize note">
-    <NoteDiffCommand midi-source="149503">
+  <UndoTransaction tv-sec="1714149023" tv-usec="270661" name="change note velocity">
+    <NoteDiffCommand midi-source="718699">
       <ChangedNotes>
-        <Change property="Length" old="6:0" new="3:0" id="33066998"/>
+        <Change property="Velocity" old="96" new="72" id="57072414"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1713635917" tv-usec="534537" name="resize note">
-    <NoteDiffCommand midi-source="149503">
+  <UndoTransaction tv-sec="1714149030" tv-usec="496454" name="change note velocity">
+    <NoteDiffCommand midi-source="718691">
       <ChangedNotes>
-        <Change property="Length" old="3:0" new="4:960" id="33066998"/>
+        <Change property="Velocity" old="104" new="96" id="57072414"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1713635919" tv-usec="573052" name="resize note">
-    <NoteDiffCommand midi-source="174329">
+  <UndoTransaction tv-sec="1714149197" tv-usec="102096" name="change note velocity">
+    <NoteDiffCommand midi-source="718683">
       <ChangedNotes>
-        <Change property="Length" old="6:0" new="7:960" id="33066998"/>
+        <Change property="Velocity" old="96" new="104" id="57072414"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1713636115" tv-usec="509765" name="move marker">
-    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
-        <Location id="24254" name="Loop" start="b483840" end="b506880" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
-        <Location id="297227" name="Refrain" start="b483840" end="b483840" flags="IsMark" locked="0" timestamp="1711727679" cue="0"/>
-        <Location id="297244" name="Couplet" start="b184320" end="b184320" flags="IsMark" locked="0" timestamp="1711727699" cue="0"/>
-        <Location id="297253" name="Transition" start="b576000" end="b576000" flags="IsMark" locked="0" timestamp="1711727709" cue="0"/>
-        <Location id="311760" name="Pre-refrain" start="b691200" end="b691200" flags="IsMark" locked="0" timestamp="1711730288" cue="0"/>
-        <Location id="311769" name="Refrain" start="b783360" end="b783360" flags="IsMark" locked="0" timestamp="1711730300" cue="0"/>
-      </Locations>
-      <Locations>
-        <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
-        <Location id="24254" name="Loop" start="b460800" end="b622080" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
-        <Location id="297227" name="Refrain" start="b483840" end="b483840" flags="IsMark" locked="0" timestamp="1711727679" cue="0"/>
-        <Location id="297244" name="Couplet" start="b184320" end="b184320" flags="IsMark" locked="0" timestamp="1711727699" cue="0"/>
-        <Location id="297253" name="Transition" start="b576000" end="b576000" flags="IsMark" locked="0" timestamp="1711727709" cue="0"/>
-        <Location id="311760" name="Pre-refrain" start="b691200" end="b691200" flags="IsMark" locked="0" timestamp="1711730288" cue="0"/>
-        <Location id="311769" name="Refrain" start="b783360" end="b783360" flags="IsMark" locked="0" timestamp="1711730300" cue="0"/>
-      </Locations>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="8921" left-frame="0" y-origin="480">
-        <Selection>
-          <Marker id="24254" start="0"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="8921" left-frame="0" y-origin="480">
-        <Selection>
-          <Marker id="24254" start="0"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
+  <UndoTransaction tv-sec="1714149199" tv-usec="945963" name="change note velocity">
+    <NoteDiffCommand midi-source="718699">
+      <ChangedNotes>
+        <Change property="Velocity" old="72" new="64" id="57072414"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1713636117" tv-usec="867468" name="move marker">
-    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
-        <Location id="24254" name="Loop" start="b460800" end="b622080" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
-        <Location id="297227" name="Refrain" start="b483840" end="b483840" flags="IsMark" locked="0" timestamp="1711727679" cue="0"/>
-        <Location id="297244" name="Couplet" start="b184320" end="b184320" flags="IsMark" locked="0" timestamp="1711727699" cue="0"/>
-        <Location id="297253" name="Transition" start="b576000" end="b576000" flags="IsMark" locked="0" timestamp="1711727709" cue="0"/>
-        <Location id="311760" name="Pre-refrain" start="b691200" end="b691200" flags="IsMark" locked="0" timestamp="1711730288" cue="0"/>
-        <Location id="311769" name="Refrain" start="b783360" end="b783360" flags="IsMark" locked="0" timestamp="1711730300" cue="0"/>
-      </Locations>
-      <Locations>
-        <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
-        <Location id="24254" name="Loop" start="b483840" end="b622080" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
-        <Location id="297227" name="Refrain" start="b483840" end="b483840" flags="IsMark" locked="0" timestamp="1711727679" cue="0"/>
-        <Location id="297244" name="Couplet" start="b184320" end="b184320" flags="IsMark" locked="0" timestamp="1711727699" cue="0"/>
-        <Location id="297253" name="Transition" start="b576000" end="b576000" flags="IsMark" locked="0" timestamp="1711727709" cue="0"/>
-        <Location id="311760" name="Pre-refrain" start="b691200" end="b691200" flags="IsMark" locked="0" timestamp="1711730288" cue="0"/>
-        <Location id="311769" name="Refrain" start="b783360" end="b783360" flags="IsMark" locked="0" timestamp="1711730300" cue="0"/>
-      </Locations>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="8921" left-frame="0" y-origin="480">
-        <Selection>
-          <Marker id="24254" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="8921" left-frame="0" y-origin="480">
-        <Selection>
-          <Marker id="24254" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
+  <UndoTransaction tv-sec="1714149203" tv-usec="386258" name="change note velocity">
+    <NoteDiffCommand midi-source="718691">
+      <ChangedNotes>
+        <Change property="Velocity" old="96" new="80" id="57072414"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1713636120" tv-usec="473665" name="move marker">
-    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
-        <Location id="24254" name="Loop" start="b483840" end="b622080" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
-        <Location id="297227" name="Refrain" start="b483840" end="b483840" flags="IsMark" locked="0" timestamp="1711727679" cue="0"/>
-        <Location id="297244" name="Couplet" start="b184320" end="b184320" flags="IsMark" locked="0" timestamp="1711727699" cue="0"/>
-        <Location id="297253" name="Transition" start="b576000" end="b576000" flags="IsMark" locked="0" timestamp="1711727709" cue="0"/>
-        <Location id="311760" name="Pre-refrain" start="b691200" end="b691200" flags="IsMark" locked="0" timestamp="1711730288" cue="0"/>
-        <Location id="311769" name="Refrain" start="b783360" end="b783360" flags="IsMark" locked="0" timestamp="1711730300" cue="0"/>
-      </Locations>
-      <Locations>
-        <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
-        <Location id="24254" name="Loop" start="b483840" end="b576000" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
-        <Location id="297227" name="Refrain" start="b483840" end="b483840" flags="IsMark" locked="0" timestamp="1711727679" cue="0"/>
-        <Location id="297244" name="Couplet" start="b184320" end="b184320" flags="IsMark" locked="0" timestamp="1711727699" cue="0"/>
-        <Location id="297253" name="Transition" start="b576000" end="b576000" flags="IsMark" locked="0" timestamp="1711727709" cue="0"/>
-        <Location id="311760" name="Pre-refrain" start="b691200" end="b691200" flags="IsMark" locked="0" timestamp="1711730288" cue="0"/>
-        <Location id="311769" name="Refrain" start="b783360" end="b783360" flags="IsMark" locked="0" timestamp="1711730300" cue="0"/>
-      </Locations>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="8921" left-frame="0" y-origin="480">
-        <Selection>
-          <Marker id="24254" start="0"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="8921" left-frame="0" y-origin="480">
-        <Selection>
-          <Marker id="24254" start="0"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
+  <UndoTransaction tv-sec="1714149291" tv-usec="614401" name="delete note">
+    <NoteDiffCommand midi-source="338141">
+      <ChangedNotes/>
+      <AddedNotes/>
+      <RemovedNotes>
+        <note id="51378300" note="84" channel="0" time="87:354" length="0:480" velocity="86"/>
+      </RemovedNotes>
+    </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1713636123" tv-usec="697205" name="move marker">
-    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
-        <Location id="24254" name="Loop" start="b483840" end="b576000" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
-        <Location id="297227" name="Refrain" start="b483840" end="b483840" flags="IsMark" locked="0" timestamp="1711727679" cue="0"/>
-        <Location id="297244" name="Couplet" start="b184320" end="b184320" flags="IsMark" locked="0" timestamp="1711727699" cue="0"/>
-        <Location id="297253" name="Transition" start="b576000" end="b576000" flags="IsMark" locked="0" timestamp="1711727709" cue="0"/>
-        <Location id="311760" name="Pre-refrain" start="b691200" end="b691200" flags="IsMark" locked="0" timestamp="1711730288" cue="0"/>
-        <Location id="311769" name="Refrain" start="b783360" end="b783360" flags="IsMark" locked="0" timestamp="1711730300" cue="0"/>
-      </Locations>
-      <Locations>
-        <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
-        <Location id="24254" name="Loop" start="b483840" end="b576000" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
-        <Location id="297227" name="Refrain" start="b483840" end="b483840" flags="IsMark" locked="0" timestamp="1711727679" cue="0"/>
-        <Location id="297244" name="Couplet" start="b184320" end="b184320" flags="IsMark" locked="0" timestamp="1711727699" cue="0"/>
-        <Location id="297253" name="Transition" start="b576000" end="b576000" flags="IsMark" locked="0" timestamp="1711727709" cue="0"/>
-        <Location id="311760" name="Pre-refrain" start="b691200" end="b691200" flags="IsMark" locked="0" timestamp="1711730288" cue="0"/>
-        <Location id="311769" name="Refrain" start="b783360" end="b783360" flags="IsMark" locked="0" timestamp="1711730300" cue="0"/>
-      </Locations>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="8921" left-frame="0" y-origin="480">
-        <Selection>
-          <Marker id="24254" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="8921" left-frame="0" y-origin="480">
-        <Selection>
-          <Marker id="24254" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
+  <UndoTransaction tv-sec="1714149293" tv-usec="7175" name="delete note">
+    <NoteDiffCommand midi-source="236006">
+      <ChangedNotes/>
+      <AddedNotes/>
+      <RemovedNotes>
+        <note id="51365877" note="84" channel="0" time="87:354" length="0:480" velocity="86"/>
+      </RemovedNotes>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1714149294" tv-usec="363991" name="delete note">
+    <NoteDiffCommand midi-source="338133">
+      <ChangedNotes/>
+      <AddedNotes/>
+      <RemovedNotes>
+        <note id="50019366" note="84" channel="0" time="87:354" length="0:480" velocity="86"/>
+      </RemovedNotes>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1714149327" tv-usec="343844" name="change note velocity">
+    <NoteDiffCommand midi-source="338141">
+      <ChangedNotes>
+        <Change property="Velocity" old="84" new="100" id="51379072"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1714149330" tv-usec="551433" name="change note velocity">
+    <NoteDiffCommand midi-source="236006">
+      <ChangedNotes>
+        <Change property="Velocity" old="84" new="100" id="51366269"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1714149333" tv-usec="694687" name="change note velocity">
+    <NoteDiffCommand midi-source="338133">
+      <ChangedNotes>
+        <Change property="Velocity" old="84" new="100" id="50019924"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1714149535" tv-usec="7207" name="change note velocity">
+    <NoteDiffCommand midi-source="23513">
+      <ChangedNotes>
+        <Change property="Velocity" old="53" new="48" id="4284012"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1714149537" tv-usec="590010" name="change note velocity">
+    <NoteDiffCommand midi-source="23513">
+      <ChangedNotes>
+        <Change property="Velocity" old="48" new="42" id="4284012"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1714149543" tv-usec="715809" name="change note velocity">
+    <NoteDiffCommand midi-source="23513">
+      <ChangedNotes>
+        <Change property="Velocity" old="36" new="34" id="4284022"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1714149549" tv-usec="154433" name="change note velocity">
+    <NoteDiffCommand midi-source="23513">
+      <ChangedNotes>
+        <Change property="Velocity" old="61" new="52" id="4284032"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
   </UndoTransaction>
 </UndoHistory>
