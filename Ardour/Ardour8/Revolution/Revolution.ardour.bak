@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="753879" rg-counter="2084" name-counter="2" event-counter="58179465" vca-counter="1">
+<Session version="7002" name="Revolution" sample-rate="44100" session-range-is-free="0" id-counter="770853" rg-counter="2110" name-counter="2" event-counter="58404914" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2-840-g064275108c" modified-with="Ardour 8.6-836-ga84d6269aa"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -11,17 +11,10 @@
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
       <Connection other="Arpeggio/midi_in 1"/>
-      <Connection other="Bell/midi_in 1"/>
       <Connection other="Cymbal/midi_in 1"/>
-      <Connection other="Hard Snare/midi_in 1"/>
-      <Connection other="Heavy Bass/midi_in 1"/>
-      <Connection other="Lead Double/midi_in 1"/>
-      <Connection other="Lead/midi_in 1"/>
-      <Connection other="Light Bass/midi_in 1"/>
+      <Connection other="Low Bass/midi_in 1"/>
       <Connection other="Pad/midi_in 1"/>
-      <Connection other="Snare/midi_in 1"/>
-      <Connection other="Heavy Bass/midi_in 1"/>
-      <Connection other="Light Bass/midi_in 1"/>
+      <Connection other="Low Bass/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -1514,9 +1507,10 @@
     <Region name="Hard Snare-25.1" muted="1" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b11520@b979200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="18" tags="" contents="0" rgroup="0" id="409913" type="midi" first-edit="nothing" source-0="409911" master-source-0="409911"/>
     <Region name="Tom-38" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b11520" length="b1920@b1013760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="600408" type="midi" first-edit="nothing" source-0="600406" master-source-0="600406"/>
     <Region name="Cymbal-3" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b483840" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="702397" type="midi" first-edit="nothing" source-0="702395" master-source-0="702395"/>
+    <Region name="Cymbal-22.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b23040@b944640" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" id="718744" type="midi" first-edit="nothing" source-0="718742" master-source-0="718742"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="35224" control="0" order="18"/>
+    <StripableAutomationControl stripable="18567" control="0" order="5"/>
   </Selection>
   <Locations>
     <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
@@ -1545,15 +1539,15 @@
           <Connection other="Chorus/audio_out 1"/>
           <Connection other="Cymbal/audio_out 1"/>
           <Connection other="Hard Snare/audio_out 1"/>
-          <Connection other="Heavy Bass/audio_out 1"/>
           <Connection other="HiHat/audio_out 1"/>
+          <Connection other="High Bass/audio_out 1"/>
           <Connection other="Kick/audio_out 1"/>
           <Connection other="Lead Double/audio_out 1"/>
           <Connection other="Lead Triple/audio_out 1"/>
           <Connection other="Lead/audio_out 1"/>
-          <Connection other="Light Bass/audio_out 1"/>
           <Connection other="Long Delay/audio_out 1"/>
           <Connection other="Long Reverb/audio_out 1"/>
+          <Connection other="Low Bass/audio_out 1"/>
           <Connection other="Pad/audio_out 1"/>
           <Connection other="Short Delay/audio_out 1"/>
           <Connection other="Short Guitar/audio_out 1"/>
@@ -1571,15 +1565,15 @@
           <Connection other="Chorus/audio_out 2"/>
           <Connection other="Cymbal/audio_out 2"/>
           <Connection other="Hard Snare/audio_out 2"/>
-          <Connection other="Heavy Bass/audio_out 2"/>
           <Connection other="HiHat/audio_out 2"/>
+          <Connection other="High Bass/audio_out 2"/>
           <Connection other="Kick/audio_out 2"/>
           <Connection other="Lead Double/audio_out 2"/>
           <Connection other="Lead Triple/audio_out 2"/>
           <Connection other="Lead/audio_out 2"/>
-          <Connection other="Light Bass/audio_out 2"/>
           <Connection other="Long Delay/audio_out 2"/>
           <Connection other="Long Reverb/audio_out 2"/>
+          <Connection other="Low Bass/audio_out 2"/>
           <Connection other="Pad/audio_out 2"/>
           <Connection other="Short Delay/audio_out 2"/>
           <Connection other="Short Guitar/audio_out 2"/>
@@ -1640,7 +1634,7 @@ a67349504000 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="14969" flags="GainLike" value="0.089456459163247209"/>
+        <Controllable name="gaincontrol" id="14969" flags="GainLike" value="0.2061616149206357"/>
       </Processor>
       <Processor id="208659" name="ACE Compressor (stereo)" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="0">
         <Automation>
@@ -1746,7 +1740,7 @@ a67349504000 0
       <Processor id="14998" name="meter-Master" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Slavable/>
     </Route>
-    <Route version="7002" id="15063" name="Arpeggio" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="15141" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
+    <Route version="7002" id="15063" name="Arpeggio" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="15141" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
       <PresentationInfo order="1" flags="MidiTrack,OrderSet,TriggerTrack" color="4294508799"/>
       <Controllable name="solo" id="15104" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="15110" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -2287,6 +2281,7 @@ a52780940800 0.25118860602378845
       <Controllable name="solo-safe" id="18616" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Low Bass" id="18628" direction="Input" default-type="midi">
         <Port name="Low Bass/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -2670,9 +2665,9 @@ a52780940800 0.25118860602378845
         <ThruMap/>
         <luaproc last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <script lua="Lua 5.3" origin="/usr/share/ardour8/scripts/amp5.lua">YXJkb3VyIHsKCVsidHlwZSJdICAgID0gImRzcCIsCgluYW1lICAgICAgICA9ICJBQ0UgQW1wbGlmaWVyIiwKCWNhdGVnb3J5ICAgID0gIkFtcGxpZmllciIsCglsaWNlbnNlICAgICA9ICJNSVQiLAoJYXV0aG9yICAgICAgPSAiQXJkb3VyIENvbW11bml0eSIsCglkZXNjcmlwdGlvbiA9IFtbVmVyc2F0aWxlICsvLSAyMGRCIG11bHRpY2hhbm5lbCBhbXBsaWZpZXJdXQp9CgpmdW5jdGlvbiBkc3BfaW9jb25maWcgKCkKCXJldHVybgoJewoJCS0tIC0xLCAtMSA9IGFueSBudW1iZXIgb2YgY2hhbm5lbHMgYXMgbG9uZyBhcyBpbnB1dCBhbmQgb3V0cHV0IGNvdW50IG1hdGNoZXMKCQl7IGF1ZGlvX2luID0gLTEsIGF1ZGlvX291dCA9IC0xfSwKCX0KZW5kCgoKZnVuY3Rpb24gZHNwX3BhcmFtcyAoKQoJcmV0dXJuCgl7CgkJeyBbInR5cGUiXSA9ICJpbnB1dCIsIG5hbWUgPSAiR2FpbiIsIG1pbiA9IC0yMCwgbWF4ID0gMjAsIGRlZmF1bHQgPSAwLCB1bml0PSJkQiJ9LAoJfQplbmQKCmxvY2FsIHNyID0gNDgwMDAKbG9jYWwgY3VyX2dhaW4gPSAxCgpmdW5jdGlvbiBkc3BfaW5pdCAocmF0ZSkKCXNyID0gcmF0ZQplbmQKCmZ1bmN0aW9uIGRzcF9jb25maWd1cmUgKGlucywgb3V0cykKCW5fb3V0ICAgPSBvdXRzCgluX2F1ZGlvID0gb3V0czpuX2F1ZGlvICgpCglhc3NlcnQgKG91dHM6bl9taWRpICgpID09IDApCmVuZAoKLS0gdGhlIERTUCBjYWxsYmFjayBmdW5jdGlvbgpmdW5jdGlvbiBkc3BfcnVubWFwIChidWZzLCBpbl9tYXAsIG91dF9tYXAsIG5fc2FtcGxlcywgb2Zmc2V0KQoJLS0gYXBwbHkgSS9PIG1hcAoJQVJET1VSLkRTUC5wcm9jZXNzX21hcCAoYnVmcywgbl9vdXQsIGluX21hcCwgb3V0X21hcCwgbl9zYW1wbGVzLCBvZmZzZXQpCgoJbG9jYWwgY3RybCA9IEN0cmxQb3J0czphcnJheSgpIC0tIGdldCBjb250cm9sIHBvcnQgYXJyYXkKCWxvY2FsIHRhcmdldF9nYWluICA9IEFSRE9VUi5EU1AuZEJfdG9fY29lZmZpY2llbnQgKGN0cmxbMV0pIC0tIDEwIF4gKDAuMDUgKiBjdHJsWzFdKQoJbG9jYWwgY3VycmVudF9nYWluID0gY3VyX2dhaW4gLS0gc3RhcnQgd2l0aCB0aGUgc2FtZSBmb3IgYWxsIGNoYW5uZWxzCgljdXJfZ2FpbiA9IHRhcmdldF9nYWluIC0tIHVzZSB0YXJnZXQgZ2FpbiBpZiBubyBjaGFubmVsIGlzIG1hcHBlZC4KCglmb3IgYyA9IDEsIG5fYXVkaW8gZG8KCQlsb2NhbCBvYiA9IG91dF9tYXA6Z2V0IChBUkRPVVIuRGF0YVR5cGUgKCJhdWRpbyIpLCBjIC0gMSk7IC0tIGdldCBpZCBvZiBtYXBwZWQgb3V0cHV0IGJ1ZmZlciBmb3IgZ2l2ZW4gY2FubmVsCgkJaWYgKG9iIH49IEFSRE9VUi5DaGFuTWFwcGluZy5JbnZhbGlkKSB0aGVuCgkJCWN1cl9nYWluID0gQVJET1VSLkFtcC5hcHBseV9nYWluIChidWZzOmdldF9hdWRpbyhvYiksIHNyLCBuX3NhbXBsZXMsIGN1cnJlbnRfZ2FpbiwgdGFyZ2V0X2dhaW4sIG9mZnNldCkKCQllbmQKCWVuZAoKLS1bWwoJaWYgY3VycmVudF9nYWluIH49IGN1cl9nYWluIHRoZW4KCQlzZWxmOnF1ZXVlX2RyYXcgKCkgLS0gbm90aWZ5IGRpc3BsYXkKCWVuZAotLV1dCmVuZAoKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQotLS0gaW5saW5lIGRpc3BsYXkgKyB0ZXh0IGV4YW1wbGUKCi0tW1sKbG9jYWwgdHh0ID0gbmlsIC0tIGNhY2hlIHBhbmdvIGNvbnRleHQgZ2xvYmFsbHkKCmZ1bmN0aW9uIHJlbmRlcl9pbmxpbmUgKGN0eCwgdywgbWF4X2gpCglsb2NhbCBjdHJsID0gQ3RybFBvcnRzOmFycmF5ICgpIC0tIGdldCBjb250cm9sIHBvcnRzCgoJaWYgbm90IHR4dCB0aGVuCgkJLS0gYWxsb2NhdGUgUGFuZ29MYXlvdXQgYW5kIHNldCBmb250CgkJLS1odHRwOi8vbWFudWFsLmFyZG91ci5vcmcvbHVhLXNjcmlwdGluZy9jbGFzc19yZWZlcmVuY2UvI0NhaXJvOlBhbmdvTGF5b3V0CgkJdHh0ID0gQ2Fpcm8uUGFuZ29MYXlvdXQgKGN0eCwgIk1vbm8gOHB4IikKCWVuZAoKCXR4dDpzZXRfdGV4dCAoc3RyaW5nLmZvcm1hdCAoIiUrLjJmIGRCIiwgY3RybFsxXSkpOwoJdHcsIHRoID0gdHh0OmdldF9waXhlbF9zaXplICgpCgoJbG9jYWwgaCA9IHRoICsgNCAtLSB1c2UgdGV4dC1oZWlnaHQgd2l0aCA0cHggcGFkZGluZwoJaWYgKGggPiBtYXhfaCkgdGhlbiBoID0gbWF4X2ggZW5kIC0tIGJ1dCBhdCBtb3N0IG1heC1oZWlnaHQKCgktLSBjbGVhciBiYWNrZ3JvdW5kCgljdHg6cmVjdGFuZ2xlICgwLCAwLCB3LCBoKQoJY3R4OnNldF9zb3VyY2VfcmdiYSAoLjIsIC4yLCAuMiwgMS4wKQoJY3R4OmZpbGwgKCkKCgktLSBjZW50ZXIgdGV4dAoJY3R4OnNldF9zb3VyY2VfcmdiYSAoLjgsIC44LCAuOCwgMS4wKQoJY3R4Om1vdmVfdG8gKC41ICogKHcgLSB0dyksIC41ICogKGggLSB0aCkpCgl0eHQ6c2hvd19pbl9jYWlyb19jb250ZXh0IChjdHgpCgoJcmV0dXJuIHt3LCBofQplbmQKLS1dXQo=</script>
-          <Port id="0" value="3"/>
+          <Port id="0" value="2"/>
         </luaproc>
-        <Controllable name="Gain" id="753333" flags="" value="3" parameter="0"/>
+        <Controllable name="Gain" id="753333" flags="" value="2" parameter="0"/>
       </Processor>
       <Processor id="18630" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
         <Automation>
@@ -2713,7 +2708,7 @@ a52780940800 0.50118720531463623
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="32180" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="32174" flags="GainLike,InlineControl" value="0.11197612434625626"/>
+        <Controllable name="gaincontrol" id="32174" flags="GainLike,InlineControl" value="0.089200951159000397"/>
       </Processor>
       <Processor id="18634" name="meter-OctaSine v0.9" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="18635" name="Low Bass" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Low Bass" type="main-outs" role="Main">
@@ -3435,7 +3430,6 @@ a64734630400 2
       <Controllable name="solo-safe" id="35273" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="High Bass" id="35285" direction="Input" default-type="midi">
         <Port name="High Bass/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -11376,10 +11370,9 @@ a51660281600 0.50118720531463623
       <Region name="Cymbal-20.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b23040@b806400" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="6" tags="" contents="0" rgroup="0" id="718727" type="midi" first-edit="nothing" source-0="718699" master-source-0="718699"/>
       <Region name="Cymbal-19.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b23040@b829440" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="0" id="718721" type="midi" first-edit="nothing" source-0="718691" master-source-0="718691"/>
       <Region name="Cymbal-18.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b23040@b852480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" id="718715" type="midi" first-edit="nothing" source-0="718683" master-source-0="718683"/>
-      <Region name="Cymbal-25.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b23040@b875520" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="11" tags="" contents="0" rgroup="0" id="718765" type="midi" first-edit="nothing" source-0="718763" master-source-0="718763"/>
-      <Region name="Cymbal-24.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b23040@b898560" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="10" tags="" contents="0" rgroup="0" id="718758" type="midi" first-edit="nothing" source-0="718756" master-source-0="718756"/>
-      <Region name="Cymbal-23.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b23040@b921600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="0" id="718751" type="midi" first-edit="nothing" source-0="718749" master-source-0="718749"/>
-      <Region name="Cymbal-22.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b23040@b944640" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" id="718744" type="midi" first-edit="nothing" source-0="718742" master-source-0="718742"/>
+      <Region name="Cymbal-25.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b23040@b875520" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="10" tags="" contents="0" rgroup="0" id="718765" type="midi" first-edit="nothing" source-0="718763" master-source-0="718763"/>
+      <Region name="Cymbal-24.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b23040@b898560" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="0" id="718758" type="midi" first-edit="nothing" source-0="718756" master-source-0="718756"/>
+      <Region name="Cymbal-23.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b23040@b921600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" id="718751" type="midi" first-edit="nothing" source-0="718749" master-source-0="718749"/>
     </Playlist>
   </Playlists>
   <UnusedPlaylists>
@@ -11504,7 +11497,7 @@ a51660281600 0.50118720531463623
         <Field name="date" enabled="0" value="D_None"/>
       </ExportFilename>
     </RangeExportProfile>
-    <ExportRevision revision="14"/>
+    <ExportRevision revision="15"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="16973" realtime="0"/>
@@ -11606,8 +11599,10 @@ a51660281600 0.50118720531463623
       <Window name="PM-102768-393062" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-18567-32184" visible="0" x-off="1050" y-off="229" x-size="451" y-size="325" custom-ui="1"/>
       <Window name="P-18567-18676" visible="0" x-off="1050" y-off="226" x-size="1250" y-size="877" custom-ui="1"/>
+      <Window name="P-18567-753331" visible="0" x-off="1050" y-off="263" x-size="451" y-size="265" custom-ui="1"/>
       <Window name="PM-18567-32184" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-18567-18676" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-18567-753331" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-35224-165682" visible="0" x-off="1050" y-off="239" x-size="451" y-size="325" custom-ui="1"/>
       <Window name="P-35224-35357" visible="0" x-off="1050" y-off="226" x-size="1250" y-size="875" custom-ui="1"/>
       <Window name="PM-35224-165682" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -11665,8 +11660,10 @@ a51660281600 0.50118720531463623
       <Window name="PM-207444-216380" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-216908-428367" visible="0" x-off="1050" y-off="248" x-size="451" y-size="325" custom-ui="1"/>
       <Window name="P-216908-217139" visible="0" x-off="1050" y-off="226" x-size="1253" y-size="874" custom-ui="1"/>
+      <Window name="P-216908-753792" visible="0" x-off="1050" y-off="226" x-size="918" y-size="777" custom-ui="1"/>
       <Window name="PM-216908-428367" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-216908-217139" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-216908-753792" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-701815-702062" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-701815-702342" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-701815-702302" visible="0" x-off="1050" y-off="226" x-size="1380" y-size="561" custom-ui="1"/>
@@ -11685,10 +11682,6 @@ a51660281600 0.50118720531463623
       <Window name="PM-57327-63539" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-637165-637210" visible="0" x-off="1050" y-off="226" x-size="1380" y-size="561" custom-ui="1"/>
       <Window name="PM-637165-637210" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-18567-753331" visible="0" x-off="1050" y-off="263" x-size="451" y-size="265" custom-ui="0"/>
-      <Window name="PM-18567-753331" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-216908-753792" visible="0" x-off="1050" y-off="226" x-size="918" y-size="777" custom-ui="1"/>
-      <Window name="PM-216908-753792" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 14965" height="40"/>
         <Object id="automation 14969" height="40" visible="1"/>
