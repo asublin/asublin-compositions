@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Dai Mi Kunefe" sample-rate="44100" session-range-is-free="0" id-counter="37599" rg-counter="412" name-counter="1" event-counter="11478461" vca-counter="1">
-  <ProgramVersion created-with="Ardour 8.2-784-g3ce1719658" modified-with="Ardour 8.6-34-g895fe2f753"/>
+<Session version="7002" name="Dai Mi Kunefe" sample-rate="44100" session-range-is-free="0" id-counter="40229" rg-counter="476" name-counter="1" event-counter="12553905" vca-counter="1">
+  <ProgramVersion created-with="Ardour 8.2-784-g3ce1719658" modified-with="Ardour 8.6-836-ga84d6269aa"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
     <Port name="MIDI Clock out" type="midi" direction="Output"/>
@@ -10,9 +10,8 @@
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
-      <Connection other="Bass/midi_in 1"/>
-      <Connection other="Counterpoint/midi_in 1"/>
-      <Connection other="Counterpoint/midi_in 1"/>
+      <Connection other="Performance/midi_in 1"/>
+      <Connection other="Performance/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -111,9 +110,7 @@
     <Region name="Bass-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b445531@a50182560000" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="9496" type="midi" first-edit="nothing" source-0="9492" master-source-0="9492"/>
     <Region name="Bass-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b185374" length="b273077@b868130" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="2768" id="9499" type="midi" first-edit="nothing" source-0="9492" master-source-0="9492"/>
   </Regions>
-  <Selection>
-    <StripableAutomationControl stripable="5306" control="0" order="4"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="1972" name="session" start="b347693" end="b1140986" flags="IsSessionRange" locked="0" timestamp="1712238052" cue="0"/>
     <Location id="9145" name="Refrain" start="b1876" end="b1876" flags="IsMark" locked="0" timestamp="1712248381" cue="0"/>
@@ -1033,7 +1030,9 @@
       <Controllable name="solo-safe" id="1703" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Performance" id="1715" direction="Input" default-type="midi">
         <Port name="Performance/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="a2j:UMX 610 [28] (capture): UMX 610 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Performance" id="1716" direction="Output" default-type="midi">
@@ -1584,7 +1583,6 @@
       <Controllable name="solo-safe" id="5355" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Counterpoint" id="5367" direction="Input" default-type="midi">
         <Port name="Counterpoint/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -2138,6 +2136,12 @@ b1026889 0.091666638851165771
       <Window name="P-71-932" visible="1" x-off="179" y-off="666" x-size="633" y-size="154" custom-ui="1"/>
       <Window name="PM-71-34361" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-71-932" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-5306-9537" visible="0" x-off="1920" y-off="483" x-size="451" y-size="325" custom-ui="1"/>
+      <Window name="P-5306-5448" visible="0" x-off="559" y-off="809" x-size="481" y-size="557" custom-ui="1"/>
+      <Window name="P-5306-9267" visible="0" x-off="1920" y-off="467" x-size="720" y-size="414" custom-ui="1"/>
+      <Window name="PM-5306-9537" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-5306-5448" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-5306-9267" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-173-944" visible="0" x-off="1920" y-off="485" x-size="451" y-size="325" custom-ui="1"/>
       <Window name="P-173-277" visible="0" x-off="790" y-off="887" x-size="481" y-size="557" custom-ui="1"/>
       <Window name="P-173-954" visible="0" x-off="1920" y-off="467" x-size="918" y-size="777" custom-ui="1"/>
@@ -2154,12 +2158,6 @@ b1026889 0.091666638851165771
       <Window name="PM-5140-9520" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-5140-5519" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-5140-5501" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-5306-9537" visible="0" x-off="1920" y-off="483" x-size="451" y-size="325" custom-ui="1"/>
-      <Window name="P-5306-5448" visible="0" x-off="559" y-off="809" x-size="481" y-size="557" custom-ui="1"/>
-      <Window name="P-5306-9267" visible="0" x-off="1920" y-off="467" x-size="720" y-size="414" custom-ui="1"/>
-      <Window name="PM-5306-9537" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-5306-5448" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-5306-9267" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-423-468" visible="0" x-off="1920" y-off="467" x-size="1380" y-size="561" custom-ui="1"/>
       <Window name="PM-423-468" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1817-1863" visible="0" x-off="1920" y-off="467" x-size="881" y-size="462" custom-ui="1"/>
@@ -2169,7 +2167,7 @@ b1026889 0.091666638851165771
       <Window name="P-9329-9374" visible="0" x-off="1920" y-off="467" x-size="934" y-size="469" custom-ui="1"/>
       <Window name="PM-9329-9374" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
-        <Object id="rtav 71" height="65"/>
+        <Object id="rtav 71" height="290"/>
         <Object id="automation 75" height="65" visible="0"/>
         <Object id="automation 77" height="65" visible="0"/>
         <Object id="automation 71 12/0/0" height="65" visible="0"/>
@@ -2214,7 +2212,7 @@ b1026889 0.091666638851165771
             <Object id="InlineDisplay" visible="1"/>
           </Object>
         </Object>
-        <Object id="rtav 173" height="65" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="71" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="rtav 173" height="290" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="71" color-mode="MeterColors" midnam-channel="Channel  1"/>
         <Object id="automation 210" height="65" visible="0"/>
         <Object id="automation 173 12/0/0" height="65" visible="0"/>
         <Object id="automation 173 31/0/0" height="59" visible="0"/>
@@ -2299,7 +2297,7 @@ b1026889 0.091666638851165771
             <Object id="control 419" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 423" height="65"/>
+        <Object id="rtav 423" height="290"/>
         <Object id="automation 427" height="65" visible="0"/>
         <Object id="automation 429" height="65" visible="0"/>
         <Object id="automation 423 12/0/0" height="65" visible="0"/>
@@ -2329,7 +2327,7 @@ b1026889 0.091666638851165771
             <Object id="control 504" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 1484" height="65" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="71" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="rtav 1484" height="290" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="71" color-mode="MeterColors" midnam-channel="Channel  1"/>
         <Object id="automation 1521" height="65" visible="0"/>
         <Object id="automation 1484 12/0/0" height="65" visible="0"/>
         <Object id="automation 1484 31/0/0" height="59" visible="0"/>
@@ -2366,7 +2364,7 @@ b1026889 0.091666638851165771
           </Object>
         </Object>
         <Object id="automation 1536" height="65" visible="0"/>
-        <Object id="rtav 1654" height="65" midnam-custom-device-mode="General MIDI" note-range-min="45" note-range-max="110" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="rtav 1654" height="653" midnam-custom-device-mode="General MIDI" note-range-min="45" note-range-max="110" color-mode="MeterColors" midnam-channel="Channel  1"/>
         <Object id="automation 1691" height="65" visible="0"/>
         <Object id="automation 1654 12/0/0" height="65" visible="0"/>
         <Object id="automation 1654 31/0/0" height="59" visible="0"/>
@@ -2390,7 +2388,7 @@ b1026889 0.091666638851165771
           </Object>
         </Object>
         <Object id="automation 1706" height="99" visible="0"/>
-        <Object id="rtav 1817" height="65"/>
+        <Object id="rtav 1817" height="290"/>
         <Object id="automation 1821" height="65" visible="0"/>
         <Object id="automation 1823" height="65" visible="0"/>
         <Object id="automation 1817 12/0/0" height="65" visible="0"/>
@@ -2431,7 +2429,7 @@ b1026889 0.091666638851165771
           </Object>
         </Object>
         <Object id="automation 1654 13/64/0" height="65" visible="1"/>
-        <Object id="rtav 5140" height="65" midnam-custom-device-mode="General MIDI" note-range-min="33" note-range-max="64" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="rtav 5140" height="290" midnam-custom-device-mode="General MIDI" note-range-min="33" note-range-max="64" color-mode="MeterColors" midnam-channel="Channel  1"/>
         <Object id="automation 5177" height="65" visible="0"/>
         <Object id="automation 5140 12/0/0" height="65" visible="0"/>
         <Object id="automation 5140 31/0/0" height="59" visible="1"/>
@@ -2492,7 +2490,7 @@ b1026889 0.091666638851165771
           </Object>
         </Object>
         <Object id="automation 5192" height="65" visible="0"/>
-        <Object id="rtav 5306" height="65" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="81" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="rtav 5306" height="290" midnam-custom-device-mode="General MIDI" note-range-min="60" note-range-max="81" color-mode="MeterColors" midnam-channel="Channel  1"/>
         <Object id="automation 5343" height="65" visible="0"/>
         <Object id="automation 5306 12/0/0" height="65" visible="0"/>
         <Object id="automation 5306 31/0/0" height="59" visible="0"/>
@@ -2588,7 +2586,7 @@ b1026889 0.091666638851165771
             <Object id="control 9412" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 9329" height="65"/>
+        <Object id="rtav 9329" height="290"/>
         <Object id="automation 9333" height="65" visible="0"/>
         <Object id="automation 9335" height="65" visible="0"/>
         <Object id="automation 9329 12/0/0" height="65" visible="0"/>
@@ -2600,7 +2598,7 @@ b1026889 0.091666638851165771
         <Object id="automation 5306 32/0/0" height="65" visible="0"/>
       </GUIObjectState>
     </UI>
-    <ExportRevision revision="2"/>
+    <ExportRevision revision="3"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="1972" realtime="0"/>
