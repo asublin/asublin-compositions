@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Dai Mi Kunefe" sample-rate="44100" session-range-is-free="0" id-counter="40227" rg-counter="473" name-counter="1" event-counter="12513935" vca-counter="1">
+<Session version="7002" name="Dai Mi Kunefe" sample-rate="44100" session-range-is-free="0" id-counter="42404" rg-counter="481" name-counter="1" event-counter="12751830" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2-784-g3ce1719658" modified-with="Ardour 8.6-836-ga84d6269aa"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -10,7 +10,6 @@
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
-      <Connection other="Performance/midi_in 1"/>
       <Connection other="Performance/midi_in 1"/>
     </Port>
   </MIDIPorts>
@@ -2097,7 +2096,7 @@ b1026889 0.091666638851165771
   <Extra>
     <AddRouteDialog LastRouteType="AudioBus"/>
     <RulerVisibility minsec="1" timecode="0" samples="0" bbt="1" meter="0" tempo="1" rangemarker="0" transportmarker="0" cdmarker="0" arrangement="0" marker="1" cuemarker="0" videotl="0"/>
-    <ExportRevision revision="2"/>
+    <ExportRevision revision="3"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="1972" realtime="0"/>
@@ -2161,12 +2160,6 @@ b1026889 0.091666638851165771
       <Window name="P-71-932" visible="1" x-off="179" y-off="666" x-size="633" y-size="154" custom-ui="1"/>
       <Window name="PM-71-34361" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-71-932" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-5306-9537" visible="0" x-off="1920" y-off="483" x-size="451" y-size="325" custom-ui="1"/>
-      <Window name="P-5306-5448" visible="0" x-off="559" y-off="809" x-size="481" y-size="557" custom-ui="1"/>
-      <Window name="P-5306-9267" visible="0" x-off="1920" y-off="467" x-size="720" y-size="414" custom-ui="1"/>
-      <Window name="PM-5306-9537" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-5306-5448" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-5306-9267" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-173-944" visible="0" x-off="1920" y-off="485" x-size="451" y-size="325" custom-ui="1"/>
       <Window name="P-173-277" visible="0" x-off="790" y-off="887" x-size="481" y-size="557" custom-ui="1"/>
       <Window name="P-173-954" visible="0" x-off="1920" y-off="467" x-size="918" y-size="777" custom-ui="1"/>
@@ -2183,6 +2176,12 @@ b1026889 0.091666638851165771
       <Window name="PM-5140-9520" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-5140-5519" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-5140-5501" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-5306-9537" visible="0" x-off="1920" y-off="483" x-size="451" y-size="325" custom-ui="1"/>
+      <Window name="P-5306-5448" visible="0" x-off="559" y-off="809" x-size="481" y-size="557" custom-ui="1"/>
+      <Window name="P-5306-9267" visible="0" x-off="1920" y-off="467" x-size="720" y-size="414" custom-ui="1"/>
+      <Window name="PM-5306-9537" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-5306-5448" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-5306-9267" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-423-468" visible="0" x-off="1920" y-off="467" x-size="1380" y-size="561" custom-ui="1"/>
       <Window name="PM-423-468" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1817-1863" visible="0" x-off="1920" y-off="467" x-size="881" y-size="462" custom-ui="1"/>
