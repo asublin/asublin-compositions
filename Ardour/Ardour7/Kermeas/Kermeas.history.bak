@@ -1,3384 +1,793 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1690698695" tv-usec="86503" name="automation event move">
-    <MementoUndoCommand obj-id="8356026" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a60878131200 1999.99951171875
-a70024236800 5
+  <UndoTransaction tv-sec="1716014280" tv-usec="109403" name="automation event move">
+    <MementoUndoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.089125066995620728
+a6002060800 0.6958044171333313
 </events>
       </AutomationList>
     </MementoUndoCommand>
-    <MementoRedoCommand obj-id="8356026" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a53161152000 1999.99951171875
-a70024236800 5
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="2009763" automation-list-id="2010352" parameter="parameter-213" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="2009763" automation-list-id="2010352" parameter="parameter-213" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690698700" tv-usec="124965" name="automation event move">
-    <MementoUndoCommand obj-id="8356026" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a53161152000 1999.99951171875
-a70024236800 5
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="8356026" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a53161152000 1999.99951171875
-a59163219200 5
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="2009763" automation-list-id="2010352" parameter="parameter-213" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="2009763" automation-list-id="2010352" parameter="parameter-213" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690698723" tv-usec="155231" name="move tempo mark">
-    <MementoCommand obj-id="10247" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-20" id="10247" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20000
-b46080 20000
-b109440 20000
-b168961 38.160152435302734
-b230400 20000
-b476160 1533.9713134765625
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-20" id="10247" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20000
-b46080 20000
-b109440 20000
-b168961 38.160152435302734
-b230400 20000
-b476160 1533.9713134765625
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="10249" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-21" id="10249" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b46080 312.67050170898438
-b92160 447.21359252929688
-b107520 878.90081787109375
-b168961 350
-b230400 328.00003051757812
-b337920 274.24905395507812
-b353280 1017.1455078125
-b476160 306.20004272460938
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-21" id="10249" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b46080 312.67050170898438
-b92160 447.21359252929688
-b107520 878.90081787109375
-b168961 350
-b230400 328.00003051757812
-b337920 274.24905395507812
-b353280 1017.1455078125
-b476160 306.20004272460938
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="206" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="206" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a2572313600 0.99999994039535522
-a6002065832 0.99999994039535522
-a12861568000 0.50118720531463623
-a19721073448 0.50118720531463623
-a26580577256 0.25118860602378845
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="206" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a2572313600 0.99999994039535522
-a6002065832 0.99999994039535522
-a12861568000 0.50118720531463623
-a19721073448 0.50118720531463623
-a26580577256 0.25118860602378845
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="3517" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="3517" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a6002065832 0.50118720531463623
-a9431817736 0.019077355042099953
-a19721073448 0.86958742141723633
-a33440076800 0.03162277489900589
-a47159078400 0.50118720531463623
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="3517" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a6002065832 0.50118720531463623
-a9431817736 0.019077355042099953
-a19721073448 0.86958742141723633
-a33440076800 0.03162277489900589
-a47159078400 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="5179" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="5179" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1
-a6002060800 0.99999994039535522
-a9431929382 1.4453465938568115
-a19721073448 1.7773479223251343
-a33440097256 0.99999994039535522
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="5179" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1
-a6002060800 0.99999994039535522
-a9431929382 1.4453465938568115
-a19721073448 1.7773479223251343
-a33440097256 0.99999994039535522
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="864029" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-4" id="864029" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20
-b99840 20
-b168960 121.71205139160156
-b176635 142.03042602539062
-b184322 206.321044921875
-b238080 81.121894836425781
-b353280 918.73919677734375
-b537600 899.99981689453125
-b591360 20000
-b599040 7325.9658203125
-b600960 108.71269226074219
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-4" id="864029" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20
-b99840 20
-b168960 121.71205139160156
-b176635 142.03042602539062
-b184322 206.321044921875
-b238080 81.121894836425781
-b353280 918.73919677734375
-b537600 899.99981689453125
-b591360 20000
-b599040 7325.9658203125
-b600960 108.71269226074219
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="1492162" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-4" id="1492162" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 18000
-b107520 20.000001907348633
-b230398 400
-b353280 836.8575439453125
-b599040 20
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-4" id="1492162" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 18000
-b107520 20.000001907348633
-b230398 400
-b353280 836.8575439453125
-b599040 20
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="2045031" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="2045031" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 99.999992370605469
-b107520 599.9998779296875
-b168962 400
-b230400 99.999992370605469
-b721920 128.99952697753906
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-1" id="2045031" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 99.999992370605469
-b107520 599.9998779296875
-b168962 400
-b230400 99.999992370605469
-b721920 128.99952697753906
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="2609750" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="2609750" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
+    <MementoRedoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.089125066995620728
 a6002060800 0.70794570446014404
-a9431817736 0.70794570446014404
-a12861681286 0.043796457350254059
-</events>
-      </AutomationList>
-      <AutomationList automation-id="send" id="2609750" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a6002060800 0.70794570446014404
-a9431817736 0.70794570446014404
-a12861681286 0.043796457350254059
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="10300" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="10300" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1.4125375747680664
-a6109241600 0.99999994039535522
-a9538880000 0.50118720531463623
-a12861568000 1.4125375747680664
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="10300" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1.4125375747680664
-a6109245579 0.99999994039535522
-a9538885837 0.50118720531463623
-a12861568000 1.4125375747680664
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="2010352" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-213" id="2010352" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-        <events>b0 0
-b599040 0
-b721920 1
-b783360 1
-b784641 0.82432430982589722
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-213" id="2010352" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-        <events>b0 0
-b599040 0
-b721920 1
-b783360 1
-b784641 0.82432430982589722
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="6760642" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="6760642" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26562713965 1.4125375747680664
-a27009292800 0.70794570446014404
-a29152889600 0.62967509031295776
-a30010329160 1.4125375747680664
-a30439046400 0.59826904535293579
-a33011360000 0.39281979203224182
-a33440096000 2
-a34297516800 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 2
-</events>
-      </AutomationList>
-      <AutomationList automation-id="send" id="6760642" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26562713965 1.4125375747680664
-a27009292800 0.70794570446014404
-a29152889600 0.62967509031295776
-a30010329160 1.4125375747680664
-a30439046400 0.59826904535293579
-a33011360000 0.39281979203224182
-a33440096000 2
-a34297516800 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 2
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="6760619" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26580577256 0.70794570446014404
-a26909804800 0
-a28724166400 0
-a30010323200 0.84139508008956909
-a30439046400 0
-a32582636800 0.00014709496463183314
-a33440076800 2
-a33868800000 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 1.4125375747680664
-a54161498856 0.056025993078947067
-a54876033256 0.0058198985643684864
-</events>
-      </AutomationList>
-      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26580577256 0.70794570446014404
-a26909804800 0
-a28724166400 0
-a30010323200 0.84139508008956909
-a30439046400 0
-a32582636800 0.00014709496463183314
-a33440076800 2
-a33868800000 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 1.4125375747680664
-a54161498856 0.056025993078947067
-a54876033256 0.0058198985643684864
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <TempoCommand name="move tempo">
-      <before>
-        <TempoMap superclocks-per-second="282240000">
-          <Tempos>
-            <Tempo npm="157.99999975741684" enpm="157.99999975741684" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="0" quarters="0:0" bbt="1|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="33440081064" quarters="312:0" bbt="79|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="47159088680" quarters="376:0" bbt="95|1|0" omega="0"/>
-            <Tempo npm="236.99999853050596" enpm="236.99999853050596" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="60878096296" quarters="440:0" bbt="111|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="250" note-type="4" type="Ramped" active="1" locked-to-meter="0" continuing="0" sclock="74597103976" quarters="632:0" bbt="159|1|0" omega="0"/>
-          </Tempos>
-          <Meters>
-            <Meter note-value="4" divisions-per-bar="4" sclock="0" quarters="0:0" bbt="1|1|0"/>
-          </Meters>
-          <MusicTimes/>
-        </TempoMap>
-      </before>
-      <after>
-        <TempoMap superclocks-per-second="282240000">
-          <Tempos>
-            <Tempo npm="157.99999975741684" enpm="157.99999975741684" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="0" quarters="0:0" bbt="1|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="33440081064" quarters="312:0" bbt="79|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="47159088680" quarters="376:0" bbt="95|1|0" omega="0"/>
-            <Tempo npm="236.99999853050596" enpm="236.99999853050596" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="53161154512" quarters="404:0" bbt="102|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="250" note-type="4" type="Ramped" active="1" locked-to-meter="0" continuing="0" sclock="69452476132" quarters="632:0" bbt="159|1|0" omega="0"/>
-          </Tempos>
-          <Meters>
-            <Meter note-value="4" divisions-per-bar="4" sclock="0" quarters="0:0" bbt="1|1|0"/>
-          </Meters>
-          <MusicTimes/>
-        </TempoMap>
-      </after>
-    </TempoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="2009763" automation-list-id="2010352" parameter="parameter-213" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="2009763" automation-list-id="2010352" parameter="parameter-213" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690698736" tv-usec="851835" name="region drag">
-    <StatefulDiffCommand obj-id="10283309" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286501280@a56305105912" to="a2286501280@a56304957834"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284462" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286513559@a58591693766" to="a2286513559@a58591545688"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284455" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286501280@a60878170110" to="a2286501280@a60878022032"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283563" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a67737736038" to="a6859491664@a67737587960"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283570" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a74597239846" to="a6859491664@a74597091768"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283789" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a81456780734" to="a6859491664@a81456632656"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283796" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a88316284542" to="a6859491664@a88316136464"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283323" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286575710@a56305105912" to="a2286575710@a56304957834"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284469" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286525703@a58591681622" to="a2286525703@a58591533544"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284476" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286575710@a60878170110" to="a2286575710@a60878022032"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283584" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a67737723894" to="a6859491664@a67737575816"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283577" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a74597215558" to="a6859491664@a74597067480"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283810" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a81456768590" to="a6859491664@a81456620512"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283803" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a88316260254" to="a6859491664@a88316112176"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284490" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164709222" to="b61440@a63164561144"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284483" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451173286" to="b61440@a65451025208"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283591" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310639911" to="b61440@a72310491833"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283598" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597215622" to="b61440@a74597067544"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283817" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456831075" to="b61440@a81456682997"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283824" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316223238" to="b61440@a88316075160"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284504" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164709222" to="b61440@a63164561144"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284497" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451210502" to="b61440@a65451062424"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283633" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310639911" to="b61440@a72310491833"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283640" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597215622" to="b61440@a74597067544"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283859" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456831075" to="b61440@a81456682997"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283866" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316334883" to="b61440@a88316186805"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284511" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164672006" to="b61440@a63164523928"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284518" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451210502" to="b61440@a65451062424"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283654" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310639911" to="b61440@a72310491833"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283647" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597215622" to="b61440@a74597067544"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283880" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456719430" to="b61440@a81456571352"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283873" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316334883" to="b61440@a88316186805"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283386" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a54018704134" to="b61440@a54018556056"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283379" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a60878133511" to="b61440@a60877985433"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284532" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164709222" to="b61440@a63164561144"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284525" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451210502" to="b61440@a65451062424"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283605" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310639911" to="b61440@a72310491833"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283612" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597215622" to="b61440@a74597067544"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283831" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456831075" to="b61440@a81456682997"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283838" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316334883" to="b61440@a88316186805"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283400" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a54018704134" to="b61440@a54018556056"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283393" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a60878133511" to="b61440@a60877985433"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284546" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164709222" to="b61440@a63164561144"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284539" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451210502" to="b61440@a65451062424"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283661" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310639911" to="b61440@a72310491833"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283668" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597215622" to="b61440@a74597067544"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283887" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456831075" to="b61440@a81456682997"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283894" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316334883" to="b61440@a88316186805"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284560" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286497151@a58591710174" to="a2286497151@a58591562096"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284553" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286575710@a60878170110" to="a2286575710@a60878022032"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283675" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a67737752446" to="a6859491664@a67737604368"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283682" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a74597260518" to="a6859491664@a74597112440"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283901" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a81456797142" to="a6859491664@a81456649064"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283908" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a88316305214" to="a6859491664@a88316157136"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284574" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164709222" to="b61440@a63164561144"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284567" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451173286" to="b61440@a65451025208"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283689" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310639911" to="b61440@a72310491833"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283696" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597215622" to="b61440@a74597067544"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283922" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456831075" to="b61440@a81456682997"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283915" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316334883" to="b61440@a88316186805"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284588" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164709222" to="b61440@a63164561144"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284581" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451173286" to="b61440@a65451025208"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283731" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310639911" to="b61440@a72310491833"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283738" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597215622" to="b61440@a74597067544"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283964" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456831075" to="b61440@a81456682997"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283957" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316334883" to="b61440@a88316186805"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283449" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286575710@a56305089504" to="a2286575710@a56304941426"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284595" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286497151@a58591693766" to="a2286497151@a58591545688"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284602" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286575710@a60878153702" to="a2286575710@a60878005624"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283724" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859508072@a67737736038" to="a6859508072@a67737587960"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283717" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859508072@a74597244110" to="a6859508072@a74597096032"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283950" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859508072@a81456780734" to="a6859508072@a81456632656"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283943" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859508072@a88316288806" to="a6859508072@a88316140728"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283470" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a54018704134" to="a142869250@a54018556056"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285140" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a63164597576" to="a142869250@a63164449498"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285134" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a63307466691" to="a142869250@a63307318613"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285130" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a63450335806" to="a142869250@a63450187728"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285136" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a63593204920" to="a142869250@a63593056842"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285122" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a63736074035" to="a142869250@a63735925957"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285128" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a63878943150" to="a142869250@a63878795072"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285126" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64021812265" to="a142869250@a64021664187"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285124" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64164681380" to="a142869250@a64164533302"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285116" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64307550494" to="a142869250@a64307402416"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285114" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64450419609" to="a142869250@a64450271531"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285138" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64593288724" to="a142869250@a64593140646"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285132" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64736157839" to="a142869250@a64736009761"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285118" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64879026954" to="a142869250@a64878878876"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285120" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a65021896069" to="a142869250@a65021747991"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285112" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a65164765183" to="a142869250@a65164617105"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285142" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a65307634298" to="a142869250@a65307486220"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283619" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310639911" to="b61440@a72310491833"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283626" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597215622" to="b61440@a74597067544"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283845" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456831075" to="b61440@a81456682997"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283852" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316334883" to="b61440@a88316186805"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283498" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a54018704134" to="b30720@a54018556056"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283491" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a57448344392" to="b30720@a57448196314"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283484" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a60878096296" to="b30720@a60877948218"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283477" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a62021346936" to="b30720@a62021198858"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284623" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a63164709222" to="b30720@a63164561144"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284644" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a64307922646" to="b30720@a64307774568"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284637" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a65451173286" to="b30720@a65451025208"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284630" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a66594423926" to="b30720@a66594275848"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283556" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a72310639911" to="b30720@a72310491833"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283535" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a73453890551" to="b30720@a73453742473"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283542" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a74597215622" to="b30720@a74597067544"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283549" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a78026967526" to="b30720@a78026819448"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283768" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a81456831075" to="b30720@a81456682997"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283775" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a84886582979" to="b30720@a84886434901"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283782" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a88316334883" to="b30720@a88316186805"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283761" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a91746086787" to="b30720@a91745938709"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283505" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286579974@a56305093768" to="a2286579974@a56304945690"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284658" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286497151@a58591702294" to="a2286497151@a58591554216"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284651" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286579974@a60878157966" to="a2286579974@a60878009888"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283703" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859499544@a67737744566" to="a6859499544@a67737596488"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283710" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859499544@a74597248374" to="a6859499544@a74597100296"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283929" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859499544@a81456789262" to="a6859499544@a81456641184"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283936" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859499544@a88316293070" to="a6859499544@a88316144992"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="11957" name="session" start="b46080" end="a63736222896" flags="IsSessionRange" locked="0" timestamp="1688799882" cue="0"/>
-        <Location id="79890" name="Loop" start="a63164597576" end="a65451098856" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
-        <Location id="9693403" name="Slow" start="a33440093208" end="a33440093208" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
-        <Location id="10253373" name="Main Theme" start="a6115944313" end="a6115944313" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
-        <Location id="10253380" name="Variation" start="a19772821170" end="a19772821170" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
-      </Locations>
-      <Locations>
-        <Location id="11957" name="session" start="b46080" end="a63736222896" flags="IsSessionRange" locked="0" timestamp="1688799882" cue="0"/>
-        <Location id="79890" name="Loop" start="a63164597576" end="a65451098856" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
-        <Location id="9693403" name="Slow" start="a33440093208" end="a33440093208" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
-        <Location id="10253373" name="Main Theme" start="a6115944313" end="a6115944313" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
-        <Location id="10253380" name="Variation" start="a19772821170" end="a19772821170" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
-      </Locations>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="10283400"/>
-            <Region id="10283386"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="10283400"/>
-            <Region id="10283386"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690699013" tv-usec="118058" name="move tempo mark">
-    <MementoCommand obj-id="10247" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-20" id="10247" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20000
-b46080 20000
-b109440 20000
-b168961 38.160152435302734
-b230400 20000
-b476160 1533.9713134765625
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-20" id="10247" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20000
-b46080 20000
-b109440 20000
-b168961 38.160152435302734
-b230400 20000
-b476160 1533.9713134765625
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="10249" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-21" id="10249" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b46080 312.67050170898438
-b92160 447.21359252929688
-b107520 878.90081787109375
-b168961 350
-b230400 328.00003051757812
-b337920 274.24905395507812
-b353280 1017.1455078125
-b476160 306.20004272460938
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-21" id="10249" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b46080 312.67050170898438
-b92160 447.21359252929688
-b107520 878.90081787109375
-b168961 350
-b230400 328.00003051757812
-b337920 274.24905395507812
-b353280 1017.1455078125
-b476160 306.20004272460938
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="206" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="206" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a2572313600 0.99999994039535522
-a6002065832 0.99999994039535522
-a12861568000 0.50118720531463623
-a19721073448 0.50118720531463623
-a26580577256 0.25118860602378845
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="206" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a2572313600 0.99999994039535522
-a6002065832 0.99999994039535522
-a12861568000 0.50118720531463623
-a19721073448 0.50118720531463623
-a26580577256 0.25118860602378845
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="3517" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="3517" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a6002065832 0.50118720531463623
-a9431817736 0.019077355042099953
-a19721073448 0.86958742141723633
-a33440076800 0.03162277489900589
-a47159078400 0.50118720531463623
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="3517" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a6002065832 0.50118720531463623
-a9431817736 0.019077355042099953
-a19721073448 0.86958742141723633
-a33440076800 0.03162277489900589
-a47159078400 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="5179" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="5179" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1
-a6002060800 0.99999994039535522
-a9431929382 1.4453465938568115
-a19721073448 1.7773479223251343
-a33440097256 0.99999994039535522
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="5179" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1
-a6002060800 0.99999994039535522
-a9431929382 1.4453465938568115
-a19721073448 1.7773479223251343
-a33440097256 0.99999994039535522
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="864029" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-4" id="864029" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20
-b99840 20
-b168960 121.71205139160156
-b176635 142.03042602539062
-b184322 206.321044921875
-b238080 81.121894836425781
-b353280 918.73919677734375
-b537600 899.99981689453125
-b591360 20000
-b599040 7325.9658203125
-b600960 108.71269226074219
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-4" id="864029" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20
-b99840 20
-b168960 121.71205139160156
-b176635 142.03042602539062
-b184322 206.321044921875
-b238080 81.121894836425781
-b353280 918.73919677734375
-b537600 899.99981689453125
-b591360 20000
-b599040 7325.9658203125
-b600960 108.71269226074219
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="1492162" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-4" id="1492162" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 18000
-b107520 20.000001907348633
-b230398 400
-b353280 836.8575439453125
-b599040 20
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-4" id="1492162" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 18000
-b107520 20.000001907348633
-b230398 400
-b353280 836.8575439453125
-b599040 20
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="2045031" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="2045031" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 99.999992370605469
-b107520 599.9998779296875
-b168962 400
-b230400 99.999992370605469
-b721920 128.99952697753906
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-1" id="2045031" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 99.999992370605469
-b107520 599.9998779296875
-b168962 400
-b230400 99.999992370605469
-b721920 128.99952697753906
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="2609750" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="2609750" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a6002060800 0.70794570446014404
-a9431817736 0.70794570446014404
-a12861681286 0.043796457350254059
-</events>
-      </AutomationList>
-      <AutomationList automation-id="send" id="2609750" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a6002060800 0.70794570446014404
-a9431817736 0.70794570446014404
-a12861681286 0.043796457350254059
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="10300" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="10300" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1.4125375747680664
-a6109245579 0.99999994039535522
-a9538885837 0.50118720531463623
-a12861568000 1.4125375747680664
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="10300" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1.4125375747680664
-a6109245579 0.99999994039535522
-a9538885837 0.50118720531463623
-a12861568000 1.4125375747680664
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="2010352" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-213" id="2010352" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-        <events>b0 0
-b599040 0
-b721920 1
-b783360 1
-b784641 0.82432430982589722
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-213" id="2010352" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-        <events>b0 0
-b599040 0
-b721920 1
-b783360 1
-b784641 0.82432430982589722
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="6760642" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="6760642" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26562713965 1.4125375747680664
-a27009292800 0.70794570446014404
-a29152889600 0.62967509031295776
-a30010329160 1.4125375747680664
-a30439046400 0.59826904535293579
-a33011360000 0.39281979203224182
-a33440096000 2
-a34297516800 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 2
-</events>
-      </AutomationList>
-      <AutomationList automation-id="send" id="6760642" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26562713965 1.4125375747680664
-a27009292800 0.70794570446014404
-a29152889600 0.62967509031295776
-a30010329160 1.4125375747680664
-a30439046400 0.59826904535293579
-a33011360000 0.39281979203224182
-a33440096000 2
-a34297516800 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 2
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="6760619" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26580577256 0.70794570446014404
-a26909804800 0
-a28724166400 0
-a30010323200 0.84139508008956909
-a30439046400 0
-a32582636800 0.00014709496463183314
-a33440076800 2
-a33868800000 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 1.4125375747680664
-a54161498856 0.056025993078947067
-a54876033256 0.0058198985643684864
-</events>
-      </AutomationList>
-      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26580577256 0.70794570446014404
-a26909804800 0
-a28724166400 0
-a30010323200 0.84139508008956909
-a30439046400 0
-a32582636800 0.00014709496463183314
-a33440076800 2
-a33868800000 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 1.4125375747680664
-a54161498856 0.056025993078947067
-a54876033256 0.0058198985643684864
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <TempoCommand name="move tempo">
-      <before>
-        <TempoMap superclocks-per-second="282240000">
-          <Tempos>
-            <Tempo npm="157.99999975741684" enpm="157.99999975741684" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="0" quarters="0:0" bbt="1|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="33440081064" quarters="312:0" bbt="79|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="47159088680" quarters="376:0" bbt="95|1|0" omega="0"/>
-            <Tempo npm="236.99999853050596" enpm="236.99999853050596" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="53161154512" quarters="404:0" bbt="102|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="250" note-type="4" type="Ramped" active="1" locked-to-meter="0" continuing="0" sclock="69452476132" quarters="632:0" bbt="159|1|0" omega="0"/>
-          </Tempos>
-          <Meters>
-            <Meter note-value="4" divisions-per-bar="4" sclock="0" quarters="0:0" bbt="1|1|0"/>
-          </Meters>
-          <MusicTimes/>
-        </TempoMap>
-      </before>
-      <after>
-        <TempoMap superclocks-per-second="282240000">
-          <Tempos>
-            <Tempo npm="157.99999975741684" enpm="157.99999975741684" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="0" quarters="0:0" bbt="1|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="33440081064" quarters="312:0" bbt="79|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="47159088680" quarters="376:0" bbt="95|1|0" omega="0"/>
-            <Tempo npm="236.99999853050596" enpm="236.99999853050596" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="54161387172" quarters="408:1279" bbt="103|1|1279" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="250" note-type="4" type="Ramped" active="1" locked-to-meter="0" continuing="0" sclock="70119297904" quarters="632:0" bbt="159|1|0" omega="0"/>
-          </Tempos>
-          <Meters>
-            <Meter note-value="4" divisions-per-bar="4" sclock="0" quarters="0:0" bbt="1|1|0"/>
-          </Meters>
-          <MusicTimes/>
-        </TempoMap>
-      </after>
-    </TempoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="12080" left-frame="0" y-origin="0">
-        <Selection/>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="12080" left-frame="0" y-origin="0">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690699060" tv-usec="18340" name="automation event move">
-    <MementoUndoCommand obj-id="8356026" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a53161152000 1999.99951171875
-a59163219200 5
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="8356026" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a54018553600 1999.99951171875
-a59163219200 5
 </events>
       </AutomationList>
     </MementoRedoCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="12080" left-frame="0" y-origin="0">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
         <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690699070" tv-usec="300564" name="add automation event">
-    <MementoCommand obj-id="8356026" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a54018553600 1999.99951171875
-a59163219200 5
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a49731398400 46.477043151855469
-a54018553600 1999.99951171875
-a59163219200 5
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="7"/>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="12080" left-frame="0" y-origin="0">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690699073" tv-usec="612633" name="automation event move">
-    <MementoUndoCommand obj-id="8356026" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a49731398400 46.477043151855469
-a54018553600 1999.99951171875
-a59163219200 5
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="8356026" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a49731398400 15.152128219604492
-a54018553600 1999.99951171875
-a59163219200 5
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690699083" tv-usec="996522" name="automation event move">
-    <MementoUndoCommand obj-id="74" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="74" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1
-a60020652800 1.0009589195251465
-a63736217600 0
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="74" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="74" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1
-a54399596800 1.0009589195251465
-a63736217600 0
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690699093" tv-usec="1218" name="automation event move">
-    <MementoUndoCommand obj-id="74" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="74" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1
-a54399596800 1.0009589195251465
-a63736217600 0
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="74" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="74" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1
-a54399596800 1.0009589195251465
-a58972601600 0
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="12080" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690699140" tv-usec="145299" name="move tempo mark">
-    <MementoCommand obj-id="10247" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-20" id="10247" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20000
-b46080 20000
-b109440 20000
-b168961 38.160152435302734
-b230400 20000
-b476160 1533.9713134765625
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-20" id="10247" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20000
-b46080 20000
-b109440 20000
-b168961 38.160152435302734
-b230400 20000
-b476160 1533.9713134765625
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="10249" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-21" id="10249" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b46080 312.67050170898438
-b92160 447.21359252929688
-b107520 878.90081787109375
-b168961 350
-b230400 328.00003051757812
-b337920 274.24905395507812
-b353280 1017.1455078125
-b476160 306.20004272460938
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-21" id="10249" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b46080 312.67050170898438
-b92160 447.21359252929688
-b107520 878.90081787109375
-b168961 350
-b230400 328.00003051757812
-b337920 274.24905395507812
-b353280 1017.1455078125
-b476160 306.20004272460938
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="206" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="206" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a2572313600 0.99999994039535522
-a6002065832 0.99999994039535522
-a12861568000 0.50118720531463623
-a19721073448 0.50118720531463623
-a26580577256 0.25118860602378845
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="206" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a2572313600 0.99999994039535522
-a6002065832 0.99999994039535522
-a12861568000 0.50118720531463623
-a19721073448 0.50118720531463623
-a26580577256 0.25118860602378845
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="3517" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="3517" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a6002065832 0.50118720531463623
-a9431817736 0.019077355042099953
-a19721073448 0.86958742141723633
-a33440076800 0.03162277489900589
-a47159078400 0.50118720531463623
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="3517" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a6002065832 0.50118720531463623
-a9431817736 0.019077355042099953
-a19721073448 0.86958742141723633
-a33440076800 0.03162277489900589
-a47159078400 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="5179" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="5179" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1
-a6002060800 0.99999994039535522
-a9431929382 1.4453465938568115
-a19721073448 1.7773479223251343
-a33440097256 0.99999994039535522
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="5179" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1
-a6002060800 0.99999994039535522
-a9431929382 1.4453465938568115
-a19721073448 1.7773479223251343
-a33440097256 0.99999994039535522
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="864029" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-4" id="864029" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20
-b99840 20
-b168960 121.71205139160156
-b176635 142.03042602539062
-b184322 206.321044921875
-b238080 81.121894836425781
-b353280 918.73919677734375
-b537600 899.99981689453125
-b591360 20000
-b599040 7325.9658203125
-b600960 108.71269226074219
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-4" id="864029" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20
-b99840 20
-b168960 121.71205139160156
-b176635 142.03042602539062
-b184322 206.321044921875
-b238080 81.121894836425781
-b353280 918.73919677734375
-b537600 899.99981689453125
-b591360 20000
-b599040 7325.9658203125
-b600960 108.71269226074219
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="1492162" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-4" id="1492162" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 18000
-b107520 20.000001907348633
-b230398 400
-b353280 836.8575439453125
-b599040 20
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-4" id="1492162" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 18000
-b107520 20.000001907348633
-b230398 400
-b353280 836.8575439453125
-b599040 20
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="2045031" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="2045031" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 99.999992370605469
-b107520 599.9998779296875
-b168962 400
-b230400 99.999992370605469
-b721920 128.99952697753906
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-1" id="2045031" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 99.999992370605469
-b107520 599.9998779296875
-b168962 400
-b230400 99.999992370605469
-b721920 128.99952697753906
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="2609750" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="2609750" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a6002060800 0.70794570446014404
-a9431817736 0.70794570446014404
-a12861681286 0.043796457350254059
-</events>
-      </AutomationList>
-      <AutomationList automation-id="send" id="2609750" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a6002060800 0.70794570446014404
-a9431817736 0.70794570446014404
-a12861681286 0.043796457350254059
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="10300" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="10300" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1.4125375747680664
-a6109245579 0.99999994039535522
-a9538885837 0.50118720531463623
-a12861568000 1.4125375747680664
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="10300" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1.4125375747680664
-a6109245579 0.99999994039535522
-a9538885837 0.50118720531463623
-a12861568000 1.4125375747680664
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="2010352" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-213" id="2010352" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-        <events>b0 0
-b599040 0
-b721920 1
-b783360 1
-b784641 0.82432430982589722
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-213" id="2010352" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-        <events>b0 0
-b599040 0
-b721920 1
-b783360 1
-b784641 0.82432430982589722
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="6760642" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="6760642" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26562713965 1.4125375747680664
-a27009292800 0.70794570446014404
-a29152889600 0.62967509031295776
-a30010329160 1.4125375747680664
-a30439046400 0.59826904535293579
-a33011360000 0.39281979203224182
-a33440096000 2
-a34297516800 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 2
-</events>
-      </AutomationList>
-      <AutomationList automation-id="send" id="6760642" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26562713965 1.4125375747680664
-a27009292800 0.70794570446014404
-a29152889600 0.62967509031295776
-a30010329160 1.4125375747680664
-a30439046400 0.59826904535293579
-a33011360000 0.39281979203224182
-a33440096000 2
-a34297516800 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 2
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="6760619" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26580577256 0.70794570446014404
-a26909804800 0
-a28724166400 0
-a30010323200 0.84139508008956909
-a30439046400 0
-a32582636800 0.00014709496463183314
-a33440076800 2
-a33868800000 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 1.4125375747680664
-a54161498856 0.056025993078947067
-a54876033256 0.0058198985643684864
-</events>
-      </AutomationList>
-      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26580577256 0.70794570446014404
-a26909804800 0
-a28724166400 0
-a30010323200 0.84139508008956909
-a30439046400 0
-a32582636800 0.00014709496463183314
-a33440076800 2
-a33868800000 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 1.4125375747680664
-a54161498856 0.056025993078947067
-a54876033256 0.0058198985643684864
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <TempoCommand name="move tempo">
-      <before>
-        <TempoMap superclocks-per-second="282240000">
-          <Tempos>
-            <Tempo npm="157.99999975741684" enpm="157.99999975741684" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="0" quarters="0:0" bbt="1|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="33440081064" quarters="312:0" bbt="79|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="47159088680" quarters="376:0" bbt="95|1|0" omega="0"/>
-            <Tempo npm="236.99999853050596" enpm="236.99999853050596" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="54161387172" quarters="408:1279" bbt="103|1|1279" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="250" note-type="4" type="Ramped" active="1" locked-to-meter="0" continuing="0" sclock="70119297904" quarters="632:0" bbt="159|1|0" omega="0"/>
-          </Tempos>
-          <Meters>
-            <Meter note-value="4" divisions-per-bar="4" sclock="0" quarters="0:0" bbt="1|1|0"/>
-          </Meters>
-          <MusicTimes/>
-        </TempoMap>
-      </before>
-      <after>
-        <TempoMap superclocks-per-second="282240000">
-          <Tempos>
-            <Tempo npm="157.99999975741684" enpm="157.99999975741684" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="0" quarters="0:0" bbt="1|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="33440081064" quarters="312:0" bbt="79|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="47159088680" quarters="376:0" bbt="95|1|0" omega="0"/>
-            <Tempo npm="236.99999853050596" enpm="236.99999853050596" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="54161387172" quarters="408:1279" bbt="103|1|1279" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="250" note-type="4" type="Ramped" active="1" locked-to-meter="0" continuing="0" sclock="70119297904" quarters="632:0" bbt="159|1|0" omega="0"/>
-          </Tempos>
-          <Meters>
-            <Meter note-value="4" divisions-per-bar="4" sclock="0" quarters="0:0" bbt="1|1|0"/>
-          </Meters>
-          <MusicTimes/>
-        </TempoMap>
-      </after>
-    </TempoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="377" left-frame="8167086" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="377" left-frame="8167086" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690699147" tv-usec="942110" name="move tempo mark">
-    <MementoCommand obj-id="10247" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-20" id="10247" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20000
-b46080 20000
-b109440 20000
-b168961 38.160152435302734
-b230400 20000
-b476160 1533.9713134765625
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-20" id="10247" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20000
-b46080 20000
-b109440 20000
-b168961 38.160152435302734
-b230400 20000
-b476160 1533.9713134765625
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="10249" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-21" id="10249" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b46080 312.67050170898438
-b92160 447.21359252929688
-b107520 878.90081787109375
-b168961 350
-b230400 328.00003051757812
-b337920 274.24905395507812
-b353280 1017.1455078125
-b476160 306.20004272460938
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-21" id="10249" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b46080 312.67050170898438
-b92160 447.21359252929688
-b107520 878.90081787109375
-b168961 350
-b230400 328.00003051757812
-b337920 274.24905395507812
-b353280 1017.1455078125
-b476160 306.20004272460938
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="206" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="206" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a2572313600 0.99999994039535522
-a6002065832 0.99999994039535522
-a12861568000 0.50118720531463623
-a19721073448 0.50118720531463623
-a26580577256 0.25118860602378845
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="206" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a2572313600 0.99999994039535522
-a6002065832 0.99999994039535522
-a12861568000 0.50118720531463623
-a19721073448 0.50118720531463623
-a26580577256 0.25118860602378845
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="3517" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="3517" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a6002065832 0.50118720531463623
-a9431817736 0.019077355042099953
-a19721073448 0.86958742141723633
-a33440076800 0.03162277489900589
-a47159078400 0.50118720531463623
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="3517" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a6002065832 0.50118720531463623
-a9431817736 0.019077355042099953
-a19721073448 0.86958742141723633
-a33440076800 0.03162277489900589
-a47159078400 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="5179" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="5179" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1
-a6002060800 0.99999994039535522
-a9431929382 1.4453465938568115
-a19721073448 1.7773479223251343
-a33440097256 0.99999994039535522
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="5179" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1
-a6002060800 0.99999994039535522
-a9431929382 1.4453465938568115
-a19721073448 1.7773479223251343
-a33440097256 0.99999994039535522
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="864029" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-4" id="864029" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20
-b99840 20
-b168960 121.71205139160156
-b176635 142.03042602539062
-b184322 206.321044921875
-b238080 81.121894836425781
-b353280 918.73919677734375
-b537600 899.99981689453125
-b591360 20000
-b599040 7325.9658203125
-b600960 108.71269226074219
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-4" id="864029" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 20
-b99840 20
-b168960 121.71205139160156
-b176635 142.03042602539062
-b184322 206.321044921875
-b238080 81.121894836425781
-b353280 918.73919677734375
-b537600 899.99981689453125
-b591360 20000
-b599040 7325.9658203125
-b600960 108.71269226074219
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="1492162" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-4" id="1492162" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 18000
-b107520 20.000001907348633
-b230398 400
-b353280 836.8575439453125
-b599040 20
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-4" id="1492162" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 18000
-b107520 20.000001907348633
-b230398 400
-b353280 836.8575439453125
-b599040 20
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="2045031" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="2045031" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 99.999992370605469
-b107520 599.9998779296875
-b168962 400
-b230400 99.999992370605469
-b721920 128.99952697753906
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-1" id="2045031" interpolation-style="Logarithmic" time-domain="BeatTime" state="Play">
-        <events>b0 99.999992370605469
-b107520 599.9998779296875
-b168962 400
-b230400 99.999992370605469
-b721920 128.99952697753906
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="2609750" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="2609750" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a6002060800 0.70794570446014404
-a9431817736 0.70794570446014404
-a12861681286 0.043796457350254059
-</events>
-      </AutomationList>
-      <AutomationList automation-id="send" id="2609750" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a6002060800 0.70794570446014404
-a9431817736 0.70794570446014404
-a12861681286 0.043796457350254059
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="10300" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="10300" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1.4125375747680664
-a6109245579 0.99999994039535522
-a9538885837 0.50118720531463623
-a12861568000 1.4125375747680664
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="10300" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 1.4125375747680664
-a6109245579 0.99999994039535522
-a9538885837 0.50118720531463623
-a12861568000 1.4125375747680664
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="2010352" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-213" id="2010352" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-        <events>b0 0
-b599040 0
-b721920 1
-b783360 1
-b784641 0.82432430982589722
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-213" id="2010352" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-        <events>b0 0
-b599040 0
-b721920 1
-b783360 1
-b784641 0.82432430982589722
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="6760642" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="6760642" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26562713965 1.4125375747680664
-a27009292800 0.70794570446014404
-a29152889600 0.62967509031295776
-a30010329160 1.4125375747680664
-a30439046400 0.59826904535293579
-a33011360000 0.39281979203224182
-a33440096000 2
-a34297516800 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 2
-</events>
-      </AutomationList>
-      <AutomationList automation-id="send" id="6760642" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26562713965 1.4125375747680664
-a27009292800 0.70794570446014404
-a29152889600 0.62967509031295776
-a30010329160 1.4125375747680664
-a30439046400 0.59826904535293579
-a33011360000 0.39281979203224182
-a33440096000 2
-a34297516800 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 2
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="6760619" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26580577256 0.70794570446014404
-a26909804800 0
-a28724166400 0
-a30010323200 0.84139508008956909
-a30439046400 0
-a32582636800 0.00014709496463183314
-a33440076800 2
-a33868800000 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 1.4125375747680664
-a54161498856 0.056025993078947067
-a54876033256 0.0058198985643684864
-</events>
-      </AutomationList>
-      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0
-a23150825352 0
-a24865701304 0
-a26580577256 0.70794570446014404
-a26909804800 0
-a28724166400 0
-a30010323200 0.84139508008956909
-a30439046400 0
-a32582636800 0.00014709496463183314
-a33440076800 2
-a33868800000 0.50118720531463623
-a47373447656 0.50118720531463623
-a54018542056 1.4125375747680664
-a54161498856 0.056025993078947067
-a54876033256 0.0058198985643684864
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <TempoCommand name="move tempo">
-      <before>
-        <TempoMap superclocks-per-second="282240000">
-          <Tempos>
-            <Tempo npm="157.99999975741684" enpm="157.99999975741684" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="0" quarters="0:0" bbt="1|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="33440081064" quarters="312:0" bbt="79|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="47159088680" quarters="376:0" bbt="95|1|0" omega="0"/>
-            <Tempo npm="236.99999853050596" enpm="236.99999853050596" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="54161387172" quarters="408:1279" bbt="103|1|1279" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="250" note-type="4" type="Ramped" active="1" locked-to-meter="0" continuing="0" sclock="70119297904" quarters="632:0" bbt="159|1|0" omega="0"/>
-          </Tempos>
-          <Meters>
-            <Meter note-value="4" divisions-per-bar="4" sclock="0" quarters="0:0" bbt="1|1|0"/>
-          </Meters>
-          <MusicTimes/>
-        </TempoMap>
-      </before>
-      <after>
-        <TempoMap superclocks-per-second="282240000">
-          <Tempos>
-            <Tempo npm="157.99999975741684" enpm="157.99999975741684" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="0" quarters="0:0" bbt="1|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="33440081064" quarters="312:0" bbt="79|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="78.999999878708422" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="47159088680" quarters="376:0" bbt="95|1|0" omega="0"/>
-            <Tempo npm="236.99999853050596" enpm="236.99999853050596" note-type="4" type="Constant" active="1" locked-to-meter="0" continuing="0" sclock="54018592488" quarters="408:0" bbt="103|1|0" omega="0"/>
-            <Tempo npm="78.999999878708422" enpm="250" note-type="4" type="Ramped" active="1" locked-to-meter="0" continuing="0" sclock="70024101448" quarters="632:0" bbt="159|1|0" omega="0"/>
-          </Tempos>
-          <Meters>
-            <Meter note-value="4" divisions-per-bar="4" sclock="0" quarters="0:0" bbt="1|1|0"/>
-          </Meters>
-          <MusicTimes/>
-        </TempoMap>
-      </after>
-    </TempoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="377" left-frame="8167086" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="377" left-frame="8167086" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690699173" tv-usec="698419" name="automation event move">
-    <MementoUndoCommand obj-id="2010352" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-213" id="2010352" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-        <events>b0 0
-b599040 0
-b721920 1
-b783360 1
-b784641 0.82432430982589722
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="2010352" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-213" id="2010352" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-        <events>b0 0
-b599040 0
-b721920 1
-b783360 1
-b798720 0.78205704689025879
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="12064" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="2009763" automation-list-id="2010352" parameter="parameter-213" view-index="4"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="12064" left-frame="0" y-origin="0">
-        <Selection>
-          <ControlPoint type="track" route-id="2009763" automation-list-id="2010352" parameter="parameter-213" view-index="4"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690699218" tv-usec="426125" name="region drag">
-    <StatefulDiffCommand obj-id="10284455" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283563" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283570" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283789" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283796" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284476" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283584" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283577" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283810" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283803" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284490" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284483" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283591" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283598" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283817" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283824" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284504" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284497" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283633" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283640" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283859" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283866" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284511" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284518" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283654" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283647" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283880" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283873" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283379" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284532" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284525" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283605" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283612" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283831" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283838" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283393" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284546" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284539" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283661" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283668" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283887" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283894" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284553" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283675" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283682" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283901" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283908" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284574" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284567" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283689" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283696" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283922" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283915" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284588" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284581" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283731" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283738" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283964" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283957" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284602" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283724" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283717" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283950" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283943" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285140" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285134" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285130" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285136" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285122" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285128" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285126" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285124" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285116" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285114" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285138" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285132" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285118" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285120" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285112" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285142" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283619" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283626" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283845" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283852" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283484" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283477" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284623" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284644" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284637" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284630" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283556" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283535" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283542" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283549" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283768" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283775" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283782" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283761" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284651" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283703" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283710" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283929" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283936" type-name="ARDOUR::MidiRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="11957" name="session" start="b46080" end="a63736222896" flags="IsSessionRange" locked="0" timestamp="1688799882" cue="0"/>
-        <Location id="79890" name="Loop" start="a63164597576" end="a65451098856" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
-        <Location id="9693403" name="Slow" start="a33440093208" end="a33440093208" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
-        <Location id="10253373" name="Main Theme" start="a6115944313" end="a6115944313" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
-        <Location id="10253380" name="Variation" start="a19772821170" end="a19772821170" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
-      </Locations>
-      <Locations>
-        <Location id="11957" name="session" start="b46080" end="a63736222896" flags="IsSessionRange" locked="0" timestamp="1688799882" cue="0"/>
-        <Location id="79890" name="Loop" start="a63164597576" end="a65451098856" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
-        <Location id="9693403" name="Slow" start="a33440093208" end="a33440093208" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
-        <Location id="10253373" name="Main Theme" start="a6115944313" end="a6115944313" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
-        <Location id="10253380" name="Variation" start="a19772821170" end="a19772821170" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
-      </Locations>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="12064" left-frame="0" y-origin="600">
-        <Selection>
-          <Regions>
-            <Region id="10283484"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="12064" left-frame="0" y-origin="600">
-        <Selection>
-          <Regions>
-            <Region id="10283484"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690704791" tv-usec="766387" name="automation event move">
-    <MementoUndoCommand obj-id="8356026" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a49731398400 15.152128219604492
-a54018553600 1999.99951171875
-a59163219200 5
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="8356026" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a49731398400 5
-a54018553600 1999.99951171875
-a59163219200 5
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="12064" left-frame="0" y-origin="40">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="12064" left-frame="0" y-origin="40">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690704797" tv-usec="874630" name="automation event move">
-    <MementoUndoCommand obj-id="8356026" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a49731398400 5
-a54018553600 1999.99951171875
-a59163219200 5
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="8356026" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="8356026" interpolation-style="Logarithmic" time-domain="AudioTime" state="Play">
-        <events>a0 5
-a2572313600 5
-a31725203200 5
-a32582636800 10
-a33011360000 20
-a33440081064 799.99993896484375
-a40299571200 5
-a47159104000 5
-a50588838400 5
-a54018553600 1999.99951171875
-a59163219200 5
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="12064" left-frame="0" y-origin="40">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="12064" left-frame="0" y-origin="40">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1690704811" tv-usec="347648" name="move marker">
-    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="11957" name="session" start="b46080" end="a63736222896" flags="IsSessionRange" locked="0" timestamp="1688799882" cue="0"/>
-        <Location id="79890" name="Loop" start="a63164597576" end="a65451098856" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
-        <Location id="9693403" name="Slow" start="a33440093208" end="a33440093208" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
-        <Location id="10253373" name="Main Theme" start="a6115944313" end="a6115944313" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
-        <Location id="10253380" name="Variation" start="a19772821170" end="a19772821170" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
-      </Locations>
-      <Locations>
-        <Location id="11957" name="session" start="b46080" end="a59163220368" flags="IsSessionRange" locked="0" timestamp="1688799882" cue="0"/>
-        <Location id="79890" name="Loop" start="a63164597576" end="a65451098856" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
-        <Location id="9693403" name="Slow" start="a33440093208" end="a33440093208" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
-        <Location id="10253373" name="Main Theme" start="a6115944313" end="a6115944313" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
-        <Location id="10253380" name="Variation" start="a19772821170" end="a19772821170" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
-      </Locations>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="12064" left-frame="0" y-origin="40">
-        <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="3"/>
           <Marker id="11957" start="0"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="12064" left-frame="0" y-origin="40">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
         <Selection>
-          <ControlPoint type="track" route-id="71" automation-list-id="8356026" parameter="parameter-1" view-index="8"/>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="3"/>
           <Marker id="11957" start="0"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1690705039" tv-usec="63970" name="Region end trim">
-    <StatefulDiffCommand obj-id="10283498" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <whole-file from="1" to="0"/>
-        <length from="b30720@a54018556056" to="a1214740237@a54018556056"/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1716014285" tv-usec="419978" name="automation event move">
+    <MementoUndoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.089125066995620728
+a6002060800 0.70794570446014404
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1508" left-frame="8029008" y-origin="800">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="2"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="2"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716014309" tv-usec="978159" name="add automation event">
+    <MementoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+</events>
+      </AutomationList>
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.075400359928607941
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="2"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716014318" tv-usec="43571" name="automation event move">
+    <MementoUndoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.075400359928607941
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="4"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="4"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716014343" tv-usec="772143" name="add automation event">
+    <MementoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+</events>
+      </AutomationList>
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.73057013750076294
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="4"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716014358" tv-usec="759569" name="automation event move">
+    <MementoUndoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.73057013750076294
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.50118720531463623
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="5"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="5"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716014362" tv-usec="638156" name="add automation event">
+    <MementoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.50118720531463623
+</events>
+      </AutomationList>
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.50118720531463623
+a26580576000 0.14431153237819672
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="5"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716014381" tv-usec="766291" name="automation event move">
+    <MementoUndoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.50118720531463623
+a26580576000 0.14431153237819672
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.50118720531463623
+a26580576000 0.089125066995620728
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="6"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="6"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716014391" tv-usec="650431" name="automation event move">
+    <MementoUndoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.50118720531463623
+a26580576000 0.089125066995620728
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.50118720531463623
+a26580576000 0.1258925199508667
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="6"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="6"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716014394" tv-usec="704460" name="add automation event">
+    <MementoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.50118720531463623
+a26580576000 0.1258925199508667
+</events>
+      </AutomationList>
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.50118720531463623
+a26580576000 0.1258925199508667
+a33440076800 0.66217982769012451
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="6"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716014399" tv-usec="158399" name="automation event move">
+    <MementoUndoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.50118720531463623
+a26580576000 0.1258925199508667
+a33440076800 0.66217982769012451
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.50118720531463623
+a26580576000 0.1258925199508667
+a33440076800 0.3548133373260498
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="7"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="6352" left-frame="173787" y-origin="320">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="7"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716014491" tv-usec="389584" name="set loop range from region">
+    <MementoCommand obj-id="79890" type-name="ARDOUR::Location">
+      <Location id="79890" name="Loop" start="b1029120" end="b1090560" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
+      <Location id="79890" name="Loop" start="b414720" end="b599040" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6352" left-frame="173787" y-origin="867">
         <Selection>
           <Regions>
-            <Region id="10283498"/>
+            <Region id="6243161"/>
+            <Region id="8299478"/>
+            <Region id="6885106"/>
           </Regions>
           <Marker id="11957" start="0"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1508" left-frame="8029008" y-origin="800">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6352" left-frame="173787" y-origin="867">
         <Selection>
           <Regions>
-            <Region id="10283498"/>
+            <Region id="6243161"/>
+            <Region id="8299478"/>
+            <Region id="6885106"/>
           </Regions>
           <Marker id="11957" start="0"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1690705112" tv-usec="333948" name="region drag">
-    <StatefulDiffCommand obj-id="10284462" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286513559@a58591545688" to="a2286513559@a57448290800"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284455" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286501280@a60878022032" to="a2286501280@a59734767144"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283563" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a67737587960" to="a6859491664@a66594333072"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283570" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a74597091768" to="a6859491664@a73453836880"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283789" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a81456632656" to="a6859491664@a80313377768"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283796" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a88316136464" to="a6859491664@a87172881576"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284469" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286525703@a58591533544" to="a2286525703@a57448278656"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284476" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286575710@a60878022032" to="a2286575710@a59734767144"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283584" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a67737575816" to="a6859491664@a66594320928"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283577" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a74597067480" to="a6859491664@a73453812592"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283810" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a81456620512" to="a6859491664@a80313365624"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283803" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a88316112176" to="a6859491664@a87172857288"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284490" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164561144" to="b61440@a62021306256"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284483" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451025208" to="b61440@a64307770320"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283591" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310491833" to="b61440@a71167236945"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283598" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597067544" to="b61440@a73453812656"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283817" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456682997" to="b61440@a80313428109"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283824" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316075160" to="b61440@a87172820272"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284504" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164561144" to="b61440@a62021306256"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284497" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451062424" to="b61440@a64307807536"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283633" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310491833" to="b61440@a71167236945"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283640" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597067544" to="b61440@a73453812656"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283859" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456682997" to="b61440@a80313428109"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283866" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316186805" to="b61440@a87172931917"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284511" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164523928" to="b61440@a62021269040"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284518" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451062424" to="b61440@a64307807536"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283654" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310491833" to="b61440@a71167236945"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283647" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597067544" to="b61440@a73453812656"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283880" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456571352" to="b61440@a80313316464"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283873" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316186805" to="b61440@a87172931917"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283379" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a60877985433" to="b61440@a59734730545"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284532" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164561144" to="b61440@a62021306256"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284525" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451062424" to="b61440@a64307807536"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283605" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310491833" to="b61440@a71167236945"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283612" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597067544" to="b61440@a73453812656"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283831" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456682997" to="b61440@a80313428109"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283838" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316186805" to="b61440@a87172931917"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283393" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a60877985433" to="b61440@a59734730545"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284546" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164561144" to="b61440@a62021306256"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284539" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451062424" to="b61440@a64307807536"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283661" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310491833" to="b61440@a71167236945"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283668" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597067544" to="b61440@a73453812656"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283887" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456682997" to="b61440@a80313428109"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283894" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316186805" to="b61440@a87172931917"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284560" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286497151@a58591562096" to="a2286497151@a57448307208"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284553" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286575710@a60878022032" to="a2286575710@a59734767144"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283675" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a67737604368" to="a6859491664@a66594349480"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283682" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a74597112440" to="a6859491664@a73453857552"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283901" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a81456649064" to="a6859491664@a80313394176"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283908" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859491664@a88316157136" to="a6859491664@a87172902248"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284574" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164561144" to="b61440@a62021306256"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284567" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451025208" to="b61440@a64307770320"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283689" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310491833" to="b61440@a71167236945"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283696" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597067544" to="b61440@a73453812656"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283922" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456682997" to="b61440@a80313428109"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283915" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316186805" to="b61440@a87172931917"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284588" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a63164561144" to="b61440@a62021306256"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284581" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a65451025208" to="b61440@a64307770320"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283731" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310491833" to="b61440@a71167236945"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283738" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597067544" to="b61440@a73453812656"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283964" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456682997" to="b61440@a80313428109"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283957" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316186805" to="b61440@a87172931917"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284595" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286497151@a58591545688" to="a2286497151@a57448290800"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284602" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286575710@a60878005624" to="a2286575710@a59734750736"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283724" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859508072@a67737587960" to="a6859508072@a66594333072"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283717" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859508072@a74597096032" to="a6859508072@a73453841144"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283950" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859508072@a81456632656" to="a6859508072@a80313377768"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283943" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859508072@a88316140728" to="a6859508072@a87172885840"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285140" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a63164449498" to="a142869250@a62021194610"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285134" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a63307318613" to="a142869250@a62164063725"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285130" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a63450187728" to="a142869250@a62306932840"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285136" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a63593056842" to="a142869250@a62449801954"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285122" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a63735925957" to="a142869250@a62592671069"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285128" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a63878795072" to="a142869250@a62735540184"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285126" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64021664187" to="a142869250@a62878409299"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285124" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64164533302" to="a142869250@a63021278414"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285116" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64307402416" to="a142869250@a63164147528"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285114" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64450271531" to="a142869250@a63307016643"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285138" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64593140646" to="a142869250@a63449885758"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285132" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64736009761" to="a142869250@a63592754873"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285118" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a64878878876" to="a142869250@a63735623988"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285120" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a65021747991" to="a142869250@a63878493103"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285112" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a65164617105" to="a142869250@a64021362217"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10285142" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a142869250@a65307486220" to="a142869250@a64164231332"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283619" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a72310491833" to="b61440@a71167236945"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283626" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a74597067544" to="b61440@a73453812656"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283845" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a81456682997" to="b61440@a80313428109"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283852" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b61440@a88316186805" to="b61440@a87172931917"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283491" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a57448196314" to="b30720@a56304941426"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283484" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a60877948218" to="b30720@a59734693330"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283477" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a62021198858" to="b30720@a60877943970"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284623" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a63164561144" to="b30720@a62021306256"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284644" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a64307774568" to="b30720@a63164519680"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284637" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a65451025208" to="b30720@a64307770320"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284630" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a66594275848" to="b30720@a65451020960"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283556" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a72310491833" to="b30720@a71167236945"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283535" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a73453742473" to="b30720@a72310487585"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283542" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a74597067544" to="b30720@a73453812656"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283549" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a78026819448" to="b30720@a76883564560"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283768" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a81456682997" to="b30720@a80313428109"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283775" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a84886434901" to="b30720@a83743180013"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283782" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a88316186805" to="b30720@a87172931917"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283761" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="b30720@a91745938709" to="b30720@a90602683821"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284658" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286497151@a58591554216" to="a2286497151@a57448299328"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10284651" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a2286579974@a60878009888" to="a2286579974@a59734755000"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283703" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859499544@a67737596488" to="a6859499544@a66594341600"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283710" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859499544@a74597100296" to="a6859499544@a73453845408"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283929" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859499544@a81456641184" to="a6859499544@a80313386296"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="10283936" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="a6859499544@a88316144992" to="a6859499544@a87172890104"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
-      <Locations>
-        <Location id="11957" name="session" start="b46080" end="a59163220368" flags="IsSessionRange" locked="0" timestamp="1688799882" cue="0"/>
-        <Location id="79890" name="Loop" start="a63164597576" end="a65451098856" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
-        <Location id="9693403" name="Slow" start="a33440093208" end="a33440093208" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
-        <Location id="10253373" name="Main Theme" start="a6115944313" end="a6115944313" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
-        <Location id="10253380" name="Variation" start="a19772821170" end="a19772821170" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
-      </Locations>
-      <Locations>
-        <Location id="11957" name="session" start="b46080" end="a59163220368" flags="IsSessionRange" locked="0" timestamp="1688799882" cue="0"/>
-        <Location id="79890" name="Loop" start="a63164597576" end="a65451098856" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
-        <Location id="9693403" name="Slow" start="a33440093208" end="a33440093208" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
-        <Location id="10253373" name="Main Theme" start="a6115944313" end="a6115944313" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
-        <Location id="10253380" name="Variation" start="a19772821170" end="a19772821170" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
-      </Locations>
-    </MementoCommand>
+  <UndoTransaction tv-sec="1716014987" tv-usec="934253" name="automation event move">
+    <MementoUndoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.50118720531463623
+a26580576000 0.1258925199508667
+a33440076800 0.3548133373260498
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.99999994039535522
+a26580576000 0.1258925199508667
+a33440076800 0.3548133373260498
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2208" left-frame="7555052" y-origin="1160">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6352" left-frame="173787" y-origin="400">
         <Selection>
-          <Regions>
-            <Region id="10283491"/>
-          </Regions>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="5"/>
+          <Marker id="11957" start="0"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2208" left-frame="7555052" y-origin="1160">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6352" left-frame="173787" y-origin="400">
         <Selection>
-          <Regions>
-            <Region id="10283491"/>
-          </Regions>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="5"/>
+          <Marker id="11957" start="0"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1690705136" tv-usec="916454" name="move marker">
+  <UndoTransaction tv-sec="1716015018" tv-usec="338410" name="automation event move">
+    <MementoUndoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.99999994039535522
+a26580576000 0.1258925199508667
+a33440076800 0.3548133373260498
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="953114" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="953114" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.27017560601234436
+a2143590400 0.27017560601234436
+a2572313600 0.063095726072788239
+a6002060800 0.70794570446014404
+a12861568000 0.089125066995620728
+a19721068800 0.99999994039535522
+a26580576000 0.1258925199508667
+a33440076800 1.4125375747680664
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6352" left-frame="173787" y-origin="400">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="7"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="6352" left-frame="173787" y-origin="400">
+        <Selection>
+          <ControlPoint type="track" route-id="170" automation-list-id="953114" parameter="send" view-index="7"/>
+          <Marker id="11957" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716015141" tv-usec="956517" name="move marker">
     <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
       <Locations>
-        <Location id="11957" name="session" start="b46080" end="a59163220368" flags="IsSessionRange" locked="0" timestamp="1688799882" cue="0"/>
-        <Location id="79890" name="Loop" start="a63164597576" end="a65451098856" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
-        <Location id="9693403" name="Slow" start="a33440093208" end="a33440093208" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
-        <Location id="10253373" name="Main Theme" start="a6115944313" end="a6115944313" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
-        <Location id="10253380" name="Variation" start="a19772821170" end="a19772821170" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
+        <Location id="11957" name="session" start="b46080" end="a58591595048" flags="IsSessionRange" locked="0" timestamp="1688799882" cue="0"/>
+        <Location id="79890" name="Loop" start="b414720" end="b599040" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
+        <Location id="9693403" name="Slow" start="b599040" end="b599040" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
+        <Location id="10253373" name="Main Theme" start="b109560" end="b109560" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
+        <Location id="10253380" name="Variation" start="b354207" end="b354207" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
       </Locations>
       <Locations>
         <Location id="11957" name="session" start="b46080" end="a58591595048" flags="IsSessionRange" locked="0" timestamp="1688799882" cue="0"/>
-        <Location id="79890" name="Loop" start="a63164597576" end="a65451098856" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
-        <Location id="9693403" name="Slow" start="a33440093208" end="a33440093208" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
-        <Location id="10253373" name="Main Theme" start="a6115944313" end="a6115944313" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
-        <Location id="10253380" name="Variation" start="a19772821170" end="a19772821170" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
+        <Location id="79890" name="Loop" start="b230400" end="b599040" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
+        <Location id="9693403" name="Slow" start="b599040" end="b599040" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
+        <Location id="10253373" name="Main Theme" start="b109560" end="b109560" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
+        <Location id="10253380" name="Variation" start="b354207" end="b354207" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
       </Locations>
     </MementoCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2208" left-frame="7555052" y-origin="1160">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6352" left-frame="173787" y-origin="0">
         <Selection>
-          <Regions>
-            <Region id="10283491"/>
-          </Regions>
-          <Marker id="11957" start="0"/>
+          <Marker id="79890" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2208" left-frame="7555052" y-origin="1160">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6352" left-frame="173787" y-origin="0">
         <Selection>
-          <Regions>
-            <Region id="10283491"/>
-          </Regions>
-          <Marker id="11957" start="0"/>
+          <Marker id="79890" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716015263" tv-usec="594735" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="11957" name="session" start="b46080" end="a58591595048" flags="IsSessionRange" locked="0" timestamp="1688799882" cue="0"/>
+        <Location id="79890" name="Loop" start="b230400" end="b599040" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
+        <Location id="9693403" name="Slow" start="b599040" end="b599040" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
+        <Location id="10253373" name="Main Theme" start="b109560" end="b109560" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
+        <Location id="10253380" name="Variation" start="b354207" end="b354207" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="11957" name="session" start="b46080" end="a58591595048" flags="IsSessionRange" locked="0" timestamp="1688799882" cue="0"/>
+        <Location id="79890" name="Loop" start="b230400" end="b353280" flags="IsAutoLoop" locked="0" timestamp="1688800189" cue="0"/>
+        <Location id="9693403" name="Slow" start="b599040" end="b599040" flags="IsMark" locked="0" timestamp="1689436776" cue="0"/>
+        <Location id="10253373" name="Main Theme" start="b109560" end="b109560" flags="IsMark" locked="0" timestamp="1689446418" cue="0"/>
+        <Location id="10253380" name="Variation" start="b354207" end="b354207" flags="IsMark" locked="0" timestamp="1689446442" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6352" left-frame="173787" y-origin="0">
+        <Selection>
+          <Marker id="79890" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="6352" left-frame="173787" y-origin="0">
+        <Selection>
+          <Marker id="79890" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716015849" tv-usec="462256" name="automation event move">
+    <MementoUndoCommand obj-id="6760619" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a23150825352 0
+a24865701304 0
+a26580577256 0.70794570446014404
+a26909804800 0
+a28724166400 0
+a30010323200 0.84139508008956909
+a30439046400 0
+a32582636800 0.00014709496463183314
+a33440076800 2
+a33868800000 0.50118720531463623
+a47373447656 0.50118720531463623
+a54018542056 1.4125375747680664
+a54161498856 0.056025993078947067
+a54876033256 0.0058198985643684864
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="6760619" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a23150825352 0
+a24865701304 0
+a26580577256 0.70794570446014404
+a26909804800 0
+a28724166400 0
+a30010323200 0.84139508008956909
+a30439046400 0
+a32582636800 0.00014709496463183314
+a33440076800 2
+a33868800000 0.50118720531463623
+a47373447656 0.3548133373260498
+a54018542056 1.4125375747680664
+a54161498856 0.056025993078947067
+a54876033256 0.0058198985643684864
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="12704" left-frame="0" y-origin="991">
+        <Selection>
+          <ControlPoint type="track" route-id="6241427" automation-list-id="6760619" parameter="send" view-index="11"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="12704" left-frame="0" y-origin="991">
+        <Selection>
+          <ControlPoint type="track" route-id="6241427" automation-list-id="6760619" parameter="send" view-index="11"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716015866" tv-usec="878488" name="automation event move">
+    <MementoUndoCommand obj-id="6760619" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a23150825352 0
+a24865701304 0
+a26580577256 0.70794570446014404
+a26909804800 0
+a28724166400 0
+a30010323200 0.84139508008956909
+a30439046400 0
+a32582636800 0.00014709496463183314
+a33440076800 2
+a33868800000 0.50118720531463623
+a47373447656 0.3548133373260498
+a54018542056 1.4125375747680664
+a54161498856 0.056025993078947067
+a54876033256 0.0058198985643684864
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="6760619" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a23150825352 0
+a24865701304 0
+a26580577256 0.70794570446014404
+a26909804800 0
+a28724166400 0
+a30010323200 0.84139508008956909
+a30439046400 0
+a32582636800 0.00014709496463183314
+a33440076800 2
+a33868800000 0.50118720531463623
+a47373447656 0.3548133373260498
+a54018542056 0.99999994039535522
+a54161498856 0.056025993078947067
+a54876033256 0.0058198985643684864
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="12704" left-frame="0" y-origin="991">
+        <Selection>
+          <ControlPoint type="track" route-id="6241427" automation-list-id="6760619" parameter="send" view-index="12"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="12704" left-frame="0" y-origin="991">
+        <Selection>
+          <ControlPoint type="track" route-id="6241427" automation-list-id="6760619" parameter="send" view-index="12"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716015875" tv-usec="139810" name="automation event move">
+    <MementoUndoCommand obj-id="6760619" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a23150825352 0
+a24865701304 0
+a26580577256 0.70794570446014404
+a26909804800 0
+a28724166400 0
+a30010323200 0.84139508008956909
+a30439046400 0
+a32582636800 0.00014709496463183314
+a33440076800 2
+a33868800000 0.50118720531463623
+a47373447656 0.3548133373260498
+a54018542056 0.99999994039535522
+a54161498856 0.056025993078947067
+a54876033256 0.0058198985643684864
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="6760619" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a23150825352 0
+a24865701304 0
+a26580577256 0.70794570446014404
+a26909804800 0
+a28724166400 0
+a30010323200 0.84139508008956909
+a30439046400 0
+a32582636800 0.00014709496463183314
+a33440076800 2
+a33868800000 0.50118720531463623
+a47373447656 0.25118860602378845
+a54018542056 0.99999994039535522
+a54161498856 0.056025993078947067
+a54876033256 0.0058198985643684864
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="12704" left-frame="0" y-origin="991">
+        <Selection>
+          <ControlPoint type="track" route-id="6241427" automation-list-id="6760619" parameter="send" view-index="11"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="12704" left-frame="0" y-origin="991">
+        <Selection>
+          <ControlPoint type="track" route-id="6241427" automation-list-id="6760619" parameter="send" view-index="11"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1716015882" tv-usec="744260" name="automation event move">
+    <MementoUndoCommand obj-id="6760619" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a23150825352 0
+a24865701304 0
+a26580577256 0.70794570446014404
+a26909804800 0
+a28724166400 0
+a30010323200 0.84139508008956909
+a30439046400 0
+a32582636800 0.00014709496463183314
+a33440076800 2
+a33868800000 0.50118720531463623
+a47373447656 0.25118860602378845
+a54018542056 0.99999994039535522
+a54161498856 0.056025993078947067
+a54876033256 0.0058198985643684864
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="6760619" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="send" id="6760619" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a23150825352 0
+a24865701304 0
+a26580577256 0.70794570446014404
+a26909804800 0
+a28724166400 0
+a30010323200 0.84139508008956909
+a30439046400 0
+a32582636800 0.00014709496463183314
+a33440076800 2
+a33868800000 0.50118720531463623
+a47373447656 0.25118860602378845
+a54018542056 0.70794570446014404
+a54161498856 0.056025993078947067
+a54876033256 0.0058198985643684864
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="12704" left-frame="0" y-origin="991">
+        <Selection>
+          <ControlPoint type="track" route-id="6241427" automation-list-id="6760619" parameter="send" view-index="12"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="12704" left-frame="0" y-origin="991">
+        <Selection>
+          <ControlPoint type="track" route-id="6241427" automation-list-id="6760619" parameter="send" view-index="12"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
