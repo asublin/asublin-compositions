@@ -1,454 +1,580 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1719140515" tv-usec="783312" name="add note">
-    <NoteDiffCommand midi-source="287282">
-      <ChangedNotes>
-        <Change property="Length" old="1:0" new="0:1440" id="2378311"/>
-      </ChangedNotes>
-      <AddedNotes>
-        <note id="110245706" note="64" channel="0" time="10:960" length="0:480" velocity="91"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140520" tv-usec="751959" name="add note">
-    <NoteDiffCommand midi-source="292944">
-      <ChangedNotes>
-        <Change property="Length" old="1:0" new="0:1440" id="2378311"/>
-      </ChangedNotes>
-      <AddedNotes>
-        <note id="110246211" note="64" channel="0" time="10:960" length="0:480" velocity="97"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140525" tv-usec="269377" name="add note">
-    <NoteDiffCommand midi-source="292931">
-      <ChangedNotes>
-        <Change property="Length" old="1:0" new="0:1440" id="2378311"/>
-      </ChangedNotes>
-      <AddedNotes>
-        <note id="110246668" note="64" channel="0" time="10:960" length="0:480" velocity="98"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140673" tv-usec="990692" name="change note">
-    <NoteDiffCommand midi-source="287282">
-      <ChangedNotes/>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140680" tv-usec="249109" name="delete note">
-    <NoteDiffCommand midi-source="287282">
-      <ChangedNotes>
-        <Change property="Length" old="0:1440" new="1:0" id="2378311"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes>
-        <note id="110245706" note="64" channel="0" time="10:960" length="0:480" velocity="91"/>
-      </RemovedNotes>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140778" tv-usec="568309" name="add automation event">
-    <MementoCommand obj-id="122326" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a22790214400 0.50118720531463623
+  <UndoTransaction tv-sec="1719145765" tv-usec="466187" name="add automation event">
+    <MementoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0.5
 </events>
       </AutomationList>
     </MementoCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4969" left-frame="0" y-origin="320">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="720">
         <Selection>
-          <StripableView id="122290"/>
+          <StripableView id="320724"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="4969" left-frame="0" y-origin="320">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="720">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145769" tv-usec="971693" name="automation event move">
+    <MementoUndoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0.5
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="720">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="720">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145771" tv-usec="961273" name="add automation event">
+    <MementoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0
+</events>
+      </AutomationList>
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0
+b337920 0.85135138034820557
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="720">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="720">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145775" tv-usec="110601" name="automation event move">
+    <MementoUndoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0
+b337920 0.85135138034820557
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0
+b337920 1
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="720">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="720">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145792" tv-usec="741225" name="add automation event">
+    <MementoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0.5
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <StripableView id="321215"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145795" tv-usec="520706" name="automation event move">
+    <MementoUndoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0.5
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145797" tv-usec="207138" name="add automation event">
+    <MementoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0
+</events>
+      </AutomationList>
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0
+b368640 0.77027028799057007
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145800" tv-usec="991217" name="automation event move">
+    <MementoUndoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0
+b368640 0.77027028799057007
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0
+b368640 1
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145828" tv-usec="531572" name="automation event move">
+    <MementoUndoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0
+b337920 1
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0.10000002384185791
+b337920 1
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145838" tv-usec="737913" name="automation event move">
+    <MementoUndoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0.10000002384185791
+b337920 1
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0.10000002384185791
+b337920 0.89999997615814209
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145853" tv-usec="991416" name="automation event move">
+    <MementoUndoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0
+b368640 1
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0.19999998807907104
+b368640 1
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145861" tv-usec="818336" name="automation event move">
+    <MementoUndoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0.19999998807907104
+b368640 1
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0.80000001192092896
+b368640 0.80000001192092896
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="1"/>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="1"/>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145867" tv-usec="472429" name="automation event move">
+    <MementoUndoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0.80000001192092896
+b368640 0.80000001192092896
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0.19999998807907104
+b368640 0.80000001192092896
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145893" tv-usec="890633" name="automation event move">
+    <MementoUndoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0.19999998807907104
+b368640 0.80000001192092896
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0.80000001192092896
+b368640 0.80000001192092896
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145900" tv-usec="123802" name="automation event move">
+    <MementoUndoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0.80000001192092896
+b368640 0.80000001192092896
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="321223" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="321223" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b322560 0.80000001192092896
+b368640 0.19999998807907104
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="321215" automation-list-id="321223" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145909" tv-usec="956054" name="automation event move">
+    <MementoUndoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0.10000002384185791
+b337920 0.89999997615814209
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0.19999998807907104
+b337920 0.89999997615814209
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145916" tv-usec="400118" name="automation event move">
+    <MementoUndoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0.19999998807907104
+b337920 0.89999997615814209
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="320775" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="320775" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b0 0.5
+b307200 0.19999998807907104
+b337920 0.80000001192092896
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320775" parameter="pan-azimuth" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1719145944" tv-usec="544525" name="add automation event">
+    <MementoCommand obj-id="320760" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="320760" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1
+a25322464000 0.50118720531463623
+a27854713600 0
+</events>
+      </AutomationList>
+      <AutomationList automation-id="gain" id="320760" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1
+a25322464000 0.50118720531463623
+a27221651200 0.34410536289215088
+a27854713600 0
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
+        <Selection>
+          <AutomationView id="320724" parameter="gain" ctrl_id="320761"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
         <Selection/>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1719140784" tv-usec="403942" name="add automation event">
-    <MementoCommand obj-id="122326" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a22790214400 0.50118720531463623
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a22631955200 0.56633186340332031
-a22790214400 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="621" left-frame="3492772" y-origin="320">
-        <Selection/>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="621" left-frame="3492772" y-origin="320">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140787" tv-usec="938490" name="automation event move">
-    <MementoUndoCommand obj-id="122326" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a22631955200 0.56633186340332031
-a22790214400 0.50118720531463623
+  <UndoTransaction tv-sec="1719145952" tv-usec="250818" name="automation event move">
+    <MementoUndoCommand obj-id="320760" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="320760" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1
+a25322464000 0.50118720531463623
+a27221651200 0.34410536289215088
+a27854713600 0
 </events>
       </AutomationList>
     </MementoUndoCommand>
-    <MementoRedoCommand obj-id="122326" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a22631955200 0.50118720531463623
-a22790214400 0.50118720531463623
+    <MementoRedoCommand obj-id="320760" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="320760" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1
+a25322464000 0.50118720531463623
+a27221651200 0.3548133373260498
+a27854713600 0
 </events>
       </AutomationList>
     </MementoRedoCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="621" left-frame="3492772" y-origin="320">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
         <Selection>
-          <ControlPoint type="track" route-id="122290" automation-list-id="122326" parameter="gain" view-index="1"/>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320760" parameter="gain" view-index="2"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="621" left-frame="3492772" y-origin="320">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
         <Selection>
-          <ControlPoint type="track" route-id="122290" automation-list-id="122326" parameter="gain" view-index="1"/>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320760" parameter="gain" view-index="2"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1719140796" tv-usec="333578" name="automation event move">
-    <MementoUndoCommand obj-id="122326" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a22631955200 1
-a22790214400 0.50118720531463623
+  <UndoTransaction tv-sec="1719145981" tv-usec="157545" name="automation event move">
+    <MementoUndoCommand obj-id="320760" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="320760" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1
+a25322464000 0.50118720531463623
+a27221651200 0.3548133373260498
+a27854713600 0
 </events>
       </AutomationList>
     </MementoUndoCommand>
-    <MementoRedoCommand obj-id="122326" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a22631955200 1
-a22790214400 2
+    <MementoRedoCommand obj-id="320760" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="320760" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1
+a25322464000 0.50118720531463623
+a27221651200 0.25118860602378845
+a27854713600 0
 </events>
       </AutomationList>
     </MementoRedoCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="621" left-frame="3492772" y-origin="320">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
         <Selection>
-          <ControlPoint type="track" route-id="122290" automation-list-id="122326" parameter="gain" view-index="2"/>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320760" parameter="gain" view-index="2"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="621" left-frame="3492772" y-origin="320">
+      <SelectionMemento mouse-mode="MouseObject" zoom="5652" left-frame="1381237" y-origin="880">
         <Selection>
-          <ControlPoint type="track" route-id="122290" automation-list-id="122326" parameter="gain" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140811" tv-usec="962986" name="automation event move">
-    <MementoUndoCommand obj-id="122326" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a22631955200 1
-a22790214400 2
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="122326" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a22631955200 1
-a22790214400 0.99999994039535522
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="621" left-frame="3492772" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="122290" automation-list-id="122326" parameter="gain" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="621" left-frame="3492772" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="122290" automation-list-id="122326" parameter="gain" view-index="2"/>
+          <ControlPoint type="track" route-id="320724" automation-list-id="320760" parameter="gain" view-index="2"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140861" tv-usec="183262" name="add automation event">
-    <MementoCommand obj-id="380" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.17782793939113617
-a22631955200 0.17782793939113617
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2507" left-frame="2307978" y-origin="320">
-        <Selection>
-          <StripableView id="344"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2507" left-frame="2307978" y-origin="320">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140865" tv-usec="141546" name="add automation event">
-    <MementoCommand obj-id="380" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.17782793939113617
-a22631955200 0.17782793939113617
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.17782793939113617
-a22631955200 0.17782793939113617
-a22790214400 0.50372135639190674
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2507" left-frame="2307978" y-origin="320">
-        <Selection/>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2507" left-frame="2307978" y-origin="320">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140869" tv-usec="248316" name="automation event move">
-    <MementoUndoCommand obj-id="380" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.17782793939113617
-a22631955200 0.17782793939113617
-a22790214400 0.50372135639190674
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="380" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.17782793939113617
-a22631955200 0.17782793939113617
-a22790214400 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2507" left-frame="2307978" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="344" automation-list-id="380" parameter="gain" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2507" left-frame="2307978" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="344" automation-list-id="380" parameter="gain" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140877" tv-usec="450314" name="automation event move">
-    <MementoUndoCommand obj-id="122326" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a22631955200 1
-a22790214400 0.99999994039535522
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="122326" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a22631955200 0.50118720531463623
-a22790214400 0.99999994039535522
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2507" left-frame="2307978" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="122290" automation-list-id="122326" parameter="gain" view-index="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2507" left-frame="2307978" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="122290" automation-list-id="122326" parameter="gain" view-index="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140890" tv-usec="751846" name="automation event move">
-    <MementoUndoCommand obj-id="122326" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a22631955200 0.50118720531463623
-a22790214400 0.99999994039535522
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="122326" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a22631955200 0.50118720531463623
-a22790214400 0.70794570446014404
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2518" left-frame="2989753" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="122290" automation-list-id="122326" parameter="gain" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2518" left-frame="2989753" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="122290" automation-list-id="122326" parameter="gain" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140933" tv-usec="38881" name="add automation event">
-    <MementoCommand obj-id="380" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.17782793939113617
-a22631955200 0.17782793939113617
-a22790214400 0.50118720531463623
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.17782793939113617
-a20257971200 0.22243256866931915
-a22631955200 0.17782793939113617
-a22790214400 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2518" left-frame="2989753" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="122290" automation-list-id="122326" parameter="gain" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2518" left-frame="2989753" y-origin="320">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140940" tv-usec="777239" name="automation event move">
-    <MementoUndoCommand obj-id="380" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.17782793939113617
-a20257971200 0.22243256866931915
-a22631955200 0.17782793939113617
-a22790214400 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="380" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.17782793939113617
-a20257971200 0.22387208044528961
-a22631955200 0.17782793939113617
-a22790214400 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2518" left-frame="2989753" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="344" automation-list-id="380" parameter="gain" view-index="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2518" left-frame="2989753" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="344" automation-list-id="380" parameter="gain" view-index="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140945" tv-usec="890128" name="automation event move">
-    <MementoUndoCommand obj-id="380" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.17782793939113617
-a20257971200 0.22387208044528961
-a22631955200 0.17782793939113617
-a22790214400 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="380" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.17782793939113617
-a20257971200 0.17782792448997498
-a22631955200 0.17782793939113617
-a22790214400 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2518" left-frame="2989753" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="344" automation-list-id="380" parameter="gain" view-index="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2518" left-frame="2989753" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="344" automation-list-id="380" parameter="gain" view-index="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140952" tv-usec="638632" name="automation event move">
-    <MementoUndoCommand obj-id="380" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.17782793939113617
-a20257971200 0.17782792448997498
-a22631955200 0.17782793939113617
-a22790214400 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="380" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.17782793939113617
-a20257971200 0.17782792448997498
-a22631955200 0.3548133373260498
-a22790214400 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2518" left-frame="2989753" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="344" automation-list-id="380" parameter="gain" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2518" left-frame="2989753" y-origin="320">
-        <Selection>
-          <ControlPoint type="track" route-id="344" automation-list-id="380" parameter="gain" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1719140998" tv-usec="405101" name="add note">
-    <NoteDiffCommand midi-source="287282">
-      <ChangedNotes>
-        <Change property="Length" old="1:0" new="0:1440" id="2378311"/>
-      </ChangedNotes>
-      <AddedNotes>
-        <note id="110357356" note="64" channel="0" time="10:960" length="0:480" velocity="90"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
   </UndoTransaction>
 </UndoHistory>
