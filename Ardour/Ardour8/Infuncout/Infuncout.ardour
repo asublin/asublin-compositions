@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Infuncout" sample-rate="44100" session-range-is-free="0" id-counter="343212" rg-counter="969" name-counter="7" event-counter="112105815" vca-counter="1">
+<Session version="7002" name="Infuncout" sample-rate="44100" session-range-is-free="0" id-counter="357558" rg-counter="989" name-counter="7" event-counter="112537959" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.6-1041-gaeec61e5ca" modified-with="Ardour 8.6-1081-g7173585a1d"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -11,11 +11,10 @@
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
       <Connection other="Arcade 1/midi_in 1"/>
-      <Connection other="Bass/midi_in 1"/>
-      <Connection other="Chip Snare/midi_in 1"/>
-      <Connection other="Kick Snare/midi_in 1"/>
+      <Connection other="Arp/midi_in 1"/>
       <Connection other="Lead Hi/midi_in 1"/>
-      <Connection other="Arcade 1/midi_in 1"/>
+      <Connection other="Lead Low/midi_in 1"/>
+      <Connection other="Lead Low/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -398,7 +397,9 @@
     <Region name="Take2_Lead-43.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b437760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="11" tags="" contents="0" rgroup="0" id="331751" type="midi" first-edit="nothing" source-0="331621" master-source-0="331621"/>
     <Region name="Take2_Lead-45.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b32640@b407040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="333037" type="midi" first-edit="nothing" source-0="333029" master-source-0="333029"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="344" control="0" order="18"/>
+  </Selection>
   <Locations>
     <Location id="9785" name="session" start="b0" end="b460800" flags="IsSessionRange" locked="0" timestamp="1718476211" cue="0"/>
     <Location id="20015" name="Loop" start="b307200" end="b368640" flags="IsAutoLoop" locked="0" timestamp="1718477183" cue="0"/>
@@ -565,7 +566,7 @@ a37350636800 0.25118860602378845
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="75" flags="GainLike" value="0.37989416640262524"/>
+        <Controllable name="gaincontrol" id="75" flags="GainLike" value="0.25118860602378845"/>
       </Processor>
       <Processor id="83481" name="x42-dpl - Digital Peak Limiter Stereo" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/dpl#stereo" count="1" custom="0">
         <Automation>
@@ -1691,7 +1692,9 @@ b307200 3999.999267578125
       <Controllable name="solo-safe" id="393" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Lead Low" id="405" direction="Input" default-type="midi">
         <Port name="Lead Low/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="a2j:UM-1 [28] (capture): UM-1 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Lead Low" id="406" direction="Output" default-type="midi">
@@ -2150,7 +2153,7 @@ a28646041201 0.3548133373260498
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="381" flags="GainLike" value="0.3548133373260498"/>
+        <Controllable name="gaincontrol" id="381" flags="GainLike" value="0.17782793939113617"/>
       </Processor>
       <Processor id="83492" name="Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="6" selfdestruct="0" target="3251" allow-feedback="0">
         <Automation>
@@ -2687,7 +2690,7 @@ a28487769600 0.99999994039535522
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="468" flags="GainLike" value="0.99999994039535522"/>
+        <Controllable name="gaincontrol" id="468" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="498" name="meter-Noize Mak3r 4" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="499" name="Arp" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Arp" type="main-outs" role="Main">
@@ -2976,7 +2979,7 @@ b439680 0
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="http://kunz.corrupt.ch/products/tal-noisemaker#preset096" last-preset-label="DR Perc Bongo Room TAL" parameter-changed-since-last-preset="1" state-dir="state202">
+        <lv2 last-preset-uri="http://kunz.corrupt.ch/products/tal-noisemaker#preset096" last-preset-label="DR Perc Bongo Room TAL" parameter-changed-since-last-preset="1" state-dir="state215">
           <Port symbol="lv2_freewheel" value="0"/>
           <Port symbol="unused" value="0"/>
           <Port symbol="volume" value="0.72400003671646118"/>
@@ -6314,11 +6317,11 @@ a25480729600 1.9952623844146729
 a22631955200 0.50118720531463623
 a25322464000 0.70794570446014404
 a33552268800 0.70794570446014404
-a36084512000 0.3548133373260498
+a36084512000 0.25118860602378845
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="122327" flags="GainLike" value="0.3548133373260498"/>
+        <Controllable name="gaincontrol" id="122327" flags="GainLike" value="0.50118720531463623"/>
       </Processor>
       <Processor id="122701" name="Flanger" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="7" selfdestruct="0" target="3140" allow-feedback="0">
         <Automation>
@@ -6824,9 +6827,7 @@ a30386956800 0
       <Controllable name="solo-safe" id="320773" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Arcade 1" id="320785" direction="Input" default-type="midi">
         <Port name="Arcade 1/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="a2j:UM-1 [28] (capture): UM-1 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Arcade 1" id="320786" direction="Output" default-type="midi">
@@ -7250,14 +7251,15 @@ b337920 0.80000001192092896
       <Processor id="320787" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="320760" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-            <events>a0 1
+            <events>a0 0.3548133373260498
 a25322464000 0.50118720531463623
+a25638995200 0.3548133373260498
 a27221651200 0.25118860602378845
 a27854713600 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="320761" flags="GainLike" value="0"/>
+        <Controllable name="gaincontrol" id="320761" flags="GainLike" value="0.3548133373260498"/>
       </Processor>
       <Processor id="321854" name="Flanger" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="13" selfdestruct="0" target="3140" allow-feedback="0">
         <Automation>
@@ -7677,13 +7679,13 @@ b368640 0.19999998807907104
           <AutomationList automation-id="gain" id="321657" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
             <events>a0 1
 a26588588800 0
-a28487775780 0.99999994039535522
+a28487775780 0.70794570446014404
 a28646041201 0.17782792448997498
 a30386956800 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="321658" flags="GainLike" value="0"/>
+        <Controllable name="gaincontrol" id="321658" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="321988" name="Flanger" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="15" selfdestruct="0" target="3140" allow-feedback="0">
         <Automation>
@@ -9208,6 +9210,31 @@ a30386956800 0
         </Object>
       </GUIObjectState>
     </UI>
+    <ExportRevision revision="2"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="9785" realtime="0"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="Master/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="Master/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="0627662f-f190-468d-9bb8-db0cca42eac5"/>
+      <ExportFilename>
+        <Folder relative="1" path="export"/>
+        <Field name="label" enabled="0"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="1"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_ISO"/>
+      </ExportFilename>
+    </ExportProfile>
     <Videomonitor active="0"/>
   </Extra>
   <Script lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</Script>
