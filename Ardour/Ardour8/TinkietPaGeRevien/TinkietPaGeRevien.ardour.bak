@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="TinkietPaGeRevien" sample-rate="44100" session-range-is-free="0" id-counter="193710" rg-counter="608" name-counter="1" event-counter="2477654" vca-counter="1">
+<Session version="7002" name="TinkietPaGeRevien" sample-rate="44100" session-range-is-free="0" id-counter="201804" rg-counter="611" name-counter="1" event-counter="2506501" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.6-1081-g7173585a1d" modified-with="Ardour 8.6-1081-g7173585a1d"/>
+  <EngineHints backend="PulseAudio" input-device="Default Playback" output-device="Default Playback"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
     <Port name="MIDI Clock out" type="midi" direction="Output"/>
@@ -10,10 +11,8 @@
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
-      <Connection other="High Arp Pad/midi_in 1"/>
-      <Connection other="Kick Bass/midi_in 1"/>
-      <Connection other="Low Arp Pad/midi_in 1"/>
-      <Connection other="Low Arp Pad/midi_in 1"/>
+      <Connection other="Lead/midi_in 1"/>
+      <Connection other="Lead/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -83,150 +82,150 @@
     <Source name="Arp Chord-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="4030" natural-position="a0" origin="Arp Chord-6.mid"/>
     <Source name="Bass-2.mid" take-id="" type="midi" flags="Writable,CanRename" id="6141" origin="Bass-2.mid"/>
     <Source name="Lead-2.mid" take-id="" type="midi" flags="Writable,CanRename" id="6688" origin="Lead-2.mid"/>
-    <Source name="Take4_Kick Bass-1.mid" take-id="" type="midi" flags="Writable,CanRename" id="24159" origin=""/>
-    <Source name="Take4_Snare-3.mid" take-id="" type="midi" flags="Writable,CanRename" id="24168" origin=""/>
-    <Source name="Take4_Guitar-2.mid" take-id="" type="midi" flags="Writable,CanRename" id="96839" origin=""/>
-    <Source name="Take4_Low Arp Pad-1.mid" take-id="" type="midi" flags="Writable,CanRename" id="103086" origin=""/>
-    <Source name="Take4_Guitar-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="104865" natural-position="a0" origin=""/>
-    <Source name="Take4_Low Arp Pad-3.mid" take-id="" type="midi" flags="Writable,CanRename" id="104883" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="113028" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="113036" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-9.mid" take-id="" type="midi" flags="Writable,CanRename" id="113044" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-10.mid" take-id="" type="midi" flags="Writable,CanRename" id="113052" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="123642" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-12.mid" take-id="" type="midi" flags="Writable,CanRename" id="123650" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="123658" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="123666" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-15.mid" take-id="" type="midi" flags="Writable,CanRename" id="123788" natural-position="a0" origin=""/>
-    <Source name="HiHat-2.mid" take-id="" type="midi" flags="Writable,CanRename" id="136681" origin=""/>
-    <Source name="HiHat-4.mid" take-id="" type="midi" flags="Writable,CanRename" id="139727" natural-position="b215040" origin=""/>
-    <Source name="Take4_Snare-10.mid" take-id="" type="midi" flags="Writable,CanRename" id="139742" natural-position="a0" origin=""/>
-    <Source name="Lead-4.mid" take-id="" type="midi" flags="Writable,CanRename" id="139954" natural-position="a0" origin=""/>
-    <Source name="Bass-4.mid" take-id="" type="midi" flags="Writable,CanRename" id="139961" natural-position="a0" origin=""/>
-    <Source name="Take4_Kick Bass-9.mid" take-id="" type="midi" flags="Writable,CanRename" id="139968" natural-position="a0" origin=""/>
-    <Source name="HiHat-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="139975" natural-position="a0" origin=""/>
-    <Source name="Take4_Snare-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="139982" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-16.mid" take-id="" type="midi" flags="Writable,CanRename" id="139989" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-17.mid" take-id="" type="midi" flags="Writable,CanRename" id="139996" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-18.mid" take-id="" type="midi" flags="Writable,CanRename" id="140003" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-19.mid" take-id="" type="midi" flags="Writable,CanRename" id="140010" natural-position="a0" origin=""/>
-    <Source name="Lead-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="140214" natural-position="a0" origin=""/>
-    <Source name="Bass-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="140254" natural-position="a0" origin=""/>
-    <Source name="Bass-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="140340" natural-position="a0" origin=""/>
-    <Source name="Bass-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="140357" natural-position="a0" origin=""/>
-    <Source name="Bass-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="140411" natural-position="a0" origin=""/>
-    <Source name="Crash-2.mid" take-id="" type="midi" flags="Writable,CanRename" id="141004" origin=""/>
-    <Source name="Crash-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="147141" natural-position="a0" origin=""/>
-    <Source name="Take4_Snare-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="147763" natural-position="a0" origin=""/>
-    <Source name="Hit-2.mid" take-id="" type="midi" flags="Writable,CanRename" id="147776" origin=""/>
-    <Source name="Hit-4.mid" take-id="" type="midi" flags="Writable,CanRename" id="148660" natural-position="a0" origin=""/>
-    <Source name="Hit-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="148674" natural-position="a0" origin=""/>
-    <Source name="Hit-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="148688" natural-position="a0" origin=""/>
-    <Source name="Hit-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="148702" natural-position="a0" origin=""/>
-    <Source name="Hit-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="148716" natural-position="a0" origin=""/>
-    <Source name="Hit-9.mid" take-id="" type="midi" flags="Writable,CanRename" id="148730" natural-position="a0" origin=""/>
-    <Source name="Hit-10.mid" take-id="" type="midi" flags="Writable,CanRename" id="148744" natural-position="a0" origin=""/>
-    <Source name="Hit-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="148809" natural-position="a0" origin=""/>
-    <Source name="Hit-12.mid" take-id="" type="midi" flags="Writable,CanRename" id="148823" natural-position="a0" origin=""/>
-    <Source name="Hit-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="148837" natural-position="a0" origin=""/>
-    <Source name="Hit-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="148851" natural-position="a0" origin=""/>
-    <Source name="Hit-15.mid" take-id="" type="midi" flags="Writable,CanRename" id="148865" natural-position="a0" origin=""/>
-    <Source name="Hit-16.mid" take-id="" type="midi" flags="Writable,CanRename" id="148879" natural-position="a0" origin=""/>
-    <Source name="Hit-17.mid" take-id="" type="midi" flags="Writable,CanRename" id="148893" natural-position="a0" origin=""/>
-    <Source name="Hit-18.mid" take-id="" type="midi" flags="Writable,CanRename" id="148958" natural-position="a0" origin=""/>
-    <Source name="Hit-19.mid" take-id="" type="midi" flags="Writable,CanRename" id="148972" natural-position="a0" origin=""/>
-    <Source name="Hit-20.mid" take-id="" type="midi" flags="Writable,CanRename" id="148986" natural-position="a0" origin=""/>
-    <Source name="Hit-21.mid" take-id="" type="midi" flags="Writable,CanRename" id="149000" natural-position="a0" origin=""/>
-    <Source name="Hit-22.mid" take-id="" type="midi" flags="Writable,CanRename" id="149014" natural-position="a0" origin=""/>
-    <Source name="Hit-23.mid" take-id="" type="midi" flags="Writable,CanRename" id="149028" natural-position="a0" origin=""/>
-    <Source name="Hit-24.mid" take-id="" type="midi" flags="Writable,CanRename" id="149042" natural-position="a0" origin=""/>
-    <Source name="Hit-25.mid" take-id="" type="midi" flags="Writable,CanRename" id="149056" natural-position="a0" origin=""/>
-    <Source name="Hit-26.mid" take-id="" type="midi" flags="Writable,CanRename" id="149063" natural-position="a0" origin=""/>
-    <Source name="Hit-27.mid" take-id="" type="midi" flags="Writable,CanRename" id="149070" natural-position="a0" origin=""/>
-    <Source name="Hit-28.mid" take-id="" type="midi" flags="Writable,CanRename" id="149077" natural-position="a0" origin=""/>
-    <Source name="Hit-29.mid" take-id="" type="midi" flags="Writable,CanRename" id="149084" natural-position="a0" origin=""/>
-    <Source name="Hit-30.mid" take-id="" type="midi" flags="Writable,CanRename" id="149091" natural-position="a0" origin=""/>
-    <Source name="Hit-31.mid" take-id="" type="midi" flags="Writable,CanRename" id="149098" natural-position="a0" origin=""/>
-    <Source name="Hit-32.mid" take-id="" type="midi" flags="Writable,CanRename" id="149105" natural-position="a0" origin=""/>
-    <Source name="Take4_Low Arp Pad-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="156148" natural-position="a0" origin=""/>
-    <Source name="Take4_Low Arp Pad-9.mid" take-id="" type="midi" flags="Writable,CanRename" id="156156" natural-position="a0" origin=""/>
-    <Source name="Take4_Low Arp Pad-10.mid" take-id="" type="midi" flags="Writable,CanRename" id="156215" natural-position="a0" origin=""/>
-    <Source name="Bass-9.mid" take-id="" type="midi" flags="Writable,CanRename" id="156309" natural-position="a0" origin=""/>
-    <Source name="Bass-10.mid" take-id="" type="midi" flags="Writable,CanRename" id="156316" natural-position="a0" origin=""/>
-    <Source name="Take4_Lead-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="156751" origin=""/>
-    <Source name="Take4_High Arp Pad-5.mid" take-id="" type="midi" flags="Writable,CanRename,Removable,RemovableIfEmpty,Empty" id="158208" origin=""/>
-    <Source name="Take4_High Arp Pad-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="158239" origin=""/>
-    <Source name="Take4_Guitar-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="165867" natural-position="a0" origin=""/>
-    <Source name="Take4_Guitar-4.mid" take-id="" type="midi" flags="Writable,CanRename" id="165877" natural-position="a0" origin=""/>
-    <Source name="Take4_Low Arp Pad-12.mid" take-id="" type="midi" flags="Writable,CanRename" id="165887" natural-position="a0" origin=""/>
-    <Source name="Take4_Low Arp Pad-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="165895" natural-position="a0" origin=""/>
-    <Source name="Bass-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="165917" natural-position="a0" origin=""/>
-    <Source name="Bass-12.mid" take-id="" type="midi" flags="Writable,CanRename" id="171714" natural-position="a0" origin=""/>
-    <Source name="HiHat-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="178391" natural-position="a0" origin=""/>
-    <Source name="Take4_Kick Bass-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="178411" origin=""/>
-    <Source name="Take4_Kick Bass-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="179878" natural-position="a0" origin=""/>
-    <Source name="Claps-2.mid" take-id="" type="midi" flags="Writable,CanRename" id="181302" origin=""/>
-    <Source name="Claps-4.mid" take-id="" type="midi" flags="Writable,CanRename" id="182336" natural-position="a0" origin=""/>
-    <Source name="Claps-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="182358" natural-position="a0" origin=""/>
-    <Source name="Claps-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="182380" natural-position="a0" origin=""/>
-    <Source name="Claps-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="182402" natural-position="a0" origin=""/>
-    <Source name="Claps-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="182424" natural-position="a0" origin=""/>
-    <Source name="Claps-9.mid" take-id="" type="midi" flags="Writable,CanRename" id="182446" natural-position="a0" origin=""/>
-    <Source name="Hit-33.mid" take-id="" type="midi" flags="Writable,CanRename" id="182483" natural-position="a0" origin=""/>
-    <Source name="Hit-34.mid" take-id="" type="midi" flags="Writable,CanRename" id="182493" natural-position="a0" origin=""/>
-    <Source name="Hit-35.mid" take-id="" type="midi" flags="Writable,CanRename" id="182503" natural-position="a0" origin=""/>
-    <Source name="Hit-36.mid" take-id="" type="midi" flags="Writable,CanRename" id="182513" natural-position="a0" origin=""/>
-    <Source name="Hit-37.mid" take-id="" type="midi" flags="Writable,CanRename" id="182523" natural-position="a0" origin=""/>
-    <Source name="Hit-38.mid" take-id="" type="midi" flags="Writable,CanRename" id="182533" natural-position="a0" origin=""/>
-    <Source name="Hit-39.mid" take-id="" type="midi" flags="Writable,CanRename" id="182543" natural-position="a0" origin=""/>
-    <Source name="Hit-40.mid" take-id="" type="midi" flags="Writable,CanRename" id="182553" natural-position="a0" origin=""/>
-    <Source name="Hit-41.mid" take-id="" type="midi" flags="Writable,CanRename" id="182563" natural-position="a0" origin=""/>
-    <Source name="Hit-42.mid" take-id="" type="midi" flags="Writable,CanRename" id="182573" natural-position="a0" origin=""/>
-    <Source name="Hit-43.mid" take-id="" type="midi" flags="Writable,CanRename" id="182583" natural-position="a0" origin=""/>
-    <Source name="Claps-10.mid" take-id="" type="midi" flags="Writable,CanRename" id="182596" natural-position="a0" origin=""/>
-    <Source name="Claps-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="182604" natural-position="a0" origin=""/>
-    <Source name="Claps-12.mid" take-id="" type="midi" flags="Writable,CanRename" id="182612" natural-position="a0" origin=""/>
-    <Source name="Claps-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="182620" natural-position="a0" origin=""/>
-    <Source name="Claps-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="182742" natural-position="a0" origin=""/>
-    <Source name="Claps-15.mid" take-id="" type="midi" flags="Writable,CanRename" id="182750" natural-position="a0" origin=""/>
-    <Source name="Claps-16.mid" take-id="" type="midi" flags="Writable,CanRename" id="182758" natural-position="a0" origin=""/>
-    <Source name="Claps-17.mid" take-id="" type="midi" flags="Writable,CanRename" id="182766" natural-position="a0" origin=""/>
-    <Source name="Claps-18.mid" take-id="" type="midi" flags="Writable,CanRename" id="182851" natural-position="a0" origin=""/>
-    <Source name="Claps-19.mid" take-id="" type="midi" flags="Writable,CanRename" id="182859" natural-position="a0" origin=""/>
-    <Source name="Claps-20.mid" take-id="" type="midi" flags="Writable,CanRename" id="182867" natural-position="a0" origin=""/>
-    <Source name="Claps-21.mid" take-id="" type="midi" flags="Writable,CanRename" id="182875" natural-position="a0" origin=""/>
-    <Source name="Claps-22.mid" take-id="" type="midi" flags="Writable,CanRename" id="182894" natural-position="a0" origin=""/>
-    <Source name="Claps-23.mid" take-id="" type="midi" flags="Writable,CanRename" id="182908" natural-position="a0" origin=""/>
-    <Source name="Claps-24.mid" take-id="" type="midi" flags="Writable,CanRename" id="182922" natural-position="a0" origin=""/>
-    <Source name="Claps-25.mid" take-id="" type="midi" flags="Writable,CanRename" id="182932" natural-position="a0" origin=""/>
-    <Source name="Take4_Low Arp Pad-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="182964" natural-position="a0" origin=""/>
-    <Source name="Take4_Low Arp Pad-15.mid" take-id="" type="midi" flags="Writable,CanRename" id="182972" natural-position="a0" origin=""/>
-    <Source name="Take4_Snare-16.mid" take-id="" type="midi" flags="Writable,CanRename" id="183187" natural-position="a0" origin=""/>
-    <Source name="Lead-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="183239" natural-position="a0" origin=""/>
-    <Source name="Lead-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="183247" natural-position="a0" origin=""/>
-    <Source name="Take4_Lead-16.mid" take-id="" type="midi" flags="Writable,CanRename" id="183255" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-20.mid" take-id="" type="midi" flags="Writable,CanRename" id="183294" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-21.mid" take-id="" type="midi" flags="Writable,CanRename" id="183302" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-22.mid" take-id="" type="midi" flags="Writable,CanRename" id="183310" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-23.mid" take-id="" type="midi" flags="Writable,CanRename" id="183318" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-24.mid" take-id="" type="midi" flags="Writable,CanRename" id="183326" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-25.mid" take-id="" type="midi" flags="Writable,CanRename" id="183334" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-26.mid" take-id="" type="midi" flags="Writable,CanRename" id="183342" natural-position="a0" origin=""/>
-    <Source name="Arp Chord-27.mid" take-id="" type="midi" flags="Writable,CanRename" id="183350" natural-position="a0" origin=""/>
-    <Source name="Take4_Kick Bass-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="183377" natural-position="a0" origin=""/>
-    <Source name="Take4_Kick Bass-15.mid" take-id="" type="midi" flags="Writable,CanRename" id="183385" natural-position="a0" origin=""/>
-    <Source name="HiHat-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="183408" natural-position="a0" origin=""/>
-    <Source name="HiHat-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="183416" natural-position="a0" origin=""/>
-    <Source name="Take4_Snare-17.mid" take-id="" type="midi" flags="Writable,CanRename" id="183431" natural-position="a0" origin=""/>
-    <Source name="Take4_Snare-18.mid" take-id="" type="midi" flags="Writable,CanRename" id="183439" natural-position="a0" origin=""/>
-    <Source name="Crash-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="183526" natural-position="a0" origin=""/>
-    <Source name="Bass-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="183558" natural-position="a0" origin=""/>
-    <Source name="Bass-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="183575" natural-position="a0" origin=""/>
-    <Source name="Claps-26.mid" take-id="" type="midi" flags="Writable,CanRename" id="184313" natural-position="a0" origin=""/>
-    <Source name="Claps-27.mid" take-id="" type="midi" flags="Writable,CanRename" id="184327" natural-position="a0" origin=""/>
-    <Source name="Claps-28.mid" take-id="" type="midi" flags="Writable,CanRename" id="184341" natural-position="a0" origin=""/>
-    <Source name="Crash-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="184422" natural-position="a0" origin=""/>
-    <Source name="Crash-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="184555" natural-position="a0" origin=""/>
+    <Source name="Take4_Kick Bass-1.mid" take-id="" type="midi" flags="Writable,CanRename" id="24159" origin="Take4_Kick Bass-1.mid"/>
+    <Source name="Take4_Snare-3.mid" take-id="" type="midi" flags="Writable,CanRename" id="24168" origin="Take4_Snare-3.mid"/>
+    <Source name="Take4_Guitar-2.mid" take-id="" type="midi" flags="Writable,CanRename" id="96839" origin="Take4_Guitar-2.mid"/>
+    <Source name="Take4_Low Arp Pad-1.mid" take-id="" type="midi" flags="Writable,CanRename" id="103086" origin="Take4_Low Arp Pad-1.mid"/>
+    <Source name="Take4_Guitar-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="104865" natural-position="a0" origin="Take4_Guitar-5.mid"/>
+    <Source name="Take4_Low Arp Pad-3.mid" take-id="" type="midi" flags="Writable,CanRename" id="104883" natural-position="a0" origin="Take4_Low Arp Pad-3.mid"/>
+    <Source name="Arp Chord-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="113028" natural-position="a0" origin="Arp Chord-7.mid"/>
+    <Source name="Arp Chord-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="113036" natural-position="a0" origin="Arp Chord-8.mid"/>
+    <Source name="Arp Chord-9.mid" take-id="" type="midi" flags="Writable,CanRename" id="113044" natural-position="a0" origin="Arp Chord-9.mid"/>
+    <Source name="Arp Chord-10.mid" take-id="" type="midi" flags="Writable,CanRename" id="113052" natural-position="a0" origin="Arp Chord-10.mid"/>
+    <Source name="Arp Chord-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="123642" natural-position="a0" origin="Arp Chord-11.mid"/>
+    <Source name="Arp Chord-12.mid" take-id="" type="midi" flags="Writable,CanRename" id="123650" natural-position="a0" origin="Arp Chord-12.mid"/>
+    <Source name="Arp Chord-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="123658" natural-position="a0" origin="Arp Chord-13.mid"/>
+    <Source name="Arp Chord-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="123666" natural-position="a0" origin="Arp Chord-14.mid"/>
+    <Source name="Arp Chord-15.mid" take-id="" type="midi" flags="Writable,CanRename" id="123788" natural-position="a0" origin="Arp Chord-15.mid"/>
+    <Source name="HiHat-2.mid" take-id="" type="midi" flags="Writable,CanRename" id="136681" origin="HiHat-2.mid"/>
+    <Source name="HiHat-4.mid" take-id="" type="midi" flags="Writable,CanRename" id="139727" natural-position="b215040" origin="HiHat-4.mid"/>
+    <Source name="Take4_Snare-10.mid" take-id="" type="midi" flags="Writable,CanRename" id="139742" natural-position="a0" origin="Take4_Snare-10.mid"/>
+    <Source name="Lead-4.mid" take-id="" type="midi" flags="Writable,CanRename" id="139954" natural-position="a0" origin="Lead-4.mid"/>
+    <Source name="Bass-4.mid" take-id="" type="midi" flags="Writable,CanRename" id="139961" natural-position="a0" origin="Bass-4.mid"/>
+    <Source name="Take4_Kick Bass-9.mid" take-id="" type="midi" flags="Writable,CanRename" id="139968" natural-position="a0" origin="Take4_Kick Bass-9.mid"/>
+    <Source name="HiHat-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="139975" natural-position="a0" origin="HiHat-5.mid"/>
+    <Source name="Take4_Snare-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="139982" natural-position="a0" origin="Take4_Snare-11.mid"/>
+    <Source name="Arp Chord-16.mid" take-id="" type="midi" flags="Writable,CanRename" id="139989" natural-position="a0" origin="Arp Chord-16.mid"/>
+    <Source name="Arp Chord-17.mid" take-id="" type="midi" flags="Writable,CanRename" id="139996" natural-position="a0" origin="Arp Chord-17.mid"/>
+    <Source name="Arp Chord-18.mid" take-id="" type="midi" flags="Writable,CanRename" id="140003" natural-position="a0" origin="Arp Chord-18.mid"/>
+    <Source name="Arp Chord-19.mid" take-id="" type="midi" flags="Writable,CanRename" id="140010" natural-position="a0" origin="Arp Chord-19.mid"/>
+    <Source name="Lead-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="140214" natural-position="a0" origin="Lead-5.mid"/>
+    <Source name="Bass-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="140254" natural-position="a0" origin="Bass-5.mid"/>
+    <Source name="Bass-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="140340" natural-position="a0" origin="Bass-6.mid"/>
+    <Source name="Bass-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="140357" natural-position="a0" origin="Bass-7.mid"/>
+    <Source name="Bass-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="140411" natural-position="a0" origin="Bass-8.mid"/>
+    <Source name="Crash-2.mid" take-id="" type="midi" flags="Writable,CanRename" id="141004" origin="Crash-2.mid"/>
+    <Source name="Crash-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="147141" natural-position="a0" origin="Crash-5.mid"/>
+    <Source name="Take4_Snare-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="147763" natural-position="a0" origin="Take4_Snare-14.mid"/>
+    <Source name="Hit-2.mid" take-id="" type="midi" flags="Writable,CanRename" id="147776" origin="Hit-2.mid"/>
+    <Source name="Hit-4.mid" take-id="" type="midi" flags="Writable,CanRename" id="148660" natural-position="a0" origin="Hit-4.mid"/>
+    <Source name="Hit-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="148674" natural-position="a0" origin="Hit-5.mid"/>
+    <Source name="Hit-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="148688" natural-position="a0" origin="Hit-6.mid"/>
+    <Source name="Hit-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="148702" natural-position="a0" origin="Hit-7.mid"/>
+    <Source name="Hit-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="148716" natural-position="a0" origin="Hit-8.mid"/>
+    <Source name="Hit-9.mid" take-id="" type="midi" flags="Writable,CanRename" id="148730" natural-position="a0" origin="Hit-9.mid"/>
+    <Source name="Hit-10.mid" take-id="" type="midi" flags="Writable,CanRename" id="148744" natural-position="a0" origin="Hit-10.mid"/>
+    <Source name="Hit-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="148809" natural-position="a0" origin="Hit-11.mid"/>
+    <Source name="Hit-12.mid" take-id="" type="midi" flags="Writable,CanRename" id="148823" natural-position="a0" origin="Hit-12.mid"/>
+    <Source name="Hit-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="148837" natural-position="a0" origin="Hit-13.mid"/>
+    <Source name="Hit-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="148851" natural-position="a0" origin="Hit-14.mid"/>
+    <Source name="Hit-15.mid" take-id="" type="midi" flags="Writable,CanRename" id="148865" natural-position="a0" origin="Hit-15.mid"/>
+    <Source name="Hit-16.mid" take-id="" type="midi" flags="Writable,CanRename" id="148879" natural-position="a0" origin="Hit-16.mid"/>
+    <Source name="Hit-17.mid" take-id="" type="midi" flags="Writable,CanRename" id="148893" natural-position="a0" origin="Hit-17.mid"/>
+    <Source name="Hit-18.mid" take-id="" type="midi" flags="Writable,CanRename" id="148958" natural-position="a0" origin="Hit-18.mid"/>
+    <Source name="Hit-19.mid" take-id="" type="midi" flags="Writable,CanRename" id="148972" natural-position="a0" origin="Hit-19.mid"/>
+    <Source name="Hit-20.mid" take-id="" type="midi" flags="Writable,CanRename" id="148986" natural-position="a0" origin="Hit-20.mid"/>
+    <Source name="Hit-21.mid" take-id="" type="midi" flags="Writable,CanRename" id="149000" natural-position="a0" origin="Hit-21.mid"/>
+    <Source name="Hit-22.mid" take-id="" type="midi" flags="Writable,CanRename" id="149014" natural-position="a0" origin="Hit-22.mid"/>
+    <Source name="Hit-23.mid" take-id="" type="midi" flags="Writable,CanRename" id="149028" natural-position="a0" origin="Hit-23.mid"/>
+    <Source name="Hit-24.mid" take-id="" type="midi" flags="Writable,CanRename" id="149042" natural-position="a0" origin="Hit-24.mid"/>
+    <Source name="Hit-25.mid" take-id="" type="midi" flags="Writable,CanRename" id="149056" natural-position="a0" origin="Hit-25.mid"/>
+    <Source name="Hit-26.mid" take-id="" type="midi" flags="Writable,CanRename" id="149063" natural-position="a0" origin="Hit-26.mid"/>
+    <Source name="Hit-27.mid" take-id="" type="midi" flags="Writable,CanRename" id="149070" natural-position="a0" origin="Hit-27.mid"/>
+    <Source name="Hit-28.mid" take-id="" type="midi" flags="Writable,CanRename" id="149077" natural-position="a0" origin="Hit-28.mid"/>
+    <Source name="Hit-29.mid" take-id="" type="midi" flags="Writable,CanRename" id="149084" natural-position="a0" origin="Hit-29.mid"/>
+    <Source name="Hit-30.mid" take-id="" type="midi" flags="Writable,CanRename" id="149091" natural-position="a0" origin="Hit-30.mid"/>
+    <Source name="Hit-31.mid" take-id="" type="midi" flags="Writable,CanRename" id="149098" natural-position="a0" origin="Hit-31.mid"/>
+    <Source name="Hit-32.mid" take-id="" type="midi" flags="Writable,CanRename" id="149105" natural-position="a0" origin="Hit-32.mid"/>
+    <Source name="Take4_Low Arp Pad-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="156148" natural-position="a0" origin="Take4_Low Arp Pad-8.mid"/>
+    <Source name="Take4_Low Arp Pad-9.mid" take-id="" type="midi" flags="Writable,CanRename" id="156156" natural-position="a0" origin="Take4_Low Arp Pad-9.mid"/>
+    <Source name="Take4_Low Arp Pad-10.mid" take-id="" type="midi" flags="Writable,CanRename" id="156215" natural-position="a0" origin="Take4_Low Arp Pad-10.mid"/>
+    <Source name="Bass-9.mid" take-id="" type="midi" flags="Writable,CanRename" id="156309" natural-position="a0" origin="Bass-9.mid"/>
+    <Source name="Bass-10.mid" take-id="" type="midi" flags="Writable,CanRename" id="156316" natural-position="a0" origin="Bass-10.mid"/>
+    <Source name="Take4_Lead-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="156751" origin="Take4_Lead-13.mid"/>
+    <Source name="Take4_High Arp Pad-5.mid" take-id="" type="midi" flags="Writable,CanRename,Removable,RemovableIfEmpty,Empty" id="158208" origin="Take4_High Arp Pad-5.mid"/>
+    <Source name="Take4_High Arp Pad-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="158239" origin="Take4_High Arp Pad-6.mid"/>
+    <Source name="Take4_Guitar-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="165867" natural-position="a0" origin="Take4_Guitar-6.mid"/>
+    <Source name="Take4_Guitar-4.mid" take-id="" type="midi" flags="Writable,CanRename" id="165877" natural-position="a0" origin="Take4_Guitar-4.mid"/>
+    <Source name="Take4_Low Arp Pad-12.mid" take-id="" type="midi" flags="Writable,CanRename" id="165887" natural-position="a0" origin="Take4_Low Arp Pad-12.mid"/>
+    <Source name="Take4_Low Arp Pad-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="165895" natural-position="a0" origin="Take4_Low Arp Pad-13.mid"/>
+    <Source name="Bass-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="165917" natural-position="a0" origin="Bass-11.mid"/>
+    <Source name="Bass-12.mid" take-id="" type="midi" flags="Writable,CanRename" id="171714" natural-position="a0" origin="Bass-12.mid"/>
+    <Source name="HiHat-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="178391" natural-position="a0" origin="HiHat-6.mid"/>
+    <Source name="Take4_Kick Bass-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="178411" origin="Take4_Kick Bass-11.mid"/>
+    <Source name="Take4_Kick Bass-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="179878" natural-position="a0" origin="Take4_Kick Bass-13.mid"/>
+    <Source name="Claps-2.mid" take-id="" type="midi" flags="Writable,CanRename" id="181302" origin="Claps-2.mid"/>
+    <Source name="Claps-4.mid" take-id="" type="midi" flags="Writable,CanRename" id="182336" natural-position="a0" origin="Claps-4.mid"/>
+    <Source name="Claps-5.mid" take-id="" type="midi" flags="Writable,CanRename" id="182358" natural-position="a0" origin="Claps-5.mid"/>
+    <Source name="Claps-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="182380" natural-position="a0" origin="Claps-6.mid"/>
+    <Source name="Claps-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="182402" natural-position="a0" origin="Claps-7.mid"/>
+    <Source name="Claps-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="182424" natural-position="a0" origin="Claps-8.mid"/>
+    <Source name="Claps-9.mid" take-id="" type="midi" flags="Writable,CanRename" id="182446" natural-position="a0" origin="Claps-9.mid"/>
+    <Source name="Hit-33.mid" take-id="" type="midi" flags="Writable,CanRename" id="182483" natural-position="a0" origin="Hit-33.mid"/>
+    <Source name="Hit-34.mid" take-id="" type="midi" flags="Writable,CanRename" id="182493" natural-position="a0" origin="Hit-34.mid"/>
+    <Source name="Hit-35.mid" take-id="" type="midi" flags="Writable,CanRename" id="182503" natural-position="a0" origin="Hit-35.mid"/>
+    <Source name="Hit-36.mid" take-id="" type="midi" flags="Writable,CanRename" id="182513" natural-position="a0" origin="Hit-36.mid"/>
+    <Source name="Hit-37.mid" take-id="" type="midi" flags="Writable,CanRename" id="182523" natural-position="a0" origin="Hit-37.mid"/>
+    <Source name="Hit-38.mid" take-id="" type="midi" flags="Writable,CanRename" id="182533" natural-position="a0" origin="Hit-38.mid"/>
+    <Source name="Hit-39.mid" take-id="" type="midi" flags="Writable,CanRename" id="182543" natural-position="a0" origin="Hit-39.mid"/>
+    <Source name="Hit-40.mid" take-id="" type="midi" flags="Writable,CanRename" id="182553" natural-position="a0" origin="Hit-40.mid"/>
+    <Source name="Hit-41.mid" take-id="" type="midi" flags="Writable,CanRename" id="182563" natural-position="a0" origin="Hit-41.mid"/>
+    <Source name="Hit-42.mid" take-id="" type="midi" flags="Writable,CanRename" id="182573" natural-position="a0" origin="Hit-42.mid"/>
+    <Source name="Hit-43.mid" take-id="" type="midi" flags="Writable,CanRename" id="182583" natural-position="a0" origin="Hit-43.mid"/>
+    <Source name="Claps-10.mid" take-id="" type="midi" flags="Writable,CanRename" id="182596" natural-position="a0" origin="Claps-10.mid"/>
+    <Source name="Claps-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="182604" natural-position="a0" origin="Claps-11.mid"/>
+    <Source name="Claps-12.mid" take-id="" type="midi" flags="Writable,CanRename" id="182612" natural-position="a0" origin="Claps-12.mid"/>
+    <Source name="Claps-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="182620" natural-position="a0" origin="Claps-13.mid"/>
+    <Source name="Claps-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="182742" natural-position="a0" origin="Claps-14.mid"/>
+    <Source name="Claps-15.mid" take-id="" type="midi" flags="Writable,CanRename" id="182750" natural-position="a0" origin="Claps-15.mid"/>
+    <Source name="Claps-16.mid" take-id="" type="midi" flags="Writable,CanRename" id="182758" natural-position="a0" origin="Claps-16.mid"/>
+    <Source name="Claps-17.mid" take-id="" type="midi" flags="Writable,CanRename" id="182766" natural-position="a0" origin="Claps-17.mid"/>
+    <Source name="Claps-18.mid" take-id="" type="midi" flags="Writable,CanRename" id="182851" natural-position="a0" origin="Claps-18.mid"/>
+    <Source name="Claps-19.mid" take-id="" type="midi" flags="Writable,CanRename" id="182859" natural-position="a0" origin="Claps-19.mid"/>
+    <Source name="Claps-20.mid" take-id="" type="midi" flags="Writable,CanRename" id="182867" natural-position="a0" origin="Claps-20.mid"/>
+    <Source name="Claps-21.mid" take-id="" type="midi" flags="Writable,CanRename" id="182875" natural-position="a0" origin="Claps-21.mid"/>
+    <Source name="Claps-22.mid" take-id="" type="midi" flags="Writable,CanRename" id="182894" natural-position="a0" origin="Claps-22.mid"/>
+    <Source name="Claps-23.mid" take-id="" type="midi" flags="Writable,CanRename" id="182908" natural-position="a0" origin="Claps-23.mid"/>
+    <Source name="Claps-24.mid" take-id="" type="midi" flags="Writable,CanRename" id="182922" natural-position="a0" origin="Claps-24.mid"/>
+    <Source name="Claps-25.mid" take-id="" type="midi" flags="Writable,CanRename" id="182932" natural-position="a0" origin="Claps-25.mid"/>
+    <Source name="Take4_Low Arp Pad-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="182964" natural-position="a0" origin="Take4_Low Arp Pad-14.mid"/>
+    <Source name="Take4_Low Arp Pad-15.mid" take-id="" type="midi" flags="Writable,CanRename" id="182972" natural-position="a0" origin="Take4_Low Arp Pad-15.mid"/>
+    <Source name="Take4_Snare-16.mid" take-id="" type="midi" flags="Writable,CanRename" id="183187" natural-position="a0" origin="Take4_Snare-16.mid"/>
+    <Source name="Lead-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="183239" natural-position="a0" origin="Lead-6.mid"/>
+    <Source name="Lead-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="183247" natural-position="a0" origin="Lead-7.mid"/>
+    <Source name="Take4_Lead-16.mid" take-id="" type="midi" flags="Writable,CanRename" id="183255" natural-position="a0" origin="Take4_Lead-16.mid"/>
+    <Source name="Arp Chord-20.mid" take-id="" type="midi" flags="Writable,CanRename" id="183294" natural-position="a0" origin="Arp Chord-20.mid"/>
+    <Source name="Arp Chord-21.mid" take-id="" type="midi" flags="Writable,CanRename" id="183302" natural-position="a0" origin="Arp Chord-21.mid"/>
+    <Source name="Arp Chord-22.mid" take-id="" type="midi" flags="Writable,CanRename" id="183310" natural-position="a0" origin="Arp Chord-22.mid"/>
+    <Source name="Arp Chord-23.mid" take-id="" type="midi" flags="Writable,CanRename" id="183318" natural-position="a0" origin="Arp Chord-23.mid"/>
+    <Source name="Arp Chord-24.mid" take-id="" type="midi" flags="Writable,CanRename" id="183326" natural-position="a0" origin="Arp Chord-24.mid"/>
+    <Source name="Arp Chord-25.mid" take-id="" type="midi" flags="Writable,CanRename" id="183334" natural-position="a0" origin="Arp Chord-25.mid"/>
+    <Source name="Arp Chord-26.mid" take-id="" type="midi" flags="Writable,CanRename" id="183342" natural-position="a0" origin="Arp Chord-26.mid"/>
+    <Source name="Arp Chord-27.mid" take-id="" type="midi" flags="Writable,CanRename" id="183350" natural-position="a0" origin="Arp Chord-27.mid"/>
+    <Source name="Take4_Kick Bass-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="183377" natural-position="a0" origin="Take4_Kick Bass-14.mid"/>
+    <Source name="Take4_Kick Bass-15.mid" take-id="" type="midi" flags="Writable,CanRename" id="183385" natural-position="a0" origin="Take4_Kick Bass-15.mid"/>
+    <Source name="HiHat-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="183408" natural-position="a0" origin="HiHat-7.mid"/>
+    <Source name="HiHat-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="183416" natural-position="a0" origin="HiHat-8.mid"/>
+    <Source name="Take4_Snare-17.mid" take-id="" type="midi" flags="Writable,CanRename" id="183431" natural-position="a0" origin="Take4_Snare-17.mid"/>
+    <Source name="Take4_Snare-18.mid" take-id="" type="midi" flags="Writable,CanRename" id="183439" natural-position="a0" origin="Take4_Snare-18.mid"/>
+    <Source name="Crash-6.mid" take-id="" type="midi" flags="Writable,CanRename" id="183526" natural-position="a0" origin="Crash-6.mid"/>
+    <Source name="Bass-13.mid" take-id="" type="midi" flags="Writable,CanRename" id="183558" natural-position="a0" origin="Bass-13.mid"/>
+    <Source name="Bass-14.mid" take-id="" type="midi" flags="Writable,CanRename" id="183575" natural-position="a0" origin="Bass-14.mid"/>
+    <Source name="Claps-26.mid" take-id="" type="midi" flags="Writable,CanRename" id="184313" natural-position="a0" origin="Claps-26.mid"/>
+    <Source name="Claps-27.mid" take-id="" type="midi" flags="Writable,CanRename" id="184327" natural-position="a0" origin="Claps-27.mid"/>
+    <Source name="Claps-28.mid" take-id="" type="midi" flags="Writable,CanRename" id="184341" natural-position="a0" origin="Claps-28.mid"/>
+    <Source name="Crash-7.mid" take-id="" type="midi" flags="Writable,CanRename" id="184422" natural-position="a0" origin="Crash-7.mid"/>
+    <Source name="Crash-8.mid" take-id="" type="midi" flags="Writable,CanRename" id="184555" natural-position="a0" origin="Crash-8.mid"/>
   </Sources>
   <TriggerBindings/>
   <Regions>
@@ -289,9 +288,7 @@
     <Region name="HiHat-7.1" muted="1" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b122880@b645120" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" id="183424" type="midi" first-edit="nothing" source-0="183408" master-source-0="183408"/>
     <Region name="Crash-8.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b890880" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="0" id="184563" type="midi" first-edit="nothing" source-0="184555" master-source-0="184555"/>
   </Regions>
-  <Selection>
-    <StripableAutomationControl stripable="91966" control="0" order="6"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
     <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
@@ -338,10 +335,14 @@
         <Port name="Master/audio_out 1" type="audio" direction="Output">
           <ExtConnection for="JACK"/>
           <ExtConnection for="JACK" other="system:playback_1"/>
+          <ExtConnection for="PulseAudio;;Default Playback"/>
+          <ExtConnection for="PulseAudio;;Default Playback" other="system:playback_1"/>
         </Port>
         <Port name="Master/audio_out 2" type="audio" direction="Output">
           <ExtConnection for="JACK"/>
           <ExtConnection for="JACK" other="system:playback_2"/>
+          <ExtConnection for="PulseAudio;;Default Playback"/>
+          <ExtConnection for="PulseAudio;;Default Playback" other="system:playback_2"/>
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
@@ -1807,7 +1808,7 @@ a37632000000 0.70794570446014404
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="4634" flags="GainLike" value="9.9999999999999995e-08"/>
+        <Controllable name="gaincontrol" id="4634" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="4664" name="meter-Bass" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="4665" name="Hi Bass" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Hi Bass" type="main-outs" role="Main">
@@ -2544,7 +2545,7 @@ a37632000000 0.50118720531463623
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="5142" flags="GainLike" value="0.50118730531463618"/>
+        <Controllable name="gaincontrol" id="5142" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="5172" name="meter-BD" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="5173" name="Kick Bass" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Kick Bass" type="main-outs" role="Main">
@@ -3316,7 +3317,7 @@ a12042240000 0.99999994039535522
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="5656" flags="GainLike" value="9.9999999999999995e-08"/>
+        <Controllable name="gaincontrol" id="5656" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="5686" name="meter-Snare" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="5687" name="Snare" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Snare" type="main-outs" role="Main">
@@ -3334,6 +3335,7 @@ a12042240000 0.99999994039535522
       <Controllable name="solo-safe" id="6211" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Lead" id="6223" direction="Input" default-type="midi">
         <Port name="Lead/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -3752,7 +3754,7 @@ b837120 0.019999999552965164
           <Port symbol="ringmodtranspose" value="-12"/>
           <Port symbol="ringmodfixedpitch" value="0"/>
           <Port symbol="ringmodfixedvsrelative" value="1"/>
-          <Port symbol="ringmoddepth" value="7.9975261688232422"/>
+          <Port symbol="ringmoddepth" value="7.9648761749267578"/>
           <Port symbol="buzzerenabled" value="0"/>
           <Port symbol="buzzershape" value="0"/>
           <Port symbol="seqtonepitch0" value="0"/>
@@ -3947,7 +3949,7 @@ b837120 0.019999999552965164
         <Controllable name="RingMod transpose" id="6390" flags="" value="-12" parameter="50" symbol="ringmodtranspose"/>
         <Controllable name="RingMod fixed pitch" id="6392" flags="" value="0" parameter="51" symbol="ringmodfixedpitch"/>
         <Controllable name="RingMod fixed vs relative" id="6394" flags="" value="1" parameter="52" symbol="ringmodfixedvsrelative"/>
-        <Controllable name="RingMod depth" id="6396" flags="" value="7.9975261688232422" parameter="53" symbol="ringmoddepth"/>
+        <Controllable name="RingMod depth" id="6396" flags="" value="7.9648761749267578" parameter="53" symbol="ringmoddepth"/>
         <Controllable name="Buzzer enabled" id="6398" flags="" value="0" parameter="54" symbol="buzzerenabled"/>
         <Controllable name="Buzzer shape" id="6400" flags="" value="0" parameter="55" symbol="buzzershape"/>
         <Controllable name="Seq tone pitch 0" id="6402" flags="" value="0" parameter="56" symbol="seqtonepitch0"/>
@@ -4096,7 +4098,7 @@ b837120 0.019999999552965164
         <Automation>
           <AutomationList automation-id="gain" id="6198" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="6199" flags="GainLike" value="1.9952623844146729"/>
+        <Controllable name="gaincontrol" id="6199" flags="GainLike" value="1.4125375747680664"/>
       </Processor>
       <Processor id="108317" name="Delay" active="0" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="1" selfdestruct="0" target="108229" allow-feedback="0">
         <Automation>
@@ -4256,7 +4258,7 @@ b837120 0.019999999552965164
           <AutomationList automation-id="parameter-52" id="91640" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
           <AutomationList automation-id="parameter-53" id="91642" interpolation-style="Linear" time-domain="BeatTime" state="Play">
             <events>b30720 15
-b215040 0
+b245760 0
 </events>
           </AutomationList>
           <AutomationList automation-id="parameter-54" id="91644" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
@@ -4852,16 +4854,15 @@ b215040 0
       <Controllable name="monitor" id="91481" flags="RealTime" value="0" monitoring=""/>
       <Controllable name="rec-safe" id="91479" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="91477" flags="Toggle,RealTime" value="0"/>
-      <Controllable name="midicc-0-1" id="158068" flags="" value="0"/>
+      <Controllable name="midicc-0-1" id="158068" flags="" value="11"/>
     </Route>
-    <Route version="7002" id="91966" name="Low Arp Pad" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="92044" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
+    <Route version="7002" id="91966" name="Low Arp Pad" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="92044" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
       <PresentationInfo order="2" flags="MidiTrack,OrderSet,TriggerTrack" color="605219327"/>
       <Controllable name="solo" id="92007" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="92013" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="92015" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Low Arp Pad" id="92027" direction="Input" default-type="midi">
         <Port name="Low Arp Pad/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
           <ExtConnection for="JACK" other="a2j:UM-1 [28] (capture): UM-1 MIDI 1"/>
         </Port>
@@ -5543,7 +5544,7 @@ a24084480000 0.99999994039535522
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="92003" flags="GainLike" value="1.9952624844146729"/>
+        <Controllable name="gaincontrol" id="92003" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="92033" name="meter-Deep Bass" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="92034" name="Low Arp Pad" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Low Arp Pad" type="main-outs" role="Main">
@@ -8669,6 +8670,31 @@ a24084480000 0.99999994039535522
   </ControlProtocols>
   <Extra>
     <AddRouteDialog LastRouteType="MidiTrack"/>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="3597" realtime="0"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="Master/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="Master/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="0627662f-f190-468d-9bb8-db0cca42eac5"/>
+      <ExportFilename>
+        <Folder relative="1" path="export"/>
+        <Field name="label" enabled="0"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="1"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_ISO"/>
+      </ExportFilename>
+    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="575" y-off="422" x-size="1141" y-size="558"/>
