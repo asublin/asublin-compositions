@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7002" name="Infuncout" sample-rate="44100" session-range-is-free="0" id-counter="377559" rg-counter="1040" name-counter="7" event-counter="113087853" vca-counter="1">
-  <ProgramVersion created-with="Ardour 8.6-1041-gaeec61e5ca" modified-with="Ardour 8.6-1081-g7173585a1d"/>
-  <EngineHints backend="PulseAudio" input-device="Default Playback" output-device="Default Playback"/>
+<Session version="7002" name="Infuncout" sample-rate="44100" session-range-is-free="0" id-counter="389980" rg-counter="1093" name-counter="7" event-counter="113609664" vca-counter="1">
+  <ProgramVersion created-with="Ardour 8.6-1041-gaeec61e5ca" modified-with="Ardour 8.6-1042-ga03f318339"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
     <Port name="MIDI Clock out" type="midi" direction="Output"/>
@@ -11,11 +10,14 @@
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
+      <Connection other="Arcade 2/midi_in 1"/>
+      <Connection other="Arp/midi_in 1"/>
       <Connection other="Bass/midi_in 1"/>
+      <Connection other="Crash/midi_in 1"/>
       <Connection other="Lead Hi/midi_in 1"/>
       <Connection other="Lead Low/midi_in 1"/>
       <Connection other="Lead Mid/midi_in 1"/>
-      <Connection other="Lead Hi/midi_in 1"/>
+      <Connection other="Arp/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -341,6 +343,8 @@
     <Source name="Take2_Chip Snare-18.mid" take-id="" type="midi" flags="Writable,CanRename" id="367580" natural-position="a0" origin=""/>
     <Source name="Take2_Chip Snare-19.mid" take-id="" type="midi" flags="Writable,CanRename" id="367588" natural-position="a0" origin=""/>
     <Source name="Take2_Perc-32.mid" take-id="" type="midi" flags="Writable,CanRename" id="376630" natural-position="a0" origin=""/>
+    <Source name="Crash-2.mid" take-id="" type="midi" flags="Writable,CanRename" id="387376" origin=""/>
+    <Source name="Take2_Pluck-47.mid" take-id="" type="midi" flags="Writable,CanRename" id="388273" natural-position="a0" origin=""/>
   </Sources>
   <TriggerBindings/>
   <Regions>
@@ -437,16 +441,22 @@
     <Region name="Take2_Lead-45.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b32640@b407040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="333037" type="midi" first-edit="nothing" source-0="333029" master-source-0="333029"/>
     <Region name="Take2_Lead-46.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b26880" length="b5760@b437760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="0" id="333076" type="midi" first-edit="nothing" source-0="333068" master-source-0="333068"/>
     <Region name="Take2_Kick-30.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b437760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="333232" type="midi" first-edit="nothing" source-0="333224" master-source-0="333224"/>
+    <Region name="Take2_Bass-47.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b122880" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="366638" type="midi" first-edit="nothing" source-0="366620" master-source-0="366620"/>
+    <Region name="Take2_Arp-53.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b153600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="366640" type="midi" first-edit="nothing" source-0="366628" master-source-0="366628"/>
     <Region name="Take2_Lead-53.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="367166" type="midi" first-edit="nothing" source-0="367164" master-source-0="367164"/>
     <Region name="Take2_Lead-54.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="16" tags="" contents="0" rgroup="0" id="367173" type="midi" first-edit="nothing" source-0="367171" master-source-0="367171"/>
     <Region name="Take2_Lead-55.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="367187" type="midi" first-edit="nothing" source-0="367185" master-source-0="367185"/>
     <Region name="Take2_Lead-56.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="367201" type="midi" first-edit="nothing" source-0="367199" master-source-0="367199"/>
     <Region name="Take2_Lead-57.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="16" tags="" contents="0" rgroup="0" id="367238" type="midi" first-edit="nothing" source-0="367236" master-source-0="367236"/>
     <Region name="Take2_Lead-58.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="367256" type="midi" first-edit="nothing" source-0="367254" master-source-0="367254"/>
+    <Region name="Crash-2" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b345600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="387378" type="midi" first-edit="nothing" source-0="387376" master-source-0="387376"/>
+    <Region name="Take2_Pluck-47.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b15360" length="b15360@b261120" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="388281" type="midi" first-edit="nothing" source-0="388273" master-source-0="388273"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="431" control="0" order="17"/>
+  </Selection>
   <Locations>
-    <Location id="9785" name="session" start="b0" end="b568320" flags="IsSessionRange" locked="0" timestamp="1718476211" cue="0"/>
+    <Location id="9785" name="session" start="b0" end="b545280" flags="IsSessionRange" locked="0" timestamp="1718476211" cue="0"/>
     <Location id="20015" name="Loop" start="b468480" end="b529920" flags="IsAutoLoop" locked="0" timestamp="1718477183" cue="0"/>
   </Locations>
   <Bundles/>
@@ -459,6 +469,7 @@
       <Controllable name="solo-safe" id="87" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Master" id="99" direction="Input" default-type="audio">
         <Port name="Master/audio_in 1" type="audio" direction="Input">
+          <Connection other="Crash/audio_out 1"/>
           <Connection other="Acoustic Snare/audio_out 1"/>
           <Connection other="Arcade 1/audio_out 1"/>
           <Connection other="Arcade 2/audio_out 1"/>
@@ -466,6 +477,7 @@
           <Connection other="Bass/audio_out 1"/>
           <Connection other="Chip Snare/audio_out 1"/>
           <Connection other="Chord/audio_out 1"/>
+          <Connection other="Crash/audio_out 1"/>
           <Connection other="Delay/audio_out 1"/>
           <Connection other="Flanger/audio_out 1"/>
           <Connection other="HiHat/audio_out 1"/>
@@ -478,6 +490,7 @@
           <Connection other="Reverb/audio_out 1"/>
         </Port>
         <Port name="Master/audio_in 2" type="audio" direction="Input">
+          <Connection other="Crash/audio_out 2"/>
           <Connection other="Acoustic Snare/audio_out 2"/>
           <Connection other="Arcade 1/audio_out 2"/>
           <Connection other="Arcade 2/audio_out 2"/>
@@ -485,6 +498,7 @@
           <Connection other="Bass/audio_out 2"/>
           <Connection other="Chip Snare/audio_out 2"/>
           <Connection other="Chord/audio_out 2"/>
+          <Connection other="Crash/audio_out 2"/>
           <Connection other="Delay/audio_out 2"/>
           <Connection other="Flanger/audio_out 2"/>
           <Connection other="HiHat/audio_out 2"/>
@@ -524,7 +538,7 @@
       </Automation>
       <Pannable>
         <Controllable name="pan-azimuth" id="90" flags="" value="0.5"/>
-        <Controllable name="pan-width" id="94" flags="" value="1"/>
+        <Controllable name="pan-width" id="94" flags="" value="0.50610259364048638"/>
         <Controllable name="pan-elevation" id="92" flags="" value="0"/>
         <Controllable name="pan-frontback" id="96" flags="" value="0"/>
         <Controllable name="pan-lfe" id="98" flags="" value="0"/>
@@ -585,7 +599,7 @@ a2556134400 5
         <luaproc last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <script lua="Lua 5.3" origin="/usr/share/ardour8/scripts/HiAndLowPass.lua">YXJkb3VyIHsKCVsidHlwZSJdICAgID0gImRzcCIsCgluYW1lICAgICAgICA9ICJBQ0UgSGlnaC9Mb3cgUGFzcyBGaWx0ZXIiLAoJY2F0ZWdvcnkgICAgPSAiRmlsdGVyIiwKCWxpY2Vuc2UgICAgID0gIkdQTHYyIiwKCWF1dGhvciAgICAgID0gIkFyZG91ciBDb21tdW5pdHkiLAoJZGVzY3JpcHRpb24gPSBbW0hpZ2ggYW5kIExvdyBQYXNzIEZpbHRlciB3aXRoIGRlLXppcHBlZCBjb250cm9sc11dCn0KCmZ1bmN0aW9uIGRzcF9pb2NvbmZpZyAoKQoJcmV0dXJuCgl7CgkJLS0gYWxsb3cgYW55IG51bWJlciBvZiBJL08gYXMgbG9uZyBhcyBwb3J0LWNvdW50IG1hdGNoZXMKCQl7IGF1ZGlvX2luID0gLTEsIGF1ZGlvX291dCA9IC0xfSwKCX0KZW5kCgoKZnVuY3Rpb24gZHNwX3BhcmFtcyAoKQoJcmV0dXJuCgl7CgkJeyBbInR5cGUiXSA9ICJpbnB1dCIsIG5hbWUgPSAiSGlnaCBQYXNzIFN0ZWVwbmVzcyIsIG1pbiA9IDAsIG1heCA9IDQsIGRlZmF1bHQgPSAxLCBlbnVtID0gdHJ1ZSwgc2NhbGVwb2ludHMgPQoJCQl7CgkJCQlbIk9mZiJdID0gMCwKCQkJCVsiMTJkQi9vY3QiXSA9IDEsCgkJCQlbIjI0ZEIvb2N0Il0gPSAyLAoJCQkJWyIzNmRCL29jdCJdID0gMywKCQkJCVsiNDhkQi9vY3QiXSA9IDQsCgkJCX0KCQl9LAoJCXsgWyJ0eXBlIl0gPSAiaW5wdXQiLCBuYW1lID0gIkhpZ2ggUGFzcyBDdXQgb2ZmIGZyZXF1ZW5jeSIsIG1pbiA9ICAgNSwgbWF4ID0gMjAwMDAsIGRlZmF1bHQgPSAxMDAsIHVuaXQ9Ikh6IiwgbG9nYXJpdGhtaWMgPSB0cnVlIH0sCgkJeyBbInR5cGUiXSA9ICJpbnB1dCIsIG5hbWUgPSAiSGlnaCBQYXNzIFJlc29uYW5jZSIsICAgICAgICAgbWluID0gMC4xLCBtYXggPSA2LCAgICAgZGVmYXVsdCA9IC43MDcsIGxvZ2FyaXRobWljID0gdHJ1ZSB9LAoKCQl7IFsidHlwZSJdID0gImlucHV0IiwgbmFtZSA9ICJMb3cgUGFzcyBTdGVlcG5lc3MiLCBtaW4gPSAwLCBtYXggPSA0LCBkZWZhdWx0ID0gMSwgZW51bSA9IHRydWUsIHNjYWxlcG9pbnRzID0KCQkJewoJCQkJWyJPZmYiXSA9IDAsCgkJCQlbIjEyZEIvb2N0Il0gPSAxLAoJCQkJWyIyNGRCL29jdCJdID0gMiwKCQkJCVsiMzZkQi9vY3QiXSA9IDMsCgkJCQlbIjQ4ZEIvb2N0Il0gPSA0LAoJCQl9CgkJfSwKCQl7IFsidHlwZSJdID0gImlucHV0IiwgbmFtZSA9ICJMb3cgUGFzcyBDdXQgb2ZmIGZyZXF1ZW5jeSIsICBtaW4gPSAgMjAsIG1heCA9IDIwMDAwLCBkZWZhdWx0ID0gMTgwMDAsIHVuaXQ9Ikh6IiwgbG9nYXJpdGhtaWMgPSB0cnVlIH0sCgkJeyBbInR5cGUiXSA9ICJpbnB1dCIsIG5hbWUgPSAiTG93IFBhc3MgUmVzb25hbmNlIiwgICAgICAgICAgbWluID0gMC4xLCBtYXggPSA2LCAgICAgZGVmYXVsdCA9IC43MDcsIGxvZ2FyaXRobWljID0gdHJ1ZSB9LAoJCXsgWyJ0eXBlIl0gPSAiaW5wdXQiLCBuYW1lID0gIkVuYWJsZSIsIG1pbiA9IDAsIG1heCA9IDEsIGRlZmF1bHQgPSAxLCBieXBhc3MgPSB0cnVlLCB0b2dnbGVkID0gdHJ1ZSB9LAoJfQplbmQKCi0tIHRoZXNlIGdsb2JhbHMgYXJlICpub3QqIHNoYXJlZCBiZXR3ZWVuIERTUCBhbmQgVUkKbG9jYWwgaHAgPSB7fSAgLS0gdGhlIGJpcXVhZCBoaWdoLXBhc3MgZmlsdGVyIGluc3RhbmNlcyAoRFNQKQpsb2NhbCBscCA9IHt9ICAtLSB0aGUgYmlxdWFkIGhpZ2gtcGFzcyBmaWx0ZXIgaW5zdGFuY2VzIChEU1ApCmxvY2FsIGZpbHQgPSBuaWwgLS0gdGhlIGJpcXVhZCBmaWx0ZXIgaW5zdGFuY2UgKEdVSSwgcmVzcG9uc2UpCmxvY2FsIGN1ciA9IHswLCAwLCAwLCAwLCAwLCAwLCAxfSAtLSBjdXJyZW50IHBhcmFtZXRlcnMKbG9jYWwgbHBmID0gMC4wMyAtLSBwYXJhbWV0ZXIgbG93LXBhc3MgZmlsdGVyIHRpbWUtY29uc3RhbnQKbG9jYWwgY2huID0gMCAtLSBjaGFubmVsL2ZpbHRlciBjb3VudApsb2NhbCBscGZfY2h1bmsgPSAwIC0tIGNodW5rIHNpemUgZm9yIGF1ZGlvIHByb2Nlc3Npbmcgd2hlbiBpbnRlcnBvbGF0aW5nIHBhcmFtZXRlcnMKbG9jYWwgbWF4X2ZyZXEgPSAyMDAwMAoKbG9jYWwgbWVtID0gbmlsIC0tIG1lbW9yeSB4LWZhZGUgYnVmZmVyCgpmdW5jdGlvbiBkc3BfaW5pdCAocmF0ZSkKCS0tIGFsbG9jYXRlIHNvbWUgbWl4LWJ1ZmZlcgoJbWVtID0gQVJET1VSLkRTUC5Ec3BTaG0gKDgxOTIpCgoJLS0gbWF4IGFsbG93ZWQgY3V0LW9mZiBmcmVxdWVuY3kKCW1heF9mcmVxID0gLjQ5OSAqIHJhdGUKCgktLSBjcmVhdGUgYSB0YWJsZSBvZiBvYmplY3RzIHRvIHNoYXJlIHdpdGggdGhlIEdVSQoJbG9jYWwgdGJsID0ge30KCXRibFsnc2FtcGxlcmF0ZSddID0gcmF0ZQoJdGJsWydtYXhfZnJlcSddID0gbWF4X2ZyZXEKCXNlbGY6dGFibGUgKCk6c2V0ICh0YmwpCgoKCS0tIFBhcmFtZXRlciBzbW9vdGhpbmc6IHdlIHdhbnQgdG8gZmlsdGVyIG91dCBwYXJhbWV0ZXIgY2hhbmdlcyB0aGF0IGFyZQoJLS0gZmFzdGVyIHRoYW4gMTVIeiwgYW5kIGludGVycG9sYXRlIGJldHdlZW4gcGFyYW1ldGVyIHZhbHVlcy4KCS0tIEZvciBwZXJmb3JtYW5jZSByZWFzb25zLCB3ZSB3YW50IHRvIGVuc3VyZSB0aGF0IHR3byBjb25zZWN1dGl2ZSB2YWx1ZXMKCS0tIG9mIHRoZSBpbnRlcnBvbGF0ZWQgInN0ZWVwbmVzcyIgYXJlIGxlc3MgdGhhdCAxIGFwYXJ0LiBCeSBjaG9vc2luZyB0aGUKCS0tIGludGVycG9sYXRpb24gY2h1bmsgc2l6ZSB0byBiZSA2NCBpbiBtb3N0IGNhc2VzLCBidXQgMzIgaWYgdGhlIHJhdGUgaXMKCS0tIHN0cmljdGx5IGxlc3MgdGhhbiAyMmtIeiAodGhlcmUncyBvbmx5IDhrSHogaW4gc3RhbmRhcmQgcmF0ZXMpLCB3ZSBjYW4KCS0tIGVuc3VyZSB0aGF0IHN0ZWVwbmVzcyBpbnRlcnBvbGF0aW9uIHdpbGwgbmV2ZXIgY2hhbmdlIHRoZSBwYXJhbWV0ZXIgYnkKCS0tIG1vcmUgdGhhbiB+MC44Ni4KCWxwZl9jaHVuayA9IDY0CglpZiByYXRlIDwgMjIwMDAgdGhlbiBscGZfY2h1bmsgPSAzMiBlbmQKCS0tIFdlIGFwcGx5IGEgZGlzY3JldGUgdmVyc2lvbiBvZiB0aGUgc3RhbmRhcmQgUkMgbG93LXBhc3MsIHdpdGggYSBjdXRvZmYKCS0tIGZyZXF1ZW5jeSBvZiAxNUh6LiBGb3IgbW9yZSBpbmZvcm1hdGlvbiBhYm91dCB0aGUgdW5kZXJseWluZyBtYXRoLCBzZWUKCS0tIGh0dHBzOi8vZW4ud2lraXBlZGlhLm9yZy93aWtpL0xvdy1wYXNzX2ZpbHRlciNEaXNjcmV0ZS10aW1lX3JlYWxpemF0aW9uCgktLSAoaGVyZSDOlHQgaXMgbHBmX2NodW5rIC8gcmF0ZSkKCWxvY2FsIFIgPSAyICogbWF0aC5waSAqIGxwZl9jaHVuayAqIDE1IC0tIEh6CglscGYgPSBSIC8gKFIgKyByYXRlKQplbmQKCmZ1bmN0aW9uIGRzcF9jb25maWd1cmUgKGlucywgb3V0cykKCWFzc2VydCAoaW5zOm5fYXVkaW8gKCkgPT0gb3V0czpuX2F1ZGlvICgpKQoJbG9jYWwgdGJsID0gc2VsZjp0YWJsZSAoKTpnZXQgKCkgLS0gZ2V0IHNoYXJlZCBtZW1vcnkgdGFibGUKCgljaG4gPSBpbnM6bl9hdWRpbyAoKQoJY3VyID0gezAsIDAsIDAsIDAsIDAsIDB9CgoJaHAgPSB7fQoJbHAgPSB7fQoKCWNvbGxlY3RnYXJiYWdlICgpCgoJZm9yIGMgPSAxLCBjaG4gZG8KCQlocFtjXSA9IHt9CgkJbHBbY10gPSB7fQoJCS0tIGluaXRpYWxpemUgZmlsdGVycwoJCS0tIGh0dHA6Ly9tYW51YWwuYXJkb3VyLm9yZy9sdWEtc2NyaXB0aW5nL2NsYXNzX3JlZmVyZW5jZS8jQVJET1VSOkRTUDpCaXF1YWQKCgkJLS0gQSBkaWZmZXJlbnQgQmlxdWFkIGlzIG5lZWRlZCBmb3IgZWFjaCBwYXNzIGFuZCBjaGFubmVsIGJlY2F1c2UgdGhleQoJCS0tIHJlbWVtYmVyIHRoZSBsYXN0IHR3byBzYW1wbGVzIHNlZW4gZHVyaW5nIHRoZSBsYXN0IGNhbGwgb2YgQmlxdWFkOnJ1bigpLgoJCS0tIEZvciBjb250aW51aXR5IHRoZXNlIGhhdmUgdG8gY29tZSBmcm9tIHRoZSBwcmV2aW91cyBhdWRpbyBjaHVuayBvZiB0aGUKCQktLSBzYW1lIGNoYW5uZWwgYW5kIHBhc3MgYW5kIHdvdWxkIGJlIGNsb2JiZXJlZCBpZiB0aGUgc2FtZSBCaXF1YWQgd2FzCgkJLS0gY2FsbGVkIHNldmVyYWwgdGltZXMgYnkgY3ljbGUuCgkJZm9yIGsgPSAxLDQgZG8KCQkJaHBbY11ba10gPSBBUkRPVVIuRFNQLkJpcXVhZCAodGJsWydzYW1wbGVyYXRlJ10pCgkJCWxwW2NdW2tdID0gQVJET1VSLkRTUC5CaXF1YWQgKHRibFsnc2FtcGxlcmF0ZSddKQoJCWVuZAoJZW5kCmVuZAoKZnVuY3Rpb24gc2FudGl6ZV9wYXJhbXMgKGN0cmwpCgktLSBkb24ndCBhbGxvdyBtYW51YWwgY3Jvc3MtZmFkZXMuIGVuZm9yY2UgZW51bXMKCWN0cmxbMV0gPSBtYXRoLmZsb29yKGN0cmxbMV0gKyAuNSkKCWN0cmxbNF0gPSBtYXRoLmZsb29yKGN0cmxbNF0gKyAuNSkKCgktLSBoaWdoIHBhc3MsIGNsYW1wIHJhbmdlCgljdHJsWzJdID0gbWF0aC5taW4gKG1heF9mcmVxLCBtYXRoLm1heCAoNSwgY3RybFsyXSkpCgljdHJsWzNdID0gbWF0aC5taW4gKDYsIG1hdGgubWF4ICgwLjEsIGN0cmxbM10pKQoKCS0tIGxvdyBwYXNzLCBjbGFtcCByYW5nZQoJY3RybFs1XSA9IG1hdGgubWluIChtYXhfZnJlcSwgbWF0aC5tYXggKDIwLCBjdHJsWzVdKSkKCWN0cmxbNl0gPSBtYXRoLm1pbiAoNiwgbWF0aC5tYXggKDAuMSwgY3RybFs2XSkpCgoJaWYgY3RybFs3XSA8PSAwIHRoZW4gLS0gd2hlbiBkaXNhYmxlZAoJCWN0cmxbMV0gPSAwOwoJCWN0cmxbNF0gPSAwOwoJZW5kCgoJcmV0dXJuIGN0cmwKZW5kCgotLSBoZWxwZXIgZnVuY3Rpb25zIGZvciBwYXJhbWV0ZXIgaW50ZXJwb2xhdGlvbgpmdW5jdGlvbiBwYXJhbV9jaGFuZ2VkIChjdHJsKQoJZm9yIHAgPSAxLDcgZG8KCQlpZiBjdHJsW3BdIH49IGN1cltwXSB0aGVuCgkJCXJldHVybiB0cnVlCgkJZW5kCgllbmQKCXJldHVybiBmYWxzZQplbmQKCmZ1bmN0aW9uIGxvd19wYXNzX2ZpbHRlcl9wYXJhbSAob2xkLCBuZXcsIGxpbWl0KQoJaWYgbWF0aC5hYnMgKG9sZCAtIG5ldykgPCBsaW1pdCAgdGhlbgoJCXJldHVybiBuZXcKCWVsc2UKCQlyZXR1cm4gb2xkICsgbHBmICogKG5ldyAtIG9sZCkKCWVuZAplbmQKCi0tIGFwcGx5IHBhcmFtZXRlcnMsIHJlLWNvbXB1dGUgZmlsdGVyIGNvZWZmaWNpZW50cyBpZiBuZWVkZWQKZnVuY3Rpb24gYXBwbHlfcGFyYW1zIChjdHJsKQoJaWYgbm90IHBhcmFtX2NoYW5nZWQgKGN0cmwpIHRoZW4KCQlyZXR1cm4KCWVuZAoKCS0tIGxvdy1wYXNzIGZpbHRlciBjdHJsIHBhcmFtZXRlciB2YWx1ZXMsIHNtb290aCB0cmFuc2l0aW9uCgljdXJbMV0gPSBsb3dfcGFzc19maWx0ZXJfcGFyYW0gKGN1clsxXSwgY3RybFsxXSwgMC4wNSkgLS0gSFAgb3JkZXIgeC1mYWRlCgljdXJbMl0gPSBsb3dfcGFzc19maWx0ZXJfcGFyYW0gKGN1clsyXSwgY3RybFsyXSwgMS4wKSAgLS0gSFAgZnJlcS9IegoJY3VyWzNdID0gbG93X3Bhc3NfZmlsdGVyX3BhcmFtIChjdXJbM10sIGN0cmxbM10sIDAuMDEpIC0tIEhQIHF1YWxpdHkKCWN1cls0XSA9IGxvd19wYXNzX2ZpbHRlcl9wYXJhbSAoY3VyWzRdLCBjdHJsWzRdLCAwLjA1KSAtLSBMUCBvcmRlciB4LWZhZGUKCWN1cls1XSA9IGxvd19wYXNzX2ZpbHRlcl9wYXJhbSAoY3VyWzVdLCBjdHJsWzVdLCAxLjApICAtLSBMUCBmcmVxL0h6CgljdXJbNl0gPSBsb3dfcGFzc19maWx0ZXJfcGFyYW0gKGN1cls2XSwgY3RybFs2XSwgMC4wMSkgLS0gTFAgcXVhbGl0eQoJY3VyWzddID0gY3RybFs3XQoKCWhwWzFdWzFdOmNvbXB1dGUgKEFSRE9VUi5EU1AuQmlxdWFkVHlwZS5IaWdoUGFzcywgY3VyWzJdLCBjdXJbM10sIDApCglscFsxXVsxXTpjb21wdXRlIChBUkRPVVIuRFNQLkJpcXVhZFR5cGUuTG93UGFzcywgIGN1cls1XSwgY3VyWzZdLCAwKQoKCWZvciBjID0gMSwgY2huIGRvCgkJZm9yIGsgPSAxLDQgZG8KCQkJaWYgbm90IChrID09IDEgYW5kIGMgPT0gMSkgdGhlbgoJCQkJaHBbY11ba106Y29uZmlndXJlIChocFsxXVsxXSkKCQkJCWxwW2NdW2tdOmNvbmZpZ3VyZSAobHBbMV1bMV0pCgkJCWVuZAoJCWVuZAoJZW5kCmVuZAoKCi0tIHRoZSBhY3R1YWwgRFNQIGNhbGxiYWNrCmZ1bmN0aW9uIGRzcF9ydW4gKGlucywgb3V0cywgbl9zYW1wbGVzKQoJYXNzZXJ0IChuX3NhbXBsZXMgPD0gODE5MikKCWFzc2VydCAoI2lucyA9PSBjaG4pCglsb2NhbCBjdHJsID0gc2FudGl6ZV9wYXJhbXMgKEN0cmxQb3J0czphcnJheSAoKSkKCglsb2NhbCByZWRyYXcgPSBmYWxzZQoJbG9jYWwgc2l6ID0gbl9zYW1wbGVzCglsb2NhbCBvZmYgPSAwCgoJLS0gaWYgYSBwYXJhbWV0ZXIgd2FzIGNoYW5nZWQsIHByb2Nlc3MgYXQgbW9zdCBscGZfY2h1bmsgc2FtcGxlcwoJLS0gYXQgYSB0aW1lIGFuZCBpbnRlcnBvbGF0ZSBwYXJhbWV0ZXJzIHVudGlsIHRoZSBjdXJyZW50IHNldHRpbmdzCgktLSBtYXRjaCB0aGUgdGFyZ2V0IHZhbHVlcwoJbG9jYWwgY2hhbmdlZCA9IHBhcmFtX2NoYW5nZWQgKGN0cmwpCglpZiBjaGFuZ2VkIHRoZW4KCQlyZWRyYXcgPSB0cnVlCgkJc2l6ID0gbHBmX2NodW5rCgllbmQKCglpZiBjaGFuZ2VkID09IGZhbHNlIGFuZCBjdXJbMV0gPT0gMCBhbmQgY3VyWzRdID09IDAgdGhlbgoJCS0tIGZ1bGx5IGJ5cGFzc2VkCgkJZm9yIGMgPSAxLCAjaW5zIGRvCgkJCWlmIGluc1tjXSB+PSBvdXRzW2NdIHRoZW4KCQkJCUFSRE9VUi5EU1AuY29weV92ZWN0b3IgKG91dHNbY106b2Zmc2V0ICgwKSwgaW5zW2NdOm9mZnNldCAoMCksIG5fc2FtcGxlcykKCQkJZW5kCgkJZW5kCgkJLS0gbm90aGluZyBsZWZ0IHRvIGRvCgkJbl9zYW1wbGVzID0gMAoJZW5kCgoJCS0tIHByb2Nlc3MgYWxsIGNoYW5uZWxzCgl3aGlsZSBuX3NhbXBsZXMgPiAwIGRvCgkJaWYgY2hhbmdlZCB0aGVuCgkJCWFwcGx5X3BhcmFtcyAoY3RybCkKCQkJY2hhbmdlZCA9IHBhcmFtX2NoYW5nZWQgKGN0cmwpCgkJCWlmIG5vdCBjaGFuZ2VkIHRoZW4KCQkJCXNpeiA9IG5fc2FtcGxlcwoJCQllbmQKCQllbmQKCgkJaWYgc2l6ID4gbl9zYW1wbGVzIHRoZW4gc2l6ID0gbl9zYW1wbGVzIGVuZAoKCQlsb2NhbCBobyA9IG1hdGguZmxvb3IoY3VyWzFdKQoJCWxvY2FsIGxvID0gbWF0aC5mbG9vcihjdXJbNF0pCgoJCWZvciBjID0gMSwgI2lucyBkbwoKCQkJLS0gSGlnaCBQYXNzCgkJCWxvY2FsIHhmYWRlID0gY3VyWzFdIC0gaG8KCgkJCS0tIHByZXBhcmUgc2NyYXRjaCBtZW1vcnkKCQkJQVJET1VSLkRTUC5jb3B5X3ZlY3RvciAobWVtOnRvX2Zsb2F0IChvZmYpLCBpbnNbY106b2Zmc2V0IChvZmYpLCBzaXopCgoJCQktLSBydW4gYXQgbGVhc3QgfGhvfCBiaXF1YWRzLi4uCgkJCWZvciBrID0gMSxobyBkbwoJCQkJaHBbY11ba106cnVuIChtZW06dG9fZmxvYXQgKG9mZiksIHNpeikKCQkJZW5kCgkJCUFSRE9VUi5EU1AuY29weV92ZWN0b3IgKG91dHNbY106b2Zmc2V0IChvZmYpLCBtZW06dG9fZmxvYXQgKG9mZiksIHNpeikKCgkJCS0tIG1peCB0aGUgb3V0cHV0IG9mIHxob3wgYmlxdWFkcyAod2l0aCB3ZWlnaHQgfDEteGZhZGV8KQoJCQktLSB3aXRoIHRoZSBvdXRwdXQgb2YgfGhvKzF8IGJpcXVhZHMgKHdpdGggd2VpZ2h0IHx4ZmFkZXwpCgkJCWlmIHhmYWRlID4gMCB0aGVuCgkJCQlBUkRPVVIuRFNQLmFwcGx5X2dhaW5fdG9fYnVmZmVyIChvdXRzW2NdOm9mZnNldCAob2ZmKSwgc2l6LCAxIC0geGZhZGUpCgkJCQlocFtjXVtobysxXTpydW4gKG1lbTp0b19mbG9hdCAob2ZmKSwgc2l6KQoJCQkJQVJET1VSLkRTUC5taXhfYnVmZmVyc193aXRoX2dhaW4gKG91dHNbY106b2Zmc2V0IChvZmYpLCBtZW06dG9fZmxvYXQgKG9mZiksIHNpeiwgeGZhZGUpCgkJCQktLSBhbHNvIHJ1biB0aGUgbmV4dCBiaXF1YWQgYmVjYXVzZSBpdCBuZWVkcyB0byBoYXZlIHRoZSBjb3JyZWN0IHN0YXRlCgkJCQktLSBpbiBjYXNlIGl0IHN0YXJ0IGFmZmVjdGluZyB0aGUgbmV4dCBjaHVuayBvZiBvdXRwdXQuIEhpZ2hlciBvcmRlcgoJCQkJLS0gb25lcyBhcmUgZ3VhcmFudGVlZCBub3QgdG8gYmUgbmVlZGVkIGZvciB0aGUgbmV4dCBydW4gYmVjYXVzZSB0aGUKCQkJCS0tIGludGVycG9sYXRlZCBvcmRlciB3b24ndCBpbmNyZWFzZSBtb3JlIHRoYW4gMC44NiBpbiBvbmUgc3RlcCB0aGFua3MKCQkJCS0tIHRvIHRoZSBjaG9pY2Ugb2YgdGhlIHZhbHVlIG9mIHxscGZ8LgoJCQkJaWYgaG8gKyAyIDw9IDQgdGhlbiBocFtjXVtobysyXTpydW4gKG1lbTp0b19mbG9hdCAob2ZmKSwgc2l6KSBlbmQKCQkJZWxzZWlmIGhvICsgMSA8PSA0IHRoZW4KCQkJCS0tIHJ1biB0aGUgbmV4dCBiaXF1YWQgaW4gY2FzZSBpdCBpcyB1c2VkIG5leHQgY2h1bmsKCQkJCWhwW2NdW2hvKzFdOnJ1biAobWVtOnRvX2Zsb2F0IChvZmYpLCBzaXopCgkJCWVuZAoKCQkJLS0gTG93IFBhc3MKCQkJeGZhZGUgPSBjdXJbNF0gLSBsbwoKCQkJLS0gcHJlcGFyZSBzY3JhdGNoIG1lbW9yeSAoZnJvbSBoaWdoIHBhc3Mgb3V0cHV0KQoJCQlBUkRPVVIuRFNQLmNvcHlfdmVjdG9yIChtZW06dG9fZmxvYXQgKG9mZiksIG91dHNbY106b2Zmc2V0IChvZmYpLCBzaXopCgoJCQktLSBydW4gYXQgbGVhc3QgfGxvfCBiaXF1YWRzLi4uCgkJCWZvciBrID0gMSxsbyBkbwoJCQkJbHBbY11ba106cnVuIChtZW06dG9fZmxvYXQgKG9mZiksIHNpeikKCQkJZW5kCgkJCUFSRE9VUi5EU1AuY29weV92ZWN0b3IgKG91dHNbY106b2Zmc2V0IChvZmYpLCBtZW06dG9fZmxvYXQgKG9mZiksIHNpeikKCgkJCS0tIG1peCB0aGUgb3V0cHV0IG9mIHxsb3wgYmlxdWFkcyAod2l0aCB3ZWlnaHQgfDEteGZhZGV8KQoJCQktLSB3aXRoIHRoZSBvdXRwdXQgb2YgfGxvKzF8IGJpcXVhZHMgKHdpdGggd2VpZ2h0IHx4ZmFkZXwpCgkJCWlmIHhmYWRlID4gMCB0aGVuCgkJCQlBUkRPVVIuRFNQLmFwcGx5X2dhaW5fdG9fYnVmZmVyIChvdXRzW2NdOm9mZnNldCAob2ZmKSwgc2l6LCAxIC0geGZhZGUpCgkJCQlscFtjXVtsbysxXTpydW4gKG1lbTp0b19mbG9hdCAob2ZmKSwgc2l6KQoJCQkJQVJET1VSLkRTUC5taXhfYnVmZmVyc193aXRoX2dhaW4gKG91dHNbY106b2Zmc2V0IChvZmYpLCBtZW06dG9fZmxvYXQgKG9mZiksIHNpeiwgeGZhZGUpCgkJCQktLSBhbHNvIHJ1biB0aGUgbmV4dCBiaXF1YWQgaW4gY2FzZSBpdCBzdGFydCBhZmZlY3RpbmcgdGhlIG5leHQKCQkJCS0tIGNodW5rIG9mIG91dHB1dC4KCQkJCWlmIGxvICsgMiA8PSA0IHRoZW4gbHBbY11bbG8rMl06cnVuIChtZW06dG9fZmxvYXQgKG9mZiksIHNpeikgZW5kCgkJCWVsc2VpZiBsbyArIDEgPD0gNCB0aGVuCgkJCQktLSBydW4gdGhlIG5leHQgYmlxdWFkIGluIGNhc2UgaXQgaXMgdXNlZCBuZXh0IGNodW5rCgkJCQlscFtjXVtsbysxXTpydW4gKG1lbTp0b19mbG9hdCAob2ZmKSwgc2l6KQoJCQllbmQKCgkJZW5kCgoJCW5fc2FtcGxlcyA9IG5fc2FtcGxlcyAtIHNpegoJCW9mZiA9IG9mZiArIHNpegoJZW5kCgoJaWYgcmVkcmF3IHRoZW4KCQktLSBub3RpZnkgZGlzcGxheQoJCXNlbGY6cXVldWVfZHJhdyAoKQoJZW5kCmVuZAoKCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KLS0tIGlubGluZSBkaXNwbGF5CgpmdW5jdGlvbiByb3VuZCAobikKCXJldHVybiBtYXRoLmZsb29yIChuICsgLjUpCmVuZAoKZnVuY3Rpb24gZnJlcV9hdF94ICh4LCB3KQoJLS0gZnJlcXVlbmN5IGluIEh6IGF0IGdpdmVuIHgtYXhpcyBwaXhlbAoJcmV0dXJuIDIwICogMTAwMCBeICh4IC8gdykKZW5kCgpmdW5jdGlvbiB4X2F0X2ZyZXEgKGYsIHcpCgktLSB4LWF4aXMgcGl4ZWwgZm9yIGdpdmVuIGZyZXF1ZW5jeSwgcG93ZXItc2NhbGUKCXJldHVybiB3ICogbWF0aC5sb2cgKGYgLyAyMC4wKSAvIG1hdGgubG9nICgxMDAwLjApCmVuZAoKZnVuY3Rpb24gZGJfdG9feSAoZGIsIGgpCgktLSB5LWF4aXMgZ2FpbiBtYXBwaW5nCglpZiBkYiA8IC02MCB0aGVuIGRiID0gLTYwIGVuZAoJaWYgZGIgPiAgMTIgdGhlbiBkYiA9ICAxMiBlbmQKCXJldHVybiAtLjUgKyByb3VuZCAoMC4yICogaCkgLSBoICogZGIgLyA2MAplbmQKCmZ1bmN0aW9uIGdyaWRfZGIgKGN0eCwgdywgaCwgZGIpCgktLSBkcmF3IGhvcml6b250YWwgZ3JpZCBsaW5lCgktLSBub3RlIHRoYXQgYSBjYWlybyBwaXhlbCBhdCBZIHNwYW5zIFtZIC0gMC41IHRvIFkgKyAwLjVdCglsb2NhbCB5ID0gLS41ICsgcm91bmQgKGRiX3RvX3kgKGRiLCBoKSkKCWN0eDptb3ZlX3RvICgwLCB5KQoJY3R4OmxpbmVfdG8gKHcsIHkpCgljdHg6c3Ryb2tlICgpCmVuZAoKZnVuY3Rpb24gZ3JpZF9mcmVxIChjdHgsIHcsIGgsIGYpCgktLSBkcmF3IHZlcnRpY2FsIGdyaWQgbGluZQoJbG9jYWwgeCA9IC0uNSArIHJvdW5kICh4X2F0X2ZyZXEgKGYsIHcpKQoJY3R4Om1vdmVfdG8gKHgsIDApCgljdHg6bGluZV90byAoeCwgaCkKCWN0eDpzdHJva2UgKCkKZW5kCgpmdW5jdGlvbiByZXNwb25zZSAoaG8sIGxvLCBmKQoJLS0gY2FsY3VsYXRlIHRyYW5zZmVyIGZ1bmN0aW9uIHJlc3BvbnNlIGZvciBnaXZlbgoJLS0gaGkvcG8gcGFzcyBvcmRlciBhdCBnaXZlbiBmcmVxdWVuY3kgW0h6XQoJbG9jYWwgZGIgPSBobyAqIGZpbHRbJ2hwJ106ZEJfYXRfZnJlcSAoZikKCXJldHVybiBkYiArIGxvICogZmlsdFsnbHAnXTpkQl9hdF9mcmVxIChmKQplbmQKCmZ1bmN0aW9uIHJlbmRlcl9pbmxpbmUgKGN0eCwgdywgbWF4X2gpCglpZiBub3QgZmlsdCB0aGVuCgkJbG9jYWwgdGJsID0gc2VsZjp0YWJsZSAoKTpnZXQgKCkgLS0gZ2V0IHNoYXJlZCBtZW1vcnkgdGFibGUKCQktLSBpbnN0YW50aWF0ZSBmaWx0ZXIgKHRvIGNhbGN1bGF0ZSB0aGUgdHJhbnNmZXIgZnVuY3Rpb24ncyByZXNwb25zZSkKCQlmaWx0ID0ge30KCQlmaWx0WydocCddID0gQVJET1VSLkRTUC5CaXF1YWQgKHRibFsnc2FtcGxlcmF0ZSddKQoJCWZpbHRbJ2xwJ10gPSBBUkRPVVIuRFNQLkJpcXVhZCAodGJsWydzYW1wbGVyYXRlJ10pCgkJbWF4X2ZyZXEgICA9IHRibFsnbWF4X2ZyZXEnXQoJZW5kCgoJbG9jYWwgY3RybCA9IHNhbnRpemVfcGFyYW1zIChDdHJsUG9ydHM6YXJyYXkgKCkpCgktLSBzZXQgZmlsdGVyIGNvZWZmaWNpZW50cyBpZiB0aGV5IGhhdmUgY2hhbmdlZAoJaWYgcGFyYW1fY2hhbmdlZCAoY3RybCkgdGhlbgoJCWZvciBrID0gMSw3IGRvIGN1cltrXSA9IGN0cmxba10gZW5kCgkJZmlsdFsnaHAnXTpjb21wdXRlIChBUkRPVVIuRFNQLkJpcXVhZFR5cGUuSGlnaFBhc3MsIGN1clsyXSwgY3VyWzNdLCAwKQoJCWZpbHRbJ2xwJ106Y29tcHV0ZSAoQVJET1VSLkRTUC5CaXF1YWRUeXBlLkxvd1Bhc3MsICBjdXJbNV0sIGN1cls2XSwgMCkKCWVuZAoKCS0tIGNhbGMgaGVpZ2h0IG9mIGlubGluZSBkaXNwbGF5Cglsb2NhbCBoID0gMSB8IG1hdGguY2VpbCAodyAqIDkgLyAxNikgLS0gdXNlIDE2OjkgYXNwZWN0LCBvZGQgbnVtYmVyIG9mIHkgcGl4ZWxzCglpZiAoaCA+IG1heF9oKSB0aGVuIGggPSBtYXhfaCBlbmQgLS0gYnV0IGF0IG1vc3QgbWF4LWhlaWdodAoKCS0tIGN0eCBpcyBhIGh0dHA6Ly9jYWlyb2dyYXBoaWNzLm9yZy8gY29udGV4dAoJLS0gaHR0cDovL21hbnVhbC5hcmRvdXIub3JnL2x1YS1zY3JpcHRpbmcvY2xhc3NfcmVmZXJlbmNlLyNDYWlybzpDb250ZXh0CgoJLS0gY2xlYXIgYmFja2dyb3VuZAoJY3R4OnJlY3RhbmdsZSAoMCwgMCwgdywgaCkKCWN0eDpzZXRfc291cmNlX3JnYmEgKC4yLCAuMiwgLjIsIDEuMCkKCWN0eDpmaWxsICgpCgljdHg6cmVjdGFuZ2xlICgwLCAwLCB3LCBoKQoJY3R4OmNsaXAgKCkKCgktLSBzZXQgbGluZSB3aWR0aDogMXB4CgljdHg6c2V0X2xpbmVfd2lkdGggKDEuMCkKCgktLSBkcmF3IGdyaWQKCWxvY2FsIGRhc2gzID0gQy5Eb3VibGVWZWN0b3IgKCkKCWxvY2FsIGRhc2gyID0gQy5Eb3VibGVWZWN0b3IgKCkKCWRhc2gyOmFkZCAoezEsIDJ9KQoJZGFzaDM6YWRkICh7MSwgM30pCgljdHg6c2V0X2Rhc2ggKGRhc2gyLCAyKSAtLSBkb3R0ZWQgbGluZTogMSBwaXhlbCAyIHNwYWNlCgljdHg6c2V0X3NvdXJjZV9yZ2JhICguNSwgLjUsIC41LCAuOCkKCWdyaWRfZGIgKGN0eCwgdywgaCwgMCkKCWN0eDpzZXRfZGFzaCAoZGFzaDMsIDIpIC0tIGRhc2hlZCBsaW5lOiAxIHBpeGVsIDMgc3BhY2UKCWN0eDpzZXRfc291cmNlX3JnYmEgKC41LCAuNSwgLjUsIC41KQoJZ3JpZF9kYiAoY3R4LCB3LCBoLCAtMTIpCglncmlkX2RiIChjdHgsIHcsIGgsIC0yNCkKCWdyaWRfZGIgKGN0eCwgdywgaCwgLTM2KQoJZ3JpZF9mcmVxIChjdHgsIHcsIGgsIDEwMCkKCWdyaWRfZnJlcSAoY3R4LCB3LCBoLCAxMDAwKQoJZ3JpZF9mcmVxIChjdHgsIHcsIGgsIDEwMDAwKQoJY3R4OnVuc2V0X2Rhc2ggKCkKCgktLSBkcmF3IHRyYW5zZmVyIGZ1bmN0aW9uIGxpbmUKCWxvY2FsIGhvID0gbWF0aC5mbG9vcihjdXJbMV0pCglsb2NhbCBsbyA9IG1hdGguZmxvb3IoY3VyWzRdKQoKCWN0eDpzZXRfc291cmNlX3JnYmEgKC44LCAuOCwgLjgsIDEuMCkKCWN0eDptb3ZlX3RvICgtLjUsIGRiX3RvX3kgKHJlc3BvbnNlKGhvLCBsbywgZnJlcV9hdF94ICgwLCB3KSksIGgpKQoJZm9yIHggPSAxLHcgZG8KCQlsb2NhbCBkYiA9IHJlc3BvbnNlKGhvLCBsbywgZnJlcV9hdF94ICh4LCB3KSkKCQljdHg6bGluZV90byAoLS41ICsgeCwgZGJfdG9feSAoZGIsIGgpKQoJZW5kCgktLSBzdG9rZSBhIGxpbmUsIGtlZXAgdGhlIHBhdGgKCWN0eDpzdHJva2VfcHJlc2VydmUgKCkKCgktLSBmaWxsIGFyZWEgdG8gemVybyB1bmRlciB0aGUgY3VydmUKCWN0eDpsaW5lX3RvICh3LCAtLjUgKyByb3VuZCAoZGJfdG9feSAoMCwgaCkpKQoJY3R4OmxpbmVfdG8gKDAsIC0uNSArIHJvdW5kIChkYl90b195ICgwLCBoKSkpCgljdHg6Y2xvc2VfcGF0aCAoKQoJY3R4OnNldF9zb3VyY2VfcmdiYSAoLjUsIC41LCAuNSwgLjUpCgljdHg6ZmlsbCAoKQoKCXJldHVybiB7dywgaH0KZW5kCg==</script>
           <Port id="0" value="1"/>
-          <Port id="1" value="5"/>
+          <Port id="1" value="200.28218078613281"/>
           <Port id="2" value="0.7070000171661377"/>
           <Port id="3" value="1"/>
           <Port id="4" value="18000"/>
@@ -593,7 +607,7 @@ a2556134400 5
           <Port id="6" value="1"/>
         </luaproc>
         <Controllable name="High Pass Steepness" id="102579" flags="" value="1" parameter="0"/>
-        <Controllable name="High Pass Cut off frequency" id="102581" flags="" value="5" parameter="1"/>
+        <Controllable name="High Pass Cut off frequency" id="102581" flags="" value="200.28218078613281" parameter="1"/>
         <Controllable name="High Pass Resonance" id="102583" flags="" value="0.7070000171661377" parameter="2"/>
         <Controllable name="Low Pass Steepness" id="102585" flags="" value="1" parameter="3"/>
         <Controllable name="Low Pass Cut off frequency" id="102587" flags="" value="18000" parameter="4"/>
@@ -606,10 +620,13 @@ a2556134400 5
             <events>a0 0.25118860602378845
 a316524800 0.50118720531463623
 a2532243200 0.99999994039535522
+a43681254400 0.99999994039535522
+a44314316800 0.50118720531463623
+a44947379200 0.25118860602378845
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="75" flags="GainLike" value="0.99999994039535522"/>
+        <Controllable name="gaincontrol" id="75" flags="GainLike" value="0.25118860602378845"/>
       </Processor>
       <Processor id="83481" name="x42-dpl - Digital Peak Limiter Stereo" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/dpl#stereo" count="1" custom="0">
         <Automation>
@@ -617,6 +634,7 @@ a2532243200 0.99999994039535522
           <AutomationList automation-id="parameter-3" id="83484" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
           <AutomationList automation-id="parameter-4" id="83486" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
           <AutomationList automation-id="parameter-5" id="83488" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-6" id="379238" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="2"/>
@@ -642,11 +660,13 @@ a2532243200 0.99999994039535522
           <Port symbol="gain" value="-3"/>
           <Port symbol="threshold" value="0"/>
           <Port symbol="release" value="0.0099999997764825821"/>
+          <Port symbol="truepeak" value="0"/>
         </lv2>
         <Controllable name="Enable" id="83483" flags="Toggle" value="1" parameter="2" symbol="enable"/>
         <Controllable name="Input Gain" id="83485" flags="" value="-3" parameter="3" symbol="gain"/>
         <Controllable name="Threshold" id="83487" flags="" value="0" parameter="4" symbol="threshold"/>
         <Controllable name="Release Time" id="83489" flags="" value="0.0099999997764825821" parameter="5" symbol="release"/>
+        <Controllable name="True Peak" id="379239" flags="Toggle" value="0" parameter="6" symbol="truepeak"/>
       </Processor>
       <Processor id="105" name="Master" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="http://ardour.org/plugin/panner_2in2out" linked-to-route="1"/>
@@ -1139,7 +1159,8 @@ b245760 899.99981689453125
 b276480 2000.000244140625
 b307200 3999.999267578125
 b437760 600.00006103515625
-b529920 2199.999755859375
+b522240 2199.999755859375
+b529920 550.00006103515625
 </events>
           </AutomationList>
           <AutomationList automation-id="parameter-5" id="102522" interpolation-style="Logarithmic" time-domain="BeatTime" state="Off"/>
@@ -1169,18 +1190,18 @@ b529920 2199.999755859375
         <luaproc last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <script lua="Lua 5.3" origin="/usr/share/ardour8/scripts/HiAndLowPass.lua">YXJkb3VyIHsKCVsidHlwZSJdICAgID0gImRzcCIsCgluYW1lICAgICAgICA9ICJBQ0UgSGlnaC9Mb3cgUGFzcyBGaWx0ZXIiLAoJY2F0ZWdvcnkgICAgPSAiRmlsdGVyIiwKCWxpY2Vuc2UgICAgID0gIkdQTHYyIiwKCWF1dGhvciAgICAgID0gIkFyZG91ciBDb21tdW5pdHkiLAoJZGVzY3JpcHRpb24gPSBbW0hpZ2ggYW5kIExvdyBQYXNzIEZpbHRlciB3aXRoIGRlLXppcHBlZCBjb250cm9sc11dCn0KCmZ1bmN0aW9uIGRzcF9pb2NvbmZpZyAoKQoJcmV0dXJuCgl7CgkJLS0gYWxsb3cgYW55IG51bWJlciBvZiBJL08gYXMgbG9uZyBhcyBwb3J0LWNvdW50IG1hdGNoZXMKCQl7IGF1ZGlvX2luID0gLTEsIGF1ZGlvX291dCA9IC0xfSwKCX0KZW5kCgoKZnVuY3Rpb24gZHNwX3BhcmFtcyAoKQoJcmV0dXJuCgl7CgkJeyBbInR5cGUiXSA9ICJpbnB1dCIsIG5hbWUgPSAiSGlnaCBQYXNzIFN0ZWVwbmVzcyIsIG1pbiA9IDAsIG1heCA9IDQsIGRlZmF1bHQgPSAxLCBlbnVtID0gdHJ1ZSwgc2NhbGVwb2ludHMgPQoJCQl7CgkJCQlbIk9mZiJdID0gMCwKCQkJCVsiMTJkQi9vY3QiXSA9IDEsCgkJCQlbIjI0ZEIvb2N0Il0gPSAyLAoJCQkJWyIzNmRCL29jdCJdID0gMywKCQkJCVsiNDhkQi9vY3QiXSA9IDQsCgkJCX0KCQl9LAoJCXsgWyJ0eXBlIl0gPSAiaW5wdXQiLCBuYW1lID0gIkhpZ2ggUGFzcyBDdXQgb2ZmIGZyZXF1ZW5jeSIsIG1pbiA9ICAgNSwgbWF4ID0gMjAwMDAsIGRlZmF1bHQgPSAxMDAsIHVuaXQ9Ikh6IiwgbG9nYXJpdGhtaWMgPSB0cnVlIH0sCgkJeyBbInR5cGUiXSA9ICJpbnB1dCIsIG5hbWUgPSAiSGlnaCBQYXNzIFJlc29uYW5jZSIsICAgICAgICAgbWluID0gMC4xLCBtYXggPSA2LCAgICAgZGVmYXVsdCA9IC43MDcsIGxvZ2FyaXRobWljID0gdHJ1ZSB9LAoKCQl7IFsidHlwZSJdID0gImlucHV0IiwgbmFtZSA9ICJMb3cgUGFzcyBTdGVlcG5lc3MiLCBtaW4gPSAwLCBtYXggPSA0LCBkZWZhdWx0ID0gMSwgZW51bSA9IHRydWUsIHNjYWxlcG9pbnRzID0KCQkJewoJCQkJWyJPZmYiXSA9IDAsCgkJCQlbIjEyZEIvb2N0Il0gPSAxLAoJCQkJWyIyNGRCL29jdCJdID0gMiwKCQkJCVsiMzZkQi9vY3QiXSA9IDMsCgkJCQlbIjQ4ZEIvb2N0Il0gPSA0LAoJCQl9CgkJfSwKCQl7IFsidHlwZSJdID0gImlucHV0IiwgbmFtZSA9ICJMb3cgUGFzcyBDdXQgb2ZmIGZyZXF1ZW5jeSIsICBtaW4gPSAgMjAsIG1heCA9IDIwMDAwLCBkZWZhdWx0ID0gMTgwMDAsIHVuaXQ9Ikh6IiwgbG9nYXJpdGhtaWMgPSB0cnVlIH0sCgkJeyBbInR5cGUiXSA9ICJpbnB1dCIsIG5hbWUgPSAiTG93IFBhc3MgUmVzb25hbmNlIiwgICAgICAgICAgbWluID0gMC4xLCBtYXggPSA2LCAgICAgZGVmYXVsdCA9IC43MDcsIGxvZ2FyaXRobWljID0gdHJ1ZSB9LAoJCXsgWyJ0eXBlIl0gPSAiaW5wdXQiLCBuYW1lID0gIkVuYWJsZSIsIG1pbiA9IDAsIG1heCA9IDEsIGRlZmF1bHQgPSAxLCBieXBhc3MgPSB0cnVlLCB0b2dnbGVkID0gdHJ1ZSB9LAoJfQplbmQKCi0tIHRoZXNlIGdsb2JhbHMgYXJlICpub3QqIHNoYXJlZCBiZXR3ZWVuIERTUCBhbmQgVUkKbG9jYWwgaHAgPSB7fSAgLS0gdGhlIGJpcXVhZCBoaWdoLXBhc3MgZmlsdGVyIGluc3RhbmNlcyAoRFNQKQpsb2NhbCBscCA9IHt9ICAtLSB0aGUgYmlxdWFkIGhpZ2gtcGFzcyBmaWx0ZXIgaW5zdGFuY2VzIChEU1ApCmxvY2FsIGZpbHQgPSBuaWwgLS0gdGhlIGJpcXVhZCBmaWx0ZXIgaW5zdGFuY2UgKEdVSSwgcmVzcG9uc2UpCmxvY2FsIGN1ciA9IHswLCAwLCAwLCAwLCAwLCAwLCAxfSAtLSBjdXJyZW50IHBhcmFtZXRlcnMKbG9jYWwgbHBmID0gMC4wMyAtLSBwYXJhbWV0ZXIgbG93LXBhc3MgZmlsdGVyIHRpbWUtY29uc3RhbnQKbG9jYWwgY2huID0gMCAtLSBjaGFubmVsL2ZpbHRlciBjb3VudApsb2NhbCBscGZfY2h1bmsgPSAwIC0tIGNodW5rIHNpemUgZm9yIGF1ZGlvIHByb2Nlc3Npbmcgd2hlbiBpbnRlcnBvbGF0aW5nIHBhcmFtZXRlcnMKbG9jYWwgbWF4X2ZyZXEgPSAyMDAwMAoKbG9jYWwgbWVtID0gbmlsIC0tIG1lbW9yeSB4LWZhZGUgYnVmZmVyCgpmdW5jdGlvbiBkc3BfaW5pdCAocmF0ZSkKCS0tIGFsbG9jYXRlIHNvbWUgbWl4LWJ1ZmZlcgoJbWVtID0gQVJET1VSLkRTUC5Ec3BTaG0gKDgxOTIpCgoJLS0gbWF4IGFsbG93ZWQgY3V0LW9mZiBmcmVxdWVuY3kKCW1heF9mcmVxID0gLjQ5OSAqIHJhdGUKCgktLSBjcmVhdGUgYSB0YWJsZSBvZiBvYmplY3RzIHRvIHNoYXJlIHdpdGggdGhlIEdVSQoJbG9jYWwgdGJsID0ge30KCXRibFsnc2FtcGxlcmF0ZSddID0gcmF0ZQoJdGJsWydtYXhfZnJlcSddID0gbWF4X2ZyZXEKCXNlbGY6dGFibGUgKCk6c2V0ICh0YmwpCgoKCS0tIFBhcmFtZXRlciBzbW9vdGhpbmc6IHdlIHdhbnQgdG8gZmlsdGVyIG91dCBwYXJhbWV0ZXIgY2hhbmdlcyB0aGF0IGFyZQoJLS0gZmFzdGVyIHRoYW4gMTVIeiwgYW5kIGludGVycG9sYXRlIGJldHdlZW4gcGFyYW1ldGVyIHZhbHVlcy4KCS0tIEZvciBwZXJmb3JtYW5jZSByZWFzb25zLCB3ZSB3YW50IHRvIGVuc3VyZSB0aGF0IHR3byBjb25zZWN1dGl2ZSB2YWx1ZXMKCS0tIG9mIHRoZSBpbnRlcnBvbGF0ZWQgInN0ZWVwbmVzcyIgYXJlIGxlc3MgdGhhdCAxIGFwYXJ0LiBCeSBjaG9vc2luZyB0aGUKCS0tIGludGVycG9sYXRpb24gY2h1bmsgc2l6ZSB0byBiZSA2NCBpbiBtb3N0IGNhc2VzLCBidXQgMzIgaWYgdGhlIHJhdGUgaXMKCS0tIHN0cmljdGx5IGxlc3MgdGhhbiAyMmtIeiAodGhlcmUncyBvbmx5IDhrSHogaW4gc3RhbmRhcmQgcmF0ZXMpLCB3ZSBjYW4KCS0tIGVuc3VyZSB0aGF0IHN0ZWVwbmVzcyBpbnRlcnBvbGF0aW9uIHdpbGwgbmV2ZXIgY2hhbmdlIHRoZSBwYXJhbWV0ZXIgYnkKCS0tIG1vcmUgdGhhbiB+MC44Ni4KCWxwZl9jaHVuayA9IDY0CglpZiByYXRlIDwgMjIwMDAgdGhlbiBscGZfY2h1bmsgPSAzMiBlbmQKCS0tIFdlIGFwcGx5IGEgZGlzY3JldGUgdmVyc2lvbiBvZiB0aGUgc3RhbmRhcmQgUkMgbG93LXBhc3MsIHdpdGggYSBjdXRvZmYKCS0tIGZyZXF1ZW5jeSBvZiAxNUh6LiBGb3IgbW9yZSBpbmZvcm1hdGlvbiBhYm91dCB0aGUgdW5kZXJseWluZyBtYXRoLCBzZWUKCS0tIGh0dHBzOi8vZW4ud2lraXBlZGlhLm9yZy93aWtpL0xvdy1wYXNzX2ZpbHRlciNEaXNjcmV0ZS10aW1lX3JlYWxpemF0aW9uCgktLSAoaGVyZSDOlHQgaXMgbHBmX2NodW5rIC8gcmF0ZSkKCWxvY2FsIFIgPSAyICogbWF0aC5waSAqIGxwZl9jaHVuayAqIDE1IC0tIEh6CglscGYgPSBSIC8gKFIgKyByYXRlKQplbmQKCmZ1bmN0aW9uIGRzcF9jb25maWd1cmUgKGlucywgb3V0cykKCWFzc2VydCAoaW5zOm5fYXVkaW8gKCkgPT0gb3V0czpuX2F1ZGlvICgpKQoJbG9jYWwgdGJsID0gc2VsZjp0YWJsZSAoKTpnZXQgKCkgLS0gZ2V0IHNoYXJlZCBtZW1vcnkgdGFibGUKCgljaG4gPSBpbnM6bl9hdWRpbyAoKQoJY3VyID0gezAsIDAsIDAsIDAsIDAsIDB9CgoJaHAgPSB7fQoJbHAgPSB7fQoKCWNvbGxlY3RnYXJiYWdlICgpCgoJZm9yIGMgPSAxLCBjaG4gZG8KCQlocFtjXSA9IHt9CgkJbHBbY10gPSB7fQoJCS0tIGluaXRpYWxpemUgZmlsdGVycwoJCS0tIGh0dHA6Ly9tYW51YWwuYXJkb3VyLm9yZy9sdWEtc2NyaXB0aW5nL2NsYXNzX3JlZmVyZW5jZS8jQVJET1VSOkRTUDpCaXF1YWQKCgkJLS0gQSBkaWZmZXJlbnQgQmlxdWFkIGlzIG5lZWRlZCBmb3IgZWFjaCBwYXNzIGFuZCBjaGFubmVsIGJlY2F1c2UgdGhleQoJCS0tIHJlbWVtYmVyIHRoZSBsYXN0IHR3byBzYW1wbGVzIHNlZW4gZHVyaW5nIHRoZSBsYXN0IGNhbGwgb2YgQmlxdWFkOnJ1bigpLgoJCS0tIEZvciBjb250aW51aXR5IHRoZXNlIGhhdmUgdG8gY29tZSBmcm9tIHRoZSBwcmV2aW91cyBhdWRpbyBjaHVuayBvZiB0aGUKCQktLSBzYW1lIGNoYW5uZWwgYW5kIHBhc3MgYW5kIHdvdWxkIGJlIGNsb2JiZXJlZCBpZiB0aGUgc2FtZSBCaXF1YWQgd2FzCgkJLS0gY2FsbGVkIHNldmVyYWwgdGltZXMgYnkgY3ljbGUuCgkJZm9yIGsgPSAxLDQgZG8KCQkJaHBbY11ba10gPSBBUkRPVVIuRFNQLkJpcXVhZCAodGJsWydzYW1wbGVyYXRlJ10pCgkJCWxwW2NdW2tdID0gQVJET1VSLkRTUC5CaXF1YWQgKHRibFsnc2FtcGxlcmF0ZSddKQoJCWVuZAoJZW5kCmVuZAoKZnVuY3Rpb24gc2FudGl6ZV9wYXJhbXMgKGN0cmwpCgktLSBkb24ndCBhbGxvdyBtYW51YWwgY3Jvc3MtZmFkZXMuIGVuZm9yY2UgZW51bXMKCWN0cmxbMV0gPSBtYXRoLmZsb29yKGN0cmxbMV0gKyAuNSkKCWN0cmxbNF0gPSBtYXRoLmZsb29yKGN0cmxbNF0gKyAuNSkKCgktLSBoaWdoIHBhc3MsIGNsYW1wIHJhbmdlCgljdHJsWzJdID0gbWF0aC5taW4gKG1heF9mcmVxLCBtYXRoLm1heCAoNSwgY3RybFsyXSkpCgljdHJsWzNdID0gbWF0aC5taW4gKDYsIG1hdGgubWF4ICgwLjEsIGN0cmxbM10pKQoKCS0tIGxvdyBwYXNzLCBjbGFtcCByYW5nZQoJY3RybFs1XSA9IG1hdGgubWluIChtYXhfZnJlcSwgbWF0aC5tYXggKDIwLCBjdHJsWzVdKSkKCWN0cmxbNl0gPSBtYXRoLm1pbiAoNiwgbWF0aC5tYXggKDAuMSwgY3RybFs2XSkpCgoJaWYgY3RybFs3XSA8PSAwIHRoZW4gLS0gd2hlbiBkaXNhYmxlZAoJCWN0cmxbMV0gPSAwOwoJCWN0cmxbNF0gPSAwOwoJZW5kCgoJcmV0dXJuIGN0cmwKZW5kCgotLSBoZWxwZXIgZnVuY3Rpb25zIGZvciBwYXJhbWV0ZXIgaW50ZXJwb2xhdGlvbgpmdW5jdGlvbiBwYXJhbV9jaGFuZ2VkIChjdHJsKQoJZm9yIHAgPSAxLDcgZG8KCQlpZiBjdHJsW3BdIH49IGN1cltwXSB0aGVuCgkJCXJldHVybiB0cnVlCgkJZW5kCgllbmQKCXJldHVybiBmYWxzZQplbmQKCmZ1bmN0aW9uIGxvd19wYXNzX2ZpbHRlcl9wYXJhbSAob2xkLCBuZXcsIGxpbWl0KQoJaWYgbWF0aC5hYnMgKG9sZCAtIG5ldykgPCBsaW1pdCAgdGhlbgoJCXJldHVybiBuZXcKCWVsc2UKCQlyZXR1cm4gb2xkICsgbHBmICogKG5ldyAtIG9sZCkKCWVuZAplbmQKCi0tIGFwcGx5IHBhcmFtZXRlcnMsIHJlLWNvbXB1dGUgZmlsdGVyIGNvZWZmaWNpZW50cyBpZiBuZWVkZWQKZnVuY3Rpb24gYXBwbHlfcGFyYW1zIChjdHJsKQoJaWYgbm90IHBhcmFtX2NoYW5nZWQgKGN0cmwpIHRoZW4KCQlyZXR1cm4KCWVuZAoKCS0tIGxvdy1wYXNzIGZpbHRlciBjdHJsIHBhcmFtZXRlciB2YWx1ZXMsIHNtb290aCB0cmFuc2l0aW9uCgljdXJbMV0gPSBsb3dfcGFzc19maWx0ZXJfcGFyYW0gKGN1clsxXSwgY3RybFsxXSwgMC4wNSkgLS0gSFAgb3JkZXIgeC1mYWRlCgljdXJbMl0gPSBsb3dfcGFzc19maWx0ZXJfcGFyYW0gKGN1clsyXSwgY3RybFsyXSwgMS4wKSAgLS0gSFAgZnJlcS9IegoJY3VyWzNdID0gbG93X3Bhc3NfZmlsdGVyX3BhcmFtIChjdXJbM10sIGN0cmxbM10sIDAuMDEpIC0tIEhQIHF1YWxpdHkKCWN1cls0XSA9IGxvd19wYXNzX2ZpbHRlcl9wYXJhbSAoY3VyWzRdLCBjdHJsWzRdLCAwLjA1KSAtLSBMUCBvcmRlciB4LWZhZGUKCWN1cls1XSA9IGxvd19wYXNzX2ZpbHRlcl9wYXJhbSAoY3VyWzVdLCBjdHJsWzVdLCAxLjApICAtLSBMUCBmcmVxL0h6CgljdXJbNl0gPSBsb3dfcGFzc19maWx0ZXJfcGFyYW0gKGN1cls2XSwgY3RybFs2XSwgMC4wMSkgLS0gTFAgcXVhbGl0eQoJY3VyWzddID0gY3RybFs3XQoKCWhwWzFdWzFdOmNvbXB1dGUgKEFSRE9VUi5EU1AuQmlxdWFkVHlwZS5IaWdoUGFzcywgY3VyWzJdLCBjdXJbM10sIDApCglscFsxXVsxXTpjb21wdXRlIChBUkRPVVIuRFNQLkJpcXVhZFR5cGUuTG93UGFzcywgIGN1cls1XSwgY3VyWzZdLCAwKQoKCWZvciBjID0gMSwgY2huIGRvCgkJZm9yIGsgPSAxLDQgZG8KCQkJaWYgbm90IChrID09IDEgYW5kIGMgPT0gMSkgdGhlbgoJCQkJaHBbY11ba106Y29uZmlndXJlIChocFsxXVsxXSkKCQkJCWxwW2NdW2tdOmNvbmZpZ3VyZSAobHBbMV1bMV0pCgkJCWVuZAoJCWVuZAoJZW5kCmVuZAoKCi0tIHRoZSBhY3R1YWwgRFNQIGNhbGxiYWNrCmZ1bmN0aW9uIGRzcF9ydW4gKGlucywgb3V0cywgbl9zYW1wbGVzKQoJYXNzZXJ0IChuX3NhbXBsZXMgPD0gODE5MikKCWFzc2VydCAoI2lucyA9PSBjaG4pCglsb2NhbCBjdHJsID0gc2FudGl6ZV9wYXJhbXMgKEN0cmxQb3J0czphcnJheSAoKSkKCglsb2NhbCByZWRyYXcgPSBmYWxzZQoJbG9jYWwgc2l6ID0gbl9zYW1wbGVzCglsb2NhbCBvZmYgPSAwCgoJLS0gaWYgYSBwYXJhbWV0ZXIgd2FzIGNoYW5nZWQsIHByb2Nlc3MgYXQgbW9zdCBscGZfY2h1bmsgc2FtcGxlcwoJLS0gYXQgYSB0aW1lIGFuZCBpbnRlcnBvbGF0ZSBwYXJhbWV0ZXJzIHVudGlsIHRoZSBjdXJyZW50IHNldHRpbmdzCgktLSBtYXRjaCB0aGUgdGFyZ2V0IHZhbHVlcwoJbG9jYWwgY2hhbmdlZCA9IHBhcmFtX2NoYW5nZWQgKGN0cmwpCglpZiBjaGFuZ2VkIHRoZW4KCQlyZWRyYXcgPSB0cnVlCgkJc2l6ID0gbHBmX2NodW5rCgllbmQKCglpZiBjaGFuZ2VkID09IGZhbHNlIGFuZCBjdXJbMV0gPT0gMCBhbmQgY3VyWzRdID09IDAgdGhlbgoJCS0tIGZ1bGx5IGJ5cGFzc2VkCgkJZm9yIGMgPSAxLCAjaW5zIGRvCgkJCWlmIGluc1tjXSB+PSBvdXRzW2NdIHRoZW4KCQkJCUFSRE9VUi5EU1AuY29weV92ZWN0b3IgKG91dHNbY106b2Zmc2V0ICgwKSwgaW5zW2NdOm9mZnNldCAoMCksIG5fc2FtcGxlcykKCQkJZW5kCgkJZW5kCgkJLS0gbm90aGluZyBsZWZ0IHRvIGRvCgkJbl9zYW1wbGVzID0gMAoJZW5kCgoJCS0tIHByb2Nlc3MgYWxsIGNoYW5uZWxzCgl3aGlsZSBuX3NhbXBsZXMgPiAwIGRvCgkJaWYgY2hhbmdlZCB0aGVuCgkJCWFwcGx5X3BhcmFtcyAoY3RybCkKCQkJY2hhbmdlZCA9IHBhcmFtX2NoYW5nZWQgKGN0cmwpCgkJCWlmIG5vdCBjaGFuZ2VkIHRoZW4KCQkJCXNpeiA9IG5fc2FtcGxlcwoJCQllbmQKCQllbmQKCgkJaWYgc2l6ID4gbl9zYW1wbGVzIHRoZW4gc2l6ID0gbl9zYW1wbGVzIGVuZAoKCQlsb2NhbCBobyA9IG1hdGguZmxvb3IoY3VyWzFdKQoJCWxvY2FsIGxvID0gbWF0aC5mbG9vcihjdXJbNF0pCgoJCWZvciBjID0gMSwgI2lucyBkbwoKCQkJLS0gSGlnaCBQYXNzCgkJCWxvY2FsIHhmYWRlID0gY3VyWzFdIC0gaG8KCgkJCS0tIHByZXBhcmUgc2NyYXRjaCBtZW1vcnkKCQkJQVJET1VSLkRTUC5jb3B5X3ZlY3RvciAobWVtOnRvX2Zsb2F0IChvZmYpLCBpbnNbY106b2Zmc2V0IChvZmYpLCBzaXopCgoJCQktLSBydW4gYXQgbGVhc3QgfGhvfCBiaXF1YWRzLi4uCgkJCWZvciBrID0gMSxobyBkbwoJCQkJaHBbY11ba106cnVuIChtZW06dG9fZmxvYXQgKG9mZiksIHNpeikKCQkJZW5kCgkJCUFSRE9VUi5EU1AuY29weV92ZWN0b3IgKG91dHNbY106b2Zmc2V0IChvZmYpLCBtZW06dG9fZmxvYXQgKG9mZiksIHNpeikKCgkJCS0tIG1peCB0aGUgb3V0cHV0IG9mIHxob3wgYmlxdWFkcyAod2l0aCB3ZWlnaHQgfDEteGZhZGV8KQoJCQktLSB3aXRoIHRoZSBvdXRwdXQgb2YgfGhvKzF8IGJpcXVhZHMgKHdpdGggd2VpZ2h0IHx4ZmFkZXwpCgkJCWlmIHhmYWRlID4gMCB0aGVuCgkJCQlBUkRPVVIuRFNQLmFwcGx5X2dhaW5fdG9fYnVmZmVyIChvdXRzW2NdOm9mZnNldCAob2ZmKSwgc2l6LCAxIC0geGZhZGUpCgkJCQlocFtjXVtobysxXTpydW4gKG1lbTp0b19mbG9hdCAob2ZmKSwgc2l6KQoJCQkJQVJET1VSLkRTUC5taXhfYnVmZmVyc193aXRoX2dhaW4gKG91dHNbY106b2Zmc2V0IChvZmYpLCBtZW06dG9fZmxvYXQgKG9mZiksIHNpeiwgeGZhZGUpCgkJCQktLSBhbHNvIHJ1biB0aGUgbmV4dCBiaXF1YWQgYmVjYXVzZSBpdCBuZWVkcyB0byBoYXZlIHRoZSBjb3JyZWN0IHN0YXRlCgkJCQktLSBpbiBjYXNlIGl0IHN0YXJ0IGFmZmVjdGluZyB0aGUgbmV4dCBjaHVuayBvZiBvdXRwdXQuIEhpZ2hlciBvcmRlcgoJCQkJLS0gb25lcyBhcmUgZ3VhcmFudGVlZCBub3QgdG8gYmUgbmVlZGVkIGZvciB0aGUgbmV4dCBydW4gYmVjYXVzZSB0aGUKCQkJCS0tIGludGVycG9sYXRlZCBvcmRlciB3b24ndCBpbmNyZWFzZSBtb3JlIHRoYW4gMC44NiBpbiBvbmUgc3RlcCB0aGFua3MKCQkJCS0tIHRvIHRoZSBjaG9pY2Ugb2YgdGhlIHZhbHVlIG9mIHxscGZ8LgoJCQkJaWYgaG8gKyAyIDw9IDQgdGhlbiBocFtjXVtobysyXTpydW4gKG1lbTp0b19mbG9hdCAob2ZmKSwgc2l6KSBlbmQKCQkJZWxzZWlmIGhvICsgMSA8PSA0IHRoZW4KCQkJCS0tIHJ1biB0aGUgbmV4dCBiaXF1YWQgaW4gY2FzZSBpdCBpcyB1c2VkIG5leHQgY2h1bmsKCQkJCWhwW2NdW2hvKzFdOnJ1biAobWVtOnRvX2Zsb2F0IChvZmYpLCBzaXopCgkJCWVuZAoKCQkJLS0gTG93IFBhc3MKCQkJeGZhZGUgPSBjdXJbNF0gLSBsbwoKCQkJLS0gcHJlcGFyZSBzY3JhdGNoIG1lbW9yeSAoZnJvbSBoaWdoIHBhc3Mgb3V0cHV0KQoJCQlBUkRPVVIuRFNQLmNvcHlfdmVjdG9yIChtZW06dG9fZmxvYXQgKG9mZiksIG91dHNbY106b2Zmc2V0IChvZmYpLCBzaXopCgoJCQktLSBydW4gYXQgbGVhc3QgfGxvfCBiaXF1YWRzLi4uCgkJCWZvciBrID0gMSxsbyBkbwoJCQkJbHBbY11ba106cnVuIChtZW06dG9fZmxvYXQgKG9mZiksIHNpeikKCQkJZW5kCgkJCUFSRE9VUi5EU1AuY29weV92ZWN0b3IgKG91dHNbY106b2Zmc2V0IChvZmYpLCBtZW06dG9fZmxvYXQgKG9mZiksIHNpeikKCgkJCS0tIG1peCB0aGUgb3V0cHV0IG9mIHxsb3wgYmlxdWFkcyAod2l0aCB3ZWlnaHQgfDEteGZhZGV8KQoJCQktLSB3aXRoIHRoZSBvdXRwdXQgb2YgfGxvKzF8IGJpcXVhZHMgKHdpdGggd2VpZ2h0IHx4ZmFkZXwpCgkJCWlmIHhmYWRlID4gMCB0aGVuCgkJCQlBUkRPVVIuRFNQLmFwcGx5X2dhaW5fdG9fYnVmZmVyIChvdXRzW2NdOm9mZnNldCAob2ZmKSwgc2l6LCAxIC0geGZhZGUpCgkJCQlscFtjXVtsbysxXTpydW4gKG1lbTp0b19mbG9hdCAob2ZmKSwgc2l6KQoJCQkJQVJET1VSLkRTUC5taXhfYnVmZmVyc193aXRoX2dhaW4gKG91dHNbY106b2Zmc2V0IChvZmYpLCBtZW06dG9fZmxvYXQgKG9mZiksIHNpeiwgeGZhZGUpCgkJCQktLSBhbHNvIHJ1biB0aGUgbmV4dCBiaXF1YWQgaW4gY2FzZSBpdCBzdGFydCBhZmZlY3RpbmcgdGhlIG5leHQKCQkJCS0tIGNodW5rIG9mIG91dHB1dC4KCQkJCWlmIGxvICsgMiA8PSA0IHRoZW4gbHBbY11bbG8rMl06cnVuIChtZW06dG9fZmxvYXQgKG9mZiksIHNpeikgZW5kCgkJCWVsc2VpZiBsbyArIDEgPD0gNCB0aGVuCgkJCQktLSBydW4gdGhlIG5leHQgYmlxdWFkIGluIGNhc2UgaXQgaXMgdXNlZCBuZXh0IGNodW5rCgkJCQlscFtjXVtsbysxXTpydW4gKG1lbTp0b19mbG9hdCAob2ZmKSwgc2l6KQoJCQllbmQKCgkJZW5kCgoJCW5fc2FtcGxlcyA9IG5fc2FtcGxlcyAtIHNpegoJCW9mZiA9IG9mZiArIHNpegoJZW5kCgoJaWYgcmVkcmF3IHRoZW4KCQktLSBub3RpZnkgZGlzcGxheQoJCXNlbGY6cXVldWVfZHJhdyAoKQoJZW5kCmVuZAoKCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KLS0tIGlubGluZSBkaXNwbGF5CgpmdW5jdGlvbiByb3VuZCAobikKCXJldHVybiBtYXRoLmZsb29yIChuICsgLjUpCmVuZAoKZnVuY3Rpb24gZnJlcV9hdF94ICh4LCB3KQoJLS0gZnJlcXVlbmN5IGluIEh6IGF0IGdpdmVuIHgtYXhpcyBwaXhlbAoJcmV0dXJuIDIwICogMTAwMCBeICh4IC8gdykKZW5kCgpmdW5jdGlvbiB4X2F0X2ZyZXEgKGYsIHcpCgktLSB4LWF4aXMgcGl4ZWwgZm9yIGdpdmVuIGZyZXF1ZW5jeSwgcG93ZXItc2NhbGUKCXJldHVybiB3ICogbWF0aC5sb2cgKGYgLyAyMC4wKSAvIG1hdGgubG9nICgxMDAwLjApCmVuZAoKZnVuY3Rpb24gZGJfdG9feSAoZGIsIGgpCgktLSB5LWF4aXMgZ2FpbiBtYXBwaW5nCglpZiBkYiA8IC02MCB0aGVuIGRiID0gLTYwIGVuZAoJaWYgZGIgPiAgMTIgdGhlbiBkYiA9ICAxMiBlbmQKCXJldHVybiAtLjUgKyByb3VuZCAoMC4yICogaCkgLSBoICogZGIgLyA2MAplbmQKCmZ1bmN0aW9uIGdyaWRfZGIgKGN0eCwgdywgaCwgZGIpCgktLSBkcmF3IGhvcml6b250YWwgZ3JpZCBsaW5lCgktLSBub3RlIHRoYXQgYSBjYWlybyBwaXhlbCBhdCBZIHNwYW5zIFtZIC0gMC41IHRvIFkgKyAwLjVdCglsb2NhbCB5ID0gLS41ICsgcm91bmQgKGRiX3RvX3kgKGRiLCBoKSkKCWN0eDptb3ZlX3RvICgwLCB5KQoJY3R4OmxpbmVfdG8gKHcsIHkpCgljdHg6c3Ryb2tlICgpCmVuZAoKZnVuY3Rpb24gZ3JpZF9mcmVxIChjdHgsIHcsIGgsIGYpCgktLSBkcmF3IHZlcnRpY2FsIGdyaWQgbGluZQoJbG9jYWwgeCA9IC0uNSArIHJvdW5kICh4X2F0X2ZyZXEgKGYsIHcpKQoJY3R4Om1vdmVfdG8gKHgsIDApCgljdHg6bGluZV90byAoeCwgaCkKCWN0eDpzdHJva2UgKCkKZW5kCgpmdW5jdGlvbiByZXNwb25zZSAoaG8sIGxvLCBmKQoJLS0gY2FsY3VsYXRlIHRyYW5zZmVyIGZ1bmN0aW9uIHJlc3BvbnNlIGZvciBnaXZlbgoJLS0gaGkvcG8gcGFzcyBvcmRlciBhdCBnaXZlbiBmcmVxdWVuY3kgW0h6XQoJbG9jYWwgZGIgPSBobyAqIGZpbHRbJ2hwJ106ZEJfYXRfZnJlcSAoZikKCXJldHVybiBkYiArIGxvICogZmlsdFsnbHAnXTpkQl9hdF9mcmVxIChmKQplbmQKCmZ1bmN0aW9uIHJlbmRlcl9pbmxpbmUgKGN0eCwgdywgbWF4X2gpCglpZiBub3QgZmlsdCB0aGVuCgkJbG9jYWwgdGJsID0gc2VsZjp0YWJsZSAoKTpnZXQgKCkgLS0gZ2V0IHNoYXJlZCBtZW1vcnkgdGFibGUKCQktLSBpbnN0YW50aWF0ZSBmaWx0ZXIgKHRvIGNhbGN1bGF0ZSB0aGUgdHJhbnNmZXIgZnVuY3Rpb24ncyByZXNwb25zZSkKCQlmaWx0ID0ge30KCQlmaWx0WydocCddID0gQVJET1VSLkRTUC5CaXF1YWQgKHRibFsnc2FtcGxlcmF0ZSddKQoJCWZpbHRbJ2xwJ10gPSBBUkRPVVIuRFNQLkJpcXVhZCAodGJsWydzYW1wbGVyYXRlJ10pCgkJbWF4X2ZyZXEgICA9IHRibFsnbWF4X2ZyZXEnXQoJZW5kCgoJbG9jYWwgY3RybCA9IHNhbnRpemVfcGFyYW1zIChDdHJsUG9ydHM6YXJyYXkgKCkpCgktLSBzZXQgZmlsdGVyIGNvZWZmaWNpZW50cyBpZiB0aGV5IGhhdmUgY2hhbmdlZAoJaWYgcGFyYW1fY2hhbmdlZCAoY3RybCkgdGhlbgoJCWZvciBrID0gMSw3IGRvIGN1cltrXSA9IGN0cmxba10gZW5kCgkJZmlsdFsnaHAnXTpjb21wdXRlIChBUkRPVVIuRFNQLkJpcXVhZFR5cGUuSGlnaFBhc3MsIGN1clsyXSwgY3VyWzNdLCAwKQoJCWZpbHRbJ2xwJ106Y29tcHV0ZSAoQVJET1VSLkRTUC5CaXF1YWRUeXBlLkxvd1Bhc3MsICBjdXJbNV0sIGN1cls2XSwgMCkKCWVuZAoKCS0tIGNhbGMgaGVpZ2h0IG9mIGlubGluZSBkaXNwbGF5Cglsb2NhbCBoID0gMSB8IG1hdGguY2VpbCAodyAqIDkgLyAxNikgLS0gdXNlIDE2OjkgYXNwZWN0LCBvZGQgbnVtYmVyIG9mIHkgcGl4ZWxzCglpZiAoaCA+IG1heF9oKSB0aGVuIGggPSBtYXhfaCBlbmQgLS0gYnV0IGF0IG1vc3QgbWF4LWhlaWdodAoKCS0tIGN0eCBpcyBhIGh0dHA6Ly9jYWlyb2dyYXBoaWNzLm9yZy8gY29udGV4dAoJLS0gaHR0cDovL21hbnVhbC5hcmRvdXIub3JnL2x1YS1zY3JpcHRpbmcvY2xhc3NfcmVmZXJlbmNlLyNDYWlybzpDb250ZXh0CgoJLS0gY2xlYXIgYmFja2dyb3VuZAoJY3R4OnJlY3RhbmdsZSAoMCwgMCwgdywgaCkKCWN0eDpzZXRfc291cmNlX3JnYmEgKC4yLCAuMiwgLjIsIDEuMCkKCWN0eDpmaWxsICgpCgljdHg6cmVjdGFuZ2xlICgwLCAwLCB3LCBoKQoJY3R4OmNsaXAgKCkKCgktLSBzZXQgbGluZSB3aWR0aDogMXB4CgljdHg6c2V0X2xpbmVfd2lkdGggKDEuMCkKCgktLSBkcmF3IGdyaWQKCWxvY2FsIGRhc2gzID0gQy5Eb3VibGVWZWN0b3IgKCkKCWxvY2FsIGRhc2gyID0gQy5Eb3VibGVWZWN0b3IgKCkKCWRhc2gyOmFkZCAoezEsIDJ9KQoJZGFzaDM6YWRkICh7MSwgM30pCgljdHg6c2V0X2Rhc2ggKGRhc2gyLCAyKSAtLSBkb3R0ZWQgbGluZTogMSBwaXhlbCAyIHNwYWNlCgljdHg6c2V0X3NvdXJjZV9yZ2JhICguNSwgLjUsIC41LCAuOCkKCWdyaWRfZGIgKGN0eCwgdywgaCwgMCkKCWN0eDpzZXRfZGFzaCAoZGFzaDMsIDIpIC0tIGRhc2hlZCBsaW5lOiAxIHBpeGVsIDMgc3BhY2UKCWN0eDpzZXRfc291cmNlX3JnYmEgKC41LCAuNSwgLjUsIC41KQoJZ3JpZF9kYiAoY3R4LCB3LCBoLCAtMTIpCglncmlkX2RiIChjdHgsIHcsIGgsIC0yNCkKCWdyaWRfZGIgKGN0eCwgdywgaCwgLTM2KQoJZ3JpZF9mcmVxIChjdHgsIHcsIGgsIDEwMCkKCWdyaWRfZnJlcSAoY3R4LCB3LCBoLCAxMDAwKQoJZ3JpZF9mcmVxIChjdHgsIHcsIGgsIDEwMDAwKQoJY3R4OnVuc2V0X2Rhc2ggKCkKCgktLSBkcmF3IHRyYW5zZmVyIGZ1bmN0aW9uIGxpbmUKCWxvY2FsIGhvID0gbWF0aC5mbG9vcihjdXJbMV0pCglsb2NhbCBsbyA9IG1hdGguZmxvb3IoY3VyWzRdKQoKCWN0eDpzZXRfc291cmNlX3JnYmEgKC44LCAuOCwgLjgsIDEuMCkKCWN0eDptb3ZlX3RvICgtLjUsIGRiX3RvX3kgKHJlc3BvbnNlKGhvLCBsbywgZnJlcV9hdF94ICgwLCB3KSksIGgpKQoJZm9yIHggPSAxLHcgZG8KCQlsb2NhbCBkYiA9IHJlc3BvbnNlKGhvLCBsbywgZnJlcV9hdF94ICh4LCB3KSkKCQljdHg6bGluZV90byAoLS41ICsgeCwgZGJfdG9feSAoZGIsIGgpKQoJZW5kCgktLSBzdG9rZSBhIGxpbmUsIGtlZXAgdGhlIHBhdGgKCWN0eDpzdHJva2VfcHJlc2VydmUgKCkKCgktLSBmaWxsIGFyZWEgdG8gemVybyB1bmRlciB0aGUgY3VydmUKCWN0eDpsaW5lX3RvICh3LCAtLjUgKyByb3VuZCAoZGJfdG9feSAoMCwgaCkpKQoJY3R4OmxpbmVfdG8gKDAsIC0uNSArIHJvdW5kIChkYl90b195ICgwLCBoKSkpCgljdHg6Y2xvc2VfcGF0aCAoKQoJY3R4OnNldF9zb3VyY2VfcmdiYSAoLjUsIC41LCAuNSwgLjUpCgljdHg6ZmlsbCAoKQoKCXJldHVybiB7dywgaH0KZW5kCg==</script>
           <Port id="0" value="1"/>
-          <Port id="1" value="99.999992370605469"/>
+          <Port id="1" value="100.25121307373047"/>
           <Port id="2" value="0.7070000171661377"/>
           <Port id="3" value="1"/>
-          <Port id="4" value="1433.5103759765625"/>
+          <Port id="4" value="18001.646484375"/>
           <Port id="5" value="0.7070000171661377"/>
           <Port id="6" value="1"/>
         </luaproc>
         <Controllable name="High Pass Steepness" id="102513" flags="" value="1" parameter="0"/>
-        <Controllable name="High Pass Cut off frequency" id="102515" flags="" value="99.999992370605469" parameter="1"/>
+        <Controllable name="High Pass Cut off frequency" id="102515" flags="" value="100.25121307373047" parameter="1"/>
         <Controllable name="High Pass Resonance" id="102517" flags="" value="0.7070000171661377" parameter="2"/>
         <Controllable name="Low Pass Steepness" id="102519" flags="" value="1" parameter="3"/>
-        <Controllable name="Low Pass Cut off frequency" id="102521" flags="" value="1433.5103759765625" parameter="4"/>
+        <Controllable name="Low Pass Cut off frequency" id="102521" flags="" value="18001.646484375" parameter="4"/>
         <Controllable name="Low Pass Resonance" id="102523" flags="" value="0.7070000171661377" parameter="5"/>
         <Controllable name="Enable" id="102525" flags="Toggle" value="1" parameter="6"/>
       </Processor>
@@ -1738,7 +1759,6 @@ b529920 2199.999755859375
       <IO name="Lead Low" id="405" direction="Input" default-type="midi">
         <Port name="Lead Low/midi_in 1" type="midi" direction="Input">
           <ExtConnection for="JACK"/>
-          <ExtConnection for="JACK" other="a2j:UM-1 [28] (capture): UM-1 MIDI 1"/>
         </Port>
       </IO>
       <IO name="Lead Low" id="406" direction="Output" default-type="midi">
@@ -2191,15 +2211,17 @@ b529920 2199.999755859375
           <AutomationList automation-id="gain" id="380" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
             <events>a0 0.17782793939113617
 a20257971200 0.17782792448997498
-a22631955200 0.50118720531463623
+a22631955200 0.3548133373260498
 a25322464000 0.50118720531463623
 a28646041201 0.3548133373260498
 a36084512000 0.3548133373260498
-a43681254400 0.70794570446014404
+a43048192000 0.70794570446014404
+a43681254400 0.50118720531463623
+a44314316800 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="381" flags="GainLike" value="0.3548133373260498"/>
+        <Controllable name="gaincontrol" id="381" flags="GainLike" value="0"/>
       </Processor>
       <Processor id="83492" name="Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="6" selfdestruct="0" target="3251" allow-feedback="0">
         <Automation>
@@ -2267,6 +2289,7 @@ a43681254400 0.70794570446014404
       <Controllable name="solo-safe" id="480" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Arp" id="492" direction="Input" default-type="midi">
         <Port name="Arp/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -2747,14 +2770,13 @@ a28487769600 0.99999994039535522
       <Controllable name="rec-safe" id="506" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="504" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7002" id="518" name="Lead Hi" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="596" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
+    <Route version="7002" id="518" name="Lead Hi" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="596" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
       <PresentationInfo order="6" flags="MidiTrack,OrderSet,TriggerTrack" color="2861447679"/>
       <Controllable name="solo" id="559" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="565" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="567" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Lead Hi" id="579" direction="Input" default-type="midi">
         <Port name="Lead Hi/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -2978,8 +3000,8 @@ b407040 0.30000001192092896
 b435840 1
 b439680 0
 b522240 0.5
-b529920 1
-b537600 0
+b528960 1
+b531840 0
 </events>
           </AutomationList>
           <AutomationList automation-id="parameter-66" id="1985" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
@@ -3032,7 +3054,7 @@ b537600 0
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="http://kunz.corrupt.ch/products/tal-noisemaker#preset096" last-preset-label="DR Perc Bongo Room TAL" parameter-changed-since-last-preset="1" state-dir="state240">
+        <lv2 last-preset-uri="http://kunz.corrupt.ch/products/tal-noisemaker#preset096" last-preset-label="DR Perc Bongo Room TAL" parameter-changed-since-last-preset="1" state-dir="state260">
           <Port symbol="lv2_freewheel" value="0"/>
           <Port symbol="unused" value="0"/>
           <Port symbol="volume" value="0.72400003671646118"/>
@@ -3094,8 +3116,8 @@ b537600 0
           <Port symbol="ringmodulation" value="0"/>
           <Port symbol="chorus1enable" value="0"/>
           <Port symbol="chorus2enable" value="0"/>
-          <Port symbol="reverbwet" value="1"/>
-          <Port symbol="reverbdecay" value="0.25244304537773132"/>
+          <Port symbol="reverbwet" value="0.98697918653488159"/>
+          <Port symbol="reverbdecay" value="0.50390625"/>
           <Port symbol="reverbpredelay" value="0.13199999928474426"/>
           <Port symbol="reverbhighcut" value="0.7160000205039978"/>
           <Port symbol="reverblowcut" value="1"/>
@@ -3188,8 +3210,8 @@ b537600 0
         <Controllable name="ringmodulation" id="1976" flags="" value="0" parameter="61" symbol="ringmodulation"/>
         <Controllable name="chorus1enable" id="1978" flags="" value="0" parameter="62" symbol="chorus1enable"/>
         <Controllable name="chorus2enable" id="1980" flags="" value="0" parameter="63" symbol="chorus2enable"/>
-        <Controllable name="reverbwet" id="1982" flags="" value="1" parameter="64" symbol="reverbwet"/>
-        <Controllable name="reverbdecay" id="1984" flags="" value="0.25244304537773132" parameter="65" symbol="reverbdecay"/>
+        <Controllable name="reverbwet" id="1982" flags="" value="0.98697918653488159" parameter="64" symbol="reverbwet"/>
+        <Controllable name="reverbdecay" id="1984" flags="" value="0.50390625" parameter="65" symbol="reverbdecay"/>
         <Controllable name="reverbpredelay" id="1986" flags="" value="0.13199999928474426" parameter="66" symbol="reverbpredelay"/>
         <Controllable name="reverbhighcut" id="1988" flags="" value="0.7160000205039978" parameter="67" symbol="reverbhighcut"/>
         <Controllable name="reverblowcut" id="1990" flags="" value="1" parameter="68" symbol="reverblowcut"/>
@@ -3225,7 +3247,7 @@ b537600 0
         <Automation>
           <AutomationList automation-id="gain" id="554" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="555" flags="GainLike" value="1.4125375747680664"/>
+        <Controllable name="gaincontrol" id="555" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="91510" name="Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="9" selfdestruct="0" target="3251" allow-feedback="0">
         <Automation>
@@ -3249,7 +3271,7 @@ a25164198400 0.70794570446014404
 a25322464000 0
 a28487769600 0.17782792448997498
 a35767985146 0.17782792448997498
-a43681254400 0.50118720531463623
+a43681256196 0.50118720531463623
 </events>
           </AutomationList>
         </Automation>
@@ -3271,7 +3293,7 @@ a43681254400 0.50118720531463623
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="91530" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="91524" flags="GainLike,InlineControl" value="0.17782792448997498"/>
+        <Controllable name="gaincontrol" id="91524" flags="GainLike,InlineControl" value="0.58395437914345749"/>
       </Processor>
       <Processor id="91487" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="8" selfdestruct="0" target="3055" allow-feedback="0">
         <Automation>
@@ -5033,9 +5055,9 @@ a10128985600 1.9952623844146729
 a12661228800 1.4125375747680664
 a12819494400 1.9952623844146729
 a33552268800 1.9952623844146729
-a38458496000 0.70794570446014404
-a38616761600 0.3548133373260498
-a43681254400 1.9952623844146729
+a37983699200 0.00015359843382611871
+a38616761600 0
+a43681256196 1.9952623844146729
 </events>
           </AutomationList>
         </Automation>
@@ -5076,7 +5098,7 @@ a43681254400 1.9952623844146729
       <Controllable name="rec-enable" id="2781" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7002" id="3055" name="Reverb" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Effects">
-      <PresentationInfo order="15" flags="AudioBus,OrderSet" color="875853823"/>
+      <PresentationInfo order="16" flags="AudioBus,OrderSet" color="875853823"/>
       <Controllable name="solo" id="3063" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="3069" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3071" flags="Toggle" value="0" solo-safe="0"/>
@@ -5216,7 +5238,7 @@ a43681254400 1.9952623844146729
       <Slavable/>
     </Route>
     <Route version="7002" id="3140" name="Flanger" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Effects">
-      <PresentationInfo order="16" flags="AudioBus,OrderSet" color="2155918335"/>
+      <PresentationInfo order="17" flags="AudioBus,OrderSet" color="2155918335"/>
       <Controllable name="solo" id="3148" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="3154" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3156" flags="Toggle" value="0" solo-safe="0"/>
@@ -5317,7 +5339,7 @@ a43681254400 1.9952623844146729
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
           <Port symbol="enabled" value="1"/>
           <Port symbol="mono" value="0"/>
           <Port symbol="rate" value="0.25"/>
@@ -5339,7 +5361,6 @@ a43681254400 1.9952623844146729
           <Port symbol="dmin" value="0.10000000149011612"/>
           <Port symbol="depth" value="2"/>
           <Port symbol="sphase" value="0"/>
-          <Port symbol="amount" value="1"/>
           <Port symbol="ovs" value="0"/>
           <Port symbol="fb_on" value="0"/>
           <Port symbol="fgain" value="0.50117999315261841"/>
@@ -5348,6 +5369,7 @@ a43681254400 1.9952623844146729
           <Port symbol="g_in" value="1"/>
           <Port symbol="dry" value="0"/>
           <Port symbol="wet" value="1"/>
+          <Port symbol="drywet" value="100"/>
           <Port symbol="g_out" value="1"/>
         </lv2>
         <Controllable name="Enabled" id="3187" flags="Toggle" value="1" parameter="4" symbol="enabled"/>
@@ -5371,15 +5393,15 @@ a43681254400 1.9952623844146729
         <Controllable name="Min depth" id="3223" flags="" value="0.10000000149011612" parameter="22" symbol="dmin"/>
         <Controllable name="Depth" id="3225" flags="" value="2" parameter="23" symbol="depth"/>
         <Controllable name="Signal phase switch" id="3227" flags="Toggle" value="0" parameter="24" symbol="sphase"/>
-        <Controllable name="The overall amount of the effect" id="3229" flags="" value="1" parameter="25" symbol="amount"/>
-        <Controllable name="Oversampling" id="3231" flags="" value="0" parameter="26" symbol="ovs"/>
-        <Controllable name="Feedback on" id="3233" flags="Toggle" value="0" parameter="27" symbol="fb_on"/>
-        <Controllable name="Feedback gain" id="3235" flags="" value="0.50117999315261841" parameter="28" symbol="fgain"/>
-        <Controllable name="Feedback delay" id="3237" flags="" value="0" parameter="29" symbol="fdelay"/>
-        <Controllable name="Feedback phase switch" id="3239" flags="Toggle" value="0" parameter="30" symbol="fphase"/>
-        <Controllable name="Input gain" id="3241" flags="" value="1" parameter="31" symbol="g_in"/>
-        <Controllable name="Dry amount" id="3243" flags="" value="0" parameter="32" symbol="dry"/>
-        <Controllable name="Wet amount" id="3245" flags="" value="1" parameter="33" symbol="wet"/>
+        <Controllable name="Oversampling" id="3231" flags="" value="0" parameter="25" symbol="ovs"/>
+        <Controllable name="Feedback on" id="3233" flags="Toggle" value="0" parameter="26" symbol="fb_on"/>
+        <Controllable name="Feedback gain" id="3235" flags="" value="0.50117999315261841" parameter="27" symbol="fgain"/>
+        <Controllable name="Feedback delay" id="3237" flags="" value="0" parameter="28" symbol="fdelay"/>
+        <Controllable name="Feedback phase switch" id="3239" flags="Toggle" value="0" parameter="29" symbol="fphase"/>
+        <Controllable name="Input gain" id="3241" flags="" value="1" parameter="30" symbol="g_in"/>
+        <Controllable name="Dry amount" id="3243" flags="" value="0" parameter="31" symbol="dry"/>
+        <Controllable name="Wet amount" id="3245" flags="" value="1" parameter="32" symbol="wet"/>
+        <Controllable name="Dry/Wet balance" id="382689" flags="" value="100" parameter="33" symbol="drywet"/>
         <Controllable name="Output gain" id="3247" flags="" value="1" parameter="34" symbol="g_out"/>
       </Processor>
       <Processor id="3170" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
@@ -5395,7 +5417,7 @@ a43681254400 1.9952623844146729
       <Slavable/>
     </Route>
     <Route version="7002" id="3251" name="Delay" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Effects">
-      <PresentationInfo order="17" flags="AudioBus,OrderSet" color="1448515071"/>
+      <PresentationInfo order="18" flags="AudioBus,OrderSet" color="1448515071"/>
       <Controllable name="solo" id="3259" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="3265" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3267" flags="Toggle" value="0" solo-safe="0"/>
@@ -5937,7 +5959,7 @@ a25322464000 1.4125375747680664
 a25480729600 1.9952623844146729
 a33552268800 1.9952623844146729
 a38616761600 0.25118860602378845
-a43681254400 1.9952623844146729
+a43681256196 1.9952623844146729
 </events>
           </AutomationList>
         </Automation>
@@ -5959,7 +5981,7 @@ a43681254400 1.9952623844146729
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="166865" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="166859" flags="GainLike,InlineControl" value="1.9952623844146729"/>
+        <Controllable name="gaincontrol" id="166859" flags="GainLike,InlineControl" value="0.48929640782065864"/>
       </Processor>
       <Processor id="166822" name="Flanger" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="10" selfdestruct="0" target="3140" allow-feedback="0">
         <Automation>
@@ -5995,7 +6017,7 @@ a43681254400 1.9952623844146729
       <Controllable name="rec-safe" id="101689" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="101687" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7002" id="122290" name="Lead Mid" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="122368" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+    <Route version="7002" id="122290" name="Lead Mid" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="122368" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
       <PresentationInfo order="5" flags="MidiTrack,OrderSet,TriggerTrack" color="372244479"/>
       <Controllable name="solo" id="122331" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="122337" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -6065,6 +6087,38 @@ a43681254400 1.9952623844146729
         </Triggers>
       </Processor>
       <Processor id="122354" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="386950" name="MIDI Chromatic Transpose" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/midifilter#miditranspose" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-3" id="386951" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-4" id="386953" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="386955" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0">
+          <Port symbol="channelf" value="0"/>
+          <Port symbol="transpose" value="0"/>
+          <Port symbol="inversion" value="0"/>
+        </lv2>
+        <Controllable name="Filter Channel" id="386952" flags="" value="0" parameter="3" symbol="channelf"/>
+        <Controllable name="Transpose" id="386954" flags="" value="0" parameter="4" symbol="transpose"/>
+        <Controllable name="Inversion point" id="386956" flags="" value="0" parameter="5" symbol="inversion"/>
+      </Processor>
       <Processor id="122478" name="Noize Mak3r" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://kunz.corrupt.ch/products/tal-noisemaker" count="1" custom="0">
         <Automation>
           <AutomationList automation-id="parameter-1" id="122479" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
@@ -6373,15 +6427,17 @@ a43681254400 1.9952623844146729
         <Automation>
           <AutomationList automation-id="gain" id="122326" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
             <events>a0 0.50118720531463623
-a22631955200 0.50118720531463623
+a23265016887 0.50118720531463623
 a25322464000 0.70794570446014404
 a33552268800 0.70794570446014404
 a36084515988 0.25118860602378845
+a43048192000 1.4125375747680664
 a43681254400 0.99999994039535522
+a44314316800 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="122327" flags="GainLike" value="0.70794570446014404"/>
+        <Controllable name="gaincontrol" id="122327" flags="GainLike" value="0"/>
       </Processor>
       <Processor id="122701" name="Flanger" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="7" selfdestruct="0" target="3140" allow-feedback="0">
         <Automation>
@@ -6869,7 +6925,7 @@ a30386956800 0
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="228368" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="228362" flags="GainLike,InlineControl" value="0"/>
+        <Controllable name="gaincontrol" id="228362" flags="GainLike,InlineControl" value="9.9999999999999995e-08"/>
       </Processor>
       <Processor id="140929" name="meter-Pad" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="140930" name="Pad" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Pad" type="main-outs" role="Main">
@@ -6914,7 +6970,7 @@ a30386956800 0
         <AutomationList automation-id="midi-velocity" id="320806" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="320776" flags="" value="0.80000001192092896"/>
+        <Controllable name="pan-azimuth" id="320776" flags="" value="0.5"/>
         <Controllable name="pan-width" id="320780" flags="" value="0"/>
         <Controllable name="pan-elevation" id="320778" flags="" value="0"/>
         <Controllable name="pan-frontback" id="320782" flags="" value="0"/>
@@ -7389,7 +7445,7 @@ a27854713600 0
         <AutomationList automation-id="midi-velocity" id="321674" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="321218" flags="" value="0.19999998807907104"/>
+        <Controllable name="pan-azimuth" id="321218" flags="" value="0.5"/>
         <Controllable name="pan-width" id="321219" flags="" value="0"/>
         <Controllable name="pan-elevation" id="321220" flags="" value="0"/>
         <Controllable name="pan-frontback" id="321221" flags="" value="0"/>
@@ -7781,6 +7837,420 @@ a30386956800 0
       <Controllable name="rec-safe" id="321678" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="321679" flags="Toggle,RealTime" value="0"/>
     </Route>
+    <Route version="7002" id="386969" name="Crash" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" midi-playlist="387047" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+      <PresentationInfo order="15" flags="MidiTrack,OrderSet,TriggerTrack" color="2855877119"/>
+      <Controllable name="solo" id="387010" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="387016" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="387018" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Crash" id="387030" direction="Input" default-type="midi">
+        <Port name="Crash/midi_in 1" type="midi" direction="Input"/>
+      </IO>
+      <IO name="Crash" id="387031" direction="Output" default-type="midi">
+        <Port name="Crash/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Crash/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+        <Port name="Crash/midi_out 1" type="midi" direction="Output"/>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="387012" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="387014" flags="Toggle" value="0" phase-invert=""/>
+      <Automation>
+        <AutomationList automation-id="solo" id="387009" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="387015" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="387017" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="mute" id="387011" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="387041" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="387043" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="phase" id="387013" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="monitor" id="387045" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+        <AutomationList automation-id="midi-velocity" id="387051" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="387021" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="387025" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="387023" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="387027" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="387029" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="387020" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="387022" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="pan-width" id="387024" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="387026" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="387028" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="387040" name="recorder:Crash" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="387039" name="player:Crash" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="386972" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="midi" order="14">
+        <Triggers>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="2" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="3" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="4" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="5" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="6" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="7" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="8" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="9" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="10" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="11" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="12" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="13" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="14" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+          <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="15" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+        </Triggers>
+      </Processor>
+      <Processor id="387033" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="387184" name="Noize Mak3r" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://kunz.corrupt.ch/products/tal-noisemaker" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-1" id="387185" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-4" id="387187" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="387189" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-6" id="387191" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-7" id="387193" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="387195" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="387197" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="387199" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="387201" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="387203" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="387205" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="387207" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="387209" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="387211" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="387213" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="387215" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-19" id="387217" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-20" id="387219" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-21" id="387221" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-22" id="387223" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-23" id="387225" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-24" id="387227" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-25" id="387229" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-26" id="387231" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-27" id="387233" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-28" id="387235" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-29" id="387237" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-30" id="387239" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-31" id="387241" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-32" id="387243" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-33" id="387245" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-34" id="387247" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-35" id="387249" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-36" id="387251" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-37" id="387253" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-38" id="387255" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-39" id="387257" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-40" id="387259" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-41" id="387261" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-42" id="387263" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-43" id="387265" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-44" id="387267" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-45" id="387269" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-46" id="387271" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-47" id="387273" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-48" id="387275" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-49" id="387277" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-50" id="387279" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-51" id="387281" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-52" id="387283" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-53" id="387285" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-54" id="387287" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-55" id="387289" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-56" id="387291" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-57" id="387293" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-58" id="387295" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-59" id="387297" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-60" id="387299" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-61" id="387301" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-62" id="387303" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-63" id="387305" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-64" id="387307" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-65" id="387309" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-66" id="387311" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-67" id="387313" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-68" id="387315" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-69" id="387317" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-70" id="387319" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-71" id="387321" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-72" id="387323" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-73" id="387325" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-74" id="387327" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-75" id="387329" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-76" id="387331" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-77" id="387333" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-78" id="387335" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-79" id="387337" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-80" id="387339" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-81" id="387341" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-82" id="387343" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-83" id="387345" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-84" id="387347" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-85" id="387349" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-86" id="387351" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-87" id="387353" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-88" id="387355" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-89" id="387357" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-90" id="387359" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-91" id="387361" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-92" id="387363" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-93" id="387365" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-94" id="387367" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-95" id="387369" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="http://kunz.corrupt.ch/products/tal-noisemaker#preset081" last-preset-label="DR Crash Space TAL" parameter-changed-since-last-preset="0" state-dir="state1">
+          <Port symbol="lv2_freewheel" value="0"/>
+          <Port symbol="unused" value="0"/>
+          <Port symbol="volume" value="0.41999998688697815"/>
+          <Port symbol="filtertype" value="0.45454499125480652"/>
+          <Port symbol="cutoff" value="0.79199999570846558"/>
+          <Port symbol="resonance" value="0.40799999237060547"/>
+          <Port symbol="keyfollow" value="0.77600002288818359"/>
+          <Port symbol="filtercontour" value="0.49599999189376831"/>
+          <Port symbol="filterattack" value="0"/>
+          <Port symbol="filterdecay" value="0"/>
+          <Port symbol="filtersustain" value="0"/>
+          <Port symbol="filterrelease" value="0"/>
+          <Port symbol="ampattack" value="0"/>
+          <Port symbol="ampdecay" value="0.43599998950958252"/>
+          <Port symbol="ampsustain" value="0.23999999463558197"/>
+          <Port symbol="amprelease" value="0.58799999952316284"/>
+          <Port symbol="osc1volume" value="0.45199999213218689"/>
+          <Port symbol="osc2volume" value="0.59200000762939453"/>
+          <Port symbol="osc3volume" value="0"/>
+          <Port symbol="oscmastertune" value="0.5"/>
+          <Port symbol="osc1tune" value="0.50800001621246338"/>
+          <Port symbol="osc2tune" value="1"/>
+          <Port symbol="osc1finetune" value="0.5"/>
+          <Port symbol="osc2finetune" value="0.5"/>
+          <Port symbol="osc1waveform" value="1"/>
+          <Port symbol="osc2waveform" value="0"/>
+          <Port symbol="oscsync" value="0"/>
+          <Port symbol="lfo1waveform" value="1"/>
+          <Port symbol="lfo2waveform" value="0"/>
+          <Port symbol="lfo1rate" value="1"/>
+          <Port symbol="lfo2rate" value="0"/>
+          <Port symbol="lfo1amount" value="0.81999999284744263"/>
+          <Port symbol="lfo2amount" value="0"/>
+          <Port symbol="lfo1destination" value="0.42857098579406738"/>
+          <Port symbol="lfo2destination" value="0"/>
+          <Port symbol="lfo1phase" value="0"/>
+          <Port symbol="lfo2phase" value="0"/>
+          <Port symbol="osc2fm" value="1"/>
+          <Port symbol="osc2phase" value="0"/>
+          <Port symbol="osc1pw" value="0"/>
+          <Port symbol="osc1phase" value="0"/>
+          <Port symbol="transpose" value="1"/>
+          <Port symbol="freeadattack" value="0"/>
+          <Port symbol="freeaddecay" value="0.14800000190734863"/>
+          <Port symbol="freeadamount" value="0.50400000810623169"/>
+          <Port symbol="freeaddestination" value="0.60000002384185791"/>
+          <Port symbol="lfo1sync" value="0"/>
+          <Port symbol="lfo1keytrigger" value="0"/>
+          <Port symbol="lfo2sync" value="0"/>
+          <Port symbol="lfo2keytrigger" value="0"/>
+          <Port symbol="portamento" value="0"/>
+          <Port symbol="portamentomode" value="0"/>
+          <Port symbol="voices" value="0"/>
+          <Port symbol="velocityvolume" value="0"/>
+          <Port symbol="velocitycontour" value="0"/>
+          <Port symbol="velocitycutoff" value="0"/>
+          <Port symbol="pitchwheelcutoff" value="0"/>
+          <Port symbol="pitchwheelpitch" value="0.53600001335144043"/>
+          <Port symbol="ringmodulation" value="0"/>
+          <Port symbol="chorus1enable" value="0"/>
+          <Port symbol="chorus2enable" value="0"/>
+          <Port symbol="reverbwet" value="0"/>
+          <Port symbol="reverbdecay" value="0"/>
+          <Port symbol="reverbpredelay" value="0"/>
+          <Port symbol="reverbhighcut" value="0"/>
+          <Port symbol="reverblowcut" value="1"/>
+          <Port symbol="oscbitcrusher" value="1"/>
+          <Port symbol="highpass" value="0.32400000095367432"/>
+          <Port symbol="detune" value="0.23999999463558197"/>
+          <Port symbol="vintagenoise" value="0"/>
+          <Port symbol="lv2_port_70" value="0"/>
+          <Port symbol="unused_2" value="0"/>
+          <Port symbol="envelopeeditordest1" value="0"/>
+          <Port symbol="envelopeeditorspeed" value="0"/>
+          <Port symbol="envelopeeditoramount" value="0"/>
+          <Port symbol="envelopeoneshot" value="0"/>
+          <Port symbol="envelopefixtempo" value="0"/>
+          <Port symbol="lv2_port_77" value="0"/>
+          <Port symbol="lv2_port_78" value="1"/>
+          <Port symbol="lv2_port_79" value="0"/>
+          <Port symbol="lv2_port_80" value="0"/>
+          <Port symbol="lv2_port_81" value="1"/>
+          <Port symbol="filterdrive" value="0"/>
+          <Port symbol="delaywet" value="0"/>
+          <Port symbol="delaytime" value="0.5"/>
+          <Port symbol="delaysync" value="0"/>
+          <Port symbol="delayfactorl" value="0"/>
+          <Port symbol="delayfactorr" value="0"/>
+          <Port symbol="delayhighshelf" value="0"/>
+          <Port symbol="delaylowshelf" value="0"/>
+          <Port symbol="delayfeedback" value="0.5"/>
+          <Port symbol="lv2_port_91" value="0"/>
+          <Port symbol="lv2_port_92" value="0"/>
+        </lv2>
+        <Controllable name="hidden" id="387186" flags="Toggle" value="0" parameter="1" symbol="lv2_freewheel"/>
+        <Controllable name="unused" id="387188" flags="" value="0" parameter="4" symbol="unused"/>
+        <Controllable name="volume" id="387190" flags="" value="0.41999998688697815" parameter="5" symbol="volume"/>
+        <Controllable name="filtertype" id="387192" flags="" value="0.45454499125480652" parameter="6" symbol="filtertype"/>
+        <Controllable name="cutoff" id="387194" flags="" value="0.79199999570846558" parameter="7" symbol="cutoff"/>
+        <Controllable name="resonance" id="387196" flags="" value="0.40799999237060547" parameter="8" symbol="resonance"/>
+        <Controllable name="keyfollow" id="387198" flags="" value="0.77600002288818359" parameter="9" symbol="keyfollow"/>
+        <Controllable name="filtercontour" id="387200" flags="" value="0.49599999189376831" parameter="10" symbol="filtercontour"/>
+        <Controllable name="filterattack" id="387202" flags="" value="0" parameter="11" symbol="filterattack"/>
+        <Controllable name="filterdecay" id="387204" flags="" value="0" parameter="12" symbol="filterdecay"/>
+        <Controllable name="filtersustain" id="387206" flags="" value="0" parameter="13" symbol="filtersustain"/>
+        <Controllable name="filterrelease" id="387208" flags="" value="0" parameter="14" symbol="filterrelease"/>
+        <Controllable name="ampattack" id="387210" flags="" value="0" parameter="15" symbol="ampattack"/>
+        <Controllable name="ampdecay" id="387212" flags="" value="0.43599998950958252" parameter="16" symbol="ampdecay"/>
+        <Controllable name="ampsustain" id="387214" flags="" value="0.23999999463558197" parameter="17" symbol="ampsustain"/>
+        <Controllable name="amprelease" id="387216" flags="" value="0.58799999952316284" parameter="18" symbol="amprelease"/>
+        <Controllable name="osc1volume" id="387218" flags="" value="0.45199999213218689" parameter="19" symbol="osc1volume"/>
+        <Controllable name="osc2volume" id="387220" flags="" value="0.59200000762939453" parameter="20" symbol="osc2volume"/>
+        <Controllable name="osc3volume" id="387222" flags="" value="0" parameter="21" symbol="osc3volume"/>
+        <Controllable name="oscmastertune" id="387224" flags="" value="0.5" parameter="22" symbol="oscmastertune"/>
+        <Controllable name="osc1tune" id="387226" flags="" value="0.50800001621246338" parameter="23" symbol="osc1tune"/>
+        <Controllable name="osc2tune" id="387228" flags="" value="1" parameter="24" symbol="osc2tune"/>
+        <Controllable name="osc1finetune" id="387230" flags="" value="0.5" parameter="25" symbol="osc1finetune"/>
+        <Controllable name="osc2finetune" id="387232" flags="" value="0.5" parameter="26" symbol="osc2finetune"/>
+        <Controllable name="osc1waveform" id="387234" flags="" value="1" parameter="27" symbol="osc1waveform"/>
+        <Controllable name="osc2waveform" id="387236" flags="" value="0" parameter="28" symbol="osc2waveform"/>
+        <Controllable name="oscsync" id="387238" flags="" value="0" parameter="29" symbol="oscsync"/>
+        <Controllable name="lfo1waveform" id="387240" flags="" value="1" parameter="30" symbol="lfo1waveform"/>
+        <Controllable name="lfo2waveform" id="387242" flags="" value="0" parameter="31" symbol="lfo2waveform"/>
+        <Controllable name="lfo1rate" id="387244" flags="" value="1" parameter="32" symbol="lfo1rate"/>
+        <Controllable name="lfo2rate" id="387246" flags="" value="0" parameter="33" symbol="lfo2rate"/>
+        <Controllable name="lfo1amount" id="387248" flags="" value="0.81999999284744263" parameter="34" symbol="lfo1amount"/>
+        <Controllable name="lfo2amount" id="387250" flags="" value="0" parameter="35" symbol="lfo2amount"/>
+        <Controllable name="lfo1destination" id="387252" flags="" value="0.42857098579406738" parameter="36" symbol="lfo1destination"/>
+        <Controllable name="lfo2destination" id="387254" flags="" value="0" parameter="37" symbol="lfo2destination"/>
+        <Controllable name="lfo1phase" id="387256" flags="" value="0" parameter="38" symbol="lfo1phase"/>
+        <Controllable name="lfo2phase" id="387258" flags="" value="0" parameter="39" symbol="lfo2phase"/>
+        <Controllable name="osc2fm" id="387260" flags="" value="1" parameter="40" symbol="osc2fm"/>
+        <Controllable name="osc2phase" id="387262" flags="" value="0" parameter="41" symbol="osc2phase"/>
+        <Controllable name="osc1pw" id="387264" flags="" value="0" parameter="42" symbol="osc1pw"/>
+        <Controllable name="osc1phase" id="387266" flags="" value="0" parameter="43" symbol="osc1phase"/>
+        <Controllable name="transpose" id="387268" flags="" value="1" parameter="44" symbol="transpose"/>
+        <Controllable name="freeadattack" id="387270" flags="" value="0" parameter="45" symbol="freeadattack"/>
+        <Controllable name="freeaddecay" id="387272" flags="" value="0.14800000190734863" parameter="46" symbol="freeaddecay"/>
+        <Controllable name="freeadamount" id="387274" flags="" value="0.50400000810623169" parameter="47" symbol="freeadamount"/>
+        <Controllable name="freeaddestination" id="387276" flags="" value="0.60000002384185791" parameter="48" symbol="freeaddestination"/>
+        <Controllable name="lfo1sync" id="387278" flags="" value="0" parameter="49" symbol="lfo1sync"/>
+        <Controllable name="lfo1keytrigger" id="387280" flags="" value="0" parameter="50" symbol="lfo1keytrigger"/>
+        <Controllable name="lfo2sync" id="387282" flags="" value="0" parameter="51" symbol="lfo2sync"/>
+        <Controllable name="lfo2keytrigger" id="387284" flags="" value="0" parameter="52" symbol="lfo2keytrigger"/>
+        <Controllable name="portamento" id="387286" flags="" value="0" parameter="53" symbol="portamento"/>
+        <Controllable name="portamentomode" id="387288" flags="" value="0" parameter="54" symbol="portamentomode"/>
+        <Controllable name="voices" id="387290" flags="" value="0" parameter="55" symbol="voices"/>
+        <Controllable name="velocityvolume" id="387292" flags="" value="0" parameter="56" symbol="velocityvolume"/>
+        <Controllable name="velocitycontour" id="387294" flags="" value="0" parameter="57" symbol="velocitycontour"/>
+        <Controllable name="velocitycutoff" id="387296" flags="" value="0" parameter="58" symbol="velocitycutoff"/>
+        <Controllable name="pitchwheelcutoff" id="387298" flags="" value="0" parameter="59" symbol="pitchwheelcutoff"/>
+        <Controllable name="pitchwheelpitch" id="387300" flags="" value="0.53600001335144043" parameter="60" symbol="pitchwheelpitch"/>
+        <Controllable name="ringmodulation" id="387302" flags="" value="0" parameter="61" symbol="ringmodulation"/>
+        <Controllable name="chorus1enable" id="387304" flags="" value="0" parameter="62" symbol="chorus1enable"/>
+        <Controllable name="chorus2enable" id="387306" flags="" value="0" parameter="63" symbol="chorus2enable"/>
+        <Controllable name="reverbwet" id="387308" flags="" value="0" parameter="64" symbol="reverbwet"/>
+        <Controllable name="reverbdecay" id="387310" flags="" value="0" parameter="65" symbol="reverbdecay"/>
+        <Controllable name="reverbpredelay" id="387312" flags="" value="0" parameter="66" symbol="reverbpredelay"/>
+        <Controllable name="reverbhighcut" id="387314" flags="" value="0" parameter="67" symbol="reverbhighcut"/>
+        <Controllable name="reverblowcut" id="387316" flags="" value="1" parameter="68" symbol="reverblowcut"/>
+        <Controllable name="oscbitcrusher" id="387318" flags="" value="1" parameter="69" symbol="oscbitcrusher"/>
+        <Controllable name="highpass" id="387320" flags="" value="0.32400000095367432" parameter="70" symbol="highpass"/>
+        <Controllable name="detune" id="387322" flags="" value="0.23999999463558197" parameter="71" symbol="detune"/>
+        <Controllable name="vintagenoise" id="387324" flags="" value="0" parameter="72" symbol="vintagenoise"/>
+        <Controllable name="Port 70" id="387326" flags="" value="0" parameter="73" symbol="lv2_port_70"/>
+        <Controllable name="unused" id="387328" flags="" value="0" parameter="74" symbol="unused_2"/>
+        <Controllable name="envelopeeditordest1" id="387330" flags="" value="0" parameter="75" symbol="envelopeeditordest1"/>
+        <Controllable name="envelopeeditorspeed" id="387332" flags="" value="0" parameter="76" symbol="envelopeeditorspeed"/>
+        <Controllable name="envelopeeditoramount" id="387334" flags="" value="0" parameter="77" symbol="envelopeeditoramount"/>
+        <Controllable name="envelopeoneshot" id="387336" flags="" value="0" parameter="78" symbol="envelopeoneshot"/>
+        <Controllable name="envelopefixtempo" id="387338" flags="" value="0" parameter="79" symbol="envelopefixtempo"/>
+        <Controllable name="Port 77" id="387340" flags="" value="0" parameter="80" symbol="lv2_port_77"/>
+        <Controllable name="Port 78" id="387342" flags="" value="1" parameter="81" symbol="lv2_port_78"/>
+        <Controllable name="Port 79" id="387344" flags="" value="0" parameter="82" symbol="lv2_port_79"/>
+        <Controllable name="Port 80" id="387346" flags="" value="0" parameter="83" symbol="lv2_port_80"/>
+        <Controllable name="Port 81" id="387348" flags="" value="1" parameter="84" symbol="lv2_port_81"/>
+        <Controllable name="filterdrive" id="387350" flags="" value="0" parameter="85" symbol="filterdrive"/>
+        <Controllable name="delaywet" id="387352" flags="" value="0" parameter="86" symbol="delaywet"/>
+        <Controllable name="delaytime" id="387354" flags="" value="0.5" parameter="87" symbol="delaytime"/>
+        <Controllable name="delaysync" id="387356" flags="" value="0" parameter="88" symbol="delaysync"/>
+        <Controllable name="delayfactorl" id="387358" flags="" value="0" parameter="89" symbol="delayfactorl"/>
+        <Controllable name="delayfactorr" id="387360" flags="" value="0" parameter="90" symbol="delayfactorr"/>
+        <Controllable name="delayhighshelf" id="387362" flags="" value="0" parameter="91" symbol="delayhighshelf"/>
+        <Controllable name="delaylowshelf" id="387364" flags="" value="0" parameter="92" symbol="delaylowshelf"/>
+        <Controllable name="delayfeedback" id="387366" flags="" value="0.5" parameter="93" symbol="delayfeedback"/>
+        <Controllable name="Port 91" id="387368" flags="" value="0" parameter="94" symbol="lv2_port_91"/>
+        <Controllable name="Port 92" id="387370" flags="" value="0" parameter="95" symbol="lv2_port_92"/>
+      </Processor>
+      <Processor id="387032" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="387005" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="387006" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="387387" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="14" selfdestruct="0" target="3055" allow-feedback="0">
+        <Automation>
+          <AutomationList automation-id="phase" id="387406" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="send" id="387400" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
+        </Automation>
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1">
+          <Panner uri="http://ardour.org/plugin/panner_balance" type="Stereo Balance"/>
+        </PannerShell>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="387391" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="387395" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="387393" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="387397" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="387399" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="387390" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="387392" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+            <AutomationList automation-id="pan-width" id="387394" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="387396" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="387398" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          </Automation>
+        </Pannable>
+        <Controllable name="polarity-invert" id="387407" flags="Toggle" value="0"/>
+        <Controllable name="gaincontrol" id="387401" flags="GainLike,InlineControl" value="2"/>
+      </Processor>
+      <Processor id="387036" name="meter-Crash" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="387037" name="Crash" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Crash" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="387046" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="387044" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="387042" flags="Toggle,RealTime" value="0"/>
+    </Route>
   </Routes>
   <Playlists>
     <Playlist id="248" name="Chord" type="midi" orig-track-id="170" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
@@ -7793,14 +8263,13 @@ a30386956800 0
       <Region name="Take2_Chord-28.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b276480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="0" id="287263" type="midi" first-edit="nothing" source-0="287261" master-source-0="287261"/>
       <Region name="Take2_Chord-35.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b437760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="0" id="366691" type="midi" first-edit="nothing" source-0="366667" master-source-0="366667"/>
       <Region name="Take2_Chord-36.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" id="367116" type="midi" first-edit="nothing" source-0="367114" master-source-0="367114"/>
-      <Region name="Take2_Chord-37.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="0" id="367407" type="midi" first-edit="nothing" source-0="367405" master-source-0="367405"/>
+      <Region name="Take2_Chord-37.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="0" id="367407" type="midi" first-edit="nothing" source-0="367405" master-source-0="367405"/>
     </Playlist>
     <Playlist id="335" name="Bass" type="midi" orig-track-id="257" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take2_Bass-7.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b30720" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="70821" type="midi" first-edit="nothing" source-0="70819" master-source-0="70819"/>
       <Region name="Take2_Bass-20" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b61440" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" id="114619" type="midi" first-edit="nothing" source-0="114614" master-source-0="114614"/>
       <Region name="Take2_Bass-22.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b92160" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="0" id="122734" type="midi" first-edit="nothing" source-0="122732" master-source-0="122732"/>
       <Region name="Take2_Bass-23.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b153600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" id="122941" type="midi" first-edit="nothing" source-0="122939" master-source-0="122939"/>
-      <Region name="Take2_Bass-47.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b153600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="366638" type="midi" first-edit="nothing" source-0="366620" master-source-0="366620"/>
       <Region name="Take2_Bass-24.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b184320" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" id="123018" type="midi" first-edit="nothing" source-0="123016" master-source-0="123016"/>
       <Region name="Take2_Bass-25.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b215040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="0" id="123088" type="midi" first-edit="nothing" source-0="123086" master-source-0="123086"/>
       <Region name="Take2_Bass-29.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b245760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="6" tags="" contents="0" rgroup="0" id="167194" type="midi" first-edit="nothing" source-0="167186" master-source-0="167186"/>
@@ -7810,9 +8279,9 @@ a30386956800 0
       <Region name="Take2_Bass-42.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b345600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="11" tags="" contents="0" rgroup="0" id="331657" type="midi" first-edit="nothing" source-0="331533" master-source-0="331533"/>
       <Region name="Take2_Bass-41.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b376320" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="10" tags="" contents="0" rgroup="0" id="331655" type="midi" first-edit="nothing" source-0="331525" master-source-0="331525"/>
       <Region name="Take2_Bass-46.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b26880" length="b3840@b433920" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="0" id="366576" type="midi" first-edit="nothing" source-0="366568" master-source-0="366568"/>
-      <Region name="Take2_Bass-48.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b437760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="0" id="366693" type="midi" first-edit="nothing" source-0="366675" master-source-0="366675"/>
-      <Region name="Take2_Bass-49.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="367379" type="midi" first-edit="nothing" source-0="367377" master-source-0="367377"/>
-      <Region name="Take2_Bass-50.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="16" tags="" contents="0" rgroup="0" id="367393" type="midi" first-edit="nothing" source-0="367391" master-source-0="367391"/>
+      <Region name="Take2_Bass-48.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b437760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="366693" type="midi" first-edit="nothing" source-0="366675" master-source-0="366675"/>
+      <Region name="Take2_Bass-49.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="0" id="367379" type="midi" first-edit="nothing" source-0="367377" master-source-0="367377"/>
+      <Region name="Take2_Bass-50.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b38400@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="367393" type="midi" first-edit="nothing" source-0="367391" master-source-0="367391"/>
     </Playlist>
     <Playlist id="422" name="Lead" type="midi" orig-track-id="344" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take2_Lead-2" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="9794" type="midi" first-edit="nothing" source-0="9789" master-source-0="9789"/>
@@ -7831,7 +8300,7 @@ a30386956800 0
       <Region name="Take2_Lead-42.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b407040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="11" tags="" contents="0" rgroup="0" id="331681" type="midi" first-edit="nothing" source-0="331581" master-source-0="331581"/>
       <Region name="Take2_Lead-48.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b437760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="0" id="366701" type="midi" first-edit="nothing" source-0="366651" master-source-0="366651"/>
       <Region name="Take2_Lead-51.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="367133" type="midi" first-edit="nothing" source-0="367131" master-source-0="367131"/>
-      <Region name="Take2_Lead-52.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="16" tags="" contents="0" rgroup="0" id="367147" type="midi" first-edit="nothing" source-0="367145" master-source-0="367145"/>
+      <Region name="Take2_Lead-52.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b38400@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="16" tags="" contents="0" rgroup="0" id="367147" type="midi" first-edit="nothing" source-0="367145" master-source-0="367145"/>
     </Playlist>
     <Playlist id="509" name="Arp" type="midi" orig-track-id="431" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take2_Arp-2" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="9784" type="midi" first-edit="nothing" source-0="9779" master-source-0="9779"/>
@@ -7840,7 +8309,6 @@ a30386956800 0
       <Region name="Take2_Arp-26.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b92160" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" id="122769" type="midi" first-edit="nothing" source-0="122767" master-source-0="122767"/>
       <Region name="Take2_Arp-27.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b122880" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" id="122948" type="midi" first-edit="nothing" source-0="122946" master-source-0="122946"/>
       <Region name="Take2_Arp-28.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b153600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="0" id="123025" type="midi" first-edit="nothing" source-0="123023" master-source-0="123023"/>
-      <Region name="Take2_Arp-53.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b153600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="366640" type="midi" first-edit="nothing" source-0="366628" master-source-0="366628"/>
       <Region name="Take2_Arp-29.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b184320" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="6" tags="" contents="0" rgroup="0" id="123095" type="midi" first-edit="nothing" source-0="123093" master-source-0="123093"/>
       <Region name="Take2_Arp-30.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b215040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="0" id="123158" type="midi" first-edit="nothing" source-0="123156" master-source-0="123156"/>
       <Region name="Take2_Arp-34.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b245760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" id="173331" type="midi" first-edit="nothing" source-0="173329" master-source-0="173329"/>
@@ -7848,9 +8316,9 @@ a30386956800 0
       <Region name="Take2_Arp-48.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b345600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="0" id="331665" type="midi" first-edit="nothing" source-0="331565" master-source-0="331565"/>
       <Region name="Take2_Arp-47.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b376320" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="11" tags="" contents="0" rgroup="0" id="331663" type="midi" first-edit="nothing" source-0="331557" master-source-0="331557"/>
       <Region name="Take2_Arp-46.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b407040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="10" tags="" contents="0" rgroup="0" id="331661" type="midi" first-edit="nothing" source-0="331549" master-source-0="331549"/>
-      <Region name="Take2_Arp-54.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b437760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="0" id="366695" type="midi" first-edit="nothing" source-0="366683" master-source-0="366683"/>
-      <Region name="Take2_Arp-55.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="367126" type="midi" first-edit="nothing" source-0="367124" master-source-0="367124"/>
-      <Region name="Take2_Arp-56.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="16" tags="" contents="0" rgroup="0" id="367140" type="midi" first-edit="nothing" source-0="367138" master-source-0="367138"/>
+      <Region name="Take2_Arp-54.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b437760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="366695" type="midi" first-edit="nothing" source-0="366683" master-source-0="366683"/>
+      <Region name="Take2_Arp-55.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="0" id="367126" type="midi" first-edit="nothing" source-0="367124" master-source-0="367124"/>
+      <Region name="Take2_Arp-56.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b24000@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="367140" type="midi" first-edit="nothing" source-0="367138" master-source-0="367138"/>
     </Playlist>
     <Playlist id="596" name="Pluck" type="midi" orig-track-id="518" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take2_Lead-7.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="30667" type="midi" first-edit="nothing" source-0="30659" master-source-0="30659"/>
@@ -7869,7 +8337,7 @@ a30386956800 0
       <Region name="Take2_Lead-44.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b407040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="11" tags="" contents="0" rgroup="0" id="331765" type="midi" first-edit="nothing" source-0="331629" master-source-0="331629"/>
       <Region name="Take2_Lead-49.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b437760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="0" id="366707" type="midi" first-edit="nothing" source-0="366659" master-source-0="366659"/>
       <Region name="Take2_Lead-60.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="16" tags="" contents="0" rgroup="0" id="367298" type="midi" first-edit="nothing" source-0="367284" master-source-0="367284"/>
-      <Region name="Take2_Lead-59.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="367292" type="midi" first-edit="nothing" source-0="367276" master-source-0="367276"/>
+      <Region name="Take2_Lead-59.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b38400@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="367292" type="midi" first-edit="nothing" source-0="367276" master-source-0="367276"/>
     </Playlist>
     <Playlist id="683" name="Kick" type="midi" orig-track-id="605" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take2_Kick-6.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b30720" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="70849" type="midi" first-edit="nothing" source-0="70847" master-source-0="70847"/>
@@ -7887,7 +8355,7 @@ a30386956800 0
       <Region name="Take2_Kick-29.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b7680@b407040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="0" id="331816" type="midi" first-edit="nothing" source-0="331814" master-source-0="331814"/>
       <Region name="Take2_Kick-34.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b437760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="366757" type="midi" first-edit="nothing" source-0="366749" master-source-0="366749"/>
       <Region name="Take2_Kick-35.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="0" id="367313" type="midi" first-edit="nothing" source-0="367311" master-source-0="367311"/>
-      <Region name="Take2_Kick-36.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="367323" type="midi" first-edit="nothing" source-0="367321" master-source-0="367321"/>
+      <Region name="Take2_Kick-36.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b24000@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="367323" type="midi" first-edit="nothing" source-0="367321" master-source-0="367321"/>
     </Playlist>
     <Playlist id="770" name="Snare" type="midi" orig-track-id="692" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take2_Snare-6.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b30720" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="70856" type="midi" first-edit="nothing" source-0="70854" master-source-0="70854"/>
@@ -7903,7 +8371,7 @@ a30386956800 0
       <Region name="Take2_Snare-29.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b345600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="0" id="303704" type="midi" first-edit="nothing" source-0="303548" master-source-0="303548"/>
       <Region name="Take2_Snare-28.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b376320" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" id="303702" type="midi" first-edit="nothing" source-0="303540" master-source-0="303540"/>
       <Region name="Take2_Snare-33.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="367349" type="midi" first-edit="nothing" source-0="367339" master-source-0="367339"/>
-      <Region name="Take2_Snare-32.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="0" id="367347" type="midi" first-edit="nothing" source-0="367331" master-source-0="367331"/>
+      <Region name="Take2_Snare-32.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b24000@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="0" id="367347" type="midi" first-edit="nothing" source-0="367331" master-source-0="367331"/>
     </Playlist>
     <Playlist id="857" name="HiHat" type="midi" orig-track-id="779" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take2_HiHat-6.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b30720" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="70863" type="midi" first-edit="nothing" source-0="70861" master-source-0="70861"/>
@@ -7922,7 +8390,7 @@ a30386956800 0
       <Region name="Take2_HiHat-39.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b345600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="0" id="303708" type="midi" first-edit="nothing" source-0="303564" master-source-0="303564"/>
       <Region name="Take2_HiHat-38.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b376320" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="11" tags="" contents="0" rgroup="0" id="303706" type="midi" first-edit="nothing" source-0="303556" master-source-0="303556"/>
       <Region name="Take2_HiHat-45.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="367370" type="midi" first-edit="nothing" source-0="367354" master-source-0="367354"/>
-      <Region name="Take2_HiHat-46.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="16" tags="" contents="0" rgroup="0" id="367372" type="midi" first-edit="nothing" source-0="367362" master-source-0="367362"/>
+      <Region name="Take2_HiHat-46.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b24000@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="16" tags="" contents="0" rgroup="0" id="367372" type="midi" first-edit="nothing" source-0="367362" master-source-0="367362"/>
     </Playlist>
     <Playlist id="2786" name="Perc" type="midi" orig-track-id="2708" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take2_Perc-4" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b15360" length="b15360@b15360" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="49060" type="midi" first-edit="nothing" source-0="49055" master-source-0="49055"/>
@@ -7940,7 +8408,7 @@ a30386956800 0
       <Region name="Take2_Chip Snare-13.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b376320" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="0" id="322115" type="midi" first-edit="nothing" source-0="322113" master-source-0="322113"/>
       <Region name="Take2_Perc-32.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b15360" length="b15360@b453120" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="0" id="376638" type="midi" first-edit="nothing" source-0="376630" master-source-0="376630"/>
       <Region name="Take2_Chip Snare-18.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="367596" type="midi" first-edit="nothing" source-0="367580" master-source-0="367580"/>
-      <Region name="Take2_Chip Snare-19.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="0" id="367598" type="midi" first-edit="nothing" source-0="367588" master-source-0="367588"/>
+      <Region name="Take2_Chip Snare-19.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b24000@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="0" id="367598" type="midi" first-edit="nothing" source-0="367588" master-source-0="367588"/>
     </Playlist>
     <Playlist id="101692" name="Acoustic Snare.1" type="midi" orig-track-id="101614" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Acoustic Snare-2" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b30720" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="101989" type="midi" first-edit="nothing" source-0="101984" master-source-0="101984"/>
@@ -7956,7 +8424,7 @@ a30386956800 0
       <Region name="Acoustic Snare-14.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b345600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="0" id="303716" type="midi" first-edit="nothing" source-0="303596" master-source-0="303596"/>
       <Region name="Acoustic Snare-13.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b376320" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="0" id="303714" type="midi" first-edit="nothing" source-0="303588" master-source-0="303588"/>
       <Region name="Acoustic Snare-17.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="0" id="367549" type="midi" first-edit="nothing" source-0="367533" master-source-0="367533"/>
-      <Region name="Acoustic Snare-18.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="367551" type="midi" first-edit="nothing" source-0="367541" master-source-0="367541"/>
+      <Region name="Acoustic Snare-18.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b24000@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="367551" type="midi" first-edit="nothing" source-0="367541" master-source-0="367541"/>
     </Playlist>
     <Playlist id="122368" name="Lead Mid.1" type="midi" orig-track-id="122290" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take2_Lead-31.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b26880" length="b3840@b57600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" id="122691" type="midi" first-edit="nothing" source-0="122683" master-source-0="122683"/>
@@ -7973,7 +8441,7 @@ a30386956800 0
       <Region name="Take2_Lead-47.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b26880" length="b3840@b433920" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="11" tags="" contents="0" rgroup="0" id="333754" type="midi" first-edit="nothing" source-0="333746" master-source-0="333746"/>
       <Region name="Take2_Lead-50.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b437760" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="0" id="366728" type="midi" first-edit="nothing" source-0="366720" master-source-0="366720"/>
       <Region name="Take2_Lead-58.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b468480" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="0" id="367262" type="midi" first-edit="nothing" source-0="367254" master-source-0="367254"/>
-      <Region name="Take2_Lead-57.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="367244" type="midi" first-edit="nothing" source-0="367236" master-source-0="367236"/>
+      <Region name="Take2_Lead-57.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b38400@b499200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="0" id="367244" type="midi" first-edit="nothing" source-0="367236" master-source-0="367236"/>
     </Playlist>
     <Playlist id="140940" name="Pad.1" type="midi" orig-track-id="140862" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Pad-2" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b30720@b215040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="141266" type="midi" first-edit="nothing" source-0="141261" master-source-0="141261"/>
@@ -7985,6 +8453,9 @@ a30386956800 0
     </Playlist>
     <Playlist id="321132" name="Arcade 2" type="midi" orig-track-id="321215" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take2_Arcade 1-3.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b46080@b322560" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="321951" type="midi" first-edit="nothing" source-0="321943" master-source-0="321943"/>
+    </Playlist>
+    <Playlist id="387047" name="Crash.1" type="midi" orig-track-id="386969" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Crash-2" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b3840@b345600" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="387381" type="midi" first-edit="nothing" source-0="387376" master-source-0="387376"/>
     </Playlist>
   </Playlists>
   <UnusedPlaylists>
@@ -8000,7 +8471,7 @@ a30386956800 0
   </UnusedPlaylists>
   <RouteGroups>
     <RouteGroup id="2696" rgba="2228617471" used-to-share-gain="0" name="Instruments" hidden="0" active="1" relative="1" gain="0" mute="0" solo="0" recenable="0" sursend_enable="0" select="0" route-active="0" color="0" monitoring="0" group-master-number="-1" routes="170 257 344 431 518 122290 140862 "/>
-    <RouteGroup id="2698" rgba="2200377087" used-to-share-gain="0" name="Drums" hidden="0" active="1" relative="1" gain="0" mute="0" solo="0" recenable="0" sursend_enable="0" select="0" route-active="0" color="0" monitoring="0" group-master-number="-1" routes="605 692 779 2708 101614 320724 321215 "/>
+    <RouteGroup id="2698" rgba="2200377087" used-to-share-gain="0" name="Drums" hidden="0" active="1" relative="1" gain="0" mute="0" solo="0" recenable="0" sursend_enable="0" select="0" route-active="0" color="0" monitoring="0" group-master-number="-1" routes="605 692 779 2708 101614 320724 321215 386969 "/>
     <RouteGroup id="4493" rgba="4261473279" used-to-share-gain="0" name="Effects" hidden="0" active="1" relative="1" gain="0" mute="0" solo="0" recenable="0" sursend_enable="0" select="0" route-active="0" color="0" monitoring="0" group-master-number="-1" routes="3055 3140 3251 "/>
   </RouteGroups>
   <Click>
@@ -8097,10 +8568,10 @@ a30386956800 0
     </ExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="session-options-editor" visible="0" x-off="575" y-off="422" x-size="1141" y-size="558"/>
+      <Window name="session-options-editor" visible="0" x-off="1050" y-off="570" x-size="1008" y-size="558"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="941" y-size="549"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="948" y-size="559"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -8117,7 +8588,7 @@ a30386956800 0
       <Window name="luawindow" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="io-plugins" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="plugin-manager" visible="0" x-off="1920" y-off="467" x-size="1920" y-size="1029"/>
+      <Window name="plugin-manager" visible="0" x-off="1987" y-off="596" x-size="860" y-size="600"/>
       <Window name="plugin-dsp-load" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="dsp-statistics" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="transport-masters" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -8206,6 +8677,11 @@ a30386956800 0
       <Window name="PM-3140-3185" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-3251-83534" visible="0" x-off="1920" y-off="467" x-size="934" y-size="469" custom-ui="1"/>
       <Window name="PM-3251-83534" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-122290-386950" visible="0" x-off="1050" y-off="239" x-size="451" y-size="325" custom-ui="0"/>
+      <Window name="PM-122290-386950" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-386969" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-386969-387184" visible="0" x-off="1050" y-off="380" x-size="600" y-size="43" custom-ui="1"/>
+      <Window name="PM-386969-387184" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 71" height="40"/>
         <Object id="automation 75" height="40" visible="1"/>
@@ -8221,6 +8697,7 @@ a30386956800 0
             <Object id="control 83485" visible="0"/>
             <Object id="control 83487" visible="0"/>
             <Object id="control 83489" visible="0"/>
+            <Object id="control 379239" visible="0"/>
             <Object id="InlineDisplay" visible="1"/>
           </Object>
           <Object id="processor 102577">
@@ -8890,7 +9367,6 @@ a30386956800 0
             <Object id="control 3223" visible="0"/>
             <Object id="control 3225" visible="0"/>
             <Object id="control 3227" visible="0"/>
-            <Object id="control 3229" visible="0"/>
             <Object id="control 3231" visible="0"/>
             <Object id="control 3233" visible="0"/>
             <Object id="control 3235" visible="0"/>
@@ -8899,6 +9375,7 @@ a30386956800 0
             <Object id="control 3241" visible="0"/>
             <Object id="control 3243" visible="0"/>
             <Object id="control 3245" visible="0"/>
+            <Object id="control 382689" visible="0"/>
             <Object id="control 3247" visible="0"/>
             <Object id="InlineDisplay" visible="1"/>
           </Object>
@@ -9113,6 +9590,11 @@ a30386956800 0
           <Object id="processor 122701">
             <Object id="control 122721" visible="0"/>
             <Object id="control 122715" visible="1"/>
+          </Object>
+          <Object id="processor 386950">
+            <Object id="control 386952" visible="0"/>
+            <Object id="control 386954" visible="1"/>
+            <Object id="control 386956" visible="0"/>
           </Object>
         </Object>
         <Object id="automation 122342" height="40" visible="0"/>
@@ -9329,6 +9811,58 @@ a30386956800 0
             <Object id="control 322002" visible="1"/>
           </Object>
         </Object>
+        <Object id="rtav 386969" height="40" midnam-custom-device-mode="General MIDI" note-range-min="45" note-range-max="56" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="automation 387006" height="40" visible="0"/>
+        <Object id="automation 386969 12/0/0" height="40" visible="0"/>
+        <Object id="automation 386969 32/0/0" height="40" visible="0"/>
+        <Object id="strip 386969">
+          <Object id="processor 387032">
+            <Object id="control 387006" visible="0"/>
+          </Object>
+          <Object id="processor 387184">
+            <Object id="control 387188" visible="0"/>
+            <Object id="control 387190" visible="0"/>
+            <Object id="control 387192" visible="0"/>
+            <Object id="control 387194" visible="0"/>
+            <Object id="control 387196" visible="0"/>
+            <Object id="control 387198" visible="0"/>
+            <Object id="control 387200" visible="0"/>
+            <Object id="control 387202" visible="0"/>
+            <Object id="control 387204" visible="0"/>
+            <Object id="control 387206" visible="0"/>
+            <Object id="control 387208" visible="0"/>
+            <Object id="control 387210" visible="0"/>
+            <Object id="control 387212" visible="0"/>
+            <Object id="control 387214" visible="0"/>
+            <Object id="control 387216" visible="0"/>
+            <Object id="control 387218" visible="0"/>
+            <Object id="control 387220" visible="0"/>
+            <Object id="control 387222" visible="0"/>
+            <Object id="control 387224" visible="0"/>
+            <Object id="control 387226" visible="0"/>
+            <Object id="control 387228" visible="0"/>
+            <Object id="control 387230" visible="0"/>
+            <Object id="control 387232" visible="0"/>
+            <Object id="control 387234" visible="0"/>
+            <Object id="control 387236" visible="0"/>
+            <Object id="control 387238" visible="0"/>
+            <Object id="control 387240" visible="0"/>
+            <Object id="control 387242" visible="0"/>
+            <Object id="control 387244" visible="0"/>
+            <Object id="control 387246" visible="0"/>
+            <Object id="control 387248" visible="0"/>
+            <Object id="control 387250" visible="0"/>
+          </Object>
+          <Object id="processor 387387">
+            <Object id="control 387407" visible="0"/>
+            <Object id="control 387401" visible="1"/>
+          </Object>
+          <Object id="processor 387410">
+            <Object id="control 387430" visible="0"/>
+            <Object id="control 387424" visible="1"/>
+          </Object>
+        </Object>
+        <Object id="automation 387021" height="40" visible="0"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
