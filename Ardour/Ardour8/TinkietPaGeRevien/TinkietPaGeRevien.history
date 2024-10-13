@@ -1,499 +1,756 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1725116541" tv-usec="174739" name="add automation event">
-    <MementoCommand obj-id="5141" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="5141" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a12042240000 0.50118720531463623
-a24084480000 0.25
-a24272640000 0.25
-a24813600000 0.125
-a24837120000 0.25
-a25025280000 0.25
-a25189920000 0.125
-a25213440000 0.25
-a25401600000 0.25
-a25566240000 0.125
-a25589760000 0.25
-a25777920000 0.25
-a26318880000 0.125
-a26342400000 0.25
-a26530560000 0.25
-a26695200000 0.125
-a26718720000 0.25
-a26906880000 0.25
-a27071520000 0.125
-a27095040000 0.25
-a27283200000 0.25
-a27824160000 0.125
-a27847680000 0.25
-a28035840000 0.25
-a28200480000 0.125
-a28224000000 0.25
-a28412160000 0.25
-a28576800000 0.125
-a28600320000 0.25
-a28788480000 0.25
-a29329440000 0.125
-a29352960000 0.25
-a29541120000 0.25
-a29705760000 0.125
-a29729280000 0.25
-a29917440000 0.25
-a30105600000 0.25
-a31234560000 0.11979131400585175
-a31610880000 0.3548133373260498
-a37632000000 0.50118720531463623
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="5141" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a12042240000 0.50118720531463623
-a24084480000 0.25
-a24272640000 0.25
-a24813600000 0.125
-a24837120000 0.25
-a25025280000 0.25
-a25189920000 0.125
-a25213440000 0.25
-a25401600000 0.25
-a25566240000 0.125
-a25589760000 0.25
-a25777920000 0.25
-a26318880000 0.125
-a26342400000 0.25
-a26530560000 0.25
-a26695200000 0.125
-a26718720000 0.25
-a26906880000 0.25
-a27071520000 0.125
-a27095040000 0.25
-a27283200000 0.25
-a27824160000 0.125
-a27847680000 0.25
-a28035840000 0.25
-a28200480000 0.125
-a28224000000 0.25
-a28412160000 0.25
-a28576800000 0.125
-a28600320000 0.25
-a28788480000 0.25
-a29329440000 0.125
-a29352960000 0.25
-a29541120000 0.25
-a29705760000 0.125
-a29729280000 0.25
-a29917440000 0.25
-a30082080000 0.125
-a30105600000 0.25
-a31234560000 0.11979131400585175
-a31610880000 0.3548133373260498
-a37632000000 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="80">
-        <Selection>
-          <StripableView id="5105"/>
-          <Marker id="3597" start="0"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="80">
-        <Selection>
-          <StripableView id="5105"/>
-          <Marker id="3597" start="0"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116805" tv-usec="154260" name="change automation event">
-    <MementoCommand obj-id="5141" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="5141" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a12042240000 0.50118720531463623
-a24084480000 0.25
-a24272640000 0.25
-a24813600000 0.125
-a24837120000 0.25
-a25025280000 0.25
-a25189920000 0.125
-a25213440000 0.25
-a25401600000 0.25
-a25566240000 0.125
-a25589760000 0.25
-a25777920000 0.25
-a26318880000 0.125
-a26342400000 0.25
-a26530560000 0.25
-a26695200000 0.125
-a26718720000 0.25
-a26906880000 0.25
-a27071520000 0.125
-a27095040000 0.25
-a27283200000 0.25
-a27824160000 0.125
-a27847680000 0.25
-a28035840000 0.25
-a28200480000 0.125
-a28224000000 0.25
-a28412160000 0.25
-a28576800000 0.125
-a28600320000 0.25
-a28788480000 0.25
-a29329440000 0.125
-a29352960000 0.25
-a29541120000 0.25
-a29705760000 0.125
-a29729280000 0.25
-a29917440000 0.25
-a30082080000 0.125
-a30105600000 0.25
-a31234560000 0.11979131400585175
-a31610880000 0.3548133373260498
-a37632000000 0.50118720531463623
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="5141" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a12042240000 0.50118720531463623
-a24084480000 0.25
-a24272640000 0.25
-a24813600000 0.125
-a24837120000 0.25
-a25025280000 0.25
-a25189920000 0.125
-a25213440000 0.25
-a25401600000 0.25
-a25566240000 0.125
-a25589760000 0.25
-a25777920000 0.25
-a26318880000 0.125
-a26342400000 0.25
-a26530560000 0.25
-a26695200000 0.125
-a26718720000 0.25
-a26906880000 0.25
-a27071520000 0.125
-a27095040000 0.25
-a27283200000 0.25
-a27824160000 0.125
-a27847680000 0.25
-a28035840000 0.25
-a28200480000 0.125
-a28224000000 0.25
-a28412160000 0.25
-a28576800000 0.125
-a28600320000 0.25
-a28788480000 0.25
-a29329440000 0.125
-a29352960000 0.25
-a29541120000 0.25
-a29705760000 0.125
-a29729280000 0.25
-a29917440000 0.25
-a30082080000 0.125
-a30105600000 0.25
-a31234560000 0.0625
-a31610880000 0.3548133373260498
-a37632000000 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="80">
-        <Selection>
-          <StripableView id="5105"/>
-          <Marker id="3597" start="0"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="80">
-        <Selection>
-          <StripableView id="5105"/>
-          <Marker id="3597" start="0"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116810" tv-usec="178918" name="add automation event">
-    <MementoCommand obj-id="5141" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="5141" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a12042240000 0.50118720531463623
-a24084480000 0.25
-a24272640000 0.25
-a24813600000 0.125
-a24837120000 0.25
-a25025280000 0.25
-a25189920000 0.125
-a25213440000 0.25
-a25401600000 0.25
-a25566240000 0.125
-a25589760000 0.25
-a25777920000 0.25
-a26318880000 0.125
-a26342400000 0.25
-a26530560000 0.25
-a26695200000 0.125
-a26718720000 0.25
-a26906880000 0.25
-a27071520000 0.125
-a27095040000 0.25
-a27283200000 0.25
-a27824160000 0.125
-a27847680000 0.25
-a28035840000 0.25
-a28200480000 0.125
-a28224000000 0.25
-a28412160000 0.25
-a28576800000 0.125
-a28600320000 0.25
-a28788480000 0.25
-a29329440000 0.125
-a29352960000 0.25
-a29541120000 0.25
-a29705760000 0.125
-a29729280000 0.25
-a29917440000 0.25
-a30082080000 0.125
-a30105600000 0.25
-a31234560000 0.0625
-a31610880000 0.3548133373260498
-a37632000000 0.50118720531463623
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="5141" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.50118720531463623
-a12042240000 0.50118720531463623
-a24084480000 0.25
-a24272640000 0.25
-a24813600000 0.125
-a24837120000 0.25
-a25025280000 0.25
-a25189920000 0.125
-a25213440000 0.25
-a25401600000 0.25
-a25566240000 0.125
-a25589760000 0.25
-a25777920000 0.25
-a26318880000 0.125
-a26342400000 0.25
-a26530560000 0.25
-a26695200000 0.125
-a26718720000 0.25
-a26906880000 0.25
-a27071520000 0.125
-a27095040000 0.25
-a27283200000 0.25
-a27824160000 0.125
-a27847680000 0.25
-a28035840000 0.25
-a28200480000 0.125
-a28224000000 0.25
-a28412160000 0.25
-a28576800000 0.125
-a28600320000 0.25
-a28788480000 0.25
-a29329440000 0.125
-a29352960000 0.25
-a29541120000 0.25
-a29705760000 0.125
-a29729280000 0.25
-a29917440000 0.25
-a30082080000 0.125
-a30105600000 0.25
-a31234560000 0.0625
-a31516800000 0
-a31610880000 0.3548133373260498
-a37632000000 0.50118720531463623
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="80">
-        <Selection>
-          <StripableView id="5105"/>
-          <Marker id="3597" start="0"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="80">
-        <Selection>
-          <StripableView id="5105"/>
-          <Marker id="3597" start="0"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116863" tv-usec="983096" name="resize note">
-    <NoteDiffCommand midi-source="165867">
-      <ChangedNotes>
-        <Change property="Length" old="48:0" new="14:0" id="856634"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116866" tv-usec="885842" name="resize note">
-    <NoteDiffCommand midi-source="165867">
-      <ChangedNotes>
-        <Change property="Length" old="48:0" new="14:0" id="856570"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116868" tv-usec="302608" name="resize note">
-    <NoteDiffCommand midi-source="165867">
-      <ChangedNotes>
-        <Change property="Length" old="48:0" new="14:0" id="1459061"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116869" tv-usec="615002" name="resize note">
-    <NoteDiffCommand midi-source="165867">
-      <ChangedNotes>
-        <Change property="Length" old="48:0" new="14:0" id="856508"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116870" tv-usec="855984" name="resize note">
-    <NoteDiffCommand midi-source="165867">
-      <ChangedNotes>
-        <Change property="Length" old="48:0" new="14:0" id="856448"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116873" tv-usec="504448" name="resize note">
-    <NoteDiffCommand midi-source="182972">
-      <ChangedNotes>
-        <Change property="Length" old="52:0" new="18:0" id="845088"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116874" tv-usec="857098" name="resize note">
-    <NoteDiffCommand midi-source="182972">
-      <ChangedNotes>
-        <Change property="Length" old="52:0" new="18:0" id="845634"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116876" tv-usec="335547" name="resize note">
-    <NoteDiffCommand midi-source="182972">
-      <ChangedNotes>
-        <Change property="Length" old="52:0" new="18:0" id="845128"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116906" tv-usec="63544" name="resize note">
-    <NoteDiffCommand midi-source="165867">
-      <ChangedNotes>
-        <Change property="Length" old="14:0" new="15:0" id="856634"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116907" tv-usec="631100" name="resize note">
-    <NoteDiffCommand midi-source="165867">
-      <ChangedNotes>
-        <Change property="Length" old="14:0" new="15:0" id="856570"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116908" tv-usec="968142" name="resize note">
-    <NoteDiffCommand midi-source="165867">
-      <ChangedNotes>
-        <Change property="Length" old="14:0" new="15:0" id="1459061"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116910" tv-usec="278349" name="resize note">
-    <NoteDiffCommand midi-source="165867">
-      <ChangedNotes>
-        <Change property="Length" old="14:0" new="15:0" id="856508"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116911" tv-usec="599973" name="resize note">
-    <NoteDiffCommand midi-source="165867">
-      <ChangedNotes>
-        <Change property="Length" old="14:0" new="15:0" id="856448"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116912" tv-usec="921267" name="resize note">
-    <NoteDiffCommand midi-source="182972">
-      <ChangedNotes>
-        <Change property="Length" old="18:0" new="19:0" id="845088"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116914" tv-usec="202119" name="resize note">
-    <NoteDiffCommand midi-source="182972">
-      <ChangedNotes>
-        <Change property="Length" old="18:0" new="19:0" id="845634"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725116915" tv-usec="297669" name="resize note">
-    <NoteDiffCommand midi-source="182972">
-      <ChangedNotes>
-        <Change property="Length" old="18:0" new="19:0" id="845128"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1725129514" tv-usec="58233" name="automation event move">
-    <MementoUndoCommand obj-id="91642" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-53" id="91642" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-        <events>b30720 15
-b215040 0
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="91642" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-53" id="91642" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-        <events>b30720 15
-b245760 0
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
+  <UndoTransaction tv-sec="1728798137" tv-usec="527551" name="region drag">
+    <StatefulDiffCommand obj-id="113066" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="123796" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="123718" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="123696" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="123674" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="140012" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="140005" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="139998" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="139991" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="183372" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="183370" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="183368" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="183366" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="183364" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="183362" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="183360" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="183358" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
       <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
         <Selection>
-          <ControlPoint type="track" route-id="91404" automation-list-id="91642" parameter="parameter-53" view-index="1"/>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
           <Marker id="3597" start="0"/>
         </Selection>
       </SelectionMemento>
       <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
         <Selection>
-          <ControlPoint type="track" route-id="91404" automation-list-id="91642" parameter="parameter-53" view-index="1"/>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
           <Marker id="3597" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798167" tv-usec="831581" name="mute region">
+    <StatefulDiffCommand obj-id="113066" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <muted from="0" to="1"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="3597" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="3597" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798174" tv-usec="507975" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="3597" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="3597" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798224" tv-usec="720902" name="add marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="section1" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="3597" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218011" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798230" tv-usec="93929" name="rename marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="section1" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218011" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218011" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798237" tv-usec="458125" name="add marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="section1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218011" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218020" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798245" tv-usec="283277" name="rename marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="section1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218020" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218020" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798251" tv-usec="800239" name="rename marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218020" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218020" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798260" tv-usec="127968" name="add marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="section1" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218020" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218034" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798267" tv-usec="212924" name="rename marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="section1" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218034" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218034" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798274" tv-usec="357709" name="add marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="section1" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218034" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218043" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798278" tv-usec="954168" name="rename marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="section1" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218043" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4914" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218043" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798292" tv-usec="352383" name="add marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="section1" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="213498" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218043" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="213498" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218052" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798298" tv-usec="251865" name="rename marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="section1" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="Outro" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="213498" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218052" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="213498" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="218052" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798658" tv-usec="894589" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="Outro" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="Outro" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="3597" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="3597" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798665" tv-usec="290842" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b0" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="Outro" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b30720" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="Outro" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="3597" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="3597" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798678" tv-usec="933765" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b30720" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="Outro" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b23040" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="Outro" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="3597" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="3597" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798737" tv-usec="170338" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b23040" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b407040" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="Outro" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b23040" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b890880" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="Outro" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="81467" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="81467" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798741" tv-usec="212312" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b23040" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b215040" end="b890880" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="Outro" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b23040" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b645120" end="b890880" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="Outro" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="81467" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="81467" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1728798744" tv-usec="174246" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="3597" name="session" start="b23040" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b645120" end="b890880" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="Outro" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="3597" name="session" start="b23040" end="b921600" flags="IsSessionRange" locked="0" timestamp="1723995118" cue="0"/>
+        <Location id="81467" name="Loop" start="b768000" end="b890880" flags="IsAutoLoop" locked="0" timestamp="1724004659" cue="0"/>
+        <Location id="218011" name="Intro" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1728798224" cue="0"/>
+        <Location id="218020" name="Chorus 1" start="b245760" end="b245760" flags="IsMark,IsSection" locked="0" timestamp="1728798237" cue="0"/>
+        <Location id="218034" name="Verse" start="b491520" end="b491520" flags="IsMark,IsSection" locked="0" timestamp="1728798260" cue="0"/>
+        <Location id="218043" name="Chorus 2" start="b645120" end="b645120" flags="IsMark,IsSection" locked="0" timestamp="1728798274" cue="0"/>
+        <Location id="218052" name="Outro" start="b890880" end="b890880" flags="IsMark,IsSection" locked="0" timestamp="1728798292" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="81467" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="6700" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="113066"/>
+          </Regions>
+          <Marker id="81467" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
