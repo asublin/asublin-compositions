@@ -1,51 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1743864251" tv-usec="483701" name="delete objects">
-    <StatefulDiffCommand obj-id="926446" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Remove id="929051"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4408" left-frame="0" y-origin="560">
-        <Selection>
-          <Regions>
-            <Region id="929051"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4408" left-frame="0" y-origin="560">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1743864254" tv-usec="60964" name="duplicate region">
-    <StatefulDiffCommand obj-id="926446" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="929157"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4408" left-frame="0" y-origin="560">
-        <Selection>
-          <Regions>
-            <Region id="928360"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4408" left-frame="0" y-origin="560">
-        <Selection>
-          <Regions>
-            <Region id="929157"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1743864254" tv-usec="632416" name="duplicate region">
     <StatefulDiffCommand obj-id="926446" type-name="ARDOUR::MidiPlaylist">
       <Changes>
@@ -186,11 +140,11 @@ a26506016000 0.17782792448997498
     <StatefulDiffCommand obj-id="926446" type-name="ARDOUR::MidiPlaylist">
       <Changes>
         <Regions>
-          <Add id="929301"/>
           <Add id="929307"/>
-          <Add id="929283"/>
+          <Add id="929301"/>
           <Add id="929295"/>
           <Add id="929289"/>
+          <Add id="929283"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
@@ -633,6 +587,86 @@ a64792486400 1.9952623844146729
       </SelectionMemento>
       <SelectionMemento mouse-mode="MouseDraw" zoom="8816" left-frame="0" y-origin="560">
         <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1743883732" tv-usec="45110" name="automation event move">
+    <MementoUndoCommand obj-id="926404" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="926404" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.68044328689575195
+a2945107200 0.50118720531463623
+a10307891200 0.089125066995620728
+a11780448000 0.25118860602378845
+a26506016000 0.17782792448997498
+a44176691200 0.17782792448997498
+a57429702400 0.25118860602378845
+a64792486400 1.9952623844146729
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="926404" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="926404" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.68044328689575195
+a2945107200 0.50118720531463623
+a10307891200 0.089125066995620728
+a11780448000 0.25118860602378845
+a26506016000 0.1258925199508667
+a44176691200 0.17782792448997498
+a57429702400 0.25118860602378845
+a64792486400 1.9952623844146729
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="8816" left-frame="0" y-origin="560">
+        <Selection>
+          <ControlPoint type="track" route-id="926368" automation-list-id="926404" parameter="gain" view-index="4"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="8816" left-frame="0" y-origin="560">
+        <Selection>
+          <ControlPoint type="track" route-id="926368" automation-list-id="926404" parameter="gain" view-index="4"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1743883742" tv-usec="789902" name="automation event move">
+    <MementoUndoCommand obj-id="926404" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="926404" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.68044328689575195
+a2945107200 0.50118720531463623
+a10307891200 0.089125066995620728
+a11780448000 0.25118860602378845
+a26506016000 0.1258925199508667
+a44176691200 0.17782792448997498
+a57429702400 0.25118860602378845
+a64792486400 1.9952623844146729
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="926404" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="926404" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0.68044328689575195
+a2945107200 0.50118720531463623
+a10307891200 0.089125066995620728
+a11780448000 0.25118860602378845
+a26506016000 0.1258925199508667
+a44176691200 0.1258925199508667
+a57429702400 0.25118860602378845
+a64792486400 1.9952623844146729
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="8816" left-frame="0" y-origin="560">
+        <Selection>
+          <ControlPoint type="track" route-id="926368" automation-list-id="926404" parameter="gain" view-index="5"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="8816" left-frame="0" y-origin="560">
+        <Selection>
+          <ControlPoint type="track" route-id="926368" automation-list-id="926404" parameter="gain" view-index="5"/>
+        </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
