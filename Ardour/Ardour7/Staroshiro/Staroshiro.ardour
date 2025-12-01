@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="Staroshiro" sample-rate="44100" session-range-is-free="0" id-counter="15787101" rg-counter="57" name-counter="1" event-counter="39397150" vca-counter="1">
+<Session version="7003" name="Staroshiro" sample-rate="44100" session-range-is-free="0" id-counter="15810540" rg-counter="62" name-counter="1" event-counter="39548635" vca-counter="1">
   <ProgramVersion created-with="Ardour 7.4-797-g88970dc625" modified-with="Ardour 9.0-pre0-1910-g0d2634cef5"/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -10,7 +10,7 @@
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
-      <Connection other="Crash/midi_in 1"/>
+      <Connection other="Lead Vox R/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -10763,7 +10763,7 @@ a74649600000 0
       <Controllable name="solo-safe" id="754426" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Crash" id="754438" direction="Input" default-type="midi">
         <Port name="Crash/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
+          <ExtConnection for="JACK"/>
         </Port>
       </IO>
       <IO name="Crash" id="754439" direction="Output" default-type="midi">
@@ -10790,7 +10790,7 @@ a74649600000 0
         <AutomationList automation-id="midi-velocity" id="15682822" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="754429" flags="" value="0.30025000000000063"/>
+        <Controllable name="pan-azimuth" id="754429" flags="" value="0.30024999380111694"/>
         <Controllable name="pan-width" id="754433" flags="" value="0"/>
         <Controllable name="pan-elevation" id="754431" flags="" value="0"/>
         <Controllable name="pan-frontback" id="754435" flags="" value="0"/>
@@ -11735,7 +11735,7 @@ a74649600000 0
         <Automation>
           <AutomationList automation-id="gain" id="754413" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="754414" flags="GainLike" value="0.44668358564376831"/>
+        <Controllable name="gaincontrol" id="754414" flags="GainLike" value="0.35481336712837219"/>
       </Processor>
       <Processor id="762191" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="2" selfdestruct="0" target="425163" allow-feedback="0">
         <Automation>
@@ -12701,7 +12701,12 @@ a74649600000 0
       <Processor id="979303" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="979304" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-            <events>a0 1.9952623844146729
+            <events>a0 0
+a24883200000 0.70794570446014404
+a27993600000 1.9952623844146729
+a43372800000 1.9952623844146729
+a43545600000 0.70794570446014404
+a46656000000 1.9952623844146729
 a61862400000 1.9952623844146729
 a62208000000 1.0009589195251465
 a65318400000 0.25118860602378845
@@ -12709,7 +12714,7 @@ a68428800000 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="979305" flags="GainLike" value="1.9952624844146729"/>
+        <Controllable name="gaincontrol" id="979305" flags="GainLike" value="0.0020814267620952219"/>
       </Processor>
       <Processor id="4698061" name="ACE High/Low Pass Filter" active="1" user-latency="0" use-user-latency="0" type="luaproc" unique-id="cbf2433c611d0849cbb198719a5ad05d2f69d24a" count="1" custom="0">
         <Automation>
@@ -14810,7 +14815,7 @@ a74649600000 0
 b1920 345.503173828125
 b345600 345.49993896484375
 b380160 149.99998474121094
-b416640 5
+b416640 10
 </events>
           </AutomationList>
           <AutomationList automation-id="parameter-2" id="2450165" interpolation-style="Logarithmic" time-domain="BeatTime" state="Off"/>
@@ -15920,7 +15925,11 @@ b416640 5
       <Controllable name="solo-iso" id="3537433" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3537434" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Lead Vox R" id="3536245" direction="Input" default-type="midi">
-        <Port name="Lead Vox R/midi_in 1" type="midi" direction="Input"/>
+        <Port name="Lead Vox R/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
+          <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="a2j:UMX 610 [32] (capture): UMX 610 MIDI 1"/>
+        </Port>
       </IO>
       <IO name="Lead Vox R" id="3536246" direction="Output" default-type="midi">
         <Port name="Lead Vox R/audio_out 1" type="audio" direction="Output">
@@ -16819,7 +16828,12 @@ b416640 5
       <Processor id="3537350" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="3537351" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-            <events>a0 1.9952623844146729
+            <events>a0 0
+a24883200000 0.70794570446014404
+a27993600000 1.9952623844146729
+a43372800000 1.9952623844146729
+a43545600000 0.70794570446014404
+a46656000000 1.9952623844146729
 a61862400000 1.9952623844146729
 a62208000000 0.99999994039535522
 a65318400000 0.25118860602378845
@@ -16827,7 +16841,7 @@ a68428800000 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="3537352" flags="GainLike" value="1.9952624844146729"/>
+        <Controllable name="gaincontrol" id="3537352" flags="GainLike" value="0.0020814267620952219"/>
       </Processor>
       <Processor id="4698043" name="ACE High/Low Pass Filter" active="1" user-latency="0" use-user-latency="0" type="luaproc" unique-id="cbf2433c611d0849cbb198719a5ad05d2f69d24a" count="1" custom="0">
         <Automation>
@@ -22725,8 +22739,6 @@ a74649600000 0
       <Window name="RPM-979487" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-72-14727922" visible="0" x-off="1050" y-off="214" x-size="637" y-size="151" custom-ui="1"/>
       <Window name="PM-72-14727922" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-231341-231466" visible="0" x-off="1050" y-off="361" x-size="497" y-size="43" custom-ui="1"/>
-      <Window name="PM-231341-231466" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-171-14287027" visible="0" x-off="1050" y-off="169" x-size="451" y-size="350" custom-ui="1"/>
       <Window name="P-171-271" visible="0" x-off="1050" y-off="357" x-size="493" y-size="43" custom-ui="1"/>
       <Window name="P-171-228771" visible="0" x-off="1050" y-off="159" x-size="736" y-size="439" custom-ui="1"/>
@@ -22787,6 +22799,8 @@ a74649600000 0
       <Window name="PM-2287043-2287233" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2287043-2450160" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-2287043-3061112" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-231341-231466" visible="0" x-off="1050" y-off="361" x-size="497" y-size="43" custom-ui="1"/>
+      <Window name="PM-231341-231466" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-754377-754532" visible="0" x-off="1050" y-off="360" x-size="493" y-size="43" custom-ui="1"/>
       <Window name="P-754377-15713099" visible="0" x-off="1050" y-off="218" x-size="916" y-size="775" custom-ui="1"/>
       <Window name="PM-754377-754532" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -22814,7 +22828,7 @@ a74649600000 0
             <Object id="InlineDisplay" visible="1"/>
           </Object>
         </Object>
-        <Object id="rtav 171" height="90" note-range-min="71" note-range-max="90" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="rtav 171" height="40" note-range-min="69" note-range-max="91" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1"/>
         <Object id="automation 208" height="40" visible="1"/>
         <Object id="automation 171 12/0/0" height="40" visible="0"/>
         <Object id="strip 171">
