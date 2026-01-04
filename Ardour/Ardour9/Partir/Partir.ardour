@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" uuid="ea73d212-262b-4d28-8407-e8307406708f" name="Partir" sample-rate="48000" session-range-is-free="0" id-counter="75215" rg-counter="246" name-counter="1" event-counter="2938081" vca-counter="1">
+<Session version="7003" uuid="ea73d212-262b-4d28-8407-e8307406708f" name="Partir" sample-rate="48000" session-range-is-free="0" id-counter="117803" rg-counter="361" name-counter="1" event-counter="4324372" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2-825-g8b09c01540" modified-with="Ardour 9.0-pre0-2156-g525d672b8e"/>
   <EngineState/>
   <MIDIPorts>
@@ -11,7 +11,7 @@
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
-      <Connection other="Bass/midi_in 1"/>
+      <Connection other="Synth/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -124,6 +124,7 @@
     <Source name="Lower-11.mid" take-id="" type="midi" flags="Writable,CanRename" id="72727" natural-position="a0" origin="Lower-11.mid"/>
     <Source name="Upper-19.mid" take-id="" type="midi" flags="Writable,CanRename" id="72735" natural-position="a0" origin="Upper-19.mid"/>
     <Source name="Lower-12.mid" take-id="" type="midi" flags="Writable,CanRename" id="72743" natural-position="a0" origin="Lower-12.mid"/>
+    <Source name="Synth-4.mid" take-id="" type="midi" flags="Writable,CanRename" id="81366" origin=""/>
   </Sources>
   <TriggerBindings/>
   <Regions>
@@ -146,11 +147,15 @@
     <Region name="Flute-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b587922@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="63708" type="midi" first-edit="nothing" source-0="63566" master-source-0="63566"/>
     <Region name="Flute-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b587922@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="2944" id="63712" type="midi" first-edit="nothing" source-0="63566" master-source-0="63566"/>
     <Region name="Flute-3.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b241920@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="2944" id="63720" type="midi" first-edit="nothing" source-0="63566" master-source-0="63566"/>
+    <Region name="Flute-3.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b241920" length="b346002@b241920" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="2976" id="63723" type="midi" first-edit="nothing" source-0="63566" master-source-0="63566"/>
     <Region name="Bass-14.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b5760@b478080" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" id="67746" type="midi" first-edit="nothing" source-0="67742" master-source-0="67742"/>
     <Region name="Ramanda Piano-2" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="67787" type="midi" first-edit="nothing" source-0="67785" master-source-0="67785"/>
     <Region name="Ramanda Piano-2" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="67790" type="midi" first-edit="nothing" source-0="67785" master-source-0="67785"/>
+    <Region name="Synth-4" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b483840" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="81368" type="midi" first-edit="nothing" source-0="81366" master-source-0="81366"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="63481" control="0" order="9"/>
+  </Selection>
   <Locations>
     <Location id="2162" name="session" start="b0" end="b696960" flags="IsSessionRange" locked="0" timestamp="1729445103" cue="0"/>
     <Location id="42220" name="Couplet" start="b0" end="b0" flags="IsMark,IsSection" locked="0" timestamp="1759343881" cue="0"/>
@@ -170,17 +175,19 @@
       <IO name="Master" id="99" direction="Input" default-type="audio">
         <Port name="Master/audio_in 1" type="audio" direction="Input">
           <Connection other="Bass/audio_out 1"/>
-          <Connection other="Flute/audio_out 1"/>
+          <Connection other="Delay/audio_out 1"/>
           <Connection other="Piano Tunel/audio_out 1"/>
           <Connection other="Reverb/audio_out 1"/>
           <Connection other="Salamander Piano/audio_out 1"/>
+          <Connection other="Synth/audio_out 1"/>
         </Port>
         <Port name="Master/audio_in 2" type="audio" direction="Input">
           <Connection other="Bass/audio_out 2"/>
-          <Connection other="Flute/audio_out 2"/>
+          <Connection other="Delay/audio_out 2"/>
           <Connection other="Piano Tunel/audio_out 2"/>
           <Connection other="Reverb/audio_out 2"/>
           <Connection other="Salamander Piano/audio_out 2"/>
+          <Connection other="Synth/audio_out 2"/>
         </Port>
       </IO>
       <IO name="Master" id="100" direction="Output" default-type="audio">
@@ -234,7 +241,7 @@
           <AutomationList automation-id="gain" id="2173" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
             <events>a0 0.50118720531463623
 a853623120 1
-a42677228160 0.99999994039535522
+a41486528160 1.0006822347640991
 a46249322280 0
 </events>
           </AutomationList>
@@ -247,7 +254,7 @@ a46249322280 0
       <Processor id="104" name="meter-Master" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Slavable/>
     </Route>
-    <Route version="7003" id="170" name="Salamander Piano" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" midi-playlist="248" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+    <Route version="7003" id="170" name="Salamander Piano" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="248" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
       <PresentationInfo order="5" flags="MidiTrack,OrderSet,TriggerTrack" color="4289374975"/>
       <Controllable name="solo" id="211" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="217" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -343,13 +350,13 @@ a46249322280 0
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state2">
           <Port symbol="level" value="0"/>
           <Port symbol="freewheel" value="0"/>
         </lv2>
         <Controllable name="Output Level" id="70698" flags="" value="0" parameter="3" symbol="level"/>
         <Controllable name="hidden" id="70700" flags="Toggle" value="0" parameter="4" symbol="freewheel"/>
-        <Controllable name="property-http://spectmorph.org/plugins/liquidsfz#sfzfile" id="73639" flags="NotAutomatable" property="87"/>
+        <Controllable name="property-http://spectmorph.org/plugins/liquidsfz#sfzfile" id="115156" flags="NotAutomatable" property="87"/>
       </Processor>
       <Processor id="233" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
         <Automation>
@@ -401,7 +408,7 @@ a33469495080 0.17782792448997498
       <Controllable name="rec-safe" id="245" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="243" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7003" id="690" name="Piano Tunel" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" midi-playlist="768" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+    <Route version="7003" id="690" name="Piano Tunel" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="768" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
       <PresentationInfo order="6" flags="MidiTrack,OrderSet,TriggerTrack" color="3563743999"/>
       <Controllable name="solo" id="731" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="737" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -437,7 +444,7 @@ a33469495080 0.17782792448997498
         <AutomationList automation-id="midi-velocity" id="2855" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="742" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="742" flags="" value="0.59974998235702515"/>
         <Controllable name="pan-width" id="746" flags="" value="0"/>
         <Controllable name="pan-elevation" id="744" flags="" value="0"/>
         <Controllable name="pan-frontback" id="748" flags="" value="0"/>
@@ -553,13 +560,14 @@ a33469495080 0.17782792448997498
 a11906994120 0.063095726072788239
 a13134009000 0.089125066995620728
 a13560044400 0.089125066995620728
-a19923109920 0.1258925199508667
+a16807738920 0.1258925199508667
+a19923109920 0.089125066995620728
 a20320009920 0.03162277489900589
 a31830109920 0.063095726072788239
 a33049621920 0.089125066995620728
 a33469495080 0.1258925199508667
 a39839099160 0.17782792448997498
-a46249328160 0.089125066995620728
+a46249328160 0.25118860602378845
 </events>
           </AutomationList>
         </Automation>
@@ -599,8 +607,8 @@ a46249328160 0.089125066995620728
       <Controllable name="rec-safe" id="765" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="763" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7003" id="838" name="Lower" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" midi-playlist="916" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
-      <PresentationInfo order="2" flags="MidiTrack,OrderSet,TriggerTrack" color="2148865535"/>
+    <Route version="7003" id="838" name="Lower" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="916" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+      <PresentationInfo order="2" flags="MidiTrack,OrderSet,TriggerTrack" color="1448515071"/>
       <Controllable name="solo" id="879" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="885" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="887" flags="Toggle" value="0" solo-safe="0"/>
@@ -666,6 +674,38 @@ a46249328160 0.089125066995620728
         </Triggers>
       </Processor>
       <Processor id="902" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="109968" name="MIDI Chromatic Transpose" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/midifilter#miditranspose" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-3" id="109965" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-4" id="109966" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="109967" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0">
+          <Port symbol="channelf" value="0"/>
+          <Port symbol="transpose" value="0"/>
+          <Port symbol="inversion" value="0"/>
+        </lv2>
+        <Controllable name="Filter Channel" id="109961" flags="" value="0" parameter="3" symbol="channelf"/>
+        <Controllable name="Transpose" id="109962" flags="" value="0" parameter="4" symbol="transpose"/>
+        <Controllable name="Inversion point" id="109963" flags="" value="0" parameter="5" symbol="inversion"/>
+      </Processor>
       <Processor id="901" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="3001" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
@@ -681,7 +721,7 @@ a46249328160 0.089125066995620728
       <Controllable name="rec-safe" id="913" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="911" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7003" id="956" name="Reverb" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak">
+    <Route version="7003" id="956" name="Reverb" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Effects">
       <PresentationInfo order="7" flags="AudioBus,OrderSet" color="1426063615"/>
       <Controllable name="solo" id="964" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="970" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -821,8 +861,8 @@ a46249328160 0.089125066995620728
       </Processor>
       <Slavable/>
     </Route>
-    <Route version="7003" id="4862" name="Upper" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" midi-playlist="4941" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
-      <PresentationInfo order="1" flags="MidiTrack,OrderSet,TriggerTrack" color="2855877119"/>
+    <Route version="7003" id="4862" name="Upper" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="4941" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+      <PresentationInfo order="1" flags="MidiTrack,OrderSet,TriggerTrack" color="2295105791"/>
       <Controllable name="solo" id="4903" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="4909" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="4911" flags="Toggle" value="0" solo-safe="0"/>
@@ -935,14 +975,13 @@ a46249328160 0.089125066995620728
       <Controllable name="rec-safe" id="4937" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="4935" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7003" id="50596" name="Bass" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" midi-playlist="50675" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
-      <PresentationInfo order="3" flags="MidiTrack,OrderSet,TriggerTrack" color="4289374975"/>
+    <Route version="7003" id="50596" name="Bass" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="50675" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+      <PresentationInfo order="3" flags="MidiTrack,OrderSet,TriggerTrack" color="1426063615"/>
       <Controllable name="solo" id="50637" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="50643" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="50645" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Bass" id="50658" direction="Input" default-type="midi">
         <Port name="Bass/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -1006,6 +1045,38 @@ a46249328160 0.089125066995620728
         </Triggers>
       </Processor>
       <Processor id="50661" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="109987" name="MIDI Chromatic Transpose" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/midifilter#miditranspose" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-3" id="109984" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-4" id="109985" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="109986" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0">
+          <Port symbol="channelf" value="0"/>
+          <Port symbol="transpose" value="0"/>
+          <Port symbol="inversion" value="0"/>
+        </lv2>
+        <Controllable name="Filter Channel" id="109980" flags="" value="0" parameter="3" symbol="channelf"/>
+        <Controllable name="Transpose" id="109981" flags="" value="0" parameter="4" symbol="transpose"/>
+        <Controllable name="Inversion point" id="109982" flags="" value="0" parameter="5" symbol="inversion"/>
+      </Processor>
       <Processor id="59738" name="MIDI Delayline" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/midifilter#mididelay" count="1" custom="0">
         <Automation>
           <AutomationList automation-id="parameter-3" id="59739" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
@@ -1154,27 +1225,29 @@ a46249328160 0.089125066995620728
       <Controllable name="rec-safe" id="50671" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="50669" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7003" id="63481" name="Flute" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" midi-playlist="63560" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
-      <PresentationInfo order="4" flags="MidiTrack,OrderSet,TriggerTrack" color="3563743999"/>
+    <Route version="7003" id="63481" name="Synth" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="63560" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
+      <PresentationInfo order="4" flags="MidiTrack,OrderSet,TriggerTrack" color="4290183423"/>
       <Controllable name="solo" id="63522" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="63528" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="63530" flags="Toggle" value="0" solo-safe="0"/>
-      <IO name="Flute" id="63543" direction="Input" default-type="midi">
-        <Port name="Flute/midi_in 1" type="midi" direction="Input">
+      <IO name="Synth" id="63543" direction="Input" default-type="midi">
+        <Port name="Synth/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK" other="system:midi_capture_2"/>
         </Port>
       </IO>
-      <IO name="Flute" id="63544" direction="Output" default-type="midi">
-        <Port name="Flute/audio_out 1" type="audio" direction="Output">
+      <IO name="Synth" id="63544" direction="Output" default-type="midi">
+        <Port name="Synth/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port name="Flute/audio_out 2" type="audio" direction="Output">
+        <Port name="Synth/audio_out 2" type="audio" direction="Output">
           <Connection other="Master/audio_in 2"/>
         </Port>
-        <Port name="Flute/midi_out 1" type="midi" direction="Output"/>
+        <Port name="Synth/midi_out 1" type="midi" direction="Output"/>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="1"/>
-      <Controllable name="mute" id="63524" flags="Toggle,RealTime" value="1"/>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="63524" flags="Toggle,RealTime" value="0"/>
       <Controllable name="phase" id="63526" flags="Toggle" value="0" phase-invert=""/>
       <Automation>
         <AutomationList automation-id="solo" id="63523" interpolation-style="Discrete" time-domain="BeatTime" state="Off"/>
@@ -1188,7 +1261,7 @@ a46249328160 0.089125066995620728
         <AutomationList automation-id="midi-velocity" id="63565" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="63533" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="63533" flags="" value="0.30024999380111694"/>
         <Controllable name="pan-width" id="63537" flags="" value="0"/>
         <Controllable name="pan-elevation" id="63535" flags="" value="0"/>
         <Controllable name="pan-frontback" id="63539" flags="" value="0"/>
@@ -1201,8 +1274,8 @@ a46249328160 0.089125066995620728
           <AutomationList automation-id="pan-lfe" id="63542" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
         </Automation>
       </Pannable>
-      <Processor id="63553" name="recorder:Flute" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
-      <Processor id="63552" name="player:Flute" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="63553" name="recorder:Synth" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="63552" name="player:Synth" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
       <Processor id="63485" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="midi" order="3">
         <Triggers>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0" start="b0" used-channels="0" channel-map="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
@@ -1224,24 +1297,56 @@ a46249328160 0.089125066995620728
         </Triggers>
       </Processor>
       <Processor id="63546" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
-      <Processor id="63617" name="ZynAddSubFX" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://zynaddsubfx.sourceforge.net" count="1" custom="0">
+      <Processor id="110006" name="MIDI Chromatic Transpose" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/midifilter#miditranspose" count="1" custom="0">
         <Automation>
-          <AutomationList automation-id="parameter-4" id="63618" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="63620" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-6" id="63622" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-7" id="63624" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-8" id="63626" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-9" id="63628" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-10" id="63630" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-11" id="63632" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-12" id="63634" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-13" id="63636" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-14" id="63638" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="63640" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="63642" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="63644" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-18" id="63646" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
-          <AutomationList automation-id="parameter-19" id="63648" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-3" id="110003" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-4" id="110004" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="110005" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0">
+          <Port symbol="channelf" value="0"/>
+          <Port symbol="transpose" value="0"/>
+          <Port symbol="inversion" value="0"/>
+        </lv2>
+        <Controllable name="Filter Channel" id="109999" flags="" value="0" parameter="3" symbol="channelf"/>
+        <Controllable name="Transpose" id="110000" flags="" value="0" parameter="4" symbol="transpose"/>
+        <Controllable name="Inversion point" id="110001" flags="" value="0" parameter="5" symbol="inversion"/>
+      </Processor>
+      <Processor id="77248" name="ZynAddSubFX" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://zynaddsubfx.sourceforge.net" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-4" id="77249" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="77251" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-6" id="77253" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-7" id="77255" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="77257" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="77259" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="77261" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="77263" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="77265" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="77267" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="77269" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="77271" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="77273" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="77275" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="77277" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
+          <AutomationList automation-id="parameter-19" id="77279" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="midi" count="1"/>
@@ -1280,33 +1385,39 @@ a46249328160 0.089125066995620728
           <Port symbol="slot15" value="0.5"/>
           <Port symbol="slot16" value="0.5"/>
         </lv2>
-        <Controllable name="Slot 1" id="63619" flags="" value="0.5" parameter="4" symbol="slot1"/>
-        <Controllable name="Slot 2" id="63621" flags="" value="0.5" parameter="5" symbol="slot2"/>
-        <Controllable name="Slot 3" id="63623" flags="" value="0.5" parameter="6" symbol="slot3"/>
-        <Controllable name="Slot 4" id="63625" flags="" value="0.5" parameter="7" symbol="slot4"/>
-        <Controllable name="Slot 5" id="63627" flags="" value="0.5" parameter="8" symbol="slot5"/>
-        <Controllable name="Slot 6" id="63629" flags="" value="0.5" parameter="9" symbol="slot6"/>
-        <Controllable name="Slot 7" id="63631" flags="" value="0.5" parameter="10" symbol="slot7"/>
-        <Controllable name="Slot 8" id="63633" flags="" value="0.5" parameter="11" symbol="slot8"/>
-        <Controllable name="Slot 9" id="63635" flags="" value="0.5" parameter="12" symbol="slot9"/>
-        <Controllable name="Slot 10" id="63637" flags="" value="0.5" parameter="13" symbol="slot10"/>
-        <Controllable name="Slot 11" id="63639" flags="" value="0.5" parameter="14" symbol="slot11"/>
-        <Controllable name="Slot 12" id="63641" flags="" value="0.5" parameter="15" symbol="slot12"/>
-        <Controllable name="Slot 13" id="63643" flags="" value="0.5" parameter="16" symbol="slot13"/>
-        <Controllable name="Slot 14" id="63645" flags="" value="0.5" parameter="17" symbol="slot14"/>
-        <Controllable name="Slot 15" id="63647" flags="" value="0.5" parameter="18" symbol="slot15"/>
-        <Controllable name="Slot 16" id="63649" flags="" value="0.5" parameter="19" symbol="slot16"/>
+        <Controllable name="Slot 1" id="77250" flags="" value="0.5" parameter="4" symbol="slot1"/>
+        <Controllable name="Slot 2" id="77252" flags="" value="0.5" parameter="5" symbol="slot2"/>
+        <Controllable name="Slot 3" id="77254" flags="" value="0.5" parameter="6" symbol="slot3"/>
+        <Controllable name="Slot 4" id="77256" flags="" value="0.5" parameter="7" symbol="slot4"/>
+        <Controllable name="Slot 5" id="77258" flags="" value="0.5" parameter="8" symbol="slot5"/>
+        <Controllable name="Slot 6" id="77260" flags="" value="0.5" parameter="9" symbol="slot6"/>
+        <Controllable name="Slot 7" id="77262" flags="" value="0.5" parameter="10" symbol="slot7"/>
+        <Controllable name="Slot 8" id="77264" flags="" value="0.5" parameter="11" symbol="slot8"/>
+        <Controllable name="Slot 9" id="77266" flags="" value="0.5" parameter="12" symbol="slot9"/>
+        <Controllable name="Slot 10" id="77268" flags="" value="0.5" parameter="13" symbol="slot10"/>
+        <Controllable name="Slot 11" id="77270" flags="" value="0.5" parameter="14" symbol="slot11"/>
+        <Controllable name="Slot 12" id="77272" flags="" value="0.5" parameter="15" symbol="slot12"/>
+        <Controllable name="Slot 13" id="77274" flags="" value="0.5" parameter="16" symbol="slot13"/>
+        <Controllable name="Slot 14" id="77276" flags="" value="0.5" parameter="17" symbol="slot14"/>
+        <Controllable name="Slot 15" id="77278" flags="" value="0.5" parameter="18" symbol="slot15"/>
+        <Controllable name="Slot 16" id="77280" flags="" value="0.5" parameter="19" symbol="slot16"/>
       </Processor>
       <Processor id="63545" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="63519" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="63518" flags="GainLike" value="1"/>
+        <Controllable name="gaincontrol" id="63518" flags="GainLike" value="0.70794576406478882"/>
       </Processor>
       <Processor id="63678" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="3" selfdestruct="0" target="956" allow-feedback="0">
         <Automation>
           <AutomationList automation-id="phase" id="63697" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
-          <AutomationList automation-id="send" id="63691" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="send" id="63691" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+            <events>a0 0.5625
+a33529318200 0.5625
+a36679628160 0.5625
+a36723728160 1
+</events>
+          </AutomationList>
         </Automation>
         <PannerShell bypassed="0" user-panner="" linked-to-route="1">
           <Panner uri="http://ardour.org/plugin/panner_balance" type="Stereo Balance"/>
@@ -1326,16 +1437,1286 @@ a46249328160 0.089125066995620728
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="63698" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="63692" flags="GainLike,InlineControl" value="0.26846671104431152"/>
+        <Controllable name="gaincontrol" id="63692" flags="GainLike,InlineControl" value="0.5625"/>
+      </Processor>
+      <Processor id="77285" name="Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="5" selfdestruct="0" target="77189" allow-feedback="0">
+        <Automation>
+          <AutomationList automation-id="phase" id="77304" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="send" id="77298" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
+        </Automation>
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1">
+          <Panner uri="http://ardour.org/plugin/panner_balance" type="Stereo Balance"/>
+        </PannerShell>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="77288" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="77292" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="77290" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="77294" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="77296" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="77289" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="77291" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+            <AutomationList automation-id="pan-width" id="77293" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="77295" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="77297" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          </Automation>
+        </Pannable>
+        <Controllable name="polarity-invert" id="77305" flags="Toggle" value="0"/>
+        <Controllable name="gaincontrol" id="77299" flags="GainLike,InlineControl" value="0.50240933895111084"/>
       </Processor>
       <Processor id="63549" name="meter-Flute" active="1" user-latency="0" use-user-latency="0" type="meter"/>
-      <Processor id="63550" name="Flute" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Flute" type="main-outs" role="Main">
+      <Processor id="63550" name="Synth" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Synth" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
       </Processor>
       <Slavable/>
       <Controllable name="monitor" id="63558" flags="RealTime" value="0" monitoring=""/>
       <Controllable name="rec-safe" id="63556" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="63554" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="midi-note-pressure-0-0" id="112763" flags="" value="0"/>
+    </Route>
+    <Route version="7003" id="77189" name="Delay" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Effects">
+      <PresentationInfo order="8" flags="AudioBus,OrderSet" color="2855877119"/>
+      <Controllable name="solo" id="77197" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="77203" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="77205" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Delay" id="77218" direction="Input" default-type="audio">
+        <Port name="Delay/audio_in 1" type="audio" direction="Input"/>
+        <Port name="Delay/audio_in 2" type="audio" direction="Input"/>
+      </IO>
+      <IO name="Delay" id="77219" direction="Output" default-type="audio">
+        <Port name="Delay/audio_out 1" type="audio" direction="Output">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Delay/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
+      <Controllable name="mute" id="77199" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="77201" flags="Toggle" value="0" phase-invert="00"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="77198" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="77204" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="77206" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+        <AutomationList automation-id="mute" id="77200" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+        <AutomationList automation-id="phase" id="77202" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="77208" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="77212" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="77210" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="77214" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="77216" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="77209" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="77211" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-width" id="77213" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="77215" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="77217" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="77228" name="Return" active="1" user-latency="0" use-user-latency="0" type="intreturn"/>
+      <Processor id="77221" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="77223" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="77196" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="77195" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="80590" name="LSP Slapback Delay Stereo" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://lsp-plug.in/plugins/lv2/slap_delay_stereo" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-4" id="80591" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="80593" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-6" id="80595" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-7" id="80597" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="80599" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="80601" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="80603" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="80605" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="80607" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="80609" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="80611" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="80613" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="80615" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="80617" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="80619" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-19" id="80621" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-20" id="80623" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-21" id="80625" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-22" id="80627" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-23" id="80629" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-24" id="80631" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-25" id="80633" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-26" id="80635" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-27" id="80637" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-28" id="80639" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-29" id="80641" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-30" id="80643" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-31" id="80645" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-32" id="80647" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-33" id="80649" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-34" id="80651" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-35" id="80653" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-36" id="80655" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-37" id="80657" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-38" id="80659" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-39" id="80661" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-40" id="80663" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-41" id="80665" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-42" id="80667" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-43" id="80669" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-44" id="80671" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-45" id="80673" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-46" id="80675" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-47" id="80677" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-48" id="80679" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-49" id="80681" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-50" id="80683" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-51" id="80685" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-52" id="80687" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-53" id="80689" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-54" id="80691" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-55" id="80693" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-56" id="80695" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-57" id="80697" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-58" id="80699" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-59" id="80701" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-60" id="80703" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-61" id="80705" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-62" id="80707" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-63" id="80709" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-64" id="80711" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-65" id="80713" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-66" id="80715" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-67" id="80717" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-68" id="80719" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-69" id="80721" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-70" id="80723" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-71" id="80725" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-72" id="80727" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-73" id="80729" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-74" id="80731" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-75" id="80733" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-76" id="80735" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-77" id="80737" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-78" id="80739" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-79" id="80741" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-80" id="80743" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-81" id="80745" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-82" id="80747" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-83" id="80749" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-84" id="80751" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-85" id="80753" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-86" id="80755" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-87" id="80757" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-88" id="80759" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-89" id="80761" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-90" id="80763" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-91" id="80765" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-92" id="80767" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-93" id="80769" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-94" id="80771" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-95" id="80773" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-96" id="80775" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-97" id="80777" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-98" id="80779" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-99" id="80781" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-100" id="80783" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-101" id="80785" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-102" id="80787" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-103" id="80789" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-104" id="80791" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-105" id="80793" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-106" id="80795" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-107" id="80797" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-108" id="80799" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-109" id="80801" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-110" id="80803" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-111" id="80805" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-112" id="80807" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-113" id="80809" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-114" id="80811" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-115" id="80813" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-116" id="80815" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-117" id="80817" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-118" id="80819" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-119" id="80821" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-120" id="80823" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-121" id="80825" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-122" id="80827" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-123" id="80829" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-124" id="80831" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-125" id="80833" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-126" id="80835" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-127" id="80837" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-128" id="80839" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-129" id="80841" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-130" id="80843" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-131" id="80845" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-132" id="80847" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-133" id="80849" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-134" id="80851" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-135" id="80853" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-136" id="80855" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-137" id="80857" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-138" id="80859" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-139" id="80861" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-140" id="80863" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-141" id="80865" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-142" id="80867" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-143" id="80869" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-144" id="80871" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-145" id="80873" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-146" id="80875" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-147" id="80877" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-148" id="80879" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-149" id="80881" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-150" id="80883" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-151" id="80885" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-152" id="80887" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-153" id="80889" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-154" id="80891" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-155" id="80893" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-156" id="80895" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-157" id="80897" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-158" id="80899" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-159" id="80901" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-160" id="80903" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-161" id="80905" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-162" id="80907" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-163" id="80909" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-164" id="80911" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-165" id="80913" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-166" id="80915" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-167" id="80917" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-168" id="80919" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-169" id="80921" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-170" id="80923" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-171" id="80925" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-172" id="80927" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-173" id="80929" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-174" id="80931" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-175" id="80933" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-176" id="80935" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-177" id="80937" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-178" id="80939" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-179" id="80941" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-180" id="80943" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-181" id="80945" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-182" id="80947" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-183" id="80949" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-184" id="80951" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-185" id="80953" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-186" id="80955" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-187" id="80957" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-188" id="80959" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-189" id="80961" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-190" id="80963" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-191" id="80965" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-192" id="80967" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-193" id="80969" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-194" id="80971" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-195" id="80973" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-196" id="80975" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-197" id="80977" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-198" id="80979" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-199" id="80981" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-200" id="80983" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-201" id="80985" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-202" id="80987" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-203" id="80989" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-204" id="80991" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-205" id="80993" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-206" id="80995" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-207" id="80997" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-208" id="80999" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-209" id="81001" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-210" id="81003" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-211" id="81005" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-212" id="81007" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-213" id="81009" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-214" id="81011" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-215" id="81013" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-216" id="81015" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-217" id="81017" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-218" id="81019" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-219" id="81021" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-220" id="81023" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-221" id="81025" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-222" id="81027" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-223" id="81029" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-224" id="81031" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-225" id="81033" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-226" id="81035" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-227" id="81037" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-228" id="81039" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-229" id="81041" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-230" id="81043" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-231" id="81045" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-232" id="81047" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-233" id="81049" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-234" id="81051" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-235" id="81053" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-236" id="81055" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-237" id="81057" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-238" id="81059" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-239" id="81061" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-240" id="81063" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-241" id="81065" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-242" id="81067" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-243" id="81069" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-244" id="81071" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-245" id="81073" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-246" id="81075" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-247" id="81077" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-248" id="81079" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-249" id="81081" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-250" id="81083" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-251" id="81085" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-252" id="81087" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-253" id="81089" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-254" id="81091" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-255" id="81093" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-256" id="81095" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-257" id="81097" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-258" id="81099" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-259" id="81101" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-260" id="81103" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-261" id="81105" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-262" id="81107" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-263" id="81109" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-264" id="81111" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-265" id="81113" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-266" id="81115" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-267" id="81117" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-268" id="81119" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-269" id="81121" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-270" id="81123" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-271" id="81125" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-272" id="81127" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-273" id="81129" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-274" id="81131" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-275" id="81133" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-276" id="81135" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-277" id="81137" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-278" id="81139" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-279" id="81141" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-280" id="81143" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-281" id="81145" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-282" id="81147" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-283" id="81149" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-284" id="81151" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-285" id="81153" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-286" id="81155" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-287" id="81157" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-288" id="81159" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-289" id="81161" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-290" id="81163" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-291" id="81165" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-292" id="81167" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-293" id="81169" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-294" id="81171" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-295" id="81173" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-296" id="81175" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-297" id="81177" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-298" id="81179" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-299" id="81181" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-300" id="81183" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-301" id="81185" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-302" id="81187" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-303" id="81189" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-304" id="81191" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-305" id="81193" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-306" id="81195" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-307" id="81197" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-308" id="81199" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-309" id="81201" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-310" id="81203" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-311" id="81205" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-312" id="81207" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-313" id="81209" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-314" id="81211" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-315" id="81213" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-316" id="81215" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-317" id="81217" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-318" id="81219" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-319" id="81221" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-320" id="81223" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-321" id="81225" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-322" id="81227" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-323" id="81229" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-324" id="81231" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-325" id="81233" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-326" id="81235" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-327" id="81237" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-328" id="81239" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-329" id="81241" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-330" id="81243" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-331" id="81245" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-332" id="81247" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-333" id="81249" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-334" id="81251" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-335" id="81253" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-336" id="81255" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-337" id="81257" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-338" id="81259" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-339" id="81261" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-340" id="81263" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-341" id="81265" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-342" id="81267" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-343" id="81269" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-344" id="81271" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-345" id="81273" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-346" id="81275" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-347" id="81277" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-348" id="81279" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-349" id="81281" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-350" id="81283" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-351" id="81285" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-352" id="81287" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-353" id="81289" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-354" id="81291" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-355" id="81293" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-356" id="81295" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-357" id="81297" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-358" id="81299" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-359" id="81301" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-360" id="81303" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-361" id="81305" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-362" id="81307" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-363" id="81309" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-364" id="81311" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-365" id="81313" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-366" id="81315" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-367" id="81317" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-368" id="81319" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-369" id="81321" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-370" id="81323" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-371" id="81325" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-372" id="81327" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-373" id="81329" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-374" id="81331" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-375" id="81333" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-376" id="81335" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-377" id="81337" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-378" id="81339" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-379" id="81341" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-380" id="81343" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-381" id="81345" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-382" id="81347" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-383" id="81349" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-384" id="81351" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-385" id="81353" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-386" id="81355" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-387" id="81357" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-388" id="81359" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-389" id="81361" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="audio" count="2"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="2"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state2">
+          <Port symbol="enabled" value="1"/>
+          <Port symbol="lsel" value="0"/>
+          <Port symbol="temp" value="20"/>
+          <Port symbol="pred" value="0"/>
+          <Port symbol="strch" value="100"/>
+          <Port symbol="tempo" value="120"/>
+          <Port symbol="sync" value="1"/>
+          <Port symbol="ramp" value="0"/>
+          <Port symbol="pl_in" value="-100"/>
+          <Port symbol="pr_in" value="100"/>
+          <Port symbol="bal_in" value="0"/>
+          <Port symbol="dry" value="1"/>
+          <Port symbol="dm" value="0"/>
+          <Port symbol="wet" value="1"/>
+          <Port symbol="wm" value="0"/>
+          <Port symbol="drywet" value="100"/>
+          <Port symbol="mono" value="0"/>
+          <Port symbol="g_out" value="1"/>
+          <Port symbol="dm0" value="3"/>
+          <Port symbol="pl0" value="-100"/>
+          <Port symbol="pr0" value="100"/>
+          <Port symbol="bal0" value="100"/>
+          <Port symbol="s0" value="0"/>
+          <Port symbol="m0" value="0"/>
+          <Port symbol="ph0" value="0"/>
+          <Port symbol="dt0" value="0"/>
+          <Port symbol="dd0" value="0"/>
+          <Port symbol="df0" value="0.25"/>
+          <Port symbol="ds0" value="4"/>
+          <Port symbol="eq0" value="0"/>
+          <Port symbol="lfc0" value="0"/>
+          <Port symbol="flc0" value="100"/>
+          <Port symbol="hfc0" value="0"/>
+          <Port symbol="fhc0" value="8000"/>
+          <Port symbol="fbs0" value="1"/>
+          <Port symbol="fbb0" value="1"/>
+          <Port symbol="fbm0" value="1"/>
+          <Port symbol="fbp0" value="1"/>
+          <Port symbol="fbt0" value="1"/>
+          <Port symbol="dfb0" value="0.25118863582611084"/>
+          <Port symbol="dg0" value="0.70794576406478882"/>
+          <Port symbol="dm1" value="3"/>
+          <Port symbol="pl1" value="-100"/>
+          <Port symbol="pr1" value="100"/>
+          <Port symbol="bal1" value="-100"/>
+          <Port symbol="s1" value="0"/>
+          <Port symbol="m1" value="0"/>
+          <Port symbol="ph1" value="0"/>
+          <Port symbol="dt1" value="0"/>
+          <Port symbol="dd1" value="0"/>
+          <Port symbol="df1" value="0.5"/>
+          <Port symbol="ds1" value="4"/>
+          <Port symbol="eq1" value="0"/>
+          <Port symbol="lfc1" value="0"/>
+          <Port symbol="flc1" value="100"/>
+          <Port symbol="hfc1" value="0"/>
+          <Port symbol="fhc1" value="8000"/>
+          <Port symbol="fbs1" value="1"/>
+          <Port symbol="fbb1" value="1"/>
+          <Port symbol="fbm1" value="1"/>
+          <Port symbol="fbp1" value="1"/>
+          <Port symbol="fbt1" value="1"/>
+          <Port symbol="dfb1" value="0.25118863582611084"/>
+          <Port symbol="dg1" value="0.70794576406478882"/>
+          <Port symbol="dm2" value="3"/>
+          <Port symbol="pl2" value="-100"/>
+          <Port symbol="pr2" value="100"/>
+          <Port symbol="bal2" value="3.4570693969726562e-06"/>
+          <Port symbol="s2" value="0"/>
+          <Port symbol="m2" value="0"/>
+          <Port symbol="ph2" value="0"/>
+          <Port symbol="dt2" value="0"/>
+          <Port symbol="dd2" value="0"/>
+          <Port symbol="df2" value="0.75"/>
+          <Port symbol="ds2" value="4"/>
+          <Port symbol="eq2" value="0"/>
+          <Port symbol="lfc2" value="0"/>
+          <Port symbol="flc2" value="100"/>
+          <Port symbol="hfc2" value="0"/>
+          <Port symbol="fhc2" value="8000"/>
+          <Port symbol="fbs2" value="1"/>
+          <Port symbol="fbb2" value="1"/>
+          <Port symbol="fbm2" value="1"/>
+          <Port symbol="fbp2" value="1"/>
+          <Port symbol="fbt2" value="1"/>
+          <Port symbol="dfb2" value="0.25118863582611084"/>
+          <Port symbol="dg2" value="0.25118863582611084"/>
+          <Port symbol="dm3" value="0"/>
+          <Port symbol="pl3" value="-100"/>
+          <Port symbol="pr3" value="100"/>
+          <Port symbol="bal3" value="0"/>
+          <Port symbol="s3" value="0"/>
+          <Port symbol="m3" value="0"/>
+          <Port symbol="ph3" value="0"/>
+          <Port symbol="dt3" value="0"/>
+          <Port symbol="dd3" value="0"/>
+          <Port symbol="df3" value="0"/>
+          <Port symbol="ds3" value="4"/>
+          <Port symbol="eq3" value="0"/>
+          <Port symbol="lfc3" value="0"/>
+          <Port symbol="flc3" value="100"/>
+          <Port symbol="hfc3" value="0"/>
+          <Port symbol="fhc3" value="8000"/>
+          <Port symbol="fbs3" value="1"/>
+          <Port symbol="fbb3" value="1"/>
+          <Port symbol="fbm3" value="1"/>
+          <Port symbol="fbp3" value="1"/>
+          <Port symbol="fbt3" value="1"/>
+          <Port symbol="dfb3" value="0"/>
+          <Port symbol="dg3" value="1"/>
+          <Port symbol="dm4" value="0"/>
+          <Port symbol="pl4" value="-100"/>
+          <Port symbol="pr4" value="100"/>
+          <Port symbol="bal4" value="0"/>
+          <Port symbol="s4" value="0"/>
+          <Port symbol="m4" value="0"/>
+          <Port symbol="ph4" value="0"/>
+          <Port symbol="dt4" value="0"/>
+          <Port symbol="dd4" value="0"/>
+          <Port symbol="df4" value="0"/>
+          <Port symbol="ds4" value="4"/>
+          <Port symbol="eq4" value="0"/>
+          <Port symbol="lfc4" value="0"/>
+          <Port symbol="flc4" value="100"/>
+          <Port symbol="hfc4" value="0"/>
+          <Port symbol="fhc4" value="8000"/>
+          <Port symbol="fbs4" value="1"/>
+          <Port symbol="fbb4" value="1"/>
+          <Port symbol="fbm4" value="1"/>
+          <Port symbol="fbp4" value="1"/>
+          <Port symbol="fbt4" value="1"/>
+          <Port symbol="dfb4" value="0"/>
+          <Port symbol="dg4" value="1"/>
+          <Port symbol="dm5" value="0"/>
+          <Port symbol="pl5" value="-100"/>
+          <Port symbol="pr5" value="100"/>
+          <Port symbol="bal5" value="0"/>
+          <Port symbol="s5" value="0"/>
+          <Port symbol="m5" value="0"/>
+          <Port symbol="ph5" value="0"/>
+          <Port symbol="dt5" value="0"/>
+          <Port symbol="dd5" value="0"/>
+          <Port symbol="df5" value="0"/>
+          <Port symbol="ds5" value="4"/>
+          <Port symbol="eq5" value="0"/>
+          <Port symbol="lfc5" value="0"/>
+          <Port symbol="flc5" value="100"/>
+          <Port symbol="hfc5" value="0"/>
+          <Port symbol="fhc5" value="8000"/>
+          <Port symbol="fbs5" value="1"/>
+          <Port symbol="fbb5" value="1"/>
+          <Port symbol="fbm5" value="1"/>
+          <Port symbol="fbp5" value="1"/>
+          <Port symbol="fbt5" value="1"/>
+          <Port symbol="dfb5" value="0"/>
+          <Port symbol="dg5" value="1"/>
+          <Port symbol="dm6" value="0"/>
+          <Port symbol="pl6" value="-100"/>
+          <Port symbol="pr6" value="100"/>
+          <Port symbol="bal6" value="0"/>
+          <Port symbol="s6" value="0"/>
+          <Port symbol="m6" value="0"/>
+          <Port symbol="ph6" value="0"/>
+          <Port symbol="dt6" value="0"/>
+          <Port symbol="dd6" value="0"/>
+          <Port symbol="df6" value="0"/>
+          <Port symbol="ds6" value="4"/>
+          <Port symbol="eq6" value="0"/>
+          <Port symbol="lfc6" value="0"/>
+          <Port symbol="flc6" value="100"/>
+          <Port symbol="hfc6" value="0"/>
+          <Port symbol="fhc6" value="8000"/>
+          <Port symbol="fbs6" value="1"/>
+          <Port symbol="fbb6" value="1"/>
+          <Port symbol="fbm6" value="1"/>
+          <Port symbol="fbp6" value="1"/>
+          <Port symbol="fbt6" value="1"/>
+          <Port symbol="dfb6" value="0"/>
+          <Port symbol="dg6" value="1"/>
+          <Port symbol="dm7" value="0"/>
+          <Port symbol="pl7" value="-100"/>
+          <Port symbol="pr7" value="100"/>
+          <Port symbol="bal7" value="0"/>
+          <Port symbol="s7" value="0"/>
+          <Port symbol="m7" value="0"/>
+          <Port symbol="ph7" value="0"/>
+          <Port symbol="dt7" value="0"/>
+          <Port symbol="dd7" value="0"/>
+          <Port symbol="df7" value="0"/>
+          <Port symbol="ds7" value="4"/>
+          <Port symbol="eq7" value="0"/>
+          <Port symbol="lfc7" value="0"/>
+          <Port symbol="flc7" value="100"/>
+          <Port symbol="hfc7" value="0"/>
+          <Port symbol="fhc7" value="8000"/>
+          <Port symbol="fbs7" value="1"/>
+          <Port symbol="fbb7" value="1"/>
+          <Port symbol="fbm7" value="1"/>
+          <Port symbol="fbp7" value="1"/>
+          <Port symbol="fbt7" value="1"/>
+          <Port symbol="dfb7" value="0"/>
+          <Port symbol="dg7" value="1"/>
+          <Port symbol="dm8" value="0"/>
+          <Port symbol="pl8" value="-100"/>
+          <Port symbol="pr8" value="100"/>
+          <Port symbol="bal8" value="0"/>
+          <Port symbol="s8" value="0"/>
+          <Port symbol="m8" value="0"/>
+          <Port symbol="ph8" value="0"/>
+          <Port symbol="dt8" value="0"/>
+          <Port symbol="dd8" value="0"/>
+          <Port symbol="df8" value="0"/>
+          <Port symbol="ds8" value="4"/>
+          <Port symbol="eq8" value="0"/>
+          <Port symbol="lfc8" value="0"/>
+          <Port symbol="flc8" value="100"/>
+          <Port symbol="hfc8" value="0"/>
+          <Port symbol="fhc8" value="8000"/>
+          <Port symbol="fbs8" value="1"/>
+          <Port symbol="fbb8" value="1"/>
+          <Port symbol="fbm8" value="1"/>
+          <Port symbol="fbp8" value="1"/>
+          <Port symbol="fbt8" value="1"/>
+          <Port symbol="dfb8" value="0"/>
+          <Port symbol="dg8" value="1"/>
+          <Port symbol="dm9" value="0"/>
+          <Port symbol="pl9" value="-100"/>
+          <Port symbol="pr9" value="100"/>
+          <Port symbol="bal9" value="0"/>
+          <Port symbol="s9" value="0"/>
+          <Port symbol="m9" value="0"/>
+          <Port symbol="ph9" value="0"/>
+          <Port symbol="dt9" value="0"/>
+          <Port symbol="dd9" value="0"/>
+          <Port symbol="df9" value="0"/>
+          <Port symbol="ds9" value="4"/>
+          <Port symbol="eq9" value="0"/>
+          <Port symbol="lfc9" value="0"/>
+          <Port symbol="flc9" value="100"/>
+          <Port symbol="hfc9" value="0"/>
+          <Port symbol="fhc9" value="8000"/>
+          <Port symbol="fbs9" value="1"/>
+          <Port symbol="fbb9" value="1"/>
+          <Port symbol="fbm9" value="1"/>
+          <Port symbol="fbp9" value="1"/>
+          <Port symbol="fbt9" value="1"/>
+          <Port symbol="dfb9" value="0"/>
+          <Port symbol="dg9" value="1"/>
+          <Port symbol="dm10" value="0"/>
+          <Port symbol="pl10" value="-100"/>
+          <Port symbol="pr10" value="100"/>
+          <Port symbol="bal10" value="0"/>
+          <Port symbol="s10" value="0"/>
+          <Port symbol="m10" value="0"/>
+          <Port symbol="ph10" value="0"/>
+          <Port symbol="dt10" value="0"/>
+          <Port symbol="dd10" value="0"/>
+          <Port symbol="df10" value="0"/>
+          <Port symbol="ds10" value="4"/>
+          <Port symbol="eq10" value="0"/>
+          <Port symbol="lfc10" value="0"/>
+          <Port symbol="flc10" value="100"/>
+          <Port symbol="hfc10" value="0"/>
+          <Port symbol="fhc10" value="8000"/>
+          <Port symbol="fbs10" value="1"/>
+          <Port symbol="fbb10" value="1"/>
+          <Port symbol="fbm10" value="1"/>
+          <Port symbol="fbp10" value="1"/>
+          <Port symbol="fbt10" value="1"/>
+          <Port symbol="dfb10" value="0"/>
+          <Port symbol="dg10" value="1"/>
+          <Port symbol="dm11" value="0"/>
+          <Port symbol="pl11" value="-100"/>
+          <Port symbol="pr11" value="100"/>
+          <Port symbol="bal11" value="0"/>
+          <Port symbol="s11" value="0"/>
+          <Port symbol="m11" value="0"/>
+          <Port symbol="ph11" value="0"/>
+          <Port symbol="dt11" value="0"/>
+          <Port symbol="dd11" value="0"/>
+          <Port symbol="df11" value="0"/>
+          <Port symbol="ds11" value="4"/>
+          <Port symbol="eq11" value="0"/>
+          <Port symbol="lfc11" value="0"/>
+          <Port symbol="flc11" value="100"/>
+          <Port symbol="hfc11" value="0"/>
+          <Port symbol="fhc11" value="8000"/>
+          <Port symbol="fbs11" value="1"/>
+          <Port symbol="fbb11" value="1"/>
+          <Port symbol="fbm11" value="1"/>
+          <Port symbol="fbp11" value="1"/>
+          <Port symbol="fbt11" value="1"/>
+          <Port symbol="dfb11" value="0"/>
+          <Port symbol="dg11" value="1"/>
+          <Port symbol="dm12" value="0"/>
+          <Port symbol="pl12" value="-100"/>
+          <Port symbol="pr12" value="100"/>
+          <Port symbol="bal12" value="0"/>
+          <Port symbol="s12" value="0"/>
+          <Port symbol="m12" value="0"/>
+          <Port symbol="ph12" value="0"/>
+          <Port symbol="dt12" value="0"/>
+          <Port symbol="dd12" value="0"/>
+          <Port symbol="df12" value="0"/>
+          <Port symbol="ds12" value="4"/>
+          <Port symbol="eq12" value="0"/>
+          <Port symbol="lfc12" value="0"/>
+          <Port symbol="flc12" value="100"/>
+          <Port symbol="hfc12" value="0"/>
+          <Port symbol="fhc12" value="8000"/>
+          <Port symbol="fbs12" value="1"/>
+          <Port symbol="fbb12" value="1"/>
+          <Port symbol="fbm12" value="1"/>
+          <Port symbol="fbp12" value="1"/>
+          <Port symbol="fbt12" value="1"/>
+          <Port symbol="dfb12" value="0"/>
+          <Port symbol="dg12" value="1"/>
+          <Port symbol="dm13" value="0"/>
+          <Port symbol="pl13" value="-100"/>
+          <Port symbol="pr13" value="100"/>
+          <Port symbol="bal13" value="0"/>
+          <Port symbol="s13" value="0"/>
+          <Port symbol="m13" value="0"/>
+          <Port symbol="ph13" value="0"/>
+          <Port symbol="dt13" value="0"/>
+          <Port symbol="dd13" value="0"/>
+          <Port symbol="df13" value="0"/>
+          <Port symbol="ds13" value="4"/>
+          <Port symbol="eq13" value="0"/>
+          <Port symbol="lfc13" value="0"/>
+          <Port symbol="flc13" value="100"/>
+          <Port symbol="hfc13" value="0"/>
+          <Port symbol="fhc13" value="8000"/>
+          <Port symbol="fbs13" value="1"/>
+          <Port symbol="fbb13" value="1"/>
+          <Port symbol="fbm13" value="1"/>
+          <Port symbol="fbp13" value="1"/>
+          <Port symbol="fbt13" value="1"/>
+          <Port symbol="dfb13" value="0"/>
+          <Port symbol="dg13" value="1"/>
+          <Port symbol="dm14" value="0"/>
+          <Port symbol="pl14" value="-100"/>
+          <Port symbol="pr14" value="100"/>
+          <Port symbol="bal14" value="0"/>
+          <Port symbol="s14" value="0"/>
+          <Port symbol="m14" value="0"/>
+          <Port symbol="ph14" value="0"/>
+          <Port symbol="dt14" value="0"/>
+          <Port symbol="dd14" value="0"/>
+          <Port symbol="df14" value="0"/>
+          <Port symbol="ds14" value="4"/>
+          <Port symbol="eq14" value="0"/>
+          <Port symbol="lfc14" value="0"/>
+          <Port symbol="flc14" value="100"/>
+          <Port symbol="hfc14" value="0"/>
+          <Port symbol="fhc14" value="8000"/>
+          <Port symbol="fbs14" value="1"/>
+          <Port symbol="fbb14" value="1"/>
+          <Port symbol="fbm14" value="1"/>
+          <Port symbol="fbp14" value="1"/>
+          <Port symbol="fbt14" value="1"/>
+          <Port symbol="dfb14" value="0"/>
+          <Port symbol="dg14" value="1"/>
+          <Port symbol="dm15" value="0"/>
+          <Port symbol="pl15" value="-100"/>
+          <Port symbol="pr15" value="100"/>
+          <Port symbol="bal15" value="0"/>
+          <Port symbol="s15" value="0"/>
+          <Port symbol="m15" value="0"/>
+          <Port symbol="ph15" value="0"/>
+          <Port symbol="dt15" value="0"/>
+          <Port symbol="dd15" value="0"/>
+          <Port symbol="df15" value="0"/>
+          <Port symbol="ds15" value="4"/>
+          <Port symbol="eq15" value="0"/>
+          <Port symbol="lfc15" value="0"/>
+          <Port symbol="flc15" value="100"/>
+          <Port symbol="hfc15" value="0"/>
+          <Port symbol="fhc15" value="8000"/>
+          <Port symbol="fbs15" value="1"/>
+          <Port symbol="fbb15" value="1"/>
+          <Port symbol="fbm15" value="1"/>
+          <Port symbol="fbp15" value="1"/>
+          <Port symbol="fbt15" value="1"/>
+          <Port symbol="dfb15" value="0"/>
+          <Port symbol="dg15" value="1"/>
+        </lv2>
+        <Controllable name="Enabled" id="80592" flags="Toggle" value="1" parameter="4" symbol="enabled"/>
+        <Controllable name="Delay line selector" id="80594" flags="" value="0" parameter="5" symbol="lsel"/>
+        <Controllable name="Temperature" id="80596" flags="" value="20" parameter="6" symbol="temp"/>
+        <Controllable name="Pre-delay" id="80598" flags="" value="0" parameter="7" symbol="pred"/>
+        <Controllable name="Stretch time" id="80600" flags="" value="100" parameter="8" symbol="strch"/>
+        <Controllable name="Tempo" id="80602" flags="" value="120" parameter="9" symbol="tempo"/>
+        <Controllable name="Tempo sync" id="80604" flags="Toggle" value="1" parameter="10" symbol="sync"/>
+        <Controllable name="Ramping delay" id="80606" flags="Toggle" value="0" parameter="11" symbol="ramp"/>
+        <Controllable name="Input left channel panorama" id="80608" flags="" value="-100" parameter="12" symbol="pl_in"/>
+        <Controllable name="Input right channel panorama" id="80610" flags="" value="100" parameter="13" symbol="pr_in"/>
+        <Controllable name="Input balance" id="80612" flags="" value="0" parameter="14" symbol="bal_in"/>
+        <Controllable name="Dry amount" id="80614" flags="" value="1" parameter="15" symbol="dry"/>
+        <Controllable name="Dry mute" id="80616" flags="Toggle" value="0" parameter="16" symbol="dm"/>
+        <Controllable name="Wet amount" id="80618" flags="" value="1" parameter="17" symbol="wet"/>
+        <Controllable name="Wet mute" id="80620" flags="Toggle" value="0" parameter="18" symbol="wm"/>
+        <Controllable name="Dry/Wet balance" id="80622" flags="" value="100" parameter="19" symbol="drywet"/>
+        <Controllable name="Mono output" id="80624" flags="Toggle" value="0" parameter="20" symbol="mono"/>
+        <Controllable name="Output gain" id="80626" flags="" value="1" parameter="21" symbol="g_out"/>
+        <Controllable name="Delay 0 mode" id="80628" flags="" value="3" parameter="22" symbol="dm0"/>
+        <Controllable name="Delay 0 left channel panorama" id="80630" flags="" value="-100" parameter="23" symbol="pl0"/>
+        <Controllable name="Delay 0 right channel panorama" id="80632" flags="" value="100" parameter="24" symbol="pr0"/>
+        <Controllable name="Delay 0 balance" id="80634" flags="" value="100" parameter="25" symbol="bal0"/>
+        <Controllable name="Delay 0 solo" id="80636" flags="Toggle" value="0" parameter="26" symbol="s0"/>
+        <Controllable name="Delay 0 mute" id="80638" flags="Toggle" value="0" parameter="27" symbol="m0"/>
+        <Controllable name="Delay 0 phase" id="80640" flags="Toggle" value="0" parameter="28" symbol="ph0"/>
+        <Controllable name="Delay 0 time" id="80642" flags="" value="0" parameter="29" symbol="dt0"/>
+        <Controllable name="Delay 0 distance" id="80644" flags="" value="0" parameter="30" symbol="dd0"/>
+        <Controllable name="Delay 0 fraction" id="80646" flags="" value="0.25" parameter="31" symbol="df0"/>
+        <Controllable name="Delay 0 denominator" id="80648" flags="" value="4" parameter="32" symbol="ds0"/>
+        <Controllable name="Equalizer 0 on" id="80650" flags="Toggle" value="0" parameter="33" symbol="eq0"/>
+        <Controllable name="Delay 0 low-cut" id="80652" flags="Toggle" value="0" parameter="34" symbol="lfc0"/>
+        <Controllable name="Delay 0 low-cut frequency" id="80654" flags="" value="100" parameter="35" symbol="flc0"/>
+        <Controllable name="Delay 0 high-cut" id="80656" flags="Toggle" value="0" parameter="36" symbol="hfc0"/>
+        <Controllable name="Delay 0 high-cut frequency" id="80658" flags="" value="8000" parameter="37" symbol="fhc0"/>
+        <Controllable name="Delay 0 sub-bass" id="80660" flags="" value="1" parameter="38" symbol="fbs0"/>
+        <Controllable name="Delay 0 bass" id="80662" flags="" value="1" parameter="39" symbol="fbb0"/>
+        <Controllable name="Delay 0 middle" id="80664" flags="" value="1" parameter="40" symbol="fbm0"/>
+        <Controllable name="Delay 0 presence" id="80666" flags="" value="1" parameter="41" symbol="fbp0"/>
+        <Controllable name="Delay 0 treble" id="80668" flags="" value="1" parameter="42" symbol="fbt0"/>
+        <Controllable name="Delay 0 feedback" id="80670" flags="" value="0.25118863582611084" parameter="43" symbol="dfb0"/>
+        <Controllable name="Delay 0 gain" id="80672" flags="" value="0.70794576406478882" parameter="44" symbol="dg0"/>
+        <Controllable name="Delay 1 mode" id="80674" flags="" value="3" parameter="45" symbol="dm1"/>
+        <Controllable name="Delay 1 left channel panorama" id="80676" flags="" value="-100" parameter="46" symbol="pl1"/>
+        <Controllable name="Delay 1 right channel panorama" id="80678" flags="" value="100" parameter="47" symbol="pr1"/>
+        <Controllable name="Delay 1 balance" id="80680" flags="" value="-100" parameter="48" symbol="bal1"/>
+        <Controllable name="Delay 1 solo" id="80682" flags="Toggle" value="0" parameter="49" symbol="s1"/>
+        <Controllable name="Delay 1 mute" id="80684" flags="Toggle" value="0" parameter="50" symbol="m1"/>
+        <Controllable name="Delay 1 phase" id="80686" flags="Toggle" value="0" parameter="51" symbol="ph1"/>
+        <Controllable name="Delay 1 time" id="80688" flags="" value="0" parameter="52" symbol="dt1"/>
+        <Controllable name="Delay 1 distance" id="80690" flags="" value="0" parameter="53" symbol="dd1"/>
+        <Controllable name="Delay 1 fraction" id="80692" flags="" value="0.5" parameter="54" symbol="df1"/>
+        <Controllable name="Delay 1 denominator" id="80694" flags="" value="4" parameter="55" symbol="ds1"/>
+        <Controllable name="Equalizer 1 on" id="80696" flags="Toggle" value="0" parameter="56" symbol="eq1"/>
+        <Controllable name="Delay 1 low-cut" id="80698" flags="Toggle" value="0" parameter="57" symbol="lfc1"/>
+        <Controllable name="Delay 1 low-cut frequency" id="80700" flags="" value="100" parameter="58" symbol="flc1"/>
+        <Controllable name="Delay 1 high-cut" id="80702" flags="Toggle" value="0" parameter="59" symbol="hfc1"/>
+        <Controllable name="Delay 1 high-cut frequency" id="80704" flags="" value="8000" parameter="60" symbol="fhc1"/>
+        <Controllable name="Delay 1 sub-bass" id="80706" flags="" value="1" parameter="61" symbol="fbs1"/>
+        <Controllable name="Delay 1 bass" id="80708" flags="" value="1" parameter="62" symbol="fbb1"/>
+        <Controllable name="Delay 1 middle" id="80710" flags="" value="1" parameter="63" symbol="fbm1"/>
+        <Controllable name="Delay 1 presence" id="80712" flags="" value="1" parameter="64" symbol="fbp1"/>
+        <Controllable name="Delay 1 treble" id="80714" flags="" value="1" parameter="65" symbol="fbt1"/>
+        <Controllable name="Delay 1 feedback" id="80716" flags="" value="0.25118863582611084" parameter="66" symbol="dfb1"/>
+        <Controllable name="Delay 1 gain" id="80718" flags="" value="0.70794576406478882" parameter="67" symbol="dg1"/>
+        <Controllable name="Delay 2 mode" id="80720" flags="" value="3" parameter="68" symbol="dm2"/>
+        <Controllable name="Delay 2 left channel panorama" id="80722" flags="" value="-100" parameter="69" symbol="pl2"/>
+        <Controllable name="Delay 2 right channel panorama" id="80724" flags="" value="100" parameter="70" symbol="pr2"/>
+        <Controllable name="Delay 2 balance" id="80726" flags="" value="3.4570693969726562e-06" parameter="71" symbol="bal2"/>
+        <Controllable name="Delay 2 solo" id="80728" flags="Toggle" value="0" parameter="72" symbol="s2"/>
+        <Controllable name="Delay 2 mute" id="80730" flags="Toggle" value="0" parameter="73" symbol="m2"/>
+        <Controllable name="Delay 2 phase" id="80732" flags="Toggle" value="0" parameter="74" symbol="ph2"/>
+        <Controllable name="Delay 2 time" id="80734" flags="" value="0" parameter="75" symbol="dt2"/>
+        <Controllable name="Delay 2 distance" id="80736" flags="" value="0" parameter="76" symbol="dd2"/>
+        <Controllable name="Delay 2 fraction" id="80738" flags="" value="0.75" parameter="77" symbol="df2"/>
+        <Controllable name="Delay 2 denominator" id="80740" flags="" value="4" parameter="78" symbol="ds2"/>
+        <Controllable name="Equalizer 2 on" id="80742" flags="Toggle" value="0" parameter="79" symbol="eq2"/>
+        <Controllable name="Delay 2 low-cut" id="80744" flags="Toggle" value="0" parameter="80" symbol="lfc2"/>
+        <Controllable name="Delay 2 low-cut frequency" id="80746" flags="" value="100" parameter="81" symbol="flc2"/>
+        <Controllable name="Delay 2 high-cut" id="80748" flags="Toggle" value="0" parameter="82" symbol="hfc2"/>
+        <Controllable name="Delay 2 high-cut frequency" id="80750" flags="" value="8000" parameter="83" symbol="fhc2"/>
+        <Controllable name="Delay 2 sub-bass" id="80752" flags="" value="1" parameter="84" symbol="fbs2"/>
+        <Controllable name="Delay 2 bass" id="80754" flags="" value="1" parameter="85" symbol="fbb2"/>
+        <Controllable name="Delay 2 middle" id="80756" flags="" value="1" parameter="86" symbol="fbm2"/>
+        <Controllable name="Delay 2 presence" id="80758" flags="" value="1" parameter="87" symbol="fbp2"/>
+        <Controllable name="Delay 2 treble" id="80760" flags="" value="1" parameter="88" symbol="fbt2"/>
+        <Controllable name="Delay 2 feedback" id="80762" flags="" value="0.25118863582611084" parameter="89" symbol="dfb2"/>
+        <Controllable name="Delay 2 gain" id="80764" flags="" value="0.25118863582611084" parameter="90" symbol="dg2"/>
+        <Controllable name="Delay 3 mode" id="80766" flags="" value="0" parameter="91" symbol="dm3"/>
+        <Controllable name="Delay 3 left channel panorama" id="80768" flags="" value="-100" parameter="92" symbol="pl3"/>
+        <Controllable name="Delay 3 right channel panorama" id="80770" flags="" value="100" parameter="93" symbol="pr3"/>
+        <Controllable name="Delay 3 balance" id="80772" flags="" value="0" parameter="94" symbol="bal3"/>
+        <Controllable name="Delay 3 solo" id="80774" flags="Toggle" value="0" parameter="95" symbol="s3"/>
+        <Controllable name="Delay 3 mute" id="80776" flags="Toggle" value="0" parameter="96" symbol="m3"/>
+        <Controllable name="Delay 3 phase" id="80778" flags="Toggle" value="0" parameter="97" symbol="ph3"/>
+        <Controllable name="Delay 3 time" id="80780" flags="" value="0" parameter="98" symbol="dt3"/>
+        <Controllable name="Delay 3 distance" id="80782" flags="" value="0" parameter="99" symbol="dd3"/>
+        <Controllable name="Delay 3 fraction" id="80784" flags="" value="0" parameter="100" symbol="df3"/>
+        <Controllable name="Delay 3 denominator" id="80786" flags="" value="4" parameter="101" symbol="ds3"/>
+        <Controllable name="Equalizer 3 on" id="80788" flags="Toggle" value="0" parameter="102" symbol="eq3"/>
+        <Controllable name="Delay 3 low-cut" id="80790" flags="Toggle" value="0" parameter="103" symbol="lfc3"/>
+        <Controllable name="Delay 3 low-cut frequency" id="80792" flags="" value="100" parameter="104" symbol="flc3"/>
+        <Controllable name="Delay 3 high-cut" id="80794" flags="Toggle" value="0" parameter="105" symbol="hfc3"/>
+        <Controllable name="Delay 3 high-cut frequency" id="80796" flags="" value="8000" parameter="106" symbol="fhc3"/>
+        <Controllable name="Delay 3 sub-bass" id="80798" flags="" value="1" parameter="107" symbol="fbs3"/>
+        <Controllable name="Delay 3 bass" id="80800" flags="" value="1" parameter="108" symbol="fbb3"/>
+        <Controllable name="Delay 3 middle" id="80802" flags="" value="1" parameter="109" symbol="fbm3"/>
+        <Controllable name="Delay 3 presence" id="80804" flags="" value="1" parameter="110" symbol="fbp3"/>
+        <Controllable name="Delay 3 treble" id="80806" flags="" value="1" parameter="111" symbol="fbt3"/>
+        <Controllable name="Delay 3 feedback" id="80808" flags="" value="0" parameter="112" symbol="dfb3"/>
+        <Controllable name="Delay 3 gain" id="80810" flags="" value="1" parameter="113" symbol="dg3"/>
+        <Controllable name="Delay 4 mode" id="80812" flags="" value="0" parameter="114" symbol="dm4"/>
+        <Controllable name="Delay 4 left channel panorama" id="80814" flags="" value="-100" parameter="115" symbol="pl4"/>
+        <Controllable name="Delay 4 right channel panorama" id="80816" flags="" value="100" parameter="116" symbol="pr4"/>
+        <Controllable name="Delay 4 balance" id="80818" flags="" value="0" parameter="117" symbol="bal4"/>
+        <Controllable name="Delay 4 solo" id="80820" flags="Toggle" value="0" parameter="118" symbol="s4"/>
+        <Controllable name="Delay 4 mute" id="80822" flags="Toggle" value="0" parameter="119" symbol="m4"/>
+        <Controllable name="Delay 4 phase" id="80824" flags="Toggle" value="0" parameter="120" symbol="ph4"/>
+        <Controllable name="Delay 4 time" id="80826" flags="" value="0" parameter="121" symbol="dt4"/>
+        <Controllable name="Delay 4 distance" id="80828" flags="" value="0" parameter="122" symbol="dd4"/>
+        <Controllable name="Delay 4 fraction" id="80830" flags="" value="0" parameter="123" symbol="df4"/>
+        <Controllable name="Delay 4 denominator" id="80832" flags="" value="4" parameter="124" symbol="ds4"/>
+        <Controllable name="Equalizer 4 on" id="80834" flags="Toggle" value="0" parameter="125" symbol="eq4"/>
+        <Controllable name="Delay 4 low-cut" id="80836" flags="Toggle" value="0" parameter="126" symbol="lfc4"/>
+        <Controllable name="Delay 4 low-cut frequency" id="80838" flags="" value="100" parameter="127" symbol="flc4"/>
+        <Controllable name="Delay 4 high-cut" id="80840" flags="Toggle" value="0" parameter="128" symbol="hfc4"/>
+        <Controllable name="Delay 4 high-cut frequency" id="80842" flags="" value="8000" parameter="129" symbol="fhc4"/>
+        <Controllable name="Delay 4 sub-bass" id="80844" flags="" value="1" parameter="130" symbol="fbs4"/>
+        <Controllable name="Delay 4 bass" id="80846" flags="" value="1" parameter="131" symbol="fbb4"/>
+        <Controllable name="Delay 4 middle" id="80848" flags="" value="1" parameter="132" symbol="fbm4"/>
+        <Controllable name="Delay 4 presence" id="80850" flags="" value="1" parameter="133" symbol="fbp4"/>
+        <Controllable name="Delay 4 treble" id="80852" flags="" value="1" parameter="134" symbol="fbt4"/>
+        <Controllable name="Delay 4 feedback" id="80854" flags="" value="0" parameter="135" symbol="dfb4"/>
+        <Controllable name="Delay 4 gain" id="80856" flags="" value="1" parameter="136" symbol="dg4"/>
+        <Controllable name="Delay 5 mode" id="80858" flags="" value="0" parameter="137" symbol="dm5"/>
+        <Controllable name="Delay 5 left channel panorama" id="80860" flags="" value="-100" parameter="138" symbol="pl5"/>
+        <Controllable name="Delay 5 right channel panorama" id="80862" flags="" value="100" parameter="139" symbol="pr5"/>
+        <Controllable name="Delay 5 balance" id="80864" flags="" value="0" parameter="140" symbol="bal5"/>
+        <Controllable name="Delay 5 solo" id="80866" flags="Toggle" value="0" parameter="141" symbol="s5"/>
+        <Controllable name="Delay 5 mute" id="80868" flags="Toggle" value="0" parameter="142" symbol="m5"/>
+        <Controllable name="Delay 5 phase" id="80870" flags="Toggle" value="0" parameter="143" symbol="ph5"/>
+        <Controllable name="Delay 5 time" id="80872" flags="" value="0" parameter="144" symbol="dt5"/>
+        <Controllable name="Delay 5 distance" id="80874" flags="" value="0" parameter="145" symbol="dd5"/>
+        <Controllable name="Delay 5 fraction" id="80876" flags="" value="0" parameter="146" symbol="df5"/>
+        <Controllable name="Delay 5 denominator" id="80878" flags="" value="4" parameter="147" symbol="ds5"/>
+        <Controllable name="Equalizer 5 on" id="80880" flags="Toggle" value="0" parameter="148" symbol="eq5"/>
+        <Controllable name="Delay 5 low-cut" id="80882" flags="Toggle" value="0" parameter="149" symbol="lfc5"/>
+        <Controllable name="Delay 5 low-cut frequency" id="80884" flags="" value="100" parameter="150" symbol="flc5"/>
+        <Controllable name="Delay 5 high-cut" id="80886" flags="Toggle" value="0" parameter="151" symbol="hfc5"/>
+        <Controllable name="Delay 5 high-cut frequency" id="80888" flags="" value="8000" parameter="152" symbol="fhc5"/>
+        <Controllable name="Delay 5 sub-bass" id="80890" flags="" value="1" parameter="153" symbol="fbs5"/>
+        <Controllable name="Delay 5 bass" id="80892" flags="" value="1" parameter="154" symbol="fbb5"/>
+        <Controllable name="Delay 5 middle" id="80894" flags="" value="1" parameter="155" symbol="fbm5"/>
+        <Controllable name="Delay 5 presence" id="80896" flags="" value="1" parameter="156" symbol="fbp5"/>
+        <Controllable name="Delay 5 treble" id="80898" flags="" value="1" parameter="157" symbol="fbt5"/>
+        <Controllable name="Delay 5 feedback" id="80900" flags="" value="0" parameter="158" symbol="dfb5"/>
+        <Controllable name="Delay 5 gain" id="80902" flags="" value="1" parameter="159" symbol="dg5"/>
+        <Controllable name="Delay 6 mode" id="80904" flags="" value="0" parameter="160" symbol="dm6"/>
+        <Controllable name="Delay 6 left channel panorama" id="80906" flags="" value="-100" parameter="161" symbol="pl6"/>
+        <Controllable name="Delay 6 right channel panorama" id="80908" flags="" value="100" parameter="162" symbol="pr6"/>
+        <Controllable name="Delay 6 balance" id="80910" flags="" value="0" parameter="163" symbol="bal6"/>
+        <Controllable name="Delay 6 solo" id="80912" flags="Toggle" value="0" parameter="164" symbol="s6"/>
+        <Controllable name="Delay 6 mute" id="80914" flags="Toggle" value="0" parameter="165" symbol="m6"/>
+        <Controllable name="Delay 6 phase" id="80916" flags="Toggle" value="0" parameter="166" symbol="ph6"/>
+        <Controllable name="Delay 6 time" id="80918" flags="" value="0" parameter="167" symbol="dt6"/>
+        <Controllable name="Delay 6 distance" id="80920" flags="" value="0" parameter="168" symbol="dd6"/>
+        <Controllable name="Delay 6 fraction" id="80922" flags="" value="0" parameter="169" symbol="df6"/>
+        <Controllable name="Delay 6 denominator" id="80924" flags="" value="4" parameter="170" symbol="ds6"/>
+        <Controllable name="Equalizer 6 on" id="80926" flags="Toggle" value="0" parameter="171" symbol="eq6"/>
+        <Controllable name="Delay 6 low-cut" id="80928" flags="Toggle" value="0" parameter="172" symbol="lfc6"/>
+        <Controllable name="Delay 6 low-cut frequency" id="80930" flags="" value="100" parameter="173" symbol="flc6"/>
+        <Controllable name="Delay 6 high-cut" id="80932" flags="Toggle" value="0" parameter="174" symbol="hfc6"/>
+        <Controllable name="Delay 6 high-cut frequency" id="80934" flags="" value="8000" parameter="175" symbol="fhc6"/>
+        <Controllable name="Delay 6 sub-bass" id="80936" flags="" value="1" parameter="176" symbol="fbs6"/>
+        <Controllable name="Delay 6 bass" id="80938" flags="" value="1" parameter="177" symbol="fbb6"/>
+        <Controllable name="Delay 6 middle" id="80940" flags="" value="1" parameter="178" symbol="fbm6"/>
+        <Controllable name="Delay 6 presence" id="80942" flags="" value="1" parameter="179" symbol="fbp6"/>
+        <Controllable name="Delay 6 treble" id="80944" flags="" value="1" parameter="180" symbol="fbt6"/>
+        <Controllable name="Delay 6 feedback" id="80946" flags="" value="0" parameter="181" symbol="dfb6"/>
+        <Controllable name="Delay 6 gain" id="80948" flags="" value="1" parameter="182" symbol="dg6"/>
+        <Controllable name="Delay 7 mode" id="80950" flags="" value="0" parameter="183" symbol="dm7"/>
+        <Controllable name="Delay 7 left channel panorama" id="80952" flags="" value="-100" parameter="184" symbol="pl7"/>
+        <Controllable name="Delay 7 right channel panorama" id="80954" flags="" value="100" parameter="185" symbol="pr7"/>
+        <Controllable name="Delay 7 balance" id="80956" flags="" value="0" parameter="186" symbol="bal7"/>
+        <Controllable name="Delay 7 solo" id="80958" flags="Toggle" value="0" parameter="187" symbol="s7"/>
+        <Controllable name="Delay 7 mute" id="80960" flags="Toggle" value="0" parameter="188" symbol="m7"/>
+        <Controllable name="Delay 7 phase" id="80962" flags="Toggle" value="0" parameter="189" symbol="ph7"/>
+        <Controllable name="Delay 7 time" id="80964" flags="" value="0" parameter="190" symbol="dt7"/>
+        <Controllable name="Delay 7 distance" id="80966" flags="" value="0" parameter="191" symbol="dd7"/>
+        <Controllable name="Delay 7 fraction" id="80968" flags="" value="0" parameter="192" symbol="df7"/>
+        <Controllable name="Delay 7 denominator" id="80970" flags="" value="4" parameter="193" symbol="ds7"/>
+        <Controllable name="Equalizer 7 on" id="80972" flags="Toggle" value="0" parameter="194" symbol="eq7"/>
+        <Controllable name="Delay 7 low-cut" id="80974" flags="Toggle" value="0" parameter="195" symbol="lfc7"/>
+        <Controllable name="Delay 7 low-cut frequency" id="80976" flags="" value="100" parameter="196" symbol="flc7"/>
+        <Controllable name="Delay 7 high-cut" id="80978" flags="Toggle" value="0" parameter="197" symbol="hfc7"/>
+        <Controllable name="Delay 7 high-cut frequency" id="80980" flags="" value="8000" parameter="198" symbol="fhc7"/>
+        <Controllable name="Delay 7 sub-bass" id="80982" flags="" value="1" parameter="199" symbol="fbs7"/>
+        <Controllable name="Delay 7 bass" id="80984" flags="" value="1" parameter="200" symbol="fbb7"/>
+        <Controllable name="Delay 7 middle" id="80986" flags="" value="1" parameter="201" symbol="fbm7"/>
+        <Controllable name="Delay 7 presence" id="80988" flags="" value="1" parameter="202" symbol="fbp7"/>
+        <Controllable name="Delay 7 treble" id="80990" flags="" value="1" parameter="203" symbol="fbt7"/>
+        <Controllable name="Delay 7 feedback" id="80992" flags="" value="0" parameter="204" symbol="dfb7"/>
+        <Controllable name="Delay 7 gain" id="80994" flags="" value="1" parameter="205" symbol="dg7"/>
+        <Controllable name="Delay 8 mode" id="80996" flags="" value="0" parameter="206" symbol="dm8"/>
+        <Controllable name="Delay 8 left channel panorama" id="80998" flags="" value="-100" parameter="207" symbol="pl8"/>
+        <Controllable name="Delay 8 right channel panorama" id="81000" flags="" value="100" parameter="208" symbol="pr8"/>
+        <Controllable name="Delay 8 balance" id="81002" flags="" value="0" parameter="209" symbol="bal8"/>
+        <Controllable name="Delay 8 solo" id="81004" flags="Toggle" value="0" parameter="210" symbol="s8"/>
+        <Controllable name="Delay 8 mute" id="81006" flags="Toggle" value="0" parameter="211" symbol="m8"/>
+        <Controllable name="Delay 8 phase" id="81008" flags="Toggle" value="0" parameter="212" symbol="ph8"/>
+        <Controllable name="Delay 8 time" id="81010" flags="" value="0" parameter="213" symbol="dt8"/>
+        <Controllable name="Delay 8 distance" id="81012" flags="" value="0" parameter="214" symbol="dd8"/>
+        <Controllable name="Delay 8 fraction" id="81014" flags="" value="0" parameter="215" symbol="df8"/>
+        <Controllable name="Delay 8 denominator" id="81016" flags="" value="4" parameter="216" symbol="ds8"/>
+        <Controllable name="Equalizer 8 on" id="81018" flags="Toggle" value="0" parameter="217" symbol="eq8"/>
+        <Controllable name="Delay 8 low-cut" id="81020" flags="Toggle" value="0" parameter="218" symbol="lfc8"/>
+        <Controllable name="Delay 8 low-cut frequency" id="81022" flags="" value="100" parameter="219" symbol="flc8"/>
+        <Controllable name="Delay 8 high-cut" id="81024" flags="Toggle" value="0" parameter="220" symbol="hfc8"/>
+        <Controllable name="Delay 8 high-cut frequency" id="81026" flags="" value="8000" parameter="221" symbol="fhc8"/>
+        <Controllable name="Delay 8 sub-bass" id="81028" flags="" value="1" parameter="222" symbol="fbs8"/>
+        <Controllable name="Delay 8 bass" id="81030" flags="" value="1" parameter="223" symbol="fbb8"/>
+        <Controllable name="Delay 8 middle" id="81032" flags="" value="1" parameter="224" symbol="fbm8"/>
+        <Controllable name="Delay 8 presence" id="81034" flags="" value="1" parameter="225" symbol="fbp8"/>
+        <Controllable name="Delay 8 treble" id="81036" flags="" value="1" parameter="226" symbol="fbt8"/>
+        <Controllable name="Delay 8 feedback" id="81038" flags="" value="0" parameter="227" symbol="dfb8"/>
+        <Controllable name="Delay 8 gain" id="81040" flags="" value="1" parameter="228" symbol="dg8"/>
+        <Controllable name="Delay 9 mode" id="81042" flags="" value="0" parameter="229" symbol="dm9"/>
+        <Controllable name="Delay 9 left channel panorama" id="81044" flags="" value="-100" parameter="230" symbol="pl9"/>
+        <Controllable name="Delay 9 right channel panorama" id="81046" flags="" value="100" parameter="231" symbol="pr9"/>
+        <Controllable name="Delay 9 balance" id="81048" flags="" value="0" parameter="232" symbol="bal9"/>
+        <Controllable name="Delay 9 solo" id="81050" flags="Toggle" value="0" parameter="233" symbol="s9"/>
+        <Controllable name="Delay 9 mute" id="81052" flags="Toggle" value="0" parameter="234" symbol="m9"/>
+        <Controllable name="Delay 9 phase" id="81054" flags="Toggle" value="0" parameter="235" symbol="ph9"/>
+        <Controllable name="Delay 9 time" id="81056" flags="" value="0" parameter="236" symbol="dt9"/>
+        <Controllable name="Delay 9 distance" id="81058" flags="" value="0" parameter="237" symbol="dd9"/>
+        <Controllable name="Delay 9 fraction" id="81060" flags="" value="0" parameter="238" symbol="df9"/>
+        <Controllable name="Delay 9 denominator" id="81062" flags="" value="4" parameter="239" symbol="ds9"/>
+        <Controllable name="Equalizer 9 on" id="81064" flags="Toggle" value="0" parameter="240" symbol="eq9"/>
+        <Controllable name="Delay 9 low-cut" id="81066" flags="Toggle" value="0" parameter="241" symbol="lfc9"/>
+        <Controllable name="Delay 9 low-cut frequency" id="81068" flags="" value="100" parameter="242" symbol="flc9"/>
+        <Controllable name="Delay 9 high-cut" id="81070" flags="Toggle" value="0" parameter="243" symbol="hfc9"/>
+        <Controllable name="Delay 9 high-cut frequency" id="81072" flags="" value="8000" parameter="244" symbol="fhc9"/>
+        <Controllable name="Delay 9 sub-bass" id="81074" flags="" value="1" parameter="245" symbol="fbs9"/>
+        <Controllable name="Delay 9 bass" id="81076" flags="" value="1" parameter="246" symbol="fbb9"/>
+        <Controllable name="Delay 9 middle" id="81078" flags="" value="1" parameter="247" symbol="fbm9"/>
+        <Controllable name="Delay 9 presence" id="81080" flags="" value="1" parameter="248" symbol="fbp9"/>
+        <Controllable name="Delay 9 treble" id="81082" flags="" value="1" parameter="249" symbol="fbt9"/>
+        <Controllable name="Delay 9 feedback" id="81084" flags="" value="0" parameter="250" symbol="dfb9"/>
+        <Controllable name="Delay 9 gain" id="81086" flags="" value="1" parameter="251" symbol="dg9"/>
+        <Controllable name="Delay 10 mode" id="81088" flags="" value="0" parameter="252" symbol="dm10"/>
+        <Controllable name="Delay 10 left channel panorama" id="81090" flags="" value="-100" parameter="253" symbol="pl10"/>
+        <Controllable name="Delay 10 right channel panorama" id="81092" flags="" value="100" parameter="254" symbol="pr10"/>
+        <Controllable name="Delay 10 balance" id="81094" flags="" value="0" parameter="255" symbol="bal10"/>
+        <Controllable name="Delay 10 solo" id="81096" flags="Toggle" value="0" parameter="256" symbol="s10"/>
+        <Controllable name="Delay 10 mute" id="81098" flags="Toggle" value="0" parameter="257" symbol="m10"/>
+        <Controllable name="Delay 10 phase" id="81100" flags="Toggle" value="0" parameter="258" symbol="ph10"/>
+        <Controllable name="Delay 10 time" id="81102" flags="" value="0" parameter="259" symbol="dt10"/>
+        <Controllable name="Delay 10 distance" id="81104" flags="" value="0" parameter="260" symbol="dd10"/>
+        <Controllable name="Delay 10 fraction" id="81106" flags="" value="0" parameter="261" symbol="df10"/>
+        <Controllable name="Delay 10 denominator" id="81108" flags="" value="4" parameter="262" symbol="ds10"/>
+        <Controllable name="Equalizer 10 on" id="81110" flags="Toggle" value="0" parameter="263" symbol="eq10"/>
+        <Controllable name="Delay 10 low-cut" id="81112" flags="Toggle" value="0" parameter="264" symbol="lfc10"/>
+        <Controllable name="Delay 10 low-cut frequency" id="81114" flags="" value="100" parameter="265" symbol="flc10"/>
+        <Controllable name="Delay 10 high-cut" id="81116" flags="Toggle" value="0" parameter="266" symbol="hfc10"/>
+        <Controllable name="Delay 10 high-cut frequency" id="81118" flags="" value="8000" parameter="267" symbol="fhc10"/>
+        <Controllable name="Delay 10 sub-bass" id="81120" flags="" value="1" parameter="268" symbol="fbs10"/>
+        <Controllable name="Delay 10 bass" id="81122" flags="" value="1" parameter="269" symbol="fbb10"/>
+        <Controllable name="Delay 10 middle" id="81124" flags="" value="1" parameter="270" symbol="fbm10"/>
+        <Controllable name="Delay 10 presence" id="81126" flags="" value="1" parameter="271" symbol="fbp10"/>
+        <Controllable name="Delay 10 treble" id="81128" flags="" value="1" parameter="272" symbol="fbt10"/>
+        <Controllable name="Delay 10 feedback" id="81130" flags="" value="0" parameter="273" symbol="dfb10"/>
+        <Controllable name="Delay 10 gain" id="81132" flags="" value="1" parameter="274" symbol="dg10"/>
+        <Controllable name="Delay 11 mode" id="81134" flags="" value="0" parameter="275" symbol="dm11"/>
+        <Controllable name="Delay 11 left channel panorama" id="81136" flags="" value="-100" parameter="276" symbol="pl11"/>
+        <Controllable name="Delay 11 right channel panorama" id="81138" flags="" value="100" parameter="277" symbol="pr11"/>
+        <Controllable name="Delay 11 balance" id="81140" flags="" value="0" parameter="278" symbol="bal11"/>
+        <Controllable name="Delay 11 solo" id="81142" flags="Toggle" value="0" parameter="279" symbol="s11"/>
+        <Controllable name="Delay 11 mute" id="81144" flags="Toggle" value="0" parameter="280" symbol="m11"/>
+        <Controllable name="Delay 11 phase" id="81146" flags="Toggle" value="0" parameter="281" symbol="ph11"/>
+        <Controllable name="Delay 11 time" id="81148" flags="" value="0" parameter="282" symbol="dt11"/>
+        <Controllable name="Delay 11 distance" id="81150" flags="" value="0" parameter="283" symbol="dd11"/>
+        <Controllable name="Delay 11 fraction" id="81152" flags="" value="0" parameter="284" symbol="df11"/>
+        <Controllable name="Delay 11 denominator" id="81154" flags="" value="4" parameter="285" symbol="ds11"/>
+        <Controllable name="Equalizer 11 on" id="81156" flags="Toggle" value="0" parameter="286" symbol="eq11"/>
+        <Controllable name="Delay 11 low-cut" id="81158" flags="Toggle" value="0" parameter="287" symbol="lfc11"/>
+        <Controllable name="Delay 11 low-cut frequency" id="81160" flags="" value="100" parameter="288" symbol="flc11"/>
+        <Controllable name="Delay 11 high-cut" id="81162" flags="Toggle" value="0" parameter="289" symbol="hfc11"/>
+        <Controllable name="Delay 11 high-cut frequency" id="81164" flags="" value="8000" parameter="290" symbol="fhc11"/>
+        <Controllable name="Delay 11 sub-bass" id="81166" flags="" value="1" parameter="291" symbol="fbs11"/>
+        <Controllable name="Delay 11 bass" id="81168" flags="" value="1" parameter="292" symbol="fbb11"/>
+        <Controllable name="Delay 11 middle" id="81170" flags="" value="1" parameter="293" symbol="fbm11"/>
+        <Controllable name="Delay 11 presence" id="81172" flags="" value="1" parameter="294" symbol="fbp11"/>
+        <Controllable name="Delay 11 treble" id="81174" flags="" value="1" parameter="295" symbol="fbt11"/>
+        <Controllable name="Delay 11 feedback" id="81176" flags="" value="0" parameter="296" symbol="dfb11"/>
+        <Controllable name="Delay 11 gain" id="81178" flags="" value="1" parameter="297" symbol="dg11"/>
+        <Controllable name="Delay 12 mode" id="81180" flags="" value="0" parameter="298" symbol="dm12"/>
+        <Controllable name="Delay 12 left channel panorama" id="81182" flags="" value="-100" parameter="299" symbol="pl12"/>
+        <Controllable name="Delay 12 right channel panorama" id="81184" flags="" value="100" parameter="300" symbol="pr12"/>
+        <Controllable name="Delay 12 balance" id="81186" flags="" value="0" parameter="301" symbol="bal12"/>
+        <Controllable name="Delay 12 solo" id="81188" flags="Toggle" value="0" parameter="302" symbol="s12"/>
+        <Controllable name="Delay 12 mute" id="81190" flags="Toggle" value="0" parameter="303" symbol="m12"/>
+        <Controllable name="Delay 12 phase" id="81192" flags="Toggle" value="0" parameter="304" symbol="ph12"/>
+        <Controllable name="Delay 12 time" id="81194" flags="" value="0" parameter="305" symbol="dt12"/>
+        <Controllable name="Delay 12 distance" id="81196" flags="" value="0" parameter="306" symbol="dd12"/>
+        <Controllable name="Delay 12 fraction" id="81198" flags="" value="0" parameter="307" symbol="df12"/>
+        <Controllable name="Delay 12 denominator" id="81200" flags="" value="4" parameter="308" symbol="ds12"/>
+        <Controllable name="Equalizer 12 on" id="81202" flags="Toggle" value="0" parameter="309" symbol="eq12"/>
+        <Controllable name="Delay 12 low-cut" id="81204" flags="Toggle" value="0" parameter="310" symbol="lfc12"/>
+        <Controllable name="Delay 12 low-cut frequency" id="81206" flags="" value="100" parameter="311" symbol="flc12"/>
+        <Controllable name="Delay 12 high-cut" id="81208" flags="Toggle" value="0" parameter="312" symbol="hfc12"/>
+        <Controllable name="Delay 12 high-cut frequency" id="81210" flags="" value="8000" parameter="313" symbol="fhc12"/>
+        <Controllable name="Delay 12 sub-bass" id="81212" flags="" value="1" parameter="314" symbol="fbs12"/>
+        <Controllable name="Delay 12 bass" id="81214" flags="" value="1" parameter="315" symbol="fbb12"/>
+        <Controllable name="Delay 12 middle" id="81216" flags="" value="1" parameter="316" symbol="fbm12"/>
+        <Controllable name="Delay 12 presence" id="81218" flags="" value="1" parameter="317" symbol="fbp12"/>
+        <Controllable name="Delay 12 treble" id="81220" flags="" value="1" parameter="318" symbol="fbt12"/>
+        <Controllable name="Delay 12 feedback" id="81222" flags="" value="0" parameter="319" symbol="dfb12"/>
+        <Controllable name="Delay 12 gain" id="81224" flags="" value="1" parameter="320" symbol="dg12"/>
+        <Controllable name="Delay 13 mode" id="81226" flags="" value="0" parameter="321" symbol="dm13"/>
+        <Controllable name="Delay 13 left channel panorama" id="81228" flags="" value="-100" parameter="322" symbol="pl13"/>
+        <Controllable name="Delay 13 right channel panorama" id="81230" flags="" value="100" parameter="323" symbol="pr13"/>
+        <Controllable name="Delay 13 balance" id="81232" flags="" value="0" parameter="324" symbol="bal13"/>
+        <Controllable name="Delay 13 solo" id="81234" flags="Toggle" value="0" parameter="325" symbol="s13"/>
+        <Controllable name="Delay 13 mute" id="81236" flags="Toggle" value="0" parameter="326" symbol="m13"/>
+        <Controllable name="Delay 13 phase" id="81238" flags="Toggle" value="0" parameter="327" symbol="ph13"/>
+        <Controllable name="Delay 13 time" id="81240" flags="" value="0" parameter="328" symbol="dt13"/>
+        <Controllable name="Delay 13 distance" id="81242" flags="" value="0" parameter="329" symbol="dd13"/>
+        <Controllable name="Delay 13 fraction" id="81244" flags="" value="0" parameter="330" symbol="df13"/>
+        <Controllable name="Delay 13 denominator" id="81246" flags="" value="4" parameter="331" symbol="ds13"/>
+        <Controllable name="Equalizer 13 on" id="81248" flags="Toggle" value="0" parameter="332" symbol="eq13"/>
+        <Controllable name="Delay 13 low-cut" id="81250" flags="Toggle" value="0" parameter="333" symbol="lfc13"/>
+        <Controllable name="Delay 13 low-cut frequency" id="81252" flags="" value="100" parameter="334" symbol="flc13"/>
+        <Controllable name="Delay 13 high-cut" id="81254" flags="Toggle" value="0" parameter="335" symbol="hfc13"/>
+        <Controllable name="Delay 13 high-cut frequency" id="81256" flags="" value="8000" parameter="336" symbol="fhc13"/>
+        <Controllable name="Delay 13 sub-bass" id="81258" flags="" value="1" parameter="337" symbol="fbs13"/>
+        <Controllable name="Delay 13 bass" id="81260" flags="" value="1" parameter="338" symbol="fbb13"/>
+        <Controllable name="Delay 13 middle" id="81262" flags="" value="1" parameter="339" symbol="fbm13"/>
+        <Controllable name="Delay 13 presence" id="81264" flags="" value="1" parameter="340" symbol="fbp13"/>
+        <Controllable name="Delay 13 treble" id="81266" flags="" value="1" parameter="341" symbol="fbt13"/>
+        <Controllable name="Delay 13 feedback" id="81268" flags="" value="0" parameter="342" symbol="dfb13"/>
+        <Controllable name="Delay 13 gain" id="81270" flags="" value="1" parameter="343" symbol="dg13"/>
+        <Controllable name="Delay 14 mode" id="81272" flags="" value="0" parameter="344" symbol="dm14"/>
+        <Controllable name="Delay 14 left channel panorama" id="81274" flags="" value="-100" parameter="345" symbol="pl14"/>
+        <Controllable name="Delay 14 right channel panorama" id="81276" flags="" value="100" parameter="346" symbol="pr14"/>
+        <Controllable name="Delay 14 balance" id="81278" flags="" value="0" parameter="347" symbol="bal14"/>
+        <Controllable name="Delay 14 solo" id="81280" flags="Toggle" value="0" parameter="348" symbol="s14"/>
+        <Controllable name="Delay 14 mute" id="81282" flags="Toggle" value="0" parameter="349" symbol="m14"/>
+        <Controllable name="Delay 14 phase" id="81284" flags="Toggle" value="0" parameter="350" symbol="ph14"/>
+        <Controllable name="Delay 14 time" id="81286" flags="" value="0" parameter="351" symbol="dt14"/>
+        <Controllable name="Delay 14 distance" id="81288" flags="" value="0" parameter="352" symbol="dd14"/>
+        <Controllable name="Delay 14 fraction" id="81290" flags="" value="0" parameter="353" symbol="df14"/>
+        <Controllable name="Delay 14 denominator" id="81292" flags="" value="4" parameter="354" symbol="ds14"/>
+        <Controllable name="Equalizer 14 on" id="81294" flags="Toggle" value="0" parameter="355" symbol="eq14"/>
+        <Controllable name="Delay 14 low-cut" id="81296" flags="Toggle" value="0" parameter="356" symbol="lfc14"/>
+        <Controllable name="Delay 14 low-cut frequency" id="81298" flags="" value="100" parameter="357" symbol="flc14"/>
+        <Controllable name="Delay 14 high-cut" id="81300" flags="Toggle" value="0" parameter="358" symbol="hfc14"/>
+        <Controllable name="Delay 14 high-cut frequency" id="81302" flags="" value="8000" parameter="359" symbol="fhc14"/>
+        <Controllable name="Delay 14 sub-bass" id="81304" flags="" value="1" parameter="360" symbol="fbs14"/>
+        <Controllable name="Delay 14 bass" id="81306" flags="" value="1" parameter="361" symbol="fbb14"/>
+        <Controllable name="Delay 14 middle" id="81308" flags="" value="1" parameter="362" symbol="fbm14"/>
+        <Controllable name="Delay 14 presence" id="81310" flags="" value="1" parameter="363" symbol="fbp14"/>
+        <Controllable name="Delay 14 treble" id="81312" flags="" value="1" parameter="364" symbol="fbt14"/>
+        <Controllable name="Delay 14 feedback" id="81314" flags="" value="0" parameter="365" symbol="dfb14"/>
+        <Controllable name="Delay 14 gain" id="81316" flags="" value="1" parameter="366" symbol="dg14"/>
+        <Controllable name="Delay 15 mode" id="81318" flags="" value="0" parameter="367" symbol="dm15"/>
+        <Controllable name="Delay 15 left channel panorama" id="81320" flags="" value="-100" parameter="368" symbol="pl15"/>
+        <Controllable name="Delay 15 right channel panorama" id="81322" flags="" value="100" parameter="369" symbol="pr15"/>
+        <Controllable name="Delay 15 balance" id="81324" flags="" value="0" parameter="370" symbol="bal15"/>
+        <Controllable name="Delay 15 solo" id="81326" flags="Toggle" value="0" parameter="371" symbol="s15"/>
+        <Controllable name="Delay 15 mute" id="81328" flags="Toggle" value="0" parameter="372" symbol="m15"/>
+        <Controllable name="Delay 15 phase" id="81330" flags="Toggle" value="0" parameter="373" symbol="ph15"/>
+        <Controllable name="Delay 15 time" id="81332" flags="" value="0" parameter="374" symbol="dt15"/>
+        <Controllable name="Delay 15 distance" id="81334" flags="" value="0" parameter="375" symbol="dd15"/>
+        <Controllable name="Delay 15 fraction" id="81336" flags="" value="0" parameter="376" symbol="df15"/>
+        <Controllable name="Delay 15 denominator" id="81338" flags="" value="4" parameter="377" symbol="ds15"/>
+        <Controllable name="Equalizer 15 on" id="81340" flags="Toggle" value="0" parameter="378" symbol="eq15"/>
+        <Controllable name="Delay 15 low-cut" id="81342" flags="Toggle" value="0" parameter="379" symbol="lfc15"/>
+        <Controllable name="Delay 15 low-cut frequency" id="81344" flags="" value="100" parameter="380" symbol="flc15"/>
+        <Controllable name="Delay 15 high-cut" id="81346" flags="Toggle" value="0" parameter="381" symbol="hfc15"/>
+        <Controllable name="Delay 15 high-cut frequency" id="81348" flags="" value="8000" parameter="382" symbol="fhc15"/>
+        <Controllable name="Delay 15 sub-bass" id="81350" flags="" value="1" parameter="383" symbol="fbs15"/>
+        <Controllable name="Delay 15 bass" id="81352" flags="" value="1" parameter="384" symbol="fbb15"/>
+        <Controllable name="Delay 15 middle" id="81354" flags="" value="1" parameter="385" symbol="fbm15"/>
+        <Controllable name="Delay 15 presence" id="81356" flags="" value="1" parameter="386" symbol="fbp15"/>
+        <Controllable name="Delay 15 treble" id="81358" flags="" value="1" parameter="387" symbol="fbt15"/>
+        <Controllable name="Delay 15 feedback" id="81360" flags="" value="0" parameter="388" symbol="dfb15"/>
+        <Controllable name="Delay 15 gain" id="81362" flags="" value="1" parameter="389" symbol="dg15"/>
+      </Processor>
+      <Processor id="77220" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="77194" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="77193" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="77224" name="meter-Delay" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="77225" name="Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Delay" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
     </Route>
   </Routes>
   <Playlists>
@@ -1388,11 +2769,14 @@ a46249328160 0.089125066995620728
       <Region name="Bass-19.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b46080@b622080" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="10" tags="" contents="0" rgroup="0" id="72705" type="midi" first-edit="nothing" source-0="72703" master-source-0="72703"/>
     </Playlist>
     <Playlist id="63560" name="Flute.1" type="midi" orig-track-id="63481" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Flute-3.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b241920" length="b346002@b241920" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="2976" id="63723" type="midi" first-edit="nothing" source-0="63566" master-source-0="63566"/>
+      <Region name="Synth-4" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b184320@b483840" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="81371" type="midi" first-edit="nothing" source-0="81366" master-source-0="81366"/>
     </Playlist>
   </Playlists>
   <UnusedPlaylists/>
-  <RouteGroups/>
+  <RouteGroups>
+    <RouteGroup id="77234" rgba="4275241215" used-to-share-gain="0" name="Instruments" hidden="0" active="1" relative="1" gain="0" mute="0" solo="0" recenable="0" sursend_enable="1" select="0" route-active="0" color="0" monitoring="0" group-master-number="-1" routes="4862 838 50596 63481 170 690 "/>
+    <RouteGroup id="77236" rgba="2214657791" used-to-share-gain="0" name="Effects" hidden="0" active="1" relative="1" gain="0" mute="0" solo="0" recenable="0" sursend_enable="1" select="0" route-active="0" color="0" monitoring="0" group-master-number="-1" routes="956 77189 "/>
+  </RouteGroups>
   <Click>
     <IO name="Click" id="68" direction="Output" default-type="audio">
       <Port name="Click/audio_out 1" type="audio" direction="Output">
@@ -1453,7 +2837,7 @@ a46249328160 0.089125066995620728
     <Protocol name="Wiimote" active="0" session-state="0"/>
   </ControlProtocols>
   <Extra>
-    <AddRouteDialog LastRouteType="MidiTrack"/>
+    <AddRouteDialog LastRouteType="AudioBus"/>
     <RulerVisibility minsec="0" timecode="0" samples="0" bbt="1" meter="1" tempo="1" rangemarker="1" marker="0" arrangement="1" videotl="0"/>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -1490,45 +2874,54 @@ a46249328160 0.089125066995620728
       <Window name="RPM-170" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-690" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-956" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-77189" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-4862-68218" visible="0" x-off="1536" y-off="541" x-size="447" y-size="324" custom-ui="1"/>
       <Window name="PM-4862-68218" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-838-109968" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-838-109968" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-50596-109987" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-50596-59738" visible="0" x-off="1050" y-off="66" x-size="466" y-size="353" custom-ui="1"/>
       <Window name="P-50596-50726" visible="0" x-off="167" y-off="892" x-size="1181" y-size="702" custom-ui="1"/>
+      <Window name="PM-50596-109987" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-50596-59738" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-50596-50726" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-63481-63617" visible="0" x-off="1050" y-off="66" x-size="1181" y-size="702" custom-ui="1"/>
-      <Window name="PM-63481-63617" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-63481-110006" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-63481-77248" visible="0" x-off="139" y-off="953" x-size="1536" y-size="813" custom-ui="1"/>
+      <Window name="PM-63481-110006" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-63481-77248" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-170-70696" visible="0" x-off="1536" y-off="576" x-size="592" y-size="261" custom-ui="1"/>
       <Window name="PM-170-70696" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-690-800" visible="0" x-off="1050" y-off="66" x-size="1181" y-size="702" custom-ui="1"/>
       <Window name="PM-690-800" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-956-1001" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-956-1001" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-77189-80590" visible="0" x-off="1536" y-off="541" x-size="1225" y-size="922" custom-ui="1"/>
+      <Window name="PM-77189-80590" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
-        <Object id="rtav 71" height="66"/>
-        <Object id="automation 75" height="66" visible="1"/>
-        <Object id="automation 77" height="66" visible="0"/>
-        <Object id="automation 71 12/0/0" height="66" visible="0"/>
-        <Object id="automation 90" height="66" visible="0"/>
-        <Object id="rtav 838" height="66" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="49" note-range-max="65"/>
-        <Object id="automation 875" height="66" visible="0"/>
-        <Object id="automation 838 12/0/0" height="66" visible="0"/>
-        <Object id="automation 838 32/0/0" height="66" visible="0"/>
-        <Object id="rtav 170" height="66" midnam-custom-device-mode="" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="59" note-range-max="71"/>
-        <Object id="automation 207" height="66" visible="0"/>
-        <Object id="automation 170 12/0/0" height="66" visible="0"/>
-        <Object id="automation 170 32/0/0" height="66" visible="0"/>
-        <Object id="automation 222" height="66" visible="0"/>
-        <Object id="rtav 690" height="66" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1"/>
-        <Object id="automation 727" height="66" visible="1"/>
-        <Object id="automation 690 12/0/0" height="66" visible="0"/>
-        <Object id="automation 690 32/0/0" height="66" visible="0"/>
-        <Object id="automation 742" height="66" visible="0"/>
-        <Object id="rtav 956" height="66"/>
-        <Object id="automation 960" height="66" visible="0"/>
-        <Object id="automation 962" height="66" visible="0"/>
-        <Object id="automation 956 12/0/0" height="66" visible="0"/>
-        <Object id="automation 975" height="66" visible="0"/>
+        <Object id="rtav 71" height="55"/>
+        <Object id="automation 75" height="55" visible="1"/>
+        <Object id="automation 77" height="55" visible="0"/>
+        <Object id="automation 71 12/0/0" height="55" visible="0"/>
+        <Object id="automation 90" height="55" visible="0"/>
+        <Object id="rtav 838" height="55" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="50" note-range-max="64"/>
+        <Object id="automation 875" height="55" visible="0"/>
+        <Object id="automation 838 12/0/0" height="55" visible="0"/>
+        <Object id="automation 838 32/0/0" height="55" visible="0"/>
+        <Object id="rtav 170" height="55" midnam-custom-device-mode="" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="59" note-range-max="71"/>
+        <Object id="automation 207" height="55" visible="0"/>
+        <Object id="automation 170 12/0/0" height="55" visible="0"/>
+        <Object id="automation 170 32/0/0" height="55" visible="0"/>
+        <Object id="automation 222" height="55" visible="0"/>
+        <Object id="rtav 690" height="55" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="automation 727" height="55" visible="1"/>
+        <Object id="automation 690 12/0/0" height="55" visible="0"/>
+        <Object id="automation 690 32/0/0" height="55" visible="0"/>
+        <Object id="automation 742" height="55" visible="0"/>
+        <Object id="rtav 956" height="55"/>
+        <Object id="automation 960" height="55" visible="0"/>
+        <Object id="automation 962" height="55" visible="0"/>
+        <Object id="automation 956 12/0/0" height="55" visible="0"/>
+        <Object id="automation 975" height="55" visible="0"/>
         <Object id="strip 71">
           <Object id="processor 101">
             <Object id="control 75" visible="0"/>
@@ -1537,6 +2930,11 @@ a46249328160 0.089125066995620728
         <Object id="strip 838">
           <Object id="processor 901">
             <Object id="control 875" visible="0"/>
+          </Object>
+          <Object id="processor 109968">
+            <Object id="control 109961" visible="0"/>
+            <Object id="control 109962" visible="1"/>
+            <Object id="control 109963" visible="0"/>
           </Object>
         </Object>
         <Object id="strip 170">
@@ -1669,10 +3067,10 @@ a46249328160 0.089125066995620728
             <Object id="control 1037" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 4862" height="66" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="62" note-range-max="73"/>
-        <Object id="automation 4899" height="66" visible="0"/>
-        <Object id="automation 4862 12/0/0" height="66" visible="0"/>
-        <Object id="automation 4862 32/0/0" height="66" visible="0"/>
+        <Object id="rtav 4862" height="55" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="62" note-range-max="73"/>
+        <Object id="automation 4899" height="55" visible="0"/>
+        <Object id="automation 4862 12/0/0" height="55" visible="0"/>
+        <Object id="automation 4862 32/0/0" height="55" visible="0"/>
         <Object id="strip 4862">
           <Object id="processor 4926">
             <Object id="control 4899" visible="0"/>
@@ -1683,10 +3081,10 @@ a46249328160 0.089125066995620728
             <Object id="control 68224" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 50596" height="66" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="41" note-range-max="52"/>
-        <Object id="automation 50633" height="66" visible="0"/>
-        <Object id="automation 50596 12/0/0" height="66" visible="0"/>
-        <Object id="automation 50596 32/0/0" height="66" visible="0"/>
+        <Object id="rtav 50596" height="55" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="37" note-range-max="48"/>
+        <Object id="automation 50633" height="55" visible="0"/>
+        <Object id="automation 50596 12/0/0" height="55" visible="0"/>
+        <Object id="automation 50596 32/0/0" height="55" visible="0"/>
         <Object id="strip 50596">
           <Object id="processor 50660">
             <Object id="control 50633" visible="0"/>
@@ -1719,12 +3117,17 @@ a46249328160 0.089125066995620728
             <Object id="control 65736" visible="0"/>
             <Object id="control 65730" visible="1"/>
           </Object>
+          <Object id="processor 109987">
+            <Object id="control 109980" visible="0"/>
+            <Object id="control 109981" visible="1"/>
+            <Object id="control 109982" visible="0"/>
+          </Object>
         </Object>
-        <Object id="automation 50648" height="66" visible="0"/>
-        <Object id="rtav 63481" height="66" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="67" note-range-max="89"/>
-        <Object id="automation 63518" height="66" visible="0"/>
-        <Object id="automation 63481 12/0/0" height="66" visible="0"/>
-        <Object id="automation 63481 32/0/0" height="66" visible="0"/>
+        <Object id="automation 50648" height="55" visible="0"/>
+        <Object id="rtav 63481" height="55" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="50" note-range-max="68"/>
+        <Object id="automation 63518" height="55" visible="0"/>
+        <Object id="automation 63481 12/0/0" height="55" visible="0"/>
+        <Object id="automation 63481 32/0/0" height="55" visible="0"/>
         <Object id="strip 63481">
           <Object id="processor 63545">
             <Object id="control 63518" visible="0"/>
@@ -1751,9 +3154,118 @@ a46249328160 0.089125066995620728
             <Object id="control 63698" visible="0"/>
             <Object id="control 63692" visible="1"/>
           </Object>
+          <Object id="processor 77248">
+            <Object id="control 77250" visible="0"/>
+            <Object id="control 77252" visible="0"/>
+            <Object id="control 77254" visible="0"/>
+            <Object id="control 77256" visible="0"/>
+            <Object id="control 77258" visible="0"/>
+            <Object id="control 77260" visible="0"/>
+            <Object id="control 77262" visible="0"/>
+            <Object id="control 77264" visible="0"/>
+            <Object id="control 77266" visible="0"/>
+            <Object id="control 77268" visible="0"/>
+            <Object id="control 77270" visible="0"/>
+            <Object id="control 77272" visible="0"/>
+            <Object id="control 77274" visible="0"/>
+            <Object id="control 77276" visible="0"/>
+            <Object id="control 77278" visible="0"/>
+            <Object id="control 77280" visible="0"/>
+          </Object>
+          <Object id="processor 77285">
+            <Object id="control 77305" visible="0"/>
+            <Object id="control 77299" visible="1"/>
+          </Object>
+          <Object id="processor 110006">
+            <Object id="control 109999" visible="0"/>
+            <Object id="control 110000" visible="1"/>
+            <Object id="control 110001" visible="0"/>
+          </Object>
         </Object>
-        <Object id="automation 63533" height="66" visible="0"/>
-        <Object id="automation 1054" height="66" visible="1"/>
+        <Object id="automation 63533" height="55" visible="0"/>
+        <Object id="automation 1054" height="55" visible="1"/>
+        <Object id="rtav 77189" height="55"/>
+        <Object id="automation 77193" height="55" visible="0"/>
+        <Object id="automation 77195" height="55" visible="0"/>
+        <Object id="automation 77189 12/0/0" height="55" visible="0"/>
+        <Object id="automation 77208" height="55" visible="0"/>
+        <Object id="strip 77189">
+          <Object id="processor 77220">
+            <Object id="control 77193" visible="0"/>
+          </Object>
+          <Object id="processor 79390">
+            <Object id="control 79392" visible="0"/>
+            <Object id="control 79394" visible="0"/>
+            <Object id="control 79396" visible="0"/>
+            <Object id="control 79398" visible="0"/>
+            <Object id="control 79400" visible="0"/>
+            <Object id="control 79402" visible="0"/>
+            <Object id="control 79404" visible="0"/>
+            <Object id="control 79406" visible="0"/>
+            <Object id="control 79408" visible="0"/>
+            <Object id="control 79410" visible="0"/>
+            <Object id="control 79412" visible="0"/>
+            <Object id="control 79414" visible="0"/>
+            <Object id="control 79416" visible="0"/>
+            <Object id="control 79418" visible="0"/>
+            <Object id="control 79420" visible="0"/>
+            <Object id="control 79422" visible="0"/>
+            <Object id="control 79424" visible="0"/>
+            <Object id="control 79426" visible="0"/>
+            <Object id="control 79428" visible="0"/>
+            <Object id="control 79430" visible="0"/>
+            <Object id="control 79432" visible="0"/>
+            <Object id="control 79434" visible="0"/>
+            <Object id="control 79436" visible="0"/>
+            <Object id="control 79438" visible="0"/>
+            <Object id="control 79440" visible="0"/>
+            <Object id="control 79442" visible="0"/>
+            <Object id="control 79444" visible="0"/>
+            <Object id="control 79446" visible="0"/>
+            <Object id="control 79448" visible="0"/>
+            <Object id="control 79450" visible="0"/>
+            <Object id="control 79452" visible="0"/>
+            <Object id="control 79454" visible="0"/>
+            <Object id="InlineDisplay" visible="1"/>
+          </Object>
+          <Object id="processor 80590">
+            <Object id="control 80592" visible="0"/>
+            <Object id="control 80594" visible="0"/>
+            <Object id="control 80596" visible="0"/>
+            <Object id="control 80598" visible="0"/>
+            <Object id="control 80600" visible="0"/>
+            <Object id="control 80602" visible="0"/>
+            <Object id="control 80604" visible="0"/>
+            <Object id="control 80606" visible="0"/>
+            <Object id="control 80608" visible="0"/>
+            <Object id="control 80610" visible="0"/>
+            <Object id="control 80612" visible="0"/>
+            <Object id="control 80614" visible="0"/>
+            <Object id="control 80616" visible="0"/>
+            <Object id="control 80618" visible="0"/>
+            <Object id="control 80620" visible="0"/>
+            <Object id="control 80622" visible="0"/>
+            <Object id="control 80624" visible="0"/>
+            <Object id="control 80626" visible="0"/>
+            <Object id="control 80628" visible="0"/>
+            <Object id="control 80630" visible="0"/>
+            <Object id="control 80632" visible="0"/>
+            <Object id="control 80634" visible="0"/>
+            <Object id="control 80636" visible="0"/>
+            <Object id="control 80638" visible="0"/>
+            <Object id="control 80640" visible="0"/>
+            <Object id="control 80642" visible="0"/>
+            <Object id="control 80644" visible="0"/>
+            <Object id="control 80646" visible="0"/>
+            <Object id="control 80648" visible="0"/>
+            <Object id="control 80650" visible="0"/>
+            <Object id="control 80652" visible="0"/>
+            <Object id="control 80654" visible="0"/>
+            <Object id="InlineDisplay" visible="1"/>
+          </Object>
+        </Object>
+        <Object id="automation 63692" height="55" visible="1"/>
+        <Object id="automation 63481 17/0/0" height="55" visible="0"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
