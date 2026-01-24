@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" uuid="8ef714b4-ff56-435a-832e-3dbc9349f391" name="Revolution-Remake" sample-rate="44100" session-range-is-free="0" id-counter="833407" rg-counter="2217" name-counter="2" event-counter="59289145" vca-counter="1">
+<Session version="7003" uuid="8ef714b4-ff56-435a-832e-3dbc9349f391" name="Revolution-Remake" sample-rate="44100" session-range-is-free="0" id-counter="833407" rg-counter="2216" name-counter="2" event-counter="59272300" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2-840-g064275108c" modified-with="Ardour 9.0-rc2-207-g5fee4d7d03"/>
   <EngineState/>
   <MIDIPorts>
@@ -11,7 +11,7 @@
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
     <Port name="x-virtual-keyboard" type="midi" direction="Output">
-      <Connection other="Low Bass/midi_in 1"/>
+      <Connection other="Lead/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -1528,9 +1528,7 @@
     <Region name="Low Bass-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b109957@a12790195200" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="816465" type="midi" first-edit="nothing" source-0="802963" master-source-0="802963"/>
     <Region name="Low Bass-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b109957@b167040" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="35392" id="816468" type="midi" first-edit="nothing" source-0="802963" master-source-0="802963"/>
   </Regions>
-  <Selection>
-    <StripableAutomationControl stripable="18567" control="0" order="0"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="16973" name="session" start="b23040" end="b1008000" flags="IsSessionRange" locked="0" timestamp="1710007799" cue="0"/>
     <Location id="24254" name="Loop" start="b184320" end="b483840" flags="IsAutoLoop" locked="0" timestamp="1710065145" cue="0"/>
@@ -1649,7 +1647,7 @@ a67349504000 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="14969" flags="GainLike" value="1.0000000403953553"/>
+        <Controllable name="gaincontrol" id="14969" flags="GainLike" value="1"/>
       </Processor>
       <Processor id="208659" name="ACE Compressor (stereo)" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="0">
         <Automation>
@@ -1789,7 +1787,7 @@ a67349504000 0
         <AutomationList automation-id="midi-velocity" id="15147" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="15115" flags="" value="0.59275682343593794"/>
+        <Controllable name="pan-azimuth" id="15115" flags="" value="0.58941373762705296"/>
         <Controllable name="pan-width" id="15119" flags="" value="0"/>
         <Controllable name="pan-elevation" id="15117" flags="" value="0"/>
         <Controllable name="pan-frontback" id="15121" flags="" value="0"/>
@@ -2576,7 +2574,7 @@ b138240 18000.00390625
           <Port id="1" value="224.62672424316406"/>
           <Port id="2" value="0.7070000171661377"/>
           <Port id="3" value="1"/>
-          <Port id="4" value="19651.865234375"/>
+          <Port id="4" value="18157.9375"/>
           <Port id="5" value="0.7070000171661377"/>
           <Port id="6" value="1"/>
         </luaproc>
@@ -2584,7 +2582,7 @@ b138240 18000.00390625
         <Controllable name="High Pass Cut off frequency" id="236209" flags="" value="224.62672424316406" parameter="1"/>
         <Controllable name="High Pass Resonance" id="236211" flags="" value="0.7070000171661377" parameter="2"/>
         <Controllable name="Low Pass Steepness" id="236213" flags="" value="1" parameter="3"/>
-        <Controllable name="Low Pass Cut off frequency" id="236215" flags="" value="19651.865234375" parameter="4"/>
+        <Controllable name="Low Pass Cut off frequency" id="236215" flags="" value="18157.9375" parameter="4"/>
         <Controllable name="Low Pass Resonance" id="236217" flags="" value="0.7070000171661377" parameter="5"/>
         <Controllable name="Enable" id="236219" flags="Toggle" value="1" parameter="6"/>
       </Processor>
@@ -2607,7 +2605,7 @@ a52780946693 0.25118860602378845
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="15100" flags="GainLike" value="1.2757870294621807"/>
+        <Controllable name="gaincontrol" id="15100" flags="GainLike" value="0.77086079120635986"/>
       </Processor>
       <Processor id="202163" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="27" selfdestruct="0" target="200394" allow-feedback="0">
         <Automation>
@@ -2675,7 +2673,6 @@ a52780946693 0.25118860602378845
       <Controllable name="solo-safe" id="18616" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Low Bass" id="18628" direction="Input" default-type="midi">
         <Port name="Low Bass/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
           <ExtConnection for="JACK" other="a2j:UMX 610 [36] (capture): UMX 610 MIDI 1"/>
         </Port>
@@ -2890,7 +2887,7 @@ a52780940800 0.50118720531463623
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="18604" flags="GainLike" value="0.92830730663122596"/>
+        <Controllable name="gaincontrol" id="18604" flags="GainLike" value="0.64848236374549462"/>
       </Processor>
       <Processor id="32160" name="Short Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="3" selfdestruct="0" target="24029" allow-feedback="0">
         <Automation>
@@ -3073,6 +3070,7 @@ a52780940800 0.50118720531463623
       <Controllable name="solo-safe" id="34856" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Lead" id="34868" direction="Input" default-type="midi">
         <Port name="Lead/midi_in 1" type="midi" direction="Input">
+          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
         </Port>
       </IO>
@@ -3488,7 +3486,7 @@ a64734576496 0.00049271201714873314
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="34844" flags="GainLike" value="0.08912516699562073"/>
+        <Controllable name="gaincontrol" id="34844" flags="GainLike" value="0.089125066995620728"/>
       </Processor>
       <Processor id="63582" name="Chorus" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="10" selfdestruct="0" target="36097" allow-feedback="0">
         <Automation>
@@ -3569,7 +3567,7 @@ a64734576496 2
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="314866" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="314860" flags="GainLike,InlineControl" value="0.12570602761039734"/>
+        <Controllable name="gaincontrol" id="314860" flags="GainLike,InlineControl" value="0.12570592761039734"/>
       </Processor>
       <Processor id="35173" name="Short Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="4" selfdestruct="0" target="24029" allow-feedback="0">
         <Automation>
@@ -3877,7 +3875,7 @@ a64734576496 2
           <Port symbol="bpm" value="120"/>
           <Port symbol="ms" value="500"/>
           <Port symbol="hz" value="2"/>
-          <Port symbol="bpm_host" value="123"/>
+          <Port symbol="bpm_host" value="121.70748138427734"/>
         </lv2>
         <Controllable name="Active" id="39114" flags="Toggle" value="1" parameter="4" symbol="on"/>
         <Controllable name="Input Gain" id="39116" flags="" value="1" parameter="5" symbol="level_in"/>
@@ -4291,7 +4289,7 @@ a64734576496 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="43379" flags="GainLike" value="0.073937894981433785"/>
+        <Controllable name="gaincontrol" id="43379" flags="GainLike" value="0.025932539254426956"/>
       </Processor>
       <Processor id="43757" name="Short Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="8" selfdestruct="0" target="24029" allow-feedback="0">
         <Automation>
@@ -4464,7 +4462,7 @@ a64734576496 0
           <Port symbol="bpm" value="120"/>
           <Port symbol="ms" value="500"/>
           <Port symbol="hz" value="2"/>
-          <Port symbol="bpm_host" value="123"/>
+          <Port symbol="bpm_host" value="121.31561279296875"/>
         </lv2>
         <Controllable name="Active" id="63541" flags="Toggle" value="1" parameter="4" symbol="on"/>
         <Controllable name="Input Gain" id="63543" flags="" value="1" parameter="5" symbol="level_in"/>
@@ -4684,7 +4682,7 @@ a33356229890 0.50118720531463623
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="72450" flags="GainLike" value="0.34995113402539185"/>
+        <Controllable name="gaincontrol" id="72450" flags="GainLike" value="0.32857736945152283"/>
       </Processor>
       <Processor id="200478" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="15" selfdestruct="0" target="200394" allow-feedback="0">
         <Automation>
@@ -4936,7 +4934,7 @@ a33356229890 0.50118720531463623
         <AutomationList automation-id="midi-velocity" id="102852" interpolation-style="Linear" time-domain="BeatTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="102820" flags="" value="0.41666666666666669"/>
+        <Controllable name="pan-azimuth" id="102820" flags="" value="0.041315827546296313"/>
         <Controllable name="pan-width" id="102824" flags="" value="0"/>
         <Controllable name="pan-elevation" id="102822" flags="" value="0"/>
         <Controllable name="pan-frontback" id="102826" flags="" value="0"/>
@@ -5713,7 +5711,7 @@ a52780946693 0.3548133373260498
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="102805" flags="GainLike" value="0.28848552399420863"/>
+        <Controllable name="gaincontrol" id="102805" flags="GainLike" value="0.089358173310756683"/>
       </Processor>
       <Processor id="201321" name="Long Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="24" selfdestruct="0" target="200394" allow-feedback="0">
         <Automation>
@@ -6675,7 +6673,7 @@ a52780940800 0.25118860602378845
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="123385" flags="GainLike" value="0.25118870602378846"/>
+        <Controllable name="gaincontrol" id="123385" flags="GainLike" value="0.25118860602378845"/>
       </Processor>
       <Processor id="123808" name="Chorus" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="22" selfdestruct="0" target="36097" allow-feedback="0">
         <Automation>
@@ -7686,7 +7684,7 @@ a52780946693 0.50118720531463623
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="201456" flags="GainLike" value="0.61874515658380125"/>
+        <Controllable name="gaincontrol" id="201456" flags="GainLike" value="0.30906283855438232"/>
       </Processor>
       <Processor id="201990" name="Short Reverb" active="0" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="26" selfdestruct="0" target="24029" allow-feedback="0">
         <Automation>
