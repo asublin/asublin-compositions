@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instant>
   <LastUsedSnapshot name="Partir"/>
+  <ExportPresets>
+    <ExportPreset id="dd39093c-88d5-4d1c-af98-1214b123a6aa" name="FLAC with session name, revision and date">
+      <ExportTimespan format="Timecode">
+        <Range id="2162" realtime="0"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <ExportChannel type="PortExportChannel" number="1">
+          <Port name="Master/audio_out 1"/>
+        </ExportChannel>
+        <ExportChannel type="PortExportChannel" number="2">
+          <Port name="Master/audio_out 2"/>
+        </ExportChannel>
+      </ExportChannelConfiguration>
+    </ExportPreset>
+  </ExportPresets>
   <Main x="1536" y="395" w="1920" h="1080" current-tab="editor"/>
-  <Editor id="49" edit-vertical-pane-pos="0.9556540846824646" mixer-width="Wide" zoom-focus="ZoomFocusLeft" edit-point="EditAtMouse" visible-track-count="-1" marker-click-behavior="MarkerClickSelectOnly" zoom="6352" grid-type="GridTypeBeatDiv4" snap-mode="SnapMagnetic" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapMagnetic" pre-internal-grid-type="GridTypeBeatDiv4" pre-internal-snap-mode="SnapMagnetic" left-frame="0" playhead="5702265" y-origin="0" maximised="1" follow-playhead="0" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="0" show-editor-props="0" editor-list-page="0" editor-list-btn1="0" editor-list-btn2="4" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="a1411200000@a0">
+  <Editor id="49" edit-vertical-pane-pos="0.9556540846824646" mixer-width="Wide" zoom-focus="ZoomFocusLeft" edit-point="EditAtMouse" visible-track-count="-1" marker-click-behavior="MarkerClickSelectOnly" zoom="6352" grid-type="GridTypeBeatDiv4" snap-mode="SnapMagnetic" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapMagnetic" pre-internal-grid-type="GridTypeBeatDiv4" pre-internal-snap-mode="SnapMagnetic" left-frame="0" playhead="0" y-origin="0" maximised="1" follow-playhead="0" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="0" show-editor-props="0" editor-list-page="0" editor-list-btn1="0" editor-list-btn2="4" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="a1411200000@a0">
     <Window name="Editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="1" editor-rightpane-pos="0.84219551086425781"/>
     <Buttons>
       <Press/>
