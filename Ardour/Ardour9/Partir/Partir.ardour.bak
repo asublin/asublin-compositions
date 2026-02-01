@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" uuid="ea73d212-262b-4d28-8407-e8307406708f" name="Partir" sample-rate="48000" session-range-is-free="0" id-counter="132611" rg-counter="400" name-counter="1" event-counter="5083118" vca-counter="1">
+<Session version="7003" uuid="ea73d212-262b-4d28-8407-e8307406708f" name="Partir" sample-rate="48000" session-range-is-free="0" id-counter="135986" rg-counter="420" name-counter="1" event-counter="5306721" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2-825-g8b09c01540" modified-with="Ardour 9.0-rc6-120-gaf3845a875"/>
+  <EngineHints backend="JACK/Pipewire" input-device="HDA Intel PCH" output-device="HDA Intel PCH"/>
   <EngineState/>
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
@@ -10,9 +11,7 @@
     <Port name="MTC out" type="midi" direction="Output"/>
     <Port name="Scene in" type="midi" direction="Input"/>
     <Port name="Scene out" type="midi" direction="Output"/>
-    <Port name="x-virtual-keyboard" type="midi" direction="Output">
-      <Connection other="Synth/midi_in 1"/>
-    </Port>
+    <Port name="x-virtual-keyboard" type="midi" direction="Output"/>
   </MIDIPorts>
   <Config>
     <Option name="use-region-fades" value="1"/>
@@ -154,7 +153,7 @@
     <Region name="Synth-4" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b483840" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="81368" type="midi" first-edit="nothing" source-0="81366" master-source-0="81366"/>
   </Regions>
   <Selection>
-    <StripableAutomationControl stripable="63481" control="0" order="2"/>
+    <StripableAutomationControl stripable="63481" control="0" order="1"/>
   </Selection>
   <Locations>
     <Location id="2162" name="session" start="b0" end="b696960" flags="IsSessionRange" locked="0" timestamp="1729445103" cue="0"/>
@@ -217,7 +216,7 @@
       </Automation>
       <Pannable>
         <Controllable name="pan-azimuth" id="90" flags="" value="0.5"/>
-        <Controllable name="pan-width" id="94" flags="" value="0.39999997615814209"/>
+        <Controllable name="pan-width" id="94" flags="" value="1"/>
         <Controllable name="pan-elevation" id="92" flags="" value="0"/>
         <Controllable name="pan-frontback" id="96" flags="" value="0"/>
         <Controllable name="pan-lfe" id="98" flags="" value="0"/>
@@ -225,7 +224,7 @@
           <AutomationList automation-id="pan-azimuth" id="89" interpolation-style="Linear" time-domain="BeatTime" state="Play"/>
           <AutomationList automation-id="pan-elevation" id="91" interpolation-style="Linear" time-domain="BeatTime" state="Play"/>
           <AutomationList automation-id="pan-width" id="93" interpolation-style="Linear" time-domain="BeatTime" state="Play">
-            <events>b0 0.39999997615814209
+            <events>b0 0.5
 b28800 1
 b161280 1
 b193920 0.5
@@ -303,7 +302,7 @@ a46249322280 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="75" flags="GainLike" value="0.50118720531463623"/>
+        <Controllable name="gaincontrol" id="75" flags="GainLike" value="1.0006578944815188"/>
       </Processor>
       <Processor id="120722" name="x42-dpl - Digital Peak Limiter Stereo" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/dpl#stereo" count="1" custom="0">
         <Automation>
@@ -455,7 +454,7 @@ a46249322280 0
         </lv2>
         <Controllable name="Output Level" id="70698" flags="" value="0" parameter="3" symbol="level"/>
         <Controllable name="hidden" id="70700" flags="Toggle" value="0" parameter="4" symbol="freewheel"/>
-        <Controllable name="property-http://spectmorph.org/plugins/liquidsfz#sfzfile" id="130183" flags="NotAutomatable" property="98"/>
+        <Controllable name="property-http://spectmorph.org/plugins/liquidsfz#sfzfile" id="133226" flags="NotAutomatable" property="98"/>
       </Processor>
       <Processor id="233" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
         <Automation>
@@ -496,7 +495,7 @@ a33469495080 0.17782792448997498
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="1060" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="1054" flags="GainLike,InlineControl" value="0"/>
+        <Controllable name="gaincontrol" id="1054" flags="GainLike,InlineControl" value="0.17782792448997498"/>
       </Processor>
       <Processor id="237" name="meter-Pianoteq" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="238" name="Salamander Piano" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Salamander Piano" type="main-outs" role="Main">
@@ -670,7 +669,7 @@ a46249328160 0.22387208044528961
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="727" flags="GainLike" value="0"/>
+        <Controllable name="gaincontrol" id="727" flags="GainLike" value="0.14337654351130819"/>
       </Processor>
       <Processor id="1063" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="2" selfdestruct="0" target="956" allow-feedback="0">
         <Automation>
@@ -798,11 +797,11 @@ a46249328160 0.22387208044528961
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <Port symbol="channelf" value="0"/>
-          <Port symbol="transpose" value="1"/>
+          <Port symbol="transpose" value="2"/>
           <Port symbol="inversion" value="0"/>
         </lv2>
         <Controllable name="Filter Channel" id="109961" flags="" value="0" parameter="3" symbol="channelf"/>
-        <Controllable name="Transpose" id="109962" flags="" value="1" parameter="4" symbol="transpose"/>
+        <Controllable name="Transpose" id="109962" flags="" value="2" parameter="4" symbol="transpose"/>
         <Controllable name="Inversion point" id="109963" flags="" value="0" parameter="5" symbol="inversion"/>
       </Processor>
       <Processor id="901" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
@@ -1052,11 +1051,11 @@ a46249328160 0.22387208044528961
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <Port symbol="channelf" value="0"/>
-          <Port symbol="transpose" value="1"/>
+          <Port symbol="transpose" value="2"/>
           <Port symbol="inversion" value="0"/>
         </lv2>
         <Controllable name="Filter Channel" id="68220" flags="" value="0" parameter="3" symbol="channelf"/>
-        <Controllable name="Transpose" id="68222" flags="" value="1" parameter="4" symbol="transpose"/>
+        <Controllable name="Transpose" id="68222" flags="" value="2" parameter="4" symbol="transpose"/>
         <Controllable name="Inversion point" id="68224" flags="" value="0" parameter="5" symbol="inversion"/>
       </Processor>
       <Processor id="4926" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
@@ -1169,11 +1168,11 @@ a46249328160 0.22387208044528961
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <Port symbol="channelf" value="0"/>
-          <Port symbol="transpose" value="1"/>
+          <Port symbol="transpose" value="2"/>
           <Port symbol="inversion" value="0"/>
         </lv2>
         <Controllable name="Filter Channel" id="109980" flags="" value="0" parameter="3" symbol="channelf"/>
-        <Controllable name="Transpose" id="109981" flags="" value="1" parameter="4" symbol="transpose"/>
+        <Controllable name="Transpose" id="109981" flags="" value="2" parameter="4" symbol="transpose"/>
         <Controllable name="Inversion point" id="109982" flags="" value="0" parameter="5" symbol="inversion"/>
       </Processor>
       <Processor id="59738" name="MIDI Delayline" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/midifilter#mididelay" count="1" custom="0">
@@ -1324,15 +1323,16 @@ a46249328160 0.22387208044528961
       <Controllable name="rec-safe" id="50671" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="50669" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="7003" id="63481" name="Synth" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="63560" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+    <Route version="7003" id="63481" name="Synth" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Instruments" midi-playlist="63560" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="1" input-active="1" restore-pgm="1">
       <PresentationInfo order="4" flags="MidiTrack,OrderSet,TriggerTrack" color="4290183423"/>
       <Controllable name="solo" id="63522" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="63528" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="63530" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Synth" id="63543" direction="Input" default-type="midi">
         <Port name="Synth/midi_in 1" type="midi" direction="Input">
-          <Connection other="x-virtual-keyboard"/>
           <ExtConnection for="JACK"/>
+          <ExtConnection for="JACK/Pipewire;ALSA;HDA Intel PCH"/>
+          <ExtConnection for="JACK/Pipewire;ALSA;HDA Intel PCH" other="system:midi_capture_1"/>
         </Port>
       </IO>
       <IO name="Synth" id="63544" direction="Output" default-type="midi">
@@ -1420,11 +1420,11 @@ a46249328160 0.22387208044528961
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <Port symbol="channelf" value="0"/>
-          <Port symbol="transpose" value="1"/>
+          <Port symbol="transpose" value="2"/>
           <Port symbol="inversion" value="0"/>
         </lv2>
         <Controllable name="Filter Channel" id="109999" flags="" value="0" parameter="3" symbol="channelf"/>
-        <Controllable name="Transpose" id="110000" flags="" value="1" parameter="4" symbol="transpose"/>
+        <Controllable name="Transpose" id="110000" flags="" value="2" parameter="4" symbol="transpose"/>
         <Controllable name="Inversion point" id="110001" flags="" value="0" parameter="5" symbol="inversion"/>
       </Processor>
       <Processor id="77248" name="ZynAddSubFX" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://zynaddsubfx.sourceforge.net" count="1" custom="0">
@@ -1585,7 +1585,7 @@ a46249328160 0.99999994039535522
           </Automation>
         </Pannable>
         <Controllable name="polarity-invert" id="63698" flags="Toggle" value="0"/>
-        <Controllable name="gaincontrol" id="63692" flags="GainLike,InlineControl" value="0.5625"/>
+        <Controllable name="gaincontrol" id="63692" flags="GainLike,InlineControl" value="0.86209777043646429"/>
       </Processor>
       <Processor id="77285" name="Delay" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="5" selfdestruct="0" target="77189" allow-feedback="0">
         <Automation>
@@ -2079,7 +2079,7 @@ a46249328160 0.99999994039535522
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state6">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state7">
           <Port symbol="enabled" value="1"/>
           <Port symbol="lsel" value="0"/>
           <Port symbol="temp" value="20"/>
