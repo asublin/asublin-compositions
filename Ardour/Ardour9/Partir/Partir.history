@@ -1,182 +1,225 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1769967896" tv-usec="167150" name="change note velocity">
+  <UndoTransaction tv-sec="1770537770" tv-usec="963422" name="add automation event">
+    <MementoCommand obj-id="139385" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="139385" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1
+a36591428160 2
+a46117028160 0.70794570446014404
+</events>
+      </AutomationList>
+      <AutomationList automation-id="gain" id="139385" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1
+a36591428160 2
+a37782128160 0.91274219751358032
+a46117028160 0.70794570446014404
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="49" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="7712" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="139347" automation-list-id="139385" parameter="gain" view-index="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="7712" left-frame="0" y-origin="0">
+        <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1770537792" tv-usec="400302" name="automation event move">
+    <MementoUndoCommand obj-id="139385" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="139385" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1
+a36591428160 2
+a37782128160 0.91274219751358032
+a46117028160 0.70794570446014404
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="139385" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="139385" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 1
+a36591428160 2
+a37782128160 1.4125375747680664
+a46117028160 0.70794570446014404
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="49" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="7712" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="139347" automation-list-id="139385" parameter="gain" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="7712" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="139347" automation-list-id="139385" parameter="gain" view-index="2"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1770538177" tv-usec="243289" name="change note">
     <NoteDiffCommand midi-source="81366">
       <ChangedNotes>
-        <Change property="Velocity" old="56" new="40" id="3221220"/>
+        <Change property="NoteNumber" old="67" new="70" id="4701679"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769967903" tv-usec="399296" name="change note velocity">
+  <UndoTransaction tv-sec="1770538178" tv-usec="789169" name="change note">
     <NoteDiffCommand midi-source="81366">
       <ChangedNotes>
-        <Change property="Velocity" old="37" new="36" id="3230547"/>
+        <Change property="NoteNumber" old="65" new="72" id="3203202"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769967912" tv-usec="902959" name="change note velocity">
+  <UndoTransaction tv-sec="1770538196" tv-usec="5273" name="add note">
     <NoteDiffCommand midi-source="81366">
       <ChangedNotes>
-        <Change property="Velocity" old="80" new="48" id="3312436"/>
+        <Change property="Length" old="1:0" new="0:1280" id="3203202"/>
+      </ChangedNotes>
+      <AddedNotes>
+        <note id="5576386" note="68" channel="0" time="36:1280" length="0:640" velocity="60"/>
+      </AddedNotes>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1770538201" tv-usec="285861" name="change note">
+    <NoteDiffCommand midi-source="81366">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="60" new="65" id="3221220"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769967916" tv-usec="430543" name="change note velocity">
-    <NoteDiffCommand midi-source="81366">
+  <UndoTransaction tv-sec="1770538207" tv-usec="187792" name="change note">
+    <NoteDiffCommand midi-source="139593">
       <ChangedNotes>
-        <Change property="Velocity" old="48" new="56" id="3312436"/>
+        <Change property="NoteNumber" old="67" new="70" id="4701679"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769967935" tv-usec="526952" name="change note velocity">
-    <NoteDiffCommand midi-source="81366">
+  <UndoTransaction tv-sec="1770538208" tv-usec="420685" name="change note">
+    <NoteDiffCommand midi-source="139593">
       <ChangedNotes>
-        <Change property="Velocity" old="56" new="32" id="3312436"/>
+        <Change property="NoteNumber" old="65" new="72" id="3203202"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769968049" tv-usec="466037" name="change note">
-    <NoteDiffCommand midi-source="81366">
+  <UndoTransaction tv-sec="1770538210" tv-usec="122044" name="add note">
+    <NoteDiffCommand midi-source="139593">
       <ChangedNotes>
-        <Change property="NoteNumber" old="60" new="72" id="4723265"/>
+        <Change property="Length" old="1:0" new="0:1280" id="3203202"/>
+      </ChangedNotes>
+      <AddedNotes>
+        <note id="5582727" note="68" channel="0" time="36:1280" length="0:640" velocity="71"/>
+      </AddedNotes>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1770538214" tv-usec="585244" name="change note">
+    <NoteDiffCommand midi-source="139593">
+      <ChangedNotes>
+        <Change property="NoteNumber" old="60" new="65" id="3221220"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769968050" tv-usec="104034" name="change note">
+  <UndoTransaction tv-sec="1770538989" tv-usec="711429" name="change note velocity">
     <NoteDiffCommand midi-source="81366">
       <ChangedNotes>
-        <Change property="NoteNumber" old="58" new="70" id="3534467"/>
+        <Change property="Velocity" old="66" new="61" id="4701679"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769968053" tv-usec="27926" name="change note">
+  <UndoTransaction tv-sec="1770538998" tv-usec="574144" name="change note velocity">
     <NoteDiffCommand midi-source="81366">
       <ChangedNotes>
-        <Change property="NoteNumber" old="53" new="65" id="4726159"/>
+        <Change property="Velocity" old="68" new="58" id="3203202"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769968115" tv-usec="238172" name="change note velocity">
+  <UndoTransaction tv-sec="1770539008" tv-usec="816973" name="change note velocity">
     <NoteDiffCommand midi-source="81366">
       <ChangedNotes>
-        <Change property="Velocity" old="64" new="56" id="3911172"/>
+        <Change property="Velocity" old="60" new="56" id="5576386"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769968357" tv-usec="892911" name="delete note">
+  <UndoTransaction tv-sec="1770539045" tv-usec="834039" name="change note velocity">
     <NoteDiffCommand midi-source="81366">
       <ChangedNotes>
-        <Change property="Length" old="1:0" new="2:0" id="3221220"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes>
-        <note id="3230547" note="68" channel="0" time="38:0" length="1:0" velocity="36"/>
-      </RemovedNotes>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1769968360" tv-usec="163053" name="change note">
-    <NoteDiffCommand midi-source="81366">
-      <ChangedNotes>
-        <Change property="NoteNumber" old="60" new="68" id="3312436"/>
+        <Change property="Velocity" old="56" new="48" id="5576386"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769968364" tv-usec="223687" name="change note velocity">
+  <UndoTransaction tv-sec="1770539153" tv-usec="763245" name="change note velocity">
     <NoteDiffCommand midi-source="81366">
       <ChangedNotes>
-        <Change property="Velocity" old="32" new="48" id="3312436"/>
+        <Change property="Velocity" old="77" new="64" id="3529078"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769968384" tv-usec="399936" name="change note velocity">
-    <NoteDiffCommand midi-source="81366">
+  <UndoTransaction tv-sec="1770539157" tv-usec="382039" name="change note velocity">
+    <NoteDiffCommand midi-source="139602">
       <ChangedNotes>
-        <Change property="Velocity" old="48" new="56" id="3312436"/>
+        <Change property="Velocity" old="77" new="64" id="3529078"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769968419" tv-usec="709723" name="change note">
+  <UndoTransaction tv-sec="1770539334" tv-usec="777659" name="change note velocity">
     <NoteDiffCommand midi-source="81366">
       <ChangedNotes>
-        <Change property="NoteNumber" old="53" new="68" id="3500339"/>
+        <Change property="Velocity" old="64" new="56" id="3529078"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769968421" tv-usec="364678" name="change note">
+  <UndoTransaction tv-sec="1770539345" tv-usec="71764" name="change note velocity">
     <NoteDiffCommand midi-source="81366">
       <ChangedNotes>
-        <Change property="NoteNumber" old="68" new="72" id="3500339"/>
+        <Change property="Velocity" old="82" new="72" id="4723265"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769968423" tv-usec="262240" name="change note">
+  <UndoTransaction tv-sec="1770539440" tv-usec="858780" name="change note velocity">
     <NoteDiffCommand midi-source="81366">
       <ChangedNotes>
-        <Change property="NoteNumber" old="60" new="70" id="3687949"/>
+        <Change property="Velocity" old="61" new="56" id="4701679"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
     </NoteDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1769968437" tv-usec="880305" name="change note">
+  <UndoTransaction tv-sec="1770539442" tv-usec="946884" name="change note velocity">
     <NoteDiffCommand midi-source="81366">
       <ChangedNotes>
-        <Change property="NoteNumber" old="72" new="60" id="3500339"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1769968439" tv-usec="850072" name="change note">
-    <NoteDiffCommand midi-source="81366">
-      <ChangedNotes>
-        <Change property="NoteNumber" old="70" new="58" id="3687949"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1769968491" tv-usec="64935" name="change note">
-    <NoteDiffCommand midi-source="81366">
-      <ChangedNotes>
-        <Change property="NoteNumber" old="60" new="58" id="3500339"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1769968492" tv-usec="636799" name="change note">
-    <NoteDiffCommand midi-source="81366">
-      <ChangedNotes>
-        <Change property="NoteNumber" old="58" new="60" id="3687949"/>
+        <Change property="Velocity" old="58" new="48" id="3203202"/>
       </ChangedNotes>
       <AddedNotes/>
       <RemovedNotes/>
