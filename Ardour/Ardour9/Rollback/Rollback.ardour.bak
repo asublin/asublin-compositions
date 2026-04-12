@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" uuid="482e0426-a1ef-4faf-9748-a51a44cd478b" name="Rollback" sample-rate="48000" session-range-is-free="0" id-counter="7041" rg-counter="189" name-counter="1" event-counter="19093644" vca-counter="1">
+<Session version="7003" uuid="482e0426-a1ef-4faf-9748-a51a44cd478b" name="Rollback" sample-rate="48000" session-range-is-free="0" id-counter="8856" rg-counter="206" name-counter="1" event-counter="19947789" vca-counter="1">
   <ProgramVersion created-with="Ardour 9.0-pre0-1464-gcbe0eecb07" modified-with="Ardour 9.2-266-gefdfb3ad69"/>
   <EngineState/>
   <MIDIPorts>
@@ -87,11 +87,14 @@
   <Regions>
     <Region name="Take1_Layered-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b17604854@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="3936" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
     <Region name="Take2_Layered-4" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b2823139" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="6518" type="midi" first-edit="nothing" source-0="6516" master-source-0="6516"/>
+    <Region name="Take1_Layered-2.22" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14982017" length="b1437436@b124708" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="864" id="6723" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
     <Region name="Take2_Lower Left-5" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b26690" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="7020" type="midi" first-edit="nothing" source-0="7018" master-source-0="7018"/>
+    <Region name="Take1_Layered-2.31" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b15975110" length="b444343@b1117801" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="3152" id="8746" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
+    <Region name="Take1_Layered-2.32" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b15975110" length="b157341@b1117801" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="3152" id="8764" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
   </Regions>
   <Selection/>
   <Locations>
-    <Location id="2476" name="session" start="a0" end="a183119881560" flags="IsSessionRange" locked="0" timestamp="1753635014" cue="0"/>
+    <Location id="2476" name="session" start="a0" end="a171113574240" flags="IsSessionRange" locked="0" timestamp="1753635014" cue="0"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -166,12 +169,12 @@
           <AutomationList automation-id="gain" id="2491" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
             <events>a0 0
 a287884800 0.99999994039535522
-a176449956480 1.0007548332214355
-a182141890560 0
+a161568899520 0.99999994039535522
+a170135583240 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="83" flags="GainLike" value="0"/>
+        <Controllable name="gaincontrol" id="83" flags="GainLike" value="1.0000000403953553"/>
       </Processor>
       <Processor id="6999" name="x42-dpl - Digital Peak Limiter Stereo" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/dpl#stereo" count="1" custom="0">
         <Automation>
@@ -202,13 +205,13 @@ a182141890560 0
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
           <Port symbol="enable" value="1"/>
-          <Port symbol="gain" value="3"/>
+          <Port symbol="gain" value="1"/>
           <Port symbol="threshold" value="-1"/>
           <Port symbol="release" value="0.0099999997764825821"/>
           <Port symbol="truepeak" value="0"/>
         </lv2>
         <Controllable name="Enable" id="7001" flags="Toggle" value="1" parameter="2" symbol="enable"/>
-        <Controllable name="Input Gain" id="7003" flags="" value="3" parameter="3" symbol="gain"/>
+        <Controllable name="Input Gain" id="7003" flags="" value="1" parameter="3" symbol="gain"/>
         <Controllable name="Threshold" id="7005" flags="" value="-1" parameter="4" symbol="threshold"/>
         <Controllable name="Release Time" id="7007" flags="" value="0.0099999997764825821" parameter="5" symbol="release"/>
         <Controllable name="True Peak" id="7009" flags="Toggle" value="0" parameter="6" symbol="truepeak"/>
@@ -303,7 +306,7 @@ a182141890560 0
       <Controllable name="rec-safe" id="254" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="252" flags="Toggle,RealTime" value="0"/>
       <Controllable name="midicc-0-64" id="5702" flags="" value="127"/>
-      <Controllable name="midicc-1-7" id="5705" flags="" value="96"/>
+      <Controllable name="midicc-1-7" id="5705" flags="" value="99"/>
       <Controllable name="midicc-1-64" id="5708" flags="" value="127"/>
       <Controllable name="midicc-2-1" id="5711" flags="" value="0"/>
       <Controllable name="midicc-2-120" id="5714" flags="" value="0"/>
@@ -459,7 +462,7 @@ a182141890560 0
             <events>a0 0
 a7107538200 0
 a10521154560 0
-a11544086400 0.50118720531463623
+a11544086400 0.3548133373260498
 a12202816920 0.0039810705929994583
 a12681795840 0
 a13511393280 0.49989166855812073
@@ -472,15 +475,15 @@ a64119536040 1.4125375747680664
 a64194329640 0.3548133373260498
 a64326629640 0.70794570446014404
 a68718989640 1.4125375747680664
-a118172900160 1.4125375747680664
-a128667865200 0.50118720531463623
-a138390445200 1.4125375747680664
+a105997489920 1.4125375747680664
+a116830660800 0.50118720531463623
+a132133637160 1.4125375747680664
 a159709843440 1.4125375747680664
-a186917391360 2
+a171698128560 2
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="317" flags="GainLike" value="0"/>
+        <Controllable name="gaincontrol" id="317" flags="GainLike" value="1.4125376747680665"/>
       </Processor>
       <Processor id="2290" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="1" selfdestruct="0" target="898" allow-feedback="0">
         <Automation>
@@ -862,7 +865,7 @@ a186917391360 2
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state40">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state42">
           <Port symbol="slot1" value="0.5"/>
           <Port symbol="slot2" value="0.5"/>
           <Port symbol="slot3" value="0.5"/>
@@ -906,7 +909,7 @@ a183357709920 0.70794570446014404
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="611" flags="GainLike" value="0.50118720531463623"/>
+        <Controllable name="gaincontrol" id="611" flags="GainLike" value="0.66284203922276885"/>
       </Processor>
       <Processor id="2405" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="6" selfdestruct="0" target="898" allow-feedback="0">
         <Automation>
@@ -1380,12 +1383,13 @@ a183357709920 0.70794570446014404
   </Routes>
   <Playlists>
     <Playlist id="258" name="Layered.1" type="midi" orig-track-id="179" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Take1_Layered-2.21" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14272937" length="b6115@b440" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="2128" id="6629" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
+      <Region name="Take1_Layered-2.21" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14272937" length="b6115@b440" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="6" tags="" contents="0" rgroup="2128" id="6629" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
       <Region name="Take1_Layered-2.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14568970" length="b117650@b6851" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="544" id="5751" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
-      <Region name="Take1_Layered-2.22" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14982017" length="b1437436@b124708" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="864" id="6723" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
-      <Region name="Take1_Layered-2.26" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b16544871" length="b633851@b1562176" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="2544" id="6861" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
-      <Region name="Take1_Layered-2.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b17246785" length="b285396@b2196201" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="2864" id="6898" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
-      <Region name="Take2_Layered-4" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b2823139" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" id="6521" type="midi" first-edit="nothing" source-0="6516" master-source-0="6516"/>
+      <Region name="Take1_Layered-2.30" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14982017" length="b993093@b124708" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="864" id="8743" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
+      <Region name="Take1_Layered-2.33" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b16132451" length="b287002@b1117841" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="3184" id="8767" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
+      <Region name="Take1_Layered-2.26" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b16544871" length="b633851@b1404875" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="2544" id="6861" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
+      <Region name="Take1_Layered-2.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b17246785" length="b285396@b2038900" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="2864" id="6898" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
+      <Region name="Take2_Layered-4" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b2823139" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="0" id="6521" type="midi" first-edit="nothing" source-0="6516" master-source-0="6516"/>
     </Playlist>
     <Playlist id="359" name="Upper.1" type="midi" orig-track-id="280" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0"/>
     <Playlist id="503" name="Lower Right" type="midi" orig-track-id="424" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0"/>
@@ -1513,6 +1517,8 @@ a183357709920 0.70794570446014404
       <Window name="RPM-736" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-898" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-984" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-79-6999" visible="0" x-off="1536" y-off="637" x-size="633" y-size="154" custom-ui="1"/>
+      <Window name="PM-79-6999" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-280-387" visible="1" x-off="0" y-off="902" x-size="1181" y-size="702" custom-ui="1"/>
       <Window name="PM-280-387" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-424-537" visible="1" x-off="275" y-off="902" x-size="1181" y-size="702" custom-ui="1"/>
@@ -1523,14 +1529,12 @@ a183357709920 0.70794570446014404
       <Window name="PM-736-861" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-898-945" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-898-945" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-79-6999" visible="0" x-off="1536" y-off="630" x-size="633" y-size="154" custom-ui="1"/>
-      <Window name="PM-79-6999" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
-        <Object id="rtav 79" height="47"/>
-        <Object id="automation 83" height="47" visible="1"/>
-        <Object id="automation 85" height="47" visible="0"/>
-        <Object id="automation 79 12/0/0" height="47" visible="0"/>
-        <Object id="automation 98" height="47" visible="0"/>
+        <Object id="rtav 79" height="44"/>
+        <Object id="automation 83" height="44" visible="1"/>
+        <Object id="automation 85" height="44" visible="0"/>
+        <Object id="automation 79 12/0/0" height="44" visible="0"/>
+        <Object id="automation 98" height="44" visible="0"/>
         <Object id="strip 79">
           <Object id="processor 110">
             <Object id="control 83" visible="0"/>
@@ -1544,19 +1548,19 @@ a183357709920 0.70794570446014404
             <Object id="InlineDisplay" visible="1"/>
           </Object>
         </Object>
-        <Object id="rtav 179" height="47" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="37" note-range-max="83"/>
-        <Object id="automation 216" height="47" visible="0"/>
-        <Object id="automation 179 12/0/0" height="47" visible="0"/>
-        <Object id="automation 179 32/0/0" height="47" visible="0"/>
+        <Object id="rtav 179" height="489" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="39" note-range-max="81"/>
+        <Object id="automation 216" height="44" visible="0"/>
+        <Object id="automation 179 12/0/0" height="44" visible="0"/>
+        <Object id="automation 179 32/0/0" height="44" visible="0"/>
         <Object id="strip 179">
           <Object id="processor 243">
             <Object id="control 216" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 280" height="47" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1"/>
-        <Object id="automation 317" height="47" visible="1"/>
-        <Object id="automation 280 12/0/0" height="47" visible="0"/>
-        <Object id="automation 280 32/0/0" height="47" visible="0"/>
+        <Object id="rtav 280" height="44" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="automation 317" height="44" visible="1"/>
+        <Object id="automation 280 12/0/0" height="44" visible="0"/>
+        <Object id="automation 280 32/0/0" height="44" visible="0"/>
         <Object id="strip 280">
           <Object id="processor 344">
             <Object id="control 317" visible="0"/>
@@ -1588,11 +1592,11 @@ a183357709920 0.70794570446014404
             <Object id="control 2327" visible="1"/>
           </Object>
         </Object>
-        <Object id="automation 332" height="47" visible="0"/>
-        <Object id="rtav 424" height="47" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1"/>
-        <Object id="automation 461" height="47" visible="0"/>
-        <Object id="automation 424 12/0/0" height="47" visible="0"/>
-        <Object id="automation 424 32/0/0" height="47" visible="0"/>
+        <Object id="automation 332" height="44" visible="0"/>
+        <Object id="rtav 424" height="44" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="automation 461" height="44" visible="0"/>
+        <Object id="automation 424 12/0/0" height="44" visible="0"/>
+        <Object id="automation 424 32/0/0" height="44" visible="0"/>
         <Object id="strip 424">
           <Object id="processor 488">
             <Object id="control 461" visible="0"/>
@@ -1624,11 +1628,11 @@ a183357709920 0.70794570446014404
             <Object id="control 2350" visible="1"/>
           </Object>
         </Object>
-        <Object id="automation 476" height="47" visible="0"/>
-        <Object id="rtav 574" height="87" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="59" note-range-max="71"/>
-        <Object id="automation 611" height="47" visible="1"/>
-        <Object id="automation 574 12/0/0" height="47" visible="0"/>
-        <Object id="automation 574 32/0/0" height="47" visible="0"/>
+        <Object id="automation 476" height="44" visible="0"/>
+        <Object id="rtav 574" height="44" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="59" note-range-max="71"/>
+        <Object id="automation 611" height="44" visible="1"/>
+        <Object id="automation 574 12/0/0" height="44" visible="0"/>
+        <Object id="automation 574 32/0/0" height="44" visible="0"/>
         <Object id="strip 574">
           <Object id="processor 638">
             <Object id="control 611" visible="0"/>
@@ -1660,11 +1664,11 @@ a183357709920 0.70794570446014404
             <Object id="control 2396" visible="1"/>
           </Object>
         </Object>
-        <Object id="automation 626" height="47" visible="0"/>
-        <Object id="rtav 736" height="47" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1"/>
-        <Object id="automation 773" height="47" visible="0"/>
-        <Object id="automation 736 12/0/0" height="47" visible="0"/>
-        <Object id="automation 736 32/0/0" height="47" visible="0"/>
+        <Object id="automation 626" height="44" visible="0"/>
+        <Object id="rtav 736" height="44" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1"/>
+        <Object id="automation 773" height="44" visible="0"/>
+        <Object id="automation 736 12/0/0" height="44" visible="0"/>
+        <Object id="automation 736 32/0/0" height="44" visible="0"/>
         <Object id="strip 736">
           <Object id="processor 800">
             <Object id="control 773" visible="0"/>
@@ -1696,17 +1700,17 @@ a183357709920 0.70794570446014404
             <Object id="control 2442" visible="1"/>
           </Object>
         </Object>
-        <Object id="automation 788" height="47" visible="0"/>
-        <Object id="rtav 898" height="47"/>
-        <Object id="automation 902" height="47" visible="0"/>
-        <Object id="automation 904" height="47" visible="0"/>
-        <Object id="automation 898 12/0/0" height="47" visible="0"/>
-        <Object id="automation 917" height="47" visible="0"/>
-        <Object id="rtav 984" height="47"/>
-        <Object id="automation 988" height="47" visible="0"/>
-        <Object id="automation 990" height="47" visible="0"/>
-        <Object id="automation 984 12/0/0" height="47" visible="0"/>
-        <Object id="automation 1003" height="47" visible="0"/>
+        <Object id="automation 788" height="44" visible="0"/>
+        <Object id="rtav 898" height="44"/>
+        <Object id="automation 902" height="44" visible="0"/>
+        <Object id="automation 904" height="44" visible="0"/>
+        <Object id="automation 898 12/0/0" height="44" visible="0"/>
+        <Object id="automation 917" height="44" visible="0"/>
+        <Object id="rtav 984" height="44"/>
+        <Object id="automation 988" height="44" visible="0"/>
+        <Object id="automation 990" height="44" visible="0"/>
+        <Object id="automation 984 12/0/0" height="44" visible="0"/>
+        <Object id="automation 1003" height="44" visible="0"/>
         <Object id="strip 898">
           <Object id="processor 945">
             <Object id="control 947" visible="0"/>
@@ -1737,12 +1741,12 @@ a183357709920 0.70794570446014404
             <Object id="control 988" visible="0"/>
           </Object>
         </Object>
-        <Object id="automation 179 13/64/0" height="47" visible="1"/>
-        <Object id="automation 179 13/7/1" height="47" visible="1"/>
-        <Object id="automation 179 13/64/1" height="47" visible="1"/>
-        <Object id="automation 179 13/1/2" height="47" visible="1"/>
-        <Object id="automation 179 13/120/2" height="47" visible="1"/>
-        <Object id="automation 179 15/0/2" height="47" visible="1"/>
+        <Object id="automation 179 13/64/0" height="44" visible="1"/>
+        <Object id="automation 179 13/7/1" height="44" visible="1"/>
+        <Object id="automation 179 13/64/1" height="44" visible="1"/>
+        <Object id="automation 179 13/1/2" height="44" visible="1"/>
+        <Object id="automation 179 13/120/2" height="44" visible="1"/>
+        <Object id="automation 179 15/0/2" height="44" visible="1"/>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
