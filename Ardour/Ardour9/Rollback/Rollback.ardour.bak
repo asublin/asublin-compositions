@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" uuid="482e0426-a1ef-4faf-9748-a51a44cd478b" name="Rollback" sample-rate="48000" session-range-is-free="0" id-counter="8856" rg-counter="206" name-counter="1" event-counter="19947789" vca-counter="1">
+<Session version="7003" uuid="482e0426-a1ef-4faf-9748-a51a44cd478b" name="Rollback" sample-rate="48000" session-range-is-free="0" id-counter="10878" rg-counter="223" name-counter="1" event-counter="21135034" vca-counter="1">
   <ProgramVersion created-with="Ardour 9.0-pre0-1464-gcbe0eecb07" modified-with="Ardour 9.2-266-gefdfb3ad69"/>
   <EngineState/>
   <MIDIPorts>
@@ -86,15 +86,17 @@
   <TriggerBindings/>
   <Regions>
     <Region name="Take1_Layered-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b17604854@b0" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="3936" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
+    <Region name="Take1_Layered-2.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14568970" length="b117650@b6851" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="544" id="5751" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
     <Region name="Take2_Layered-4" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b2823139" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="6518" type="midi" first-edit="nothing" source-0="6516" master-source-0="6516"/>
     <Region name="Take1_Layered-2.22" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14982017" length="b1437436@b124708" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="864" id="6723" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
     <Region name="Take2_Lower Left-5" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b26690" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" id="7020" type="midi" first-edit="nothing" source-0="7018" master-source-0="7018"/>
     <Region name="Take1_Layered-2.31" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b15975110" length="b444343@b1117801" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="3152" id="8746" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
     <Region name="Take1_Layered-2.32" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b15975110" length="b157341@b1117801" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="3152" id="8764" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
+    <Region name="Take1_Layered-2.31" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14654735" length="b31885@b92616" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="3456" id="10754" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
   </Regions>
   <Selection/>
   <Locations>
-    <Location id="2476" name="session" start="a0" end="a171113574240" flags="IsSessionRange" locked="0" timestamp="1753635014" cue="0"/>
+    <Location id="2476" name="session" start="a1145935560" end="a162987437760" flags="IsSessionRange" locked="0" timestamp="1753635014" cue="0"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -167,14 +169,14 @@
       <Processor id="110" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
         <Automation>
           <AutomationList automation-id="gain" id="2491" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-            <events>a0 0
-a287884800 0.99999994039535522
-a161568899520 0.99999994039535522
-a170135583240 0
+            <events>a1190935200 0
+a2729672400 1.0008652210235596
+a159116598480 0.99999994039535522
+a162830312400 0
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="83" flags="GainLike" value="1.0000000403953553"/>
+        <Controllable name="gaincontrol" id="83" flags="GainLike" value="0"/>
       </Processor>
       <Processor id="6999" name="x42-dpl - Digital Peak Limiter Stereo" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/dpl#stereo" count="1" custom="0">
         <Automation>
@@ -460,30 +462,23 @@ a170135583240 0
         <Automation>
           <AutomationList automation-id="gain" id="2696" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
             <events>a0 0
-a7107538200 0
-a10521154560 0
-a11544086400 0.3548133373260498
-a12202816920 0.0039810705929994583
-a12681795840 0
-a13511393280 0.49989166855812073
-a14125547520 0.70794570446014404
+a11818094400 0
+a13511393280 0.3548133373260498
+a16223102280 0.70794570446014404
 a19580682240 0.99999994039535522
 a34686167040 1.4125375747680664
-a62184310440 1.4125375747680664
+a55274698920 1.4125375747680664
 a62641727400 0.50118720531463623
-a64119536040 1.4125375747680664
-a64194329640 0.3548133373260498
-a64326629640 0.70794570446014404
-a68718989640 1.4125375747680664
-a105997489920 1.4125375747680664
-a116830660800 0.50118720531463623
-a132133637160 1.4125375747680664
-a159709843440 1.4125375747680664
-a171698128560 2
+a65881113480 1.4125375747680664
+a102172526400 1.4125375747680664
+a113005697280 0.50118720531463623
+a130653006120 1.4125375747680664
+a155884879920 1.4125375747680664
+a167873165040 2
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="317" flags="GainLike" value="1.4125376747680665"/>
+        <Controllable name="gaincontrol" id="317" flags="GainLike" value="9.9999999999999995e-08"/>
       </Processor>
       <Processor id="2290" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="1" selfdestruct="0" target="898" allow-feedback="0">
         <Automation>
@@ -865,7 +860,7 @@ a171698128560 2
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state42">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state45">
           <Port symbol="slot1" value="0.5"/>
           <Port symbol="slot2" value="0.5"/>
           <Port symbol="slot3" value="0.5"/>
@@ -909,7 +904,7 @@ a183357709920 0.70794570446014404
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="611" flags="GainLike" value="0.66284203922276885"/>
+        <Controllable name="gaincontrol" id="611" flags="GainLike" value="0.50118730531463618"/>
       </Processor>
       <Processor id="2405" name="Reverb" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="intsend" role="Aux" bitslot="6" selfdestruct="0" target="898" allow-feedback="0">
         <Automation>
@@ -1384,11 +1379,11 @@ a183357709920 0.70794570446014404
   <Playlists>
     <Playlist id="258" name="Layered.1" type="midi" orig-track-id="179" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="Take1_Layered-2.21" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14272937" length="b6115@b440" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="6" tags="" contents="0" rgroup="2128" id="6629" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
-      <Region name="Take1_Layered-2.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14568970" length="b117650@b6851" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="544" id="5751" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
-      <Region name="Take1_Layered-2.30" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14982017" length="b993093@b124708" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="864" id="8743" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
-      <Region name="Take1_Layered-2.33" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b16132451" length="b287002@b1117841" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="3184" id="8767" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
-      <Region name="Take1_Layered-2.26" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b16544871" length="b633851@b1404875" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="2544" id="6861" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
-      <Region name="Take1_Layered-2.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b17246785" length="b285396@b2038900" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="2864" id="6898" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
+      <Region name="Take1_Layered-2.30" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14568970" length="b85765@b6851" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="544" id="10752" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
+      <Region name="Take1_Layered-2.30" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b14982017" length="b993093@b92626" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="864" id="8743" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
+      <Region name="Take1_Layered-2.33" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b16132451" length="b287002@b1085759" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="3184" id="8767" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
+      <Region name="Take1_Layered-2.26" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b16544871" length="b633851@b1372793" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="2544" id="6861" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
+      <Region name="Take1_Layered-2.29" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="b17246785" length="b228756@b2006818" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="2864" id="6898" type="midi" first-edit="nothing" source-0="3620" master-source-0="3620"/>
       <Region name="Take2_Layered-4" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="b0" length="b1920@b2823139" sync-position="b0" ancestral-start="b0" ancestral-length="b0@b0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="0" id="6521" type="midi" first-edit="nothing" source-0="6516" master-source-0="6516"/>
     </Playlist>
     <Playlist id="359" name="Upper.1" type="midi" orig-track-id="280" pgroup-id="" shared-with-ids="" frozen="0" combine-ops="0"/>
@@ -1548,7 +1543,7 @@ a183357709920 0.70794570446014404
             <Object id="InlineDisplay" visible="1"/>
           </Object>
         </Object>
-        <Object id="rtav 179" height="489" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="39" note-range-max="81"/>
+        <Object id="rtav 179" height="44" midnam-custom-device-mode="General MIDI" color-mode="MeterColors" midnam-channel="Channel  1" note-range-min="39" note-range-max="81"/>
         <Object id="automation 216" height="44" visible="0"/>
         <Object id="automation 179 12/0/0" height="44" visible="0"/>
         <Object id="automation 179 32/0/0" height="44" visible="0"/>
