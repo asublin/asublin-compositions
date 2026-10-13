@@ -9,7 +9,7 @@
       <Release/>
     </Buttons>
     <Selection>
-      <StripableView id="86488"/>
+      <ControlPoint type="track" route-id="60184" automation-list-id="60222" parameter="gain" view-index="19"/>
     </Selection>
     <EditorLocations clock-mode="Timecode"/>
   </Editor>
@@ -37,34 +37,34 @@
     <Clock name="primary" mode="BBT" on="1"/>
     <Clock name="secondary" mode="Timecode" on="1"/>
     <Clock name="nudge" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="EditorTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="EditorTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="EditorTimeInfo-selection-length" mode="Timecode" on="0"/>
     <Clock name="EditorTimeInfo-punch-start" mode="Timecode" on="0"/>
     <Clock name="EditorTimeInfo-punch-end" mode="Timecode" on="0"/>
-    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="0"/>
     <Clock name="primary" mode="BBT" on="1"/>
     <Clock name="secondary" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="0"/>
     <Clock name="primary" mode="BBT" on="1"/>
     <Clock name="secondary" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="0"/>
     <Clock name="primary" mode="BBT" on="1"/>
     <Clock name="secondary" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="EditorTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="EditorTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="EditorTimeInfo-selection-length" mode="Timecode" on="0"/>
     <Clock name="EditorTimeInfo-punch-start" mode="Timecode" on="0"/>
     <Clock name="EditorTimeInfo-punch-end" mode="Timecode" on="0"/>
-    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="0"/>
   </ClockModes>
   <RTAManager rta-warp="Medium" rta-speed="Moderate">
     <RouteID id="54066"/>
