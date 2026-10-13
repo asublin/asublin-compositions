@@ -2,14 +2,14 @@
 <instant>
   <LastUsedSnapshot name="Sand Formation"/>
   <Main x="1050" y="220" w="1920" h="1080" current-tab="editor"/>
-  <Editor id="48" edit-vertical-pane-size="35" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" edit-point="EditAtMouse" visible-track-count="-1" marker-click-behavior="MarkerClickSelectOnly" zoom="9241" grid-type="GridTypeBar" snap-mode="SnapMagnetic" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapMagnetic" pre-internal-grid-type="GridTypeBar" pre-internal-snap-mode="SnapMagnetic" left-frame="0" draw-velocity="-1" draw-channel="-1" playhead="72605" y-origin="0" maximised="1" follow-playhead="1" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="0" show-editor-props="0" editor-list-page="0" editor-list-btn1="2" editor-list-btn2="0" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="a1411200000@a0">
+  <Editor id="48" edit-vertical-pane-size="35" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" edit-point="EditAtMouse" visible-track-count="-1" marker-click-behavior="MarkerClickSelectOnly" zoom="8769" grid-type="GridTypeBar" snap-mode="SnapMagnetic" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapMagnetic" pre-internal-grid-type="GridTypeBar" pre-internal-snap-mode="SnapMagnetic" left-frame="0" draw-velocity="-1" draw-channel="-1" playhead="72605" y-origin="0" maximised="1" follow-playhead="1" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="0" show-editor-props="0" editor-list-page="0" editor-list-btn1="2" editor-list-btn2="0" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="a1411200000@a0">
     <Window name="Editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="1" editor-rightpane-pos="0.71069180965423584"/>
     <Buttons>
       <Press/>
       <Release/>
     </Buttons>
     <Selection>
-      <ControlPoint type="track" route-id="54066" automation-list-id="54071" parameter="gain" view-index="1"/>
+      <StripableView id="54066"/>
     </Selection>
     <EditorLocations clock-mode="Timecode"/>
   </Editor>
@@ -37,34 +37,34 @@
     <Clock name="primary" mode="BBT" on="1"/>
     <Clock name="secondary" mode="Timecode" on="1"/>
     <Clock name="nudge" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="EditorTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="EditorTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="EditorTimeInfo-selection-length" mode="Timecode" on="0"/>
     <Clock name="EditorTimeInfo-punch-start" mode="Timecode" on="0"/>
     <Clock name="EditorTimeInfo-punch-end" mode="Timecode" on="0"/>
-    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="0"/>
     <Clock name="primary" mode="BBT" on="1"/>
     <Clock name="secondary" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="0"/>
     <Clock name="primary" mode="BBT" on="1"/>
     <Clock name="secondary" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="0"/>
     <Clock name="primary" mode="BBT" on="1"/>
     <Clock name="secondary" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="EditorTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="EditorTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="EditorTimeInfo-selection-length" mode="Timecode" on="0"/>
     <Clock name="EditorTimeInfo-punch-start" mode="Timecode" on="0"/>
     <Clock name="EditorTimeInfo-punch-end" mode="Timecode" on="0"/>
-    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="0"/>
   </ClockModes>
   <RTAManager rta-warp="Medium" rta-speed="Moderate">
     <RouteID id="54066"/>
