@@ -1,48 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction timestamp="2026-10-13T18:31:11.379978+03" name="change note">
-    <NoteDiffCommand midi-source="197813">
-      <ChangedNotes>
-        <Change property="NoteNumber" old="60" new="57" id="4106937"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction timestamp="2026-10-13T18:31:11.557480+03" name="change note">
-    <NoteDiffCommand midi-source="197813">
-      <ChangedNotes>
-        <Change property="NoteNumber" old="60" new="57" id="4107745"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction timestamp="2026-10-13T18:31:14.123843+03" name="change note">
-    <NoteDiffCommand midi-source="197813">
-      <ChangedNotes>
-        <Change property="NoteNumber" old="60" new="57" id="4108560"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction timestamp="2026-10-13T18:31:35.944446+03" name="change note">
-    <NoteDiffCommand midi-source="197795">
-      <ChangedNotes>
-        <Change property="NoteNumber" old="60" new="57" id="23834635"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction timestamp="2026-10-13T18:31:39.995409+03" name="change note">
-    <NoteDiffCommand midi-source="197795">
-      <ChangedNotes/>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-  </UndoTransaction>
   <UndoTransaction timestamp="2026-10-13T18:31:40.461143+03" name="change note">
     <NoteDiffCommand midi-source="197795">
       <ChangedNotes/>
@@ -463,6 +420,384 @@ a67737594120 0
       <SelectionMemento mouse-mode="MouseObject" zoom="9241" left-frame="0" y-origin="0">
         <Selection>
           <ControlPoint type="track" route-id="54165" automation-list-id="54203" parameter="gain" view-index="12"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction timestamp="2026-10-13T19:14:14.032599+03" name="delete objects">
+    <MementoCommand obj-id="86802" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="86802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a2870205875 0.3548133373260498
+a5166462000 0
+a12522912360 0
+a13872822319 0.25118860602378845
+a22768935840 0.25118860602378845
+a25045830600 0
+a32445740040 0
+a33584184480 0.25118860602378845
+a42691763520 0.25118860602378845
+a44968658280 0
+a48383997480 0.17782792448997498
+a56922351360 0.25911435484886169
+a57491570640 0.25118860602378845
+a66599149680 0.089125066995620728
+a72291383640 0.86958742141723633
+</events>
+      </AutomationList>
+      <AutomationList automation-id="gain" id="86802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a2870205875 0.3548133373260498
+a5166462000 0
+a12522912360 0
+a13872822319 0.25118860602378845
+a22768935840 0.25118860602378845
+a25045830600 0
+a32445740040 0
+a33584184480 0.25118860602378845
+a42691763520 0.25118860602378845
+a44968658280 0
+a54645458688 0.25911435484886169
+a55214682216 0.25118860602378845
+a64322258664 0.089125066995620728
+a72291383640 0.86958742141723633
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <StatefulDiffCommand obj-id="254147" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b30720@b713600" to="b30720@b652160"/>
+        <layering-index from="24" to="22"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="254145" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b30720@b744320" to="b30720@b682880"/>
+        <layering-index from="23" to="21"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="254913" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b30720@b775040" to="b30720@b713600"/>
+        <layering-index from="28" to="26"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="254911" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b30720@b805760" to="b30720@b744320"/>
+        <layering-index from="27" to="25"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="254907" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b30720@b836480" to="b30720@b775040"/>
+        <layering-index from="25" to="23"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="254909" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b30720@b867200" to="b30720@b805760"/>
+        <layering-index from="26" to="24"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="269547" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b7680@b897920" to="b7680@b836480"/>
+        <layering-index from="32" to="30"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="269545" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b7680@b905600" to="b7680@b844160"/>
+        <layering-index from="31" to="29"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="269543" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b7680@b913280" to="b7680@b851840"/>
+        <layering-index from="30" to="28"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="269541" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b7680@b920960" to="b7680@b859520"/>
+        <layering-index from="29" to="27"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="269730" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b7680@b928640" to="b7680@b867200"/>
+        <layering-index from="36" to="34"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="269714" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b7680@b936320" to="b7680@b874880"/>
+        <layering-index from="35" to="33"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="269698" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b7680@b944000" to="b7680@b882560"/>
+        <layering-index from="34" to="32"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="269683" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b7680@b951680" to="b7680@b890240"/>
+        <layering-index from="33" to="31"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="269803" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b7680@b959360" to="b7680@b897920"/>
+        <layering-index from="38" to="36"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="269788" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b7680@b967040" to="b7680@b905600"/>
+        <layering-index from="37" to="35"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="86405" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="240930"/>
+          <Remove id="240932"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="9241" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="240930"/>
+            <Region id="240932"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="9241" left-frame="0" y-origin="0">
+        <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction timestamp="2026-10-13T19:14:20.086572+03" name="add automation event">
+    <MementoCommand obj-id="86802" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="86802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a2870205875 0.3548133373260498
+a5166462000 0
+a12522912360 0
+a13872822319 0.25118860602378845
+a22768935840 0.25118860602378845
+a25045830600 0
+a32445740040 0
+a33584184480 0.25118860602378845
+a42691763520 0.25118860602378845
+a44968658280 0
+a54645458688 0.25911435484886169
+a55214682216 0.25118860602378845
+a64322258664 0.089125066995620728
+a72291383640 0.86958742141723633
+</events>
+      </AutomationList>
+      <AutomationList automation-id="gain" id="86802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a2870205875 0.3548133373260498
+a5166462000 0
+a12522912360 0
+a13872822319 0.25118860602378845
+a22768935840 0.25118860602378845
+a25045830600 0
+a32445740040 0
+a33584184480 0.25118860602378845
+a42691763520 0.25118860602378845
+a44968658280 0
+a48383997480 0.04292084276676178
+a54645458688 0.25911435484886169
+a55214682216 0.25118860602378845
+a64322258664 0.089125066995620728
+a72291383640 0.86958742141723633
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="9241" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="86488" automation-list-id="86802" parameter="gain" view-index="10"/>
+          <ControlPoint type="track" route-id="86488" automation-list-id="86802" parameter="gain" view-index="11"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="9241" left-frame="0" y-origin="0">
+        <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction timestamp="2026-10-13T19:14:24.243817+03" name="automation event move">
+    <MementoUndoCommand obj-id="86802" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="86802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a2870205875 0.3548133373260498
+a5166462000 0
+a12522912360 0
+a13872822319 0.25118860602378845
+a22768935840 0.25118860602378845
+a25045830600 0
+a32445740040 0
+a33584184480 0.25118860602378845
+a42691763520 0.25118860602378845
+a44968658280 0
+a48383997480 0.04292084276676178
+a54645458688 0.25911435484886169
+a55214682216 0.25118860602378845
+a64322258664 0.089125066995620728
+a72291383640 0.86958742141723633
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="86802" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="86802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a2870205875 0.3548133373260498
+a5166462000 0
+a12522912360 0
+a13872822319 0.25118860602378845
+a22768935840 0.25118860602378845
+a25045830600 0
+a32445740040 0
+a33584184480 0.25118860602378845
+a42691763520 0.25118860602378845
+a44968658280 0
+a48383997480 0.17782792448997498
+a54645458688 0.25911435484886169
+a55214682216 0.25118860602378845
+a64322258664 0.089125066995620728
+a72291383640 0.86958742141723633
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="9241" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="86488" automation-list-id="86802" parameter="gain" view-index="11"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="9241" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="86488" automation-list-id="86802" parameter="gain" view-index="11"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction timestamp="2026-10-13T19:14:29.224382+03" name="automation event move">
+    <MementoUndoCommand obj-id="86802" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="86802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a2870205875 0.3548133373260498
+a5166462000 0
+a12522912360 0
+a13872822319 0.25118860602378845
+a22768935840 0.25118860602378845
+a25045830600 0
+a32445740040 0
+a33584184480 0.25118860602378845
+a42691763520 0.25118860602378845
+a44968658280 0
+a48383997480 0.17782792448997498
+a54645458688 0.25911435484886169
+a55214682216 0.25118860602378845
+a64322258664 0.089125066995620728
+a72291383640 0.86958742141723633
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="86802" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="86802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a2870205875 0.3548133373260498
+a5166462000 0
+a12522912360 0
+a13872822319 0.25118860602378845
+a22768935840 0.25118860602378845
+a25045830600 0
+a32445740040 0
+a33584184480 0.25118860602378845
+a42691763520 0.25118860602378845
+a44968658280 0
+a48383997480 0.17782792448997498
+a54645458688 0.25911435484886169
+a55214682216 0.25118860602378845
+a62045360160 0.089125066995620728
+a72291383640 0.86958742141723633
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="9241" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="86488" automation-list-id="86802" parameter="gain" view-index="14"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="9241" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="86488" automation-list-id="86802" parameter="gain" view-index="14"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction timestamp="2026-10-13T19:14:32.966380+03" name="automation event move">
+    <MementoUndoCommand obj-id="86802" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="86802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a2870205875 0.3548133373260498
+a5166462000 0
+a12522912360 0
+a13872822319 0.25118860602378845
+a22768935840 0.25118860602378845
+a25045830600 0
+a32445740040 0
+a33584184480 0.25118860602378845
+a42691763520 0.25118860602378845
+a44968658280 0
+a48383997480 0.17782792448997498
+a54645458688 0.25911435484886169
+a55214682216 0.25118860602378845
+a62045360160 0.089125066995620728
+a72291383640 0.86958742141723633
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="86802" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="gain" id="86802" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
+        <events>a0 0
+a2870205875 0.3548133373260498
+a5166462000 0
+a12522912360 0
+a13872822319 0.25118860602378845
+a22768935840 0.25118860602378845
+a25045830600 0
+a32445740040 0
+a33584184480 0.25118860602378845
+a42691763520 0.25118860602378845
+a44968658280 0
+a48383997480 0.17782792448997498
+a54645458688 0.25911435484886169
+a55214682216 0.25118860602378845
+a62045360160 0.089125066995620728
+a67737594120 0.86958742141723633
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="9241" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="86488" automation-list-id="86802" parameter="gain" view-index="15"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="9241" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="86488" automation-list-id="86802" parameter="gain" view-index="15"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
