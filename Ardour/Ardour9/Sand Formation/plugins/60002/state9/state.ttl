@@ -1,0 +1,14 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <https://kayrock.org/kr106> ;
+	state:state [
+		<https://kayrock.org/kr106:StateString> "248.3..................b9................DsFs7C..............9iISlrOrXwB+b3vg0C.....EJTH+XylM8C.....nMa19.....vDJTnO...................f+....................9C..............................9C................HzXUu...f+....9C...................3Oh4+R9....CD....P.........9C..............9C........v.A..fBD...3OvDiTKA.....NxH0RO.........."
+	] .
